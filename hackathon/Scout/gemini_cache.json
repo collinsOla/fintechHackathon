@@ -94,5 +94,17 @@
     "trl": 5,
     "overall_commercialization": 5,
     "rationale": ""
+  },
+  "c87e22c2fd0ea84c1b1fe995": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 5,
+      "market_fit": 5,
+      "partner_interest": 5
+    },
+    "trl": 5,
+    "overall_commercialization": 8,
+    "rationale": ""
   }
 }
