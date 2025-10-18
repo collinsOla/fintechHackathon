@@ -78,6 +78,55 @@
       </div>
     {% endif %}
   </div>
+  {% if best_signal %}
+    <div class="card" style="border-color:#93c5fd;">
+      <h3>Top signal</h3>
+      <p style="margin:6px 0;">
+        <strong style="text-transform:uppercase;">{{ best_signal.type }}</strong>
+        · {{ best_signal.org }}
+        {% if best_signal.date %} · {{ best_signal.date }}{% endif %}
+      </p>
+      <p style="margin:6px 0 10px;">{{ best_signal.note }}</p>
+      {% if best_signal.source %}
+        <a class="back" href="{{ best_signal.source }}" target="_blank" rel="noopener">Source ↗</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if signals_data %}
+    <div class="card">
+      <h3>Commercial signals (last 24 months)</h3>
+
+      <p style="margin-bottom:10px;">
+        {{ signals_data.summary }}
+      </p>
+
+      {% if signals_data.signals and signals_data.signals|length > 0 %}
+        <div class="chips" style="margin-top:10px;">
+          {% for s in signals_data.signals %}
+            <div class="chip" style="display:flex;gap:8px;align-items:center;">
+              <span style="font-weight:700; text-transform:uppercase;">
+                {{ s.type }}
+              </span>
+              <span>·</span>
+              <span>{{ s.org }}</span>
+              {% if s.date %}<span>· {{ s.date }}</span>{% endif %}
+            </div>
+            <p style="margin:6px 0 12px;">
+              {{ s.note }}
+              {% if s.source %}
+                <a class="back" href="{{ s.source }}" target="_blank" rel="noopener">Source ↗</a>
+              {% endif %}
+            </p>
+            {% if not forloop.last %}<hr style="border:none;border-top:1px solid var(--border);margin:8px 0;"/>{% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="muted">No recent, verifiable signals found.</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
   {% if ai_score %}
   <div class="card">
     <h3>Commercialization assessment</h3>

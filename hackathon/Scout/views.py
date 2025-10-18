@@ -9,6 +9,9 @@ from django.conf import settings
 from django.utils.text import slugify
 from django.core.paginator import Paginator
 from .ai_scoring import score_abstract_with_gemini
+# views.py (top)
+from .signals import find_signals, find_top_signal
+
 
 
 # ---- JSON loader + normalizers ----
@@ -275,10 +278,20 @@ def paper_detail(request, paper_id):
         raise Http404("Paper not found")
     abstract = paper.get("summary_background") or paper.get("abstract") or ""
     ai = score_abstract_with_gemini(abstract)
+    idea_text = abstract or paper.get("title", "")
+    try:
+        signals_data = find_signals(idea_text)  # full JSON: { idea, summary, signals[] }
+        best_signal = find_top_signal(idea_text)  # optional: single best item (or None)
+    except Exception as e:
+        # Don’t 500 the page if the API hiccups
+        signals_data = {"idea": idea_text, "summary": "Signals unavailable.", "signals": []}
+        best_signal = None
     return render(request, "Scout/detail.html", {
         "paper": paper,
         "ai_score":ai,
         "brand": "Imperial",
         "product_title": "SciScout",
         "is_demo": True,
+        "signals_data": signals_data,
+        "best_signal": best_signal
     })
