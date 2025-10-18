@@ -1,0 +1,79 @@
+<!-- templates/Scout/detail.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ paper.title }} — {{ product_title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f3f7ff; --card:#ffffff; --ink:#0f172a; --muted:#475569; --border:#c7d2fe;
+      --brand:#0047ab; --accent:#2563eb; --accent-ink:#fff; --shadow:0 10px 25px rgba(0,38,120,.08);
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,Arial,sans-serif}
+    .container{max-width:960px;margin:0 auto;padding:28px}
+    .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+    .brand{font-weight:800;color:var(--brand)}
+    .back{color:var(--accent);text-decoration:none;font-weight:700}
+    .card{background:var(--card);border:1.5px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;margin-bottom:16px}
+    .title{font-size:clamp(22px,3.6vw,34px);font-weight:800;margin:8px 0}
+    .meta{color:var(--muted);font-size:14px;margin-bottom:8px}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 2px}
+    .chip{border:1px solid var(--border);border-radius:999px;padding:4px 10px;background:#fff;font-size:12px;color:#1e293b}
+    h3{margin:14px 0 8px;font-size:16px}
+    p{margin:0 0 10px;line-height:1.55}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="brand">{{ brand }}</div>
+      <a class="back" href="{% url 'home' %}">← Back to results</a>
+    </div>
+
+    <div class="card">
+      <div class="title">{{ paper.title }}</div>
+      <div class="meta">
+        Published: {{ paper.published|date:"Y-m-d" }} ·
+        Score: <strong>{{ paper.score }}</strong>
+      </div>
+      <div class="chips">
+        {% for tag in paper.industries %}
+          <span class="chip">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Background & Context</h3>
+      <p>{{ paper.summary_background }}</p>
+    </div>
+
+    <div class="card">
+      <h3>Real-world problems solved</h3>
+      <p>{{ paper.summary_problems }}</p>
+    </div>
+
+    <div class="card">
+      <h3>Market analysis</h3>
+      <p>{{ paper.summary_market }}</p>
+    </div>
+
+    <div class="card">
+      <h3>Immediate ideas for startups/patents</h3>
+      <p>{{ paper.summary_ideas }}</p>
+    </div>
+
+    {% if paper.url and paper.url != "#" %}
+      <div class="card">
+        <a class="back" href="{{ paper.url }}" target="_blank" rel="noopener">Open source / paper ↗</a>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>
