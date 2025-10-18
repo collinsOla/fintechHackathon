@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1006.2534",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Retrograde Program Analysis: A Practical Tutorial",
+    "abstract": "Retrograde analysis reads programs from the end to the beginning: treat statements as constraints on prior states, propagate sets of states backward, and compare the reachable inputs with the intended specification. This tutorial condenses a longer exposition to a focused guide with definitions, worked examples (toy branches, sorting networks, binary search), loop treatment via fixpoints, and a range-algebra appendix that standardizes array splits and midpoints. The aim is practical: short proofs, concrete invariants, and drop-in code and property tests",
+    "categories": "cs.SE",
+    "set": "cs"
+  },
+  {
+    "id": "1402.4843",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Range Algebra for Safe Array Splits",
+    "abstract": "We present a language-agnostic range algebra that derives correct index intervals for splitting arrays and implementing binary search, eliminating off-by-one and empty-range bugs. From two primitives -- $\\lfloor n/2\\rfloor$ and $\\lceil n/2\\rceil = \\lfloor (n + 1)/2\\rfloor$ -- we obtain four canonical splits (Natural, Left+, Right+, Center-cut) with proofs of coverage and balance for all $n \\ge 0$ and any base index $b \\in \\mathbb{Z}$. We record invariants (normalization to left-closed/right-open intervals $[u, w)$ with len $= w - u$), document cross-language division quirks, and give drop-in code patterns and property tests. The result is a small, memorable spec that can be copied verbatim into C/C++/Java/C\\#/Go/Rust/Swift/JS/Python.",
+    "categories": "cs.PL",
+    "set": "cs"
+  },
+  {
+    "id": "1901.11111",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Texture-Aware Superpixel Segmentation",
+    "abstract": "Most superpixel algorithms compute a trade-off between spatial and color features at the pixel level. Hence, they may need fine parameter tuning to balance the two measures, and highly fail to group pixels with similar local texture properties. In this paper, we address these issues with a new Texture-Aware SuperPixel (TASP) method. To accurately segment textured and smooth areas, TASP automatically adjusts its spatial constraint according to the local feature variance. Then, to ensure texture homogeneity within superpixels, a new pixel to superpixel patch-based distance is proposed. TASP outperforms the segmentation accuracy of the state-of-the-art methods on texture and also natural color image datasets.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "1903.06010",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Superpixel-based Color Transfer",
+    "abstract": "In this work, we propose a fast superpixel-based color transfer method (SCT) between two images. Superpixels enable to decrease the image dimension and to extract a reduced set of color candidates. We propose to use a fast approximate nearest neighbor matching algorithm in which we enforce the match diversity by limiting the selection of the same superpixels. A fusion framework is designed to transfer the matched colors, and we demonstrate the improvement obtained over exact matching results. Finally, we show that SCT is visually competitive compared to state-of-the-art methods.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "1903.07149",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "SCALP: Superpixels with Contour Adherence using Linear Path",
+    "abstract": "Superpixel decomposition methods are generally used as a pre-processing step to speed up image processing tasks. They group the pixels of an image into homogeneous regions while trying to respect existing contours. For all state-of-the-art superpixel decomposition methods, a trade-off is made between 1) computational time, 2) adherence to image contours and 3) regularity and compactness of the decomposition. In this paper, we propose a fast method to compute Superpixels with Contour Adherence using Linear Path (SCALP) in an iterative clustering framework. The distance computed when trying to associate a pixel to a superpixel during the clustering is enhanced by considering the linear path to the superpixel barycenter. The proposed framework produces regular and compact superpixels that adhere to the image contours. We provide a detailed evaluation of SCALP on the standard Berkeley Segmentation Dataset. The obtained results outperform state-of-the-art methods in terms of standard superpixel and contour detection metrics.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "1911.01067",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Blind Network Revenue Management and Bandits with Knapsacks under Limited Switches",
+    "abstract": "This paper studies the impact of limited switches on resource-constrained dynamic pricing with demand learning. We focus on the classical price-based blind network revenue management problem and extend our results to the bandits with knapsacks problem. In both settings, a decision maker faces stochastic and distributionally unknown demand, and must allocate finite initial inventory across multiple resources over time. In addition to standard resource constraints, we impose a switching constraint that limits the number of action changes over the time horizon. We establish matching upper and lower bounds on the optimal regret and develop computationally efficient limited-switch algorithms that achieve it. We show that the optimal regret rate is fully characterized by a piecewise-constant function of the switching budget, which further depends on the number of resource constraints. Our results highlight the fundamental role of resource constraints in shaping the statistical complexity of online learning under limited switches. Extensive simulations demonstrate that our algorithms maintain strong cumulative reward performance while significantly reducing the number of switches.",
+    "categories": "cs.LG cs.GT math.OC stat.ML",
+    "set": "cs"
+  },
+  {
+    "id": "1911.02526",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dynamic traversal of large gaps by insects and legged robots reveals a template",
+    "abstract": "It is well known that animals can use neural and sensory feedback via vision, tactile sensing, and echolocation to negotiate obstacles. Similarly, most robots use deliberate or reactive planning to avoid obstacles, which relies on prior knowledge or high-fidelity sensing of the environment. However, during dynamic locomotion in complex, novel, 3-D terrains such as forest floor and building rubble, sensing and planning suffer bandwidth limitation and large noise and are sometimes even impossible. Here, we study rapid locomotion over a large gap, a simple, ubiquitous obstacle, to begin to discover general principles of dynamic traversal of large 3-D obstacles. We challenged the discoid cockroach and an open-loop six-legged robot to traverse a large gap of varying length. Both the animal and the robot could dynamically traverse a gap as large as 1 body length by bridging the gap with its head, but traversal probability decreased with gap length. Based on these observations, we developed a template that well captured body dynamics and quantitatively predicted traversal performance. Our template revealed that high approach speed, initial body pitch, and initial body pitch angular velocity facilitated dynamic traversal, and successfully predicted a new strategy of using body pitch control that increased the robot maximal traversal gap length by 50%. Our study established the first template of dynamic locomotion beyond planar surfaces and is an important step in expanding terradynamics into complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "cs"
+  },
+  {
+    "id": "1911.02527",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Body-terrain interaction affects large bump traversal of insects and legged robots",
+    "abstract": "Small animals and robots must often rapidly traverse large bump-like obstacles when moving through complex 3-D terrains, during which, in addition to leg-ground contact, their body inevitably comes into physical contact with the obstacles. However, we know little about the performance limits of large bump traversal and how body-terrain interaction affects traversal. To address these, we challenged the discoid cockroach and an open-loop six-legged robot to dynamically run into a large bump of varying height to discover the maximal traversal performance, and studied how locomotor modes and traversal performance are affected by body-terrain interaction. Remarkably, during rapid running, both the animal and the robot were capable of dynamically traversing a bump much higher than its hip height (up to 4 times the hip height for the animal and 3 times for the robot, respectively) at traversal speeds typical of running, with decreasing traversal probability with increasing bump height. A stability analysis using a novel locomotion energy landscape model explained why traversal was more likely when the animal or robot approached the bump with a low initial body yaw and a high initial body pitch, and why deflection was more likely otherwise. Inspired by these principles, we demonstrated a novel control strategy of active body pitching that increased the robot maximal traversable bump height by 75%. Our study is a major step in establishing the framework of locomotion energy landscapes to understand locomotion in complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.RO q-bio.QM",
+    "set": "cs"
+  },
+  {
+    "id": "2002.09711",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Robotic modeling of snake traversing large, smooth obstacles reveals stability benefits of body compliance",
+    "abstract": "Snakes can move through almost any terrain. Although their locomotion on flat surfaces using planar gaits is inherently stable, when snakes deform their body out of plane to traverse complex terrain, maintaining stability becomes a challenge. On trees and desert dunes, snakes grip branches or brace against depressed sand for stability. However, how they stably surmount obstacles like boulders too large and smooth to gain such anchor points is less understood. Similarly, snake robots are challenged to stably traverse large, smooth obstacles for search and rescue and building inspection. Our recent study discovered that snakes combine body lateral undulation and cantilevering to stably traverse large steps. Here, we developed a snake robot with this gait and snake-like anisotropic friction and used it as a physical model to understand stability principles. The robot traversed steps as high as a third of its body length rapidly and stably. However, on higher steps, it was more likely to fail due to more frequent rolling and flipping over, which was absent in the snake with a compliant body. Adding body compliance reduced the robot roll instability by statistically improving surface contact, without reducing speed. Besides advancing understanding of snake locomotion, our robot achieved high traversal speed surpassing most previous snake robots and approaching snakes, while maintaining high traversal probability.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "cs"
+  },
+  {
+    "id": "2010.01052",
+    "created": "2020-10-08",
+    "updated": "2025-09-18",
+    "title": "Joint data imputation and mechanistic modelling for simulating heart-brain interactions in incomplete datasets",
+    "abstract": "The use of mechanistic models in clinical studies is limited by the lack of multi-modal patients data representing different anatomical and physiological processes. For example, neuroimaging datasets do not provide a sufficient representation of heart features for the modeling of cardiovascular factors in brain disorders. To tackle this problem we introduce a probabilistic framework for joint cardiac data imputation and personalisation of cardiovascular mechanistic models, with application to brain studies with incomplete heart data. Our approach is based on a variational framework for the joint inference of an imputation model of cardiac information from the available features, along with a Gaussian Process emulator that can faithfully reproduce personalised cardiovascular dynamics. Experimental results on UK Biobank show that our model allows accurate imputation of missing cardiac features in datasets containing minimal heart information, e.g. systolic and diastolic blood pressures only, while jointly estimating the emulated parameters of the lumped model. This allows a novel exploration of the heart-brain joint relationship through simulation of realistic cardiac dynamics corresponding to different conditions of brain anatomy.",
+    "categories": "cs.LG cs.AI stat.ML",
+    "set": "cs"
+  },
+  {
+    "id": "2203.16272",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "The infinite information gap between mathematical and physical representations",
+    "abstract": "Partial orders have been used to model several experimental setups, going from classical thermodynamics and general relativity to the quantum realm with its resource theories. In order to study such experimental setups, one typically characterizes them via a (numerical) representation, that is, a set of real-valued functions. In the context of resource theory, it is customary to use \\textbf{mathematical} representations, i.e. a set of \\textbf{measurement outcomes} which characterize the achievable transitions within the experimental setup. However, in line with the minimum energy and maximum entropy principles in classical mechanics and thermodynamics, respectively, one would expect an optimization interpretation for a representation to be called \\textbf{physical}. More specifically, a physical representation could consist of a set of competing \\textbf{optimization principles} such that a transition happens provided they are all optimized by it. Somewhat surprisingly, we show that this distinction can result in an \\textbf{infinite information gap}, with some partial orders having mathematical representations that involve a finite amount of information and requiring infinite information to build a physical representation. We connect this phenomenon with well-known resource-theoretic scenarios like majorization, and develop notions of partial order dimension that run in parallel to the representations that we consider. Our results improve on the classification of preordered spaces in terms of real-valued functions.",
+    "categories": "math.CO cs.IT econ.TH math.IT",
+    "set": "cs"
+  },
+  {
+    "id": "2207.13684",
+    "created": "2024-02-06",
+    "updated": "2025-09-18",
+    "title": "The Surface Edge Explorer (SEE): A measurement-direct approach to next best view planning",
+    "abstract": "High-quality observations of the real world are crucial for a variety of applications, including producing 3D printed replicas of small-scale scenes and conducting inspections of large-scale infrastructure. These 3D observations are commonly obtained by combining multiple sensor measurements from different views. Guiding the selection of suitable views is known as the NBV planning problem.\n  Most NBV approaches reason about measurements using rigid data structures (e.g., surface meshes or voxel grids). This simplifies next best view selection but can be computationally expensive, reduces real-world fidelity, and couples the selection of a next best view with the final data processing.\n  This paper presents the Surface Edge Explorer, a NBV approach that selects new observations directly from previous sensor measurements without requiring rigid data structures. SEE uses measurement density to propose next best views that increase coverage of insufficiently observed surfaces while avoiding potential occlusions. Statistical results from simulated experiments show that SEE can attain similar or better surface coverage with less observation time and travel distance than evaluated volumetric approaches on both small- and large-scale scenes. Real-world experiments demonstrate SEE autonomously observing a deer statue using a 3D sensor affixed to a robotic arm.",
+    "categories": "cs.RO",
+    "set": "cs"
+  },
+  {
+    "id": "2209.14530",
+    "created": "2022-09-29",
+    "updated": "2025-09-18",
+    "title": "Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom",
+    "abstract": "We show that quantum states with \"low stabilizer complexity\" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|ψ\\rangle$, we give an efficient algorithm that distinguishes whether $|ψ\\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\\frac{1}{k}$ (i.e., has fidelity at least $\\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|ψ\\rangle$, our algorithm uses $O\\!\\left( k^{12} \\log(1/δ)\\right)$ copies of $|ψ\\rangle$ and $O\\!\\left(n k^{12} \\log(1/δ)\\right)$ time to succeed with probability at least $1-δ$, and, with access to a state preparation unitary for $|ψ\\rangle$ (and its inverse), $O\\!\\left( k^{3} \\log(1/δ)\\right)$ queries and $O\\!\\left(n k^{3} \\log(1/δ)\\right)$ time suffice.\n  As a corollary, we prove that $ω(\\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.",
+    "categories": "quant-ph cs.CC cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2212.00879",
+    "created": "2023-05-02",
+    "updated": "2025-09-18",
+    "title": "Quantum Cryptography in Algorithmica",
+    "abstract": "We construct a classical oracle relative to which $\\mathsf{P} = \\mathsf{NP}$ yet single-copy secure pseudorandom quantum states exist. In the language of Impagliazzo's five worlds, this is a construction of pseudorandom states in \"Algorithmica,\" and hence shows that in a black-box setting, quantum cryptography based on pseudorandom states is possible even if one-way functions do not exist. As a consequence, we demonstrate that there exists a property of a cryptographic hash function that simultaneously (1) suffices to construct pseudorandom states, (2) holds for a random oracle, and (3) is independent of $\\mathsf{P}$ vs. $\\mathsf{NP}$ in the black-box setting. We also introduce a conjecture that would generalize our results to multi-copy secure pseudorandom states.\n  We build on the recent construction by Aaronson, Ingram, and Kretschmer (CCC 2022) of an oracle relative to which $\\mathsf{P} = \\mathsf{NP}$ but $\\mathsf{BQP} \\neq \\mathsf{QCMA}$, based on hardness of the OR $\\circ$ Forrelation problem. Our proof also introduces a new discretely-defined variant of the Forrelation distribution, for which we prove pseudorandomness against $\\mathsf{AC^0}$ circuits. This variant may be of independent interest.",
+    "categories": "quant-ph cs.CC cs.CR",
+    "set": "cs"
+  },
+  {
+    "id": "2212.14399",
+    "created": "2023-05-02",
+    "updated": "2025-09-18",
+    "title": "Quantum Mass Production Theorems",
+    "abstract": "We prove that for any $n$-qubit unitary transformation $U$ and for any $r = 2^{o(n / \\log n)}$, there exists a quantum circuit to implement $U^{\\otimes r}$ with at most $O(4^n)$ gates. This asymptotically equals the number of gates needed to implement just a single copy of a worst-case $U$. We also establish analogous results for quantum states and diagonal unitary transformations. Our techniques are based on the work of Uhlig [Math. Notes 1974], who proved a similar mass production theorem for Boolean functions.",
+    "categories": "quant-ph cs.CC cs.DS",
+    "set": "cs"
+  },
+  {
+    "id": "2302.01955",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Fixed-kinetic Neural Hamiltonian Flows for enhanced interpretability and reduced complexity",
+    "abstract": "Normalizing Flows (NF) are Generative models which transform a simple prior distribution into the desired target. They however require the design of an invertible mapping whose Jacobian determinant has to be computable. Recently introduced, Neural Hamiltonian Flows (NHF) are Hamiltonian dynamics-based flows, which are continuous, volume-preserving and invertible and thus make for natural candidates for robust NF architectures. In particular, their similarity to classical Mechanics could lead to easier interpretability of the learned mapping. In this paper, we show that the current NHF architecture may still pose a challenge to interpretability. Inspired by Physics, we introduce a fixed-kinetic energy version of the model. This approach improves interpretability and robustness while requiring fewer parameters than the original model. We illustrate that on a 2D Gaussian mixture and on the MNIST and Fashion-MNIST datasets. Finally, we show how to adapt NHF to the context of Bayesian inference and illustrate the method on an example from cosmology.",
+    "categories": "cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2302.10332",
+    "created": "2023-11-21",
+    "updated": "2025-09-18",
+    "title": "A Qubit, a Coin, and an Advice String Walk Into a Relational Problem",
+    "abstract": "Relational problems (those with many possible valid outputs) are different from decision problems, but it is easy to forget just how different. This paper initiates the study of FBQP/qpoly, the class of relational problems solvable in quantum polynomial-time with the help of polynomial-sized quantum advice, along with its analogues for deterministic and randomized computation (FP, FBPP) and advice (/poly, /rpoly).\n  Our first result is that FBQP/qpoly != FBQP/poly, unconditionally, with no oracle -- a striking contrast with what we know about the analogous decision classes. The proof repurposes the separation between quantum and classical one-way communication complexities due to Bar-Yossef, Jayram, and Kerenidis. We discuss how this separation raises the prospect of near-term experiments to demonstrate \"quantum information supremacy,\" a form of quantum supremacy that would not depend on unproved complexity assumptions.\n  Our second result is that FBPP is not contained in FP/poly -- that is, Adleman's Theorem fails for relational problems -- unless PSPACE is contained in NP/poly. Our proof uses IP=PSPACE and time-bounded Kolmogorov complexity. On the other hand, we show that proving FBPP not in FP/poly will be hard, as it implies a superpolynomial circuit lower bound for PromiseBPEXP.\n  We prove the following further results: * Unconditionally, FP != FBPP and FP/poly != FBPP/poly (even when these classes are carefully defined). * FBPP/poly = FBPP/rpoly (and likewise for FBQP). For sampling problems, by contrast, SampBPP/poly != SampBPP/rpoly (and likewise for SampBQP).",
+    "categories": "quant-ph cs.CC",
+    "set": "cs"
+  },
+  {
+    "id": "2302.12950",
+    "created": "2023-02-25",
+    "updated": "2025-09-18",
+    "title": "Two-Disk Compound Symmetry Groups",
+    "abstract": "Symmetry is at the heart of much of mathematics, physics, and art. Traditional geometric symmetry groups are defined in terms of isometries of the ambient space of a shape or pattern. If we slightly generalize this notion to allow the isometries to operate on overlapping but non-identical metric spaces, we obtain what we call compound symmetry groups. A natural example is that of the groups generated by discrete rotations of overlapping disks in the plane. Investigation of these groups reveals a new family of fractals, as well as a rich structure that is intriguing both mathematically and artistically. We report on our initial investigations.",
+    "categories": "math.MG cs.CG math.GR",
+    "set": "cs"
+  },
+  {
+    "id": "2303.01134",
+    "created": "2023-03-02",
+    "updated": "2025-09-18",
+    "title": "Error mitigation of entangled states using brainbox quantum autoencoders",
+    "abstract": "Current quantum hardware is subject to various sources of noise that limits the access to multi-qubit entangled states. Quantum autoencoder circuits with a single qubit bottleneck have shown capability to correct error in noisy entangled state. By introducing slightly more complex structures in the bottleneck, the so-called brainboxes, the denoising process can take place faster and for stronger noise channels. Choosing the most suitable brainbox for the bottleneck is the result of a trade-off between noise intensity on the hardware, and the training impedance. Finally, by studying Rényi entropy flow throughout the networks we demonstrate that the localization of entanglement plays a central role in denoising through learning.",
+    "categories": "quant-ph cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2303.01952",
+    "created": "2025-08-31",
+    "updated": "2025-09-18",
+    "title": "Quantum state testing beyond the polarizing regime and quantum triangular discrimination",
+    "abstract": "The complexity class Quantum Statistical Zero-Knowledge ($\\mathsf{QSZK}$) captures computational difficulties of the time-bounded quantum state testing problem with respect to the trace distance, deciding whether $\\mathrm{T}(ρ_0,ρ_1)$ is at least $α$ or at most $β$, known as the Quantum State Distinguishability Problem ($\\mathrm{QSDP}$) introduced by Watrous (FOCS 2002). However, $\\mathrm{QSDP}[α,β]$ is in $\\mathsf{QSZK}$ only within the constant polarizing regime, where $α$ and $β$ are constants satisfying $α^2 > β$ (rather than $α> β$), similar to its classical counterpart shown by Sahai and Vadhan (JACM 2003) due to the polarization lemma (error reduction for $\\mathrm{SDP}$).\n  Recently, Berman, Degwekar, Rothblum, and Vasudevan (TCC 2019) extended the $\\mathsf{SZK}$ containment of $\\mathrm{SDP}$ beyond the polarizing regime via the time-bounded distribution testing problems with respect to the triangular discrimination and the Jensen-Shannon divergence. Our work introduces proper quantum analogs for these problems by defining quantum counterparts for triangular discrimination. We investigate whether the quantum analogs behave similarly to their classical counterparts and examine the limitations of existing approaches to polarization regarding quantum distances. These new $\\mathsf{QSZK}$-complete problems improve $\\mathsf{QSZK}$ containments of $\\mathrm{QSDP}$ beyond the polarizing regime and establish a simple $\\mathsf{QSZK}$-hardness for the quantum entropy difference problem ($\\mathrm{QEDP}$) defined by Ben-Aroya, Schwartz, and Ta-Shma (ToC 2010). Furthermore, we prove that $\\mathrm{QSDP}$ with some exponentially small errors is in $\\mathsf{PP}$, while the same problem without error is in $\\mathsf{NQP}$.",
+    "categories": "quant-ph cs.CC cs.IT math.IT",
+    "set": "cs"
+  },
+  {
+    "id": "2304.13915",
+    "created": "2024-03-29",
+    "updated": "2025-09-18",
+    "title": "Improved Stabilizer Estimation via Bell Difference Sampling",
+    "abstract": "We study the complexity of learning quantum states in various models with respect to the stabilizer formalism and obtain the following results:\n  - We prove that $Ω(n)$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, an exponential improvement over the previously known bound. This bound is asymptotically tight if linear-time quantum-secure pseudorandom functions exist.\n  - Given an $n$-qubit pure quantum state $|ψ\\rangle$ that has fidelity at least $τ$ with some stabilizer state, we give an algorithm that outputs a succinct description of a stabilizer state that witnesses fidelity at least $τ- \\varepsilon$. The algorithm uses $O(n/(\\varepsilon^2τ^4))$ samples and $\\exp\\left(O(n/τ^4)\\right) / \\varepsilon^2$ time. In the regime of $τ$ constant, this algorithm estimates stabilizer fidelity substantially faster than the naïve $\\exp(O(n^2))$-time brute-force algorithm over all stabilizer states.\n  - In the special case of $τ> \\cos^2(π/8)$, we show that a modification of the above algorithm runs in polynomial time.\n  - We exhibit a tolerant property testing algorithm for stabilizer states.\n  The underlying algorithmic primitive in all of our results is Bell difference sampling. To prove our results, we establish and/or strengthen connections between Bell difference sampling, symplectic Fourier analysis, and graph theory.",
+    "categories": "quant-ph cs.CC cs.DS",
+    "set": "cs"
+  },
+  {
+    "id": "2307.13197",
+    "created": "2023-07-25",
+    "updated": "2025-09-18",
+    "title": "BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings",
+    "abstract": "The holistic management of a building requires data from heterogeneous sources such as building management systems (BMS), Internet-of-Things (IoT) sensor networks, and building information models. Data interoperability is a key component to eliminate silos of information, and using semantic web technologies like the BRICK schema, an effort to standardize semantic descriptions of the physical, logical, and virtual assets in buildings and the relationships between them, is a suitable approach. However, current data integration processes can involve significant manual interventions. This paper presents a methodology to automatically collect, assemble, and integrate information from a building information model to a knowledge graph. The resulting application, called BIM-to-BRICK, is run on the SDE4 building located in Singapore. BIM-to-BRICK generated a bidirectional link between a BIM model of 932 instances and experimental data collected for 17 subjects into 458 BRICK objects and 1219 relationships in 17 seconds. The automation of this approach can be compared to traditional manual mapping of data types. This scientific innovation incentivizes the convergence of disparate data types and structures in built-environment applications.",
+    "categories": "eess.SY cs.SY",
+    "set": "cs"
+  },
+  {
+    "id": "2307.13756",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "PlaneRecTR++: Unified Query Learning for Joint 3D Planar Reconstruction and Pose Estimation",
+    "abstract": "The challenging task of 3D planar reconstruction from images involves several sub-tasks including frame-wise plane detection, segmentation, parameter regression and possibly depth prediction, along with cross-frame plane correspondence and relative camera pose estimation. Previous works adopt a divide and conquer strategy, addressing above sub-tasks with distinct network modules in a two-stage paradigm. Specifically, given an initial camera pose and per-frame plane predictions from the first stage, further exclusively designed modules relying on external plane correspondence labeling are applied to merge multi-view plane entities and produce refined camera pose. Notably, existing work fails to integrate these closely related sub-tasks into a unified framework, and instead addresses them separately and sequentially, which we identify as a primary source of performance limitations. Motivated by this finding and the success of query-based learning in enriching reasoning among semantic entities, in this paper, we propose PlaneRecTR++, a Transformer-based architecture, which for the first time unifies all tasks of multi-view planar reconstruction and pose estimation within a compact single-stage framework, eliminating the need for the initial pose estimation and supervision of plane correspondence. Extensive quantitative and qualitative experiments demonstrate that our proposed unified learning achieves mutual benefits across sub-tasks, achieving a new state-of-the-art performance on the public ScanNetv1, ScanNetv2, NYUv2-Plane, and MatterPort3D datasets. Codes are available at https://github.com/SJingjia/PlaneRecTR-PP.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "2307.13826",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Spectral Independence and Local-to-Global Techniques for Optimal Mixing of Markov Chains",
+    "abstract": "This monograph is an exposition on an exciting new technique known as spectral independence, which has been instrumental in analyzing the convergence rate of Markov Chain Monte Carlo (MCMC) algorithms. For a high-dimensional distribution defined on labelings of the vertices of an n-vertex graph, the spectral independence condition, introduced by Anari, Liu, and Oveis Gharan (2020), is a bound on the maximum eigenvalue of the nxn influence matrix whose entries capture the influence between pairs of vertices (closely related to the covariance between the variables). In the first part of the monograph, we present results showing that spectral independence (and related techniques) imply fast mixing of simple Markov chains such as the Gibbs sampler. These proofs utilize local-to-global theorems which we will detail in this work.\n  We focus on two applications: the hard-core model on independent sets of a graph (which is a binary graphical model) and random bases of a matroid. We demonstrate several methods for establishing spectral independence, including the correlation decay approach introduced by Weitz (2006) and the analytic approach introduced by Barvinok (2015) using zero-freeness of the associated complex-valued partition function. As a consequence of the techniques presented in this monograph we obtain fast mixing of the Gibbs sampler on general graphs in the so-called tree-uniqueness region, polynomial-time mixing on general graphs at the critical point for the uniqueness threshold, and polynomial-time mixing on random regular graphs beyond the uniqueness threshold. We also utilize the local-to-global framework of spectral independence and the Trickle-Down theorem of Oppenheim (2018) to prove fast mixing of the bases-exchange walk for generating a random basis of an arbitrary matroid, which was established by Anari, Liu, Oveis Gharan and Vinzant (2019).",
+    "categories": "cs.DM math.PR",
+    "set": "cs"
+  },
+  {
+    "id": "2308.07107",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Large Language Models for Information Retrieval: A Survey",
+    "abstract": "As a primary means of information acquisition, information retrieval (IR) systems, such as search engines, have integrated themselves into our daily lives. These systems also serve as components of dialogue, question-answering, and recommender systems. The trajectory of IR has evolved dynamically from its origins in term-based methods to its integration with advanced neural models. While the neural models excel at capturing complex contextual signals and semantic nuances, thereby reshaping the IR landscape, they still face challenges such as data scarcity, interpretability, and the generation of contextually plausible yet potentially inaccurate responses. This evolution requires a combination of both traditional methods (such as term-based sparse retrieval methods with rapid response) and modern neural architectures (such as language models with powerful language understanding capacity). Meanwhile, the emergence of large language models (LLMs), typified by ChatGPT and GPT-4, has revolutionized natural language processing due to their remarkable language understanding, generation, generalization, and reasoning abilities. Consequently, recent research has sought to leverage LLMs to improve IR systems. Given the rapid evolution of this research trajectory, it is necessary to consolidate existing methodologies and provide nuanced insights through a comprehensive overview. In this survey, we delve into the confluence of LLMs and IR systems, including crucial aspects such as query rewriters, retrievers, rerankers, and readers. Additionally, we explore promising directions, such as search agents, within this expanding field.",
+    "categories": "cs.CL cs.IR",
+    "set": "cs"
+  },
+  {
+    "id": "2309.10092",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Conformal Temporal Logic Planning using Large Language Models",
+    "abstract": "This paper addresses planning problems for mobile robots. We consider missions that require accomplishing multiple high-level sub-tasks, expressed in natural language (NL), in a temporal and logical order. To formally define the mission, we treat these sub-tasks as atomic predicates in a Linear Temporal Logic (LTL) formula. We refer to this task specification framework as LTL-NL. Our goal is to design plans, defined as sequences of robot actions, accomplishing LTL-NL tasks. This action planning problem cannot be solved directly by existing LTL planners because of the NL nature of atomic predicates. To address it, we propose HERACLEs, a hierarchical neuro-symbolic planner that relies on a novel integration of (i) existing symbolic planners generating high-level task plans determining the order at which the NL sub-tasks should be accomplished; (ii) pre-trained Large Language Models (LLMs) to design sequences of robot actions based on these task plans; and (iii) conformal prediction acting as a formal interface between (i) and (ii) and managing uncertainties due to LLM imperfections. We show, both theoretically and empirically, that HERACLEs can achieve user-defined mission success rates. Finally, we provide comparative experiments demonstrating that HERACLEs outperforms LLM-based planners that require the mission to be defined solely using NL. Additionally, we present examples demonstrating that our approach enhances user-friendliness compared to conventional symbolic approaches.",
+    "categories": "cs.RO cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2309.14837",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Learning Multimodal Attention for Manipulating Deformable Objects with Changing States",
+    "abstract": "To support humans in their daily lives, robots are required to autonomously learn, adapt to objects and environments, and perform the appropriate actions. We tackled on the task of cooking scrambled eggs using real ingredients, in which the robot needs to perceive the states of the egg and adjust stirring movement in real time, while the egg is heated and the state changes continuously. In previous works, handling changing objects was found to be challenging because sensory information includes dynamical, both important or noisy information, and the modality which should be focused on changes every time, making it difficult to realize both perception and motion generation in real time. We propose a predictive recurrent neural network with an attention mechanism that can weigh the sensor input, distinguishing how important and reliable each modality is, that realize quick and efficient perception and motion generation. The model is trained with learning from the demonstration, and allows the robot to acquire human-like skills. We validated the proposed technique using the robot, Dry-AIREC, and with our learning model, it could perform cooking eggs with unknown ingredients. The robot could change the method of stirring and direction depending on the status of the egg, as in the beginning it stirs in the whole pot, then subsequently, after the egg started being heated, it starts flipping and splitting motion targeting specific areas, although we did not explicitly indicate them.",
+    "categories": "cs.RO cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2310.01851",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Optimality Conditions for Multivariate Chebyshev Approximation: A Survey",
+    "abstract": "Uniform polynomial approximation, also called minimax approximation or Chebyshev approximation, consists in searching polynomial approximation that minimizes the worst case error. Optimality conditions for the uniform approximation of univariate functions defined in an interval are governed by the equioscillation theorem, which is also a key ingredient in algorithms for computing best uniform approximation, like Remez's algorithm and the two phase method. Multivariate polynomial approximation is more complicated, and several optimality conditions for uniform multivariate polynomial approximation generalize the equioscillation theorem. We review these conditions, including, from oldest to newest, Kirchberger's kernel condition, Kolmogorov criteria, Rivlin and Shapiro's annihilating measures. An emphasis is given to conditions for strong optimality, which has some strong theoretical and practical importance, including Bartelt's and Smarzewsky's conditions. Optimality conditions related to more general relative Chebyshev centers are also presented, including Tanimoto's and Levis et al.'s conditions. In a second step, conditions obtained by standard convex analysis, subdifferential and directional derivative, applied to uniform approximation are formulated. Their relationship to previous conditions is investigated, providing sometimes enlightening interpretations of the laters, e.g., relating Kolmogorov criterion with directional derivative, and strong uniqueness with sharp minimizers. Finally, numerical applications of the two-step approach to three uniform approximation problems are presented, namely the approximation of the multidimensional Runge function, the approximation of the two dimensional inverse model of the DexTAR parallel robot, and the approximation problem consisting in minimizing the sum of both the polynomial approximation error and the polynomial evaluation error in Horner form.",
+    "categories": "math.NA cs.NA math.OC",
+    "set": "cs"
+  },
+  {
+    "id": "2310.16982",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Non-Clifford and parallelizable fault-tolerant logical gates on constant and almost-constant rate homological quantum LDPC codes via higher symmetries",
+    "abstract": "We study parallel fault-tolerant quantum computing for families of homological quantum low-density parity-check (LDPC) codes defined on 3-manifolds with constant or almost-constant encoding rate. We derive generic formula for a transversal $T$ gate of color codes on general 3-manifolds, which acts as collective non-Clifford logical CCZ gates on any triplet of logical qubits with their logical-$X$ membranes having a $\\mathbb{Z}_2$ triple intersection at a single point. The triple intersection number is a topological invariant, which also arises in the path integral of the emergent higher symmetry operator in a topological quantum field theory: the $\\mathbb{Z}_2^3$ gauge theory. Moreover, the transversal $S$ gate of the color code corresponds to a higher-form symmetry supported on a codimension-1 submanifold, giving rise to exponentially many addressable and parallelizable logical CZ gates. A construction of constant-depth circuits of the above logical gates via cup product cohomology operation is also presented for three copies of identical toric codes on arbitrary 3-manifolds. We have developed a generic formalism to compute the triple intersection invariants for 3-manifolds. We further develop three types of LDPC codes supporting such logical gates: (1) A quasi-hyperbolic code from the product of 2D hyperbolic surface and a circle, with almost-constant rate $k/n=O(1/\\log(n))$ and $O(\\log(n))$ distance; (2) A homological fibre bundle code with $O(1/\\log^{\\frac{1}{2}}(n))$ rate and $O(\\log^{\\frac{1}{2}}(n))$ distance; (3) A specific family of 3D hyperbolic codes: the Torelli mapping torus code, constructed from mapping tori of a pseudo-Anosov element in the Torelli subgroup, which has constant rate while the distance scaling is currently unknown. We then show a generic constant-overhead scheme for applying a parallelizable universal gate set with the aid of logical-$X$ measurements.",
+    "categories": "quant-ph cond-mat.str-el cs.IT hep-th math.GT math.IT",
+    "set": "cs"
+  },
+  {
+    "id": "2311.07550",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Backdoor Attacks on Transformers for Tabular Data: An Empirical Study",
+    "abstract": "Deep Neural Networks (DNNs) have shown great promise in various domains. However, vulnerabilities associated with DNN training, such as backdoor attacks, are a significant concern. These attacks involve the subtle insertion of triggers during model training, allowing for manipulated predictions. More recently, DNNs used with tabular data have gained increasing attention due to the rise of transformer models. Our research presents a comprehensive analysis of backdoor attacks on tabular data using DNNs, mainly focusing on transformers. We propose a novel approach for trigger construction: in-bounds attack, which provides excellent attack performance while maintaining stealthiness. Through systematic experimentation across benchmark datasets, we uncover that transformer-based DNNs for tabular data are highly susceptible to backdoor attacks, even with minimal feature value alterations. We also verify that these attacks can be generalized to other models, like XGBoost and DeepFM. Our results demonstrate up to 100% attack success rate with negligible clean accuracy drop. Furthermore, we evaluate several defenses against these attacks, identifying Spectral Signatures as the most effective. Still, our findings highlight the need to develop tabular data-specific countermeasures to defend against backdoor attacks.",
+    "categories": "cs.CR cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2311.09945",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "An Attention-Based Denoising Framework for Personality Detection in Social Media Texts",
+    "abstract": "In social media networks, users produce a large amount of text content anytime, providing researchers with an invaluable approach to digging for personality-related information. Personality detection based on user-generated text is a method with broad application prospects, such as for constructing user portraits. The presence of significant noise in social media texts hinders personality detection. However, previous studies have not delved deeper into addressing this challenge. Inspired by the scanning reading technique, we propose an attention-based information extraction mechanism (AIEM) for long texts, which is applied to quickly locate valuable pieces of text, and fully integrate beneficial semantic information. Then, we provide a novel attention-based denoising framework (ADF) for personality detection tasks and achieve state-of-the-art performance on two commonly used datasets. Notably, we obtain an average accuracy improvement of 10.2% on the gold standard Twitter-Myers-Briggs Type Indicator (Twitter-MBTI) dataset. We made our code publicly available on GitHub\\footnote{https://github.com/Once2gain/PersonalityDetection}. We shed light on how AIEM works to magnify personality-related signals through a case study.",
+    "categories": "cs.CY cs.CL",
+    "set": "cs"
+  },
+  {
+    "id": "2312.14427",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "GROOD: GRadient-Aware Out-of-Distribution Detection",
+    "abstract": "Out-of-distribution (OOD) detection is crucial for ensuring the reliability of deep learning models in real-world applications. Existing methods typically focus on feature representations or output-space analysis, often assuming a distribution over these spaces or leveraging gradient norms with respect to model parameters. However, these approaches struggle to distinguish near-OOD samples and often require extensive hyper-parameter tuning, limiting their practicality.In this work, we propose GRadient-aware Out-Of-Distribution detection (GROOD), a method that derives an OOD prototype from synthetic samples and computes class prototypes directly from In-distribution (ID) training data. By analyzing the gradients of a nearest-class-prototype loss function concerning an artificial OOD prototype, our approach achieves a clear separation between in-distribution and OOD samples. Experimental evaluations demonstrate that gradients computed from the OOD prototype enhance the distinction between ID and OOD data, surpassing established baselines in robustness, particularly on ImageNet-1k. These findings highlight the potential of gradient-based methods and prototype-driven approaches in advancing OOD detection within deep neural networks.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "2401.11580",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Age of Gossip in Random and Bipartite Networks",
+    "abstract": "In this paper we study gossip networks where a source observing a process sends updates to an underlying graph. Nodes in the graph communicate to their neighbors by randomly sending updates. Our interest is studying the version age of information (vAoI) metric over various classes of networks. It is known that the version age of $K_n$ is logarithmic, and the version age of $\\overline{K_n}$ is linear. We study the question `how does the vAoI evolve as we interpolate between $K_n$ and $\\overline{K_n}$' by studying Erdős-Reyni random graphs, random $d$-regular graphs, and bipartite networks. Our main results are proving the existence of a threshold in $G(n,p)$ from rational to logarithmic average version age, and showing $G(n,d)$ almost surely has logarithmic version age for constant $d$. We also characterize the version age of complete bipartite graphs $K_{L,R}$, when we let $L$ vary from $O(1)$ to $O(n)$.",
+    "categories": "cs.IT math.CO math.IT",
+    "set": "cs"
+  },
+  {
+    "id": "2401.16435",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Heuristics for the Run-length Encoded Burrows-Wheeler Transform Alphabet Ordering Problem",
+    "abstract": "The Burrows-Wheeler Transform (BWT) is a string transformation technique widely used in areas such as bioinformatics and file compression. Many applications combine a run-length encoding (RLE) with the BWT in a way which preserves the ability to query the compressed data efficiently. However, these methods may not take full advantage of the compressibility of the BWT as they do not modify the alphabet ordering for the sorting step embedded in computing the BWT. Indeed, any such alteration of the alphabet ordering can have a considerable impact on the output of the BWT, in particular on the number of runs. For an alphabet $Σ$ containing $σ$ characters, the space of all alphabet orderings is of size $σ!$. While for small alphabets an exhaustive investigation is possible, finding the optimal ordering for larger alphabets is not feasible. Therefore, there is a need for a more informed search strategy than brute-force sampling the entire space, which motivates a new heuristic approach. In this paper, we explore the non-trivial cases for the problem of minimizing the size of a run-length encoded BWT (RLBWT) via selecting a new ordering for the alphabet. We show that random sampling of the space of alphabet orderings usually gives sub-optimal orderings for compression and that a local search strategy can provide a large improvement in relatively few steps. We also inspect a selection of initial alphabet orderings, including ASCII, letter appearance, and letter frequency. While this alphabet ordering problem is computationally hard we demonstrate gain in compressibility.",
+    "categories": "cs.DM",
+    "set": "cs"
+  },
+  {
+    "id": "2402.00041",
+    "created": "2024-01-20",
+    "updated": "2025-09-18",
+    "title": "Spatial-temporal-demand clustering for solving large-scale vehicle routing problems with time windows",
+    "abstract": "Several metaheuristics use decomposition and pruning strategies to solve large-scale instances of the vehicle routing problem (VRP). Those complexity reduction techniques often rely on simple, problem-specific rules. However, the growth in available data and advances in computer hardware enable data-based approaches that use machine learning (ML) to improve scalability of solution algorithms. We propose a decompose-route-improve (DRI) framework that groups customers using clustering. Its similarity metric incorporates customers' spatial, temporal, and demand data and is formulated to reflect the problem's objective function and constraints. The resulting sub-routing problems can independently be solved using any suitable algorithm. We apply pruned local search (LS) between solved subproblems to improve the overall solution. Pruning is based on customers' similarity information obtained in the decomposition phase. In a computational study, we parameterize and compare existing clustering algorithms and benchmark the DRI against the Hybrid Genetic Search (HGS) of Vidal et al. (2013). Results show that our data-based approach outperforms classic cluster-first, route-second approaches solely based on customers' spatial information. The newly introduced similarity metric forms separate sub-VRPs and improves the selection of LS moves in the improvement phase. Thus, the DRI scales existing metaheuristics to achieve high-quality solutions faster for large-scale VRPs by efficiently reducing complexity. Further, the DRI can be easily adapted to various solution methods and VRP characteristics, such as distribution of customer locations and demands, depot location, and different time window scenarios, making it a generalizable approach to solving routing problems.",
+    "categories": "cs.AI cs.LG cs.NE math.OC",
+    "set": "cs"
+  },
+  {
+    "id": "2402.10974",
+    "created": "2024-02-15",
+    "updated": "2025-09-18",
+    "title": "On the Cross-Dataset Generalization of Machine Learning for Network Intrusion Detection",
+    "abstract": "Network Intrusion Detection Systems (NIDS) are a fundamental tool in cybersecurity. Their ability to generalize across diverse networks is a critical factor in their effectiveness and a prerequisite for real-world applications. In this study, we conduct a comprehensive analysis on the generalization of machine-learning-based NIDS through an extensive experimentation in a cross-dataset framework. We employ four machine learning classifiers and utilize four datasets acquired from different networks: CIC-IDS-2017, CSE-CIC-IDS2018, LycoS-IDS2017, and LycoS-Unicas-IDS2018. Notably, the last dataset is a novel contribution, where we apply corrections based on LycoS-IDS2017 to the well-known CSE-CIC-IDS2018 dataset. The results show nearly perfect classification performance when the models are trained and tested on the same dataset. However, when training and testing the models in a cross-dataset fashion, the classification accuracy is largely commensurate with random chance except for a few combinations of attacks and datasets. We employ data visualization techniques in order to provide valuable insights on the patterns in the data. Our analysis unveils the presence of anomalies in the data that directly hinder the classifiers capability to generalize the learned knowledge to new scenarios. This study enhances our comprehension of the generalization capabilities of machine-learning-based NIDS, highlighting the significance of acknowledging data heterogeneity.",
+    "categories": "cs.CR cs.LG cs.NI",
+    "set": "cs"
+  },
+  {
+    "id": "2402.17131",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Predicting O-GlcNAcylation Sites in Mammalian Proteins with Transformers and RNNs Trained with a New Loss Function",
+    "abstract": "O-GlcNAcylation, a subtype of glycosylation, has the potential to be an important target for therapeutics, but methods to reliably predict O-GlcNAcylation sites had not been available until 2023; a 2021 review correctly noted that published models were insufficient and failed to generalize. Moreover, many are no longer usable. In 2023, a considerably better recurrent neural network (RNN) model was published. This article creates improved models by using a new loss function, which we call the weighted focal differentiable MCC. RNN models trained with this new loss display superior performance to models trained using the weighted cross-entropy loss; this new function can also be used to fine-tune trained models. An RNN trained with this loss achieves state-of-the-art performance in O-GlcNAcylation site prediction with an F$_1$ score of 38.88% and an MCC of 38.20% on an independent test set from the largest dataset available.",
+    "categories": "cs.LG q-bio.MN",
+    "set": "cs"
+  },
+  {
+    "id": "2403.05427",
+    "created": "2025-07-09",
+    "updated": "2025-09-18",
+    "title": "Reply with Sticker: New Dataset and Model for Sticker Retrieval",
+    "abstract": "Using stickers in online chatting is very prevalent on social media platforms, where the stickers used in the conversation can express someone's intention/emotion/attitude in a vivid, tactful, and intuitive way. Existing sticker retrieval research typically retrieves stickers based on context and the current utterance delivered by the user. That is, the stickers serve as a supplement to the current utterance. However, in the real-world scenario, using stickers to express what we want to say rather than as a supplement to our words only is also important. Therefore, in this paper, we create a new dataset for sticker retrieval in conversation, called \\textbf{StickerInt}, where stickers are used to reply to previous conversations or supplement our words. Based on the created dataset, we present a simple yet effective framework for sticker retrieval in conversation based on the learning of intention and the cross-modal relationships between conversation context and stickers, coined as \\textbf{Int-RA}. Specifically, we first devise a knowledge-enhanced intention predictor to introduce the intention information into the conversation representations. Subsequently, a relation-aware sticker selector is devised to retrieve the response sticker via cross-modal relationships. Extensive experiments on two datasets show that the proposed model achieves state-of-the-art performance and generalization capability in sticker retrieval. The dataset and source code of this work are released at https://github.com/HITSZ-HLT/Int-RA.",
+    "categories": "cs.MM",
+    "set": "cs"
+  },
+  {
+    "id": "2403.08592",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Data-Efficient Sleep Staging with Synthetic Time Series Pretraining",
+    "abstract": "Analyzing electroencephalographic (EEG) time series can be challenging, especially with deep neural networks, due to the large variability among human subjects and often small datasets. To address these challenges, various strategies, such as self-supervised learning, have been suggested, but they typically rely on extensive empirical datasets. Inspired by recent advances in computer vision, we propose a pretraining task termed \"frequency pretraining\" to pretrain a neural network for sleep staging by predicting the frequency content of randomly generated synthetic time series. Our experiments demonstrate that our method surpasses fully supervised learning in scenarios with limited data and few subjects, and matches its performance in regimes with many subjects. Furthermore, our results underline the relevance of frequency information for sleep stage scoring, while also demonstrating that deep neural networks utilize information beyond frequencies to enhance sleep staging performance, which is consistent with previous research. We anticipate that our approach will be advantageous across a broad spectrum of applications where EEG data is limited or derived from a small number of subjects, including the domain of brain-computer interfaces.",
+    "categories": "cs.LG q-bio.QM",
+    "set": "cs"
+  },
+  {
+    "id": "2403.11749",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Computing shortest closed curves on non-orientable surfaces",
+    "abstract": "We initiate the study of computing shortest non-separating simple closed curves with some given topological properties on non-orientable surfaces. While, for orientable surfaces, any two non-separating simple closed curves are related by a self-homeomorphism of the surface, and computing shortest such curves has been vastly studied, for non-orientable ones the classification of non-separating simple closed curves up to ambient homeomorphism is subtler, depending on whether the curve is one-sided or two-sided, and whether it is orienting or not (whether it cuts the surface into an orientable one).\n  We prove that computing a shortest orienting (weakly) simple closed curve on a non-orientable combinatorial surface is NP-hard but fixed-parameter tractable in the genus of the surface. In contrast, we can compute a shortest non-separating non-orienting (weakly) simple closed curve with given sidedness in $g^{O(1)}.n\\log n$ time, where $g$ is the genus and $n$ the size of the surface.\n  For these algorithms, we develop tools that can be of independent interest, to compute a variation on canonical systems of loops for non-orientable surfaces based on the computation of an orienting curve, and some covering spaces that are essentially quotients of homology covers.",
+    "categories": "cs.CG cs.CC math.GT",
+    "set": "cs"
+  },
+  {
+    "id": "2404.04613",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Super Guarding and Dark Rays in Art Galleries",
+    "abstract": "We explore an Art Gallery variant where each point of a polygon must be seen by k guards, and guards cannot see through other guards. Surprisingly, even covering convex polygons under this variant is not straightforward. For example, covering every point in a triangle k=4 times (a 4-cover) requires 5 guards, and achieving a 10-cover requires 12 guards. Our main result is tight bounds on k-covering a convex polygon of n vertices, for all k and n. The proofs of both upper and lower bounds are nontrivial. We also obtain bounds for simple polygons, leaving tight bounds an open problem.",
+    "categories": "cs.CG math.MG",
+    "set": "cs"
+  },
+  {
+    "id": "2404.06087",
+    "created": "2025-08-02",
+    "updated": "2025-09-18",
+    "title": "The Overlap Gap Property limits limit swapping in the QAOA",
+    "abstract": "The Quantum Approximate Optimization Algorithm (QAOA) is a quantum algorithm designed for Combinatorial Optimization Problem (COP). We show that if a local algorithm is limited in performance at logarithmic depth for a spin glass type COP with an underlying Erdös--Rényi hypergraph, then a random regular hypergraph is similarly limited in performance as well. As such, we re-derived the fact that the average-case value obtained by the QAOA for even $q\\ge 4$, Max-$q$-XORSAT is bounded away from optimality when optimised using asymptotic analysis due to the Overlap Gap Property (OGP). While this result was proven before, the proof is rather technical compared to ours. In addition, we show that the earlier result implicitly also implies limitation at logarithmic depth $p \\le ε\\log n$ providing an improvement over limitation at constant depth. Furthermore, the extension to logarithmic depth leads to a tightening of the upper bound that the QAOA outputs at logarithmic depth for MaxCUT and Max-$q$-XORSAT problems. We also provide some numerical evidence the limitation should be extended to odd $q$ by showing that the OGP exists for the Max-$3$-XORSAT on random regular graphs.",
+    "categories": "quant-ph cond-mat.dis-nn cond-mat.stat-mech cs.DS",
+    "set": "cs"
+  },
+  {
+    "id": "2404.14849",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Parameterized Maximum Node-Disjoint Paths",
+    "abstract": "We revisit the Maximum Node-Disjoint Paths problem, the natural optimization version of Node-Disjoint Paths, where we are given a graph $G$, $k$ pairs of vertices $(s_i, t_i)$ and an integer $\\ell$, and are asked whether there exist at least $\\ell$ vertex-disjoint paths in $G$ whose endpoints are given pairs. We present several results, with an emphasis towards FPT approximation.\n  Our main positive contribution is to show that the problem's intractability can be overcome using approximation and that for several of the structural parameters for which the problem is hard, most notably tree-depth, it admits an efficient FPT approximation scheme, returning a $(1-\\varepsilon)$-approximate solution in time $f(td,\\varepsilon)n^{O(1)}$. We manage to obtain these results by comprehensively mapping out the structural parameters for which the problem is FPT if $\\ell$ is also a parameter, hence showing that understanding $\\ell$ as a parameter is key to the problem's approximability. This, in turn, is a problem we are able to solve via a surprisingly simple color-coding algorithm, which relies on identifying an insightful problem-specific variant of the natural parameter, namely the number of vertices used in the solution.\n  A natural question is whether the FPT approximation algorithm we devised for tree-depth can be extended to pathwidth. We resolve this negatively, showing that under the Parameterized Inapproximability Hypothesis no FPT approximation scheme for this parameter is possible, even in time $f(pw,\\varepsilon)n^{g(\\varepsilon)}$, thus precisely determining the parameter border where the problem transitions from ``hard but approximable'' to ``inapproximable''.\n  Lastly, we strengthen existing lower bounds by replacing W[1]-hardness by XNLP-completeness for parameter pathwidth, and improving the $n^{o(\\sqrt{td})}$ ETH-based lower bound for tree-depth to $n^{o(td)}$.",
+    "categories": "cs.DS cs.CC",
+    "set": "cs"
+  },
+  {
+    "id": "2404.17916",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "FedCoSR: Personalized Federated Learning with Contrastive Shareable Representations for Label Heterogeneity in Non-IID Data",
+    "abstract": "Heterogeneity arising from label distribution skew and data scarcity can cause inaccuracy and unfairness in intelligent communication applications that heavily rely on distributed computing. To deal with it, this paper proposes a novel personalized federated learning algorithm, named Federated Contrastive Shareable Representations (FedCoSR), to facilitate knowledge sharing among clients while maintaining data privacy. Specifically, the parameters of local models' shallow layers and typical local representations are both considered as shareable information for the server and are aggregated globally. To address performance degradation caused by label distribution skew among clients, contrastive learning is adopted between local and global representations to enrich local knowledge. Additionally, to ensure fairness for clients with scarce data, FedCoSR introduces adaptive local aggregation to coordinate the global model involvement in each client. Our simulations demonstrate FedCoSR's effectiveness in mitigating label heterogeneity by achieving accuracy and fairness improvements over existing methods on datasets with varying degrees of label heterogeneity.",
+    "categories": "cs.LG cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2404.18388",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "SPECIAL: Synopsis Assisted Secure Collaborative Analytics",
+    "abstract": "Secure collaborative analytics (SCA) enable the processing of analytical SQL queries across multiple owners' data, even when direct data sharing is not feasible. Although essential for strong privacy, the large overhead from data-oblivious primitives in traditional SCA has hindered its practical adoption. Recent SCA variants that permit controlled leakages under differential privacy (DP) show a better balance between privacy and efficiency. However, they still face significant challenges, such as potentially unbounded privacy loss, suboptimal query planning, and lossy processing. To address these challenges, we introduce SPECIAL, the first SCA system that simultaneously ensures bounded privacy loss, advanced query planning, and lossless processing. SPECIAL employs a novel synopsis-assisted secure processing model, where a one-time privacy cost is spent to acquire private synopses (table statistics) from owner data. These synopses then allow SPECIAL to estimate (compaction) sizes for secure operations (e.g., filter, join) and index encrypted data without extra privacy loss. Crucially, these estimates and indexes can be prepared before runtime, thereby facilitating efficient query planning and accurate cost estimations. Moreover, by using one-sided noise mechanisms and private upper bound techniques, SPECIAL ensures strict lossless processing for complex queries (e.g., multi-join). Through a comprehensive benchmark, we show that SPECIAL significantly outperforms cutting-edge SCAs, with up to 80X faster query times and over 900X smaller memory for complex queries. Moreover, it also achieves up to an 89X reduction in privacy loss under continual processing.",
+    "categories": "cs.CR cs.DB",
+    "set": "cs"
+  },
+  {
+    "id": "2404.19448",
+    "created": "2024-04-30",
+    "updated": "2025-09-18",
+    "title": "Sensorized Soft Skin for Dexterous Robotic Hands",
+    "abstract": "Conventional industrial robots often use two-fingered grippers or suction cups to manipulate objects or interact with the world. Because of their simplified design, they are unable to reproduce the dexterity of human hands when manipulating a wide range of objects. While the control of humanoid hands evolved greatly, hardware platforms still lack capabilities, particularly in tactile sensing and providing soft contact surfaces. In this work, we present a method that equips the skeleton of a tendon-driven humanoid hand with a soft and sensorized tactile skin. Multi-material 3D printing allows us to iteratively approach a cast skin design which preserves the robot's dexterity in terms of range of motion and speed. We demonstrate that a soft skin enables firmer grasps and piezoresistive sensor integration enhances the hand's tactile sensing capabilities.",
+    "categories": "cs.RO cs.AR",
+    "set": "cs"
+  },
+  {
+    "id": "2405.00239",
+    "created": "2025-06-24",
+    "updated": "2025-09-18",
+    "title": "IgCONDA-PET: Weakly-Supervised PET Anomaly Detection using Implicitly-Guided Attention-Conditional Counterfactual Diffusion Modeling -- a Multi-Center, Multi-Cancer, and Multi-Tracer Study",
+    "abstract": "Minimizing the need for pixel-level annotated data to train PET lesion detection and segmentation networks is highly desired and can be transformative, given time and cost constraints associated with expert annotations. Current unsupervised or weakly-supervised anomaly detection methods rely on autoencoder or generative adversarial networks (GANs) trained only on healthy data. While these approaches reduce annotation dependency, GAN-based methods are notably more challenging to train than non-GAN alternatives (such as autoencoders) due to issues such as the simultaneous optimization of two competing networks, mode collapse, and training instability. In this paper, we present the weakly-supervised $\\textbf{I}$mplicitly-$\\textbf{g}$uided $\\textbf{CO}$u$\\textbf{N}$terfactual diffusion model for $\\textbf{D}$etecting $\\textbf{A}$nomalies in $\\textbf{PET}$ images (IgCONDA-PET). The solution is developed and validated using PET scans from six retrospective cohorts consisting of a total of 2652 cases (multi-cancer, multi-tracer) containing both local and public datasets (spanning multiple centers). The training is conditioned on image class labels (healthy vs. unhealthy) via attention modules, and we employ implicit diffusion guidance. We perform counterfactual generation which facilitates \"unhealthy-to-healthy\" domain translation by generating a synthetic, healthy version of an unhealthy input image, enabling the detection of anomalies through the calculated differences. The performance of our method was compared against several other deep learning based weakly-supervised or unsupervised methods as well as traditional methods like 41% SUV$_\\text{max}$ thresholding. We also highlight the importance of incorporating attention modules in our network for the detection of small anomalies. The code is publicly available at: https://github.com/ahxmeds/IgCONDA-PET.git.",
+    "categories": "eess.IV cs.CV cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2405.00318",
+    "created": "2025-05-04",
+    "updated": "2025-09-18",
+    "title": "Covariant spatio-temporal receptive fields for spiking neural networks",
+    "abstract": "Biological nervous systems constitute important sources of inspiration towards computers that are faster, cheaper, and more energy efficient. Neuromorphic disciplines view the brain as a coevolved system, simultaneously optimizing the hardware and the algorithms running on it. There are clear efficiency gains when bringing the computations into a physical substrate, but we presently lack theories to guide efficient implementations. Here, we present a principled computational model for neuromorphic systems in terms of spatio-temporal receptive fields, based on affine Gaussian kernels over space and leaky-integrator and leaky integrate-and-fire models over time. Our theory is provably covariant to spatial affine and temporal scaling transformations, and with close similarities to the visual processing in mammalian brains. We use these spatio-temporal receptive fields as a prior in an event-based vision task, and show that this improves the training of spiking networks, which otherwise is known as problematic for event-based vision. This work combines efforts within scale-space theory and computational neuroscience to identify theoretically well-founded ways to process spatio-temporal signals in neuromorphic systems. Our contributions are immediately relevant for signal processing and event-based vision, and can be extended to other processing tasks over space and time, such as memory and control.",
+    "categories": "cs.NE cs.CV cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2405.02358",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Empowering Time Series Analysis with Foundation Models: A Comprehensive Survey",
+    "abstract": "Time series data are ubiquitous across diverse real-world applications, making time series analysis critically important. Traditional approaches are largely task-specific, offering limited functionality and poor transferability. In recent years, foundation models have revolutionized NLP and CV with their remarkable cross-task transferability, zero-/few-shot learning capabilities, and multimodal integration capacity. This success has motivated increasing efforts to explore foundation models for addressing time series modeling challenges. Although some tutorials and surveys were published in the early stages of this field, the rapid pace of recent developments necessitates a more comprehensive and in-depth synthesis to cover the latest advances. Our survey aims to fill this gap by introducing a modality-aware, challenge-oriented perspective, which reveals how foundation models pre-trained on different modalities face distinct hurdles when adapted to time series tasks. Building on this perspective, we propose a taxonomy of existing works organized by pre-training modality (time series, language, and vision), analyze modality-specific challenges and categorize corresponding solutions, discussing their advantages and limitations. Beyond this, we review real-world applications to illustrate domain-specific advancements, provide open-source codes, and conclude with potential future research directions in this rapidly evolving field.",
+    "categories": "cs.LG cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2405.13541",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Annotation-Efficient Language Model Alignment via Diverse and Representative Response Texts",
+    "abstract": "Preference optimization is a standard approach to fine-tuning large language models to align with human preferences. The quantity, diversity, and representativeness of the preference dataset are critical to the effectiveness of preference optimization. However, obtaining a large amount of preference annotations is difficult in many applications. This raises the question of how to use the limited annotation budget to create an effective preference dataset. To this end, we propose Annotation-Efficient Preference Optimization (AEPO). Instead of exhaustively annotating preference over all available response texts, AEPO selects a subset of responses that maximizes diversity and representativeness from the available responses and then annotates preference over the selected ones. In this way, AEPO focuses the annotation budget on labeling preferences over a smaller but informative subset of responses. We evaluate the performance of preference learning using AEPO on three datasets and show that it outperforms the baselines with the same annotation budget. Our code is available at https://github.com/CyberAgentAILab/annotation-efficient-po",
+    "categories": "cs.CL cs.AI cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2405.17094",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dual Feature Reduction for the Sparse-group Lasso and its Adaptive Variant",
+    "abstract": "The sparse-group lasso performs both variable and group selection, simultaneously using the strengths of the lasso and group lasso. It has found widespread use in genetics, a field that regularly involves the analysis of high-dimensional data, due to its sparse-group penalty, which allows it to utilize grouping information. However, the sparse-group lasso can be computationally expensive, due to the added shrinkage complexity, and its additional hyperparameter that needs tuning. This paper presents a novel feature reduction method, Dual Feature Reduction (DFR), that uses strong screening rules for the sparse-group lasso and the adaptive sparse-group lasso to reduce their input space before optimization, without affecting solution optimality. DFR applies two layers of screening through the application of dual norms and subdifferentials. Through synthetic and real data studies, it is shown that DFR drastically reduces the computational cost under many different scenarios.",
+    "categories": "stat.ML cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2405.18094",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "A space-time variational formulation for the many-body electronic Schr{ö}dinger evolution equation",
+    "abstract": "We prove in this paper that the solution of the time-dependent Schr{ö}dinger equation can be expressed as the solution of a global space-time quadratic minimization problem that is amenable to Galerkin time-space discretization schemes, using an appropriate least-square formulation. The present analysis can be applied to the electronic many-body time-dependent Schr{ö}dinger equation with an arbitrary number of electrons and interaction potentials with Coulomb singularities. We motivate the interest of the present approach with two goals: first, the design of Galerkin space-time discretization methods; second, the definition of dynamical low-rank approximations following a variational principle different from the classical Dirac-Frenkel principle, and for which it is possible to prove the global-in-time existence of solutions.",
+    "categories": "math.NA cs.NA",
+    "set": "cs"
+  },
+  {
+    "id": "2405.19988",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Video-Language Critic: Transferable Reward Functions for Language-Conditioned Robotics",
+    "abstract": "Natural language is often the easiest and most convenient modality for humans to specify tasks for robots. However, learning to ground language to behavior typically requires impractical amounts of diverse, language-annotated demonstrations collected on each target robot. In this work, we aim to separate the problem of what to accomplish from how to accomplish it, as the former can benefit from substantial amounts of external observation-only data, and only the latter depends on a specific robot embodiment. To this end, we propose Video-Language Critic, a reward model that can be trained on readily available cross-embodiment data using contrastive learning and a temporal ranking objective, and use it to score behavior traces from a separate actor. When trained on Open X-Embodiment data, our reward model enables 2x more sample-efficient policy training on Meta-World tasks than a sparse reward only, despite a significant domain gap. Using in-domain data but in a challenging task generalization setting on Meta-World, we further demonstrate more sample-efficient training than is possible with prior language-conditioned reward models that are either trained with binary classification, use static images, or do not leverage the temporal information present in video data.",
+    "categories": "cs.RO cs.AI cs.CL cs.CV cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2406.11696",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Robust, positive and exact model reduction via monotone matrices",
+    "abstract": "This work focuses on the problem of exact model reduction of positive linear systems, by leveraging minimal realization theory. While determining the existence of a positive reachable realization remains in general an open problem, we are able to fully characterize the cases in which the new model is obtained with non-negative reduction matrices, and hence positivity of the reduced model is robust with respect to small perturbations of the original system. The characterization is obtained by specializing monotone matrix theory to positive matrices. In addition, we provide a systematic method to construct positive reductions also when minimal ones are not available, by exploiting algebraic techniques.",
+    "categories": "eess.SY cs.SY",
+    "set": "cs"
+  },
+  {
+    "id": "2406.12945",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Tabular Data Generation Models: An In-Depth Survey and Performance Benchmarks with Extensive Tuning",
+    "abstract": "The ability to train generative models that produce realistic, safe and useful tabular data is essential for data privacy, imputation, oversampling, explainability or simulation. However, generating tabular data is not straightforward due to its heterogeneity, non-smooth distributions, complex dependencies and imbalanced categorical features. Although diverse methods have been proposed in the literature, there is a need for a unified evaluation, under the same conditions, on a variety of datasets. This study addresses this need by fully considering the optimization of: hyperparameters, feature encodings, and architectures. We investigate the impact of dataset-specific tuning on five recent model families for tabular data generation through an extensive benchmark on 16 datasets. These datasets vary in terms of size (an average of 80,000 rows), data types, and domains. We also propose a reduced search space for each model that allows for quick optimization, achieving nearly equivalent performance at a significantly lower cost. Our benchmark demonstrates that, for most models, large-scale dataset-specific tuning substantially improves performance compared to the original configurations. Furthermore, we confirm that diffusion-based models generally outperform other models on tabular data. However, this advantage is not significant when the entire tuning and training process is restricted to the same GPU budget.",
+    "categories": "cs.LG stat.ML",
+    "set": "cs"
+  },
+  {
+    "id": "2407.01356",
+    "created": "2025-05-05",
+    "updated": "2025-09-18",
+    "title": "tPARAFAC2: Tracking evolving patterns in (incomplete) temporal data",
+    "abstract": "Tensor factorizations have been widely used for the task of uncovering patterns in various domains. Often, the input is time-evolving, shifting the goal to tracking the evolution of the underlying patterns instead. To adapt to this more complex setting, existing methods incorporate temporal regularization but they either have overly constrained structural requirements or lack uniqueness which is crucial for interpretation. In this paper, in order to capture the underlying evolving patterns, we introduce t(emporal)PARAFAC2, which utilizes temporal smoothness regularization on the evolving factors. Previously, Alternating Optimization (AO) and Alternating Direction Method of Multipliers (ADMM)-based algorithmic approach has been introduced to fit the PARAFAC2 model to fully observed data. In this paper, we extend this algorithmic framework to the case of partially observed data and use it to fit the tPARAFAC2 model to complete and incomplete datasets with the goal of revealing evolving patterns. Our numerical experiments on simulated datasets demonstrate that tPARAFAC2 can extract the underlying evolving patterns more accurately compared to the state-of-the-art in the presence of high amounts of noise and missing data. Using two real datasets, we also demonstrate the effectiveness of the algorithmic approach in terms of handling missing data and tPARAFAC2 model in terms of revealing evolving patterns. The paper provides an extensive comparison of different approaches for handling missing data within the proposed framework, and discusses both the advantages and limitations of tPARAFAC2 model.",
+    "categories": "cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2407.01613",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Self-adaptive weights based on balanced residual decay rate for physics-informed neural networks and deep operator networks",
+    "abstract": "Physics-informed deep learning has emerged as a promising alternative for solving partial differential equations. However, for complex problems, training these networks can still be challenging, often resulting in unsatisfactory accuracy and efficiency. In this work, we demonstrate that the failure of plain physics-informed neural networks arises from the significant discrepancy in the convergence rate of residuals at different training points, where the slowest convergence rate dominates the overall solution convergence. Based on these observations, we propose a pointwise adaptive weighting method that balances the residual decay rate across different training points. The performance of our proposed adaptive weighting method is compared with current state-of-the-art adaptive weighting methods on benchmark problems for both physics-informed neural networks and physics-informed deep operator networks. Through extensive numerical results we demonstrate that our proposed approach of balanced residual decay rates offers several advantages, including bounded weights, high prediction accuracy, fast convergence rate, low training uncertainty, low computational cost, and ease of hyperparameter tuning.",
+    "categories": "cs.LG cs.AI stat.ML",
+    "set": "cs"
+  },
+  {
+    "id": "2407.06544",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Multiple Instance Verification",
+    "abstract": "We explore multiple instance verification, a problem setting in which a query instance is verified against a bag of target instances with heterogeneous, unknown relevancy. We show that naive adaptations of attention-based multiple instance learning (MIL) methods and standard verification methods like Siamese neural networks are unsuitable for this setting: directly combining state-of-the-art (SOTA) MIL methods and Siamese networks is shown to be no better, and sometimes significantly worse, than a simple baseline model. Postulating that this may be caused by the failure of the representation of the target bag to incorporate the query instance, we introduce a new pooling approach named \"cross-attention pooling\" (CAP). Under the CAP framework, we propose two novel attention functions to address the challenge of distinguishing between highly similar instances in a target bag. Through empirical studies on three different verification tasks, we demonstrate that CAP outperforms adaptations of SOTA MIL methods and the baseline by substantial margins, in terms of both classification accuracy and the ability to detect key instances. The superior ability to identify key instances is attributed to the new attention functions by ablation studies. We share our code at https://github.com/xxweka/MIV.",
+    "categories": "cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2407.11963",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "NeedleBench: Evaluating LLM Retrieval and Reasoning Across Varying Information Densities",
+    "abstract": "The capability of large language models to handle long-context information is crucial across various real-world applications. Existing evaluation methods often rely either on real-world long texts, making it difficult to exclude the influence of models' inherent knowledge, or introduce irrelevant filler content to artificially achieve target lengths, reducing assessment effectiveness. To address these limitations, we introduce NeedleBench, a synthetic framework for assessing retrieval and reasoning performance in bilingual long-context tasks with adaptive context lengths. NeedleBench systematically embeds key data points at varying depths to rigorously test model capabilities. Tasks are categorized into two scenarios: information-sparse, featuring minimal relevant details within extensive irrelevant text to simulate simple retrieval tasks; and information-dense (the Ancestral Trace Challenge), where relevant information is continuously distributed throughout the context to simulate complex reasoning tasks. Our experiments reveal that although recent reasoning models like Deepseek-R1 and OpenAI's o3 excel in mathematical reasoning, they struggle with continuous retrieval and reasoning in information-dense scenarios, even at shorter context lengths. We also characterize a phenomenon termed 'under-thinking', where models prematurely conclude reasoning despite available information. NeedleBench thus provides critical insights and targeted tools essential for evaluating and improving LLMs' long-context capabilities. All resources are available at OpenCompass: https://github.com/open-compass/opencompass.",
+    "categories": "cs.CL",
+    "set": "cs"
+  },
+  {
+    "id": "2407.12374",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Towards Unified and Adaptive Cross-Domain Collaborative Filtering via Graph Signal Processing",
+    "abstract": "Collaborative Filtering (CF) is a foundational approach in recommender systems, but it struggles with challenges such as data sparsity and the cold-start problem. Cross-Domain Recommendation (CDR) has emerged as a promising solution by leveraging dense domains to improve recommendations in sparse target domains. However, existing CDR methods face significant limitations, including their reliance on overlapping users as a bridge between domains and their inability to address domain sensitivity, i.e., differences in user behaviors and characteristics across domains, effectively. To overcome these limitations, we propose CGSP, a unified and adaptive CDR framework based on graph signal processing (GSP). CGSP supports both intra-domain and inter-domain recommendations while adaptively controlling the influence of the source domain through a simple hyperparameter. The framework constructs a cross-domain similarity graph by integrating target-only and source-bridged similarity graphs to capture both intra-domain and inter-domain relationships. This graph is then processed through graph filtering techniques to propagate and enhance local signals. Finally, personalized graph signals are constructed, tailored separately for users in the source and target domains, enabling CGSP to function as a unified framework for CDR scenarios. Extensive evaluation shows that CGSP outperforms state-of-the-art baselines across diverse cross-domain settings, with notable gains in low-overlap scenarios, underscoring its practicality for real-world applications.",
+    "categories": "cs.IR cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2407.14701",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Contextual modulation of language comprehension in a dynamic neural model of lexical meaning",
+    "abstract": "We computationally implement and experimentally test the behavioral predictions of a dynamic neural model of lexical meaning in the framework of Dynamic Field Theory. We demonstrate the architecture and behavior of the model using as a test case the English lexical item have, focusing on its polysemous use. In the model, have maps to a semantic space defined by two independently motivated continuous conceptual dimensions, connectedness and control asymmetry. The mapping is modeled as coupling between a neural node representing the lexical item and neural fields representing the conceptual dimensions. While lexical knowledge is modeled as a stable coupling pattern, real-time lexical meaning retrieval is modeled as the motion of neural activation patterns between transiently stable states corresponding to semantic interpretations or readings. Model simulations capture two previously reported empirical observations: (1) contextual modulation of lexical semantic interpretation, and (2) individual variation in the magnitude of this modulation. Simulations also generate a novel prediction that the by-trial relationship between sentence reading time and acceptability should be contextually modulated. An experiment combining self-paced reading and acceptability judgments replicates previous results and partially bears out the model's novel prediction. Altogether, results support a novel perspective on lexical polysemy: that the many related meanings of a word are not categorically distinct representations; rather, they are transiently stable neural activation states that arise from the nonlinear dynamics of neural populations governing interpretation on continuous semantic dimensions. Our model offers important advantages over related models in the dynamical systems framework, as well as models based on Bayesian inference.",
+    "categories": "cs.CL",
+    "set": "cs"
+  },
+  {
+    "id": "2407.18787",
+    "created": "2024-07-26",
+    "updated": "2025-09-18",
+    "title": "Automatic Detection of Moral Values in Music Lyrics",
+    "abstract": "Moral values play a fundamental role in how we evaluate information, make decisions, and form judgements around important social issues. The possibility to extract morality rapidly from lyrics enables a deeper understanding of our music-listening behaviours. Building on the Moral Foundations Theory (MFT), we tasked a set of transformer-based language models (BERT) fine-tuned on 2,721 synthetic lyrics generated by a large language model (GPT-4) to detect moral values in 200 real music lyrics annotated by two experts.We evaluate their predictive capabilities against a series of baselines including out-of-domain (BERT fine-tuned on MFT-annotated social media texts) and zero-shot (GPT-4) classification. The proposed models yielded the best accuracy across experiments, with an average F1 weighted score of 0.8. This performance is, on average, 5% higher than out-of-domain and zero-shot models. When examining precision in binary classification, the proposed models perform on average 12% higher than the baselines.Our approach contributes to annotation-free and effective lyrics morality learning, and provides useful insights into the knowledge distillation of LLMs regarding moral expression in music, and the potential impact of these technologies on the creative industries and musical culture.",
+    "categories": "cs.CY",
+    "set": "cs"
+  },
+  {
+    "id": "2408.00208",
+    "created": "2024-08-01",
+    "updated": "2025-09-18",
+    "title": "Prognosis of COVID-19 using Artificial Intelligence: A Systematic Review and Meta-analysis",
+    "abstract": "Purpose: Artificial intelligence (AI) techniques have been extensively utilized for diagnosing and prognosis of several diseases in recent years. This study identifies, appraises and synthesizes published studies on the use of AI for the prognosis of COVID-19. Method: Electronic search was performed using Medline, Google Scholar, Scopus, Embase, Cochrane and ProQuest. Studies that examined machine learning or deep learning methods to determine the prognosis of COVID-19 using CT or chest X-ray images were included. Polled sensitivity, specificity area under the curve and diagnostic odds ratio were calculated. Result: A total of 36 articles were included; various prognosis-related issues, including disease severity, mechanical ventilation or admission to the intensive care unit and mortality, were investigated. Several AI models and architectures were employed, such as the Siamense model, support vector machine, Random Forest , eXtreme Gradient Boosting, and convolutional neural networks. The models achieved 71%, 88% and 67% sensitivity for mortality, severity assessment and need for ventilation, respectively. The specificity of 69%, 89% and 89% were reported for the aforementioned variables. Conclusion: Based on the included articles, machine learning and deep learning methods used for the prognosis of COVID-19 patients using radiomic features from CT or CXR images can help clinicians manage patients and allocate resources more effectively. These studies also demonstrate that combining patient demographic, clinical data, laboratory tests and radiomic features improves model performances.",
+    "categories": "physics.med-ph cs.AI cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2408.03583",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Deterministic Algorithm and Faster Algorithm for Submodular Maximization subject to a Matroid Constraint",
+    "abstract": "We study the problem of maximizing a monotone submodular function subject to a matroid constraint, and present for it a deterministic non-oblivious local search algorithm that has an approximation guarantee of $1 - 1/e - \\varepsilon$ (for any $\\varepsilon > 0$) and query complexity of $\\tilde{O}_\\varepsilon(nr)$, where $n$ is the size of the ground set and $r$ is the rank of the matroid. Our algorithm vastly improves over the previous state-of-the-art $0.5008$-approximation deterministic algorithm, and in fact, shows that there is no separation between the approximation guarantees that can be obtained by deterministic and randomized algorithms for the problem considered. The query complexity of our algorithm can be improved to $\\tilde{O}_\\varepsilon(n + r\\sqrt{n})$ using randomization, which is nearly-linear for $r = O(\\sqrt{n})$, and is always at least as good as the previous state-of-the-art algorithms.",
+    "categories": "cs.DS cs.DM",
+    "set": "cs"
+  },
+  {
+    "id": "2408.03813",
+    "created": "2024-08-09",
+    "updated": "2025-09-18",
+    "title": "Talk to the Wall: The Role of Speech Interaction in Collaborative Visual Analytics",
+    "abstract": "We present the results of an exploratory study on how pairs interact with speech commands and touch gestures on a wall-sized display during a collaborative sensemaking task. Previous work has shown that speech commands, alone or in combination with other input modalities, can support visual data exploration by individuals. However, it is still unknown whether and how speech commands can be used in collaboration, and for what tasks. To answer these questions, we developed a functioning prototype that we used as a technology probe. We conducted an in-depth exploratory study with 10 participant pairs to analyze their interaction choices, the interplay between the input modalities, and their collaboration. While touch was the most used modality, we found that participants preferred speech commands for global operations, used them for distant interaction, and that speech interaction contributed to the awareness of the partner's actions. Furthermore, the likelihood of using speech commands during collaboration was related to the personality trait of agreeableness. Regarding collaboration styles, participants interacted with speech equally often whether they were in loosely or closely coupled collaboration. While the partners stood closer to each other during close collaboration, they did not distance themselves to use speech commands. From our findings, we derive and contribute a set of design considerations for collaborative and multimodal interactive data analysis systems. All supplemental materials are available at https://osf.io/8gpv2",
+    "categories": "cs.HC",
+    "set": "cs"
+  },
+  {
+    "id": "2408.07243",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Leveraging Perceptual Scores for Dataset Pruning in Computer Vision Tasks",
+    "abstract": "In this paper we propose a score of an image to use for coreset selection in image classification and semantic segmentation tasks. The score is the entropy of an image as approximated by the bits-per-pixel of its compressed version. Thus the score is intrinsic to an image and does not require supervision or training. It is very simple to compute and readily available as all images are stored in a compressed format. The motivation behind our choice of score is that most other scores proposed in literature are expensive to compute. More importantly, we want a score that captures the perceptual complexity of an image. Entropy is one such measure, images with clutter tend to have a higher entropy. However sampling only low entropy iconic images, for example, leads to biased learning and an overall decrease in test performance with current deep learning models. To mitigate the bias we use a graph based method that increases the spatial diversity of the selected samples. We show that this simple score yields good results, particularly for semantic segmentation tasks.",
+    "categories": "cs.CV cs.IT math.IT",
+    "set": "cs"
+  },
+  {
+    "id": "2408.08323",
+    "created": "2024-08-01",
+    "updated": "2025-09-18",
+    "title": "Exploring Urban Comfort through Novel Wearables and Environmental Surveys",
+    "abstract": "This study presents a comprehensive dataset capturing indoor environmental parameters, physiological responses, and subjective perceptions across three global cities. Utilizing wearable sensors, including smart eyeglasses, and a modified Cozie app, environmental and physiological data were collected, along with pre-screening, onboarding, and recurring surveys. Peripheral cues facilitated participant engagement with micro-EMA surveys, minimizing disruption over a 5-day collection period. The dataset offers insights into urban comfort dynamics, highlighting the interplay between environmental conditions, physiological responses, and subjective perceptions. Researchers can utilize this dataset to deepen their understanding of indoor environmental quality and inform the design of healthier built environments. Access to this dataset can advance indoor environmental research and contribute to the creation of more comfortable and sustainable indoor spaces.",
+    "categories": "cs.HC",
+    "set": "cs"
+  },
+  {
+    "id": "2408.08872",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "xGen-MM (BLIP-3): A Family of Open Large Multimodal Models",
+    "abstract": "This paper introduces BLIP-3, an open framework for developing Large Multimodal Models (LMMs). The framework comprises meticulously curated datasets, a training recipe, model architectures, and a resulting suite of LMMs. We release 4B and 14B models, including both the pre-trained base model and the instruction fine-tuned ones. Our models undergo rigorous evaluation across a range of tasks, including both single and multi-image benchmarks. Our models demonstrate competitive performance among open-source LMMs with similar model sizes. Our resulting LMMs demonstrate competitive performance among open-source LMMs with similar model sizes, with the ability to comprehend interleaved image-text inputs. Our training code, models, and all datasets used in this work, including the three largescale datasets we create and the preprocessed ones, will be open-sourced to better support the research community.",
+    "categories": "cs.CV cs.AI cs.CL",
+    "set": "cs"
+  },
+  {
+    "id": "2408.09066",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Brain Inspired Probabilistic Occupancy Grid Mapping with Vector Symbolic Architectures",
+    "abstract": "Real-time robotic systems require advanced perception, computation, and action capability. However, the main bottleneck in current autonomous systems is the trade-off between computational capability, energy efficiency and model determinism. World modeling, a key objective of many robotic systems, commonly uses occupancy grid mapping (OGM) as the first step towards building an end-to-end robotic system with perception, planning, autonomous maneuvering, and decision making capabilities. OGM divides the environment into discrete cells and assigns probability values to attributes such as occupancy and traversability. Existing methods fall into two categories: traditional methods and neural methods. Traditional methods rely on dense statistical calculations, while neural methods employ deep learning for probabilistic information processing. In this study, we propose a vector symbolic architecture-based OGM system (VSA-OGM) that retains the interpretability and stability of traditional methods with the improved computational efficiency of neural methods. Our approach, validated across multiple datasets, achieves similar accuracy to covariant traditional methods while reducing latency by approximately 45x and memory by 400x. Compared to invariant traditional methods, we see similar accuracy values while reducing latency by 5.5x. Moreover, we achieve up to 6x latency reductions compared to neural methods while eliminating the need for domain-specific model training. This work demonstrates the potential of vector symbolic architectures as a practical foundation for real-time probabilistic mapping in autonomous systems operating under strict computational and latency constraints.",
+    "categories": "cs.RO cs.ET",
+    "set": "cs"
+  },
+  {
+    "id": "2408.11824",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "AppAgent v2: Advanced Agent for Flexible Mobile Interactions",
+    "abstract": "With the advancement of Multimodal Large Language Models (MLLM), LLM-driven visual agents are increasingly impacting software interfaces, particularly those with graphical user interfaces. This work introduces a novel LLM-based multimodal agent framework for mobile devices. This framework, capable of navigating mobile devices, emulates human-like interactions. Our agent constructs a flexible action space that enhances adaptability across various applications including parser, text and vision descriptions. The agent operates through two main phases: exploration and deployment. During the exploration phase, functionalities of user interface elements are documented either through agent-driven or manual explorations into a customized structured knowledge base. In the deployment phase, RAG technology enables efficient retrieval and update from this knowledge base, thereby empowering the agent to perform tasks effectively and accurately. This includes performing complex, multi-step operations across various applications, thereby demonstrating the framework's adaptability and precision in handling customized task workflows. Our experimental results across various benchmarks demonstrate the framework's superior performance, confirming its effectiveness in real-world scenarios. Our code will be open source soon.",
+    "categories": "cs.HC cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2408.11915",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Video-Foley: Two-Stage Video-To-Sound Generation via Temporal Event Condition For Foley Sound",
+    "abstract": "Foley sound synthesis is crucial for multimedia production, enhancing user experience by synchronizing audio and video both temporally and semantically. Recent studies on automating this labor-intensive process through video-to-sound generation face significant challenges. Systems lacking explicit temporal features suffer from poor alignment and controllability, while timestamp-based models require costly and subjective human annotation. We propose Video-Foley, a video-to-sound system using Root Mean Square (RMS) as an intuitive condition with semantic timbre prompts (audio or text). RMS, a frame-level intensity envelope closely related to audio semantics, acts as a temporal event feature to guide audio generation from video. The annotation-free self-supervised learning framework consists of two stages, Video2RMS and RMS2Sound, incorporating novel ideas including RMS discretization and RMS-ControlNet with a pretrained text-to-audio model. Our extensive evaluation shows that Video-Foley achieves state-of-the-art performance in audio-visual alignment and controllability for sound timing, intensity, timbre, and nuance. Source code, model weights and demos are available on our companion website. (https://jnwnlee.github.io/video-foley-demo)",
+    "categories": "cs.SD cs.CV cs.LG cs.MM eess.AS",
+    "set": "cs"
+  },
+  {
+    "id": "2408.12813",
+    "created": "2024-08-23",
+    "updated": "2025-09-18",
+    "title": "Minimizing Movement Delay for Movable Antennas via Trajectory Optimization",
+    "abstract": "Movable antennas (MAs) have received increasing attention in wireless communications due to their capability of antenna position adjustment to reconfigure wireless channels. However, moving MAs results in non-negligible delay, which may decrease the effective data transmission time. To reduce the movement delay, we study in this paper a new MA trajectory optimization problem. In particular, given the desired destination positions of multiple MAs, we aim to jointly optimize their associations with the initial MA positions and the trajectories for moving them from their respective initial to destination positions within a given two-dimensional (2D) region, such that the delay of antenna movement is minimized, subject to the inter-MA minimum distance constraints in the movement. However, this problem is a continuous-time mixed-integer linear programming (MILP) problem that is challenging to solve. To tackle this challenge, we propose a two-stage optimization framework that sequentially optimizes the MAs' position associations and trajectories, respectively. First, we relax the inter-MA distance constraints and optimally solve the resulted delay minimization problem. Next, we check if the obtained MA association and trajectory solutions satisfy the inter-MA distance constraints. If not satisfied, we then employ a successive convex approximation (SCA) algorithm to adjust the MAs' trajectories until they satisfy the given constraints. Simulation results are provided to show the effectiveness of our proposed trajectory optimization method in reducing the movement delay as well as draw useful insights.",
+    "categories": "eess.SY cs.SY",
+    "set": "cs"
+  },
+  {
+    "id": "2408.15864",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "FlowAct: A Proactive Multimodal Human-robot Interaction System with Continuous Flow of Perception and Modular Action Sub-systems",
+    "abstract": "The evolution of autonomous systems in the context of human-robot interaction systems necessitates a synergy between the continuous perception of the environment and the potential actions to navigate or interact within it. We present Flowact, a proactive multimodal human-robot interaction architecture, working as an asynchronous endless loop of robot sensors into actuators and organized by two controllers, the Environment State Tracking (EST) and the Action Planner. The EST continuously collects and publishes a representation of the operative environment, ensuring a steady flow of perceptual data. This persistent perceptual flow is pivotal for our advanced Action Planner which orchestrates a collection of modular action subsystems, such as movement and speaking modules, governing their initiation or cessation based on the evolving environmental narrative. The EST employs a fusion of diverse sensory modalities to build a rich, real-time representation of the environment that is distributed to the Action Planner. This planner uses a decision-making framework to dynamically coordinate action modules, allowing them to respond proactively and coherently to changes in the environment. Through a series of real-world experiments, we exhibit the efficacy of the system in maintaining a continuous perception-action loop, substantially enhancing the responsiveness and adaptability of autonomous pro-active agents. The modular architecture of the action subsystems facilitates easy extensibility and adaptability to a broad spectrum of tasks and scenarios.",
+    "categories": "cs.RO",
+    "set": "cs"
+  },
+  {
+    "id": "2408.16378",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Unconditionally separating noisy $\\mathsf{QNC}^0$ from bounded polynomial threshold circuits of constant depth",
+    "abstract": "The rapid evolution of quantum devices fuels concerted efforts to experimentally establish quantum advantage over classical computing. Many demonstrations of quantum advantage, however, rely on computational assumptions and face verification challenges. Furthermore, steady advances in classical algorithms and machine learning make the issue of provable, practically demonstrable quantum advantage a moving target. In this work, we unconditionally demonstrate that parallel quantum computation can exhibit greater computational power than previously recognized. We prove that polynomial-size biased threshold circuits of constant depth -- which model neural networks with tunable expressivity -- fail to solve certain problems solvable by small constant-depth quantum circuits with local gates, for values of the bias that allow quantifiably large computational power. Additionally, we identify a family of problems that are solvable in constant depth by a universal quantum computer over prime-dimensional qudits with bounded connectivity, but remain hard for polynomial-size biased threshold circuits. We thereby bridge the foundational theory of non-local games in higher dimensions with computational advantage on emerging devices operating on a wide range of physical platforms. Finally, we show that these quantum advantages are robust to noise across all prime qudit dimensions with all-to-all connectivity, enhancing their practical appeal.",
+    "categories": "quant-ph cs.CC",
+    "set": "cs"
+  },
+  {
+    "id": "2408.16786",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Jammer Mitigation in Absorptive RIS-Assisted Uplink NOMA",
+    "abstract": "Non-orthogonal multiple access (NOMA) is a promising technology for next-generation wireless communication systems due to its enhanced spectral efficiency. In this paper, we consider an uplink NOMA system operating together with a high-dimensional absorptive reconfigurable intelligent surface (A-RIS). We aim to minimize the total power transmitted by the users in order to meet signal-to-interference-plus-noise constraints at the base station in the presence of a jammer. We propose an iterative algorithm to solve the high-dimensional non-convex optimization problem using linear programming to find the transmit powers and a fractional programming algorithm based on the Dinkelbach algorithm with a sequential convex relaxation procedure to optimize the reflection coefficients. We show that our algorithm converges on large optimization problems, with a jammer comprising as many as $64$ antennas, and an A-RIS with $128$ elements. Our numerical results show that, compared with a standard RIS that reflects all impinging energy, the A-RIS can dramatically reduce the users' required transmit power and successfully mitigate interference from the jammer. The absorption capability of the A-RIS is in particular useful in cases when the number of jammer antennas is of the same order as the number of A-RIS elements.",
+    "categories": "cs.IT eess.SP math.IT",
+    "set": "cs"
+  },
+  {
+    "id": "2408.17432",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Text-to-Speech for Unseen Speakers via Low-Complexity Discrete Unit-Based Frame Selection",
+    "abstract": "Synthesizing the voices of unseen speakers remains a persisting challenge in multi-speaker text-to-speech (TTS). Existing methods model speaker characteristics through speaker conditioning during training, leading to increased model complexity and limiting reproducibility and accessibility. A low-complexity alternative would broaden the reach of speech synthesis research, particularly in settings with limited computational and data resources. To this end, we propose SelectTTS, a simple and effective alternative. SelectTTS selects appropriate frames from the target speaker and decodes them using frame-level self-supervised learning (SSL) features. We demonstrate that this approach can effectively capture speaker characteristics for unseen speakers and achieves performance comparable to state-of-the-art multi-speaker TTS frameworks on both objective and subjective metrics. By directly selecting frames from the target speaker's speech, SelectTTS enables generalization to unseen speakers with significantly lower model complexity. Experimental results show that the proposed approach achieves performance comparable to state-of-the-art systems such as XTTS-v2 and VALL-E, while requiring over 8x fewer parameters and 270x less training data. Moreover, it demonstrates that frame selection with SSL features offers an efficient path to low-complexity, high-quality multi-speaker TTS.",
+    "categories": "eess.AS cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2409.01086",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "DPDEdit: Detail-Preserved Diffusion Models for Multimodal Fashion Image Editing",
+    "abstract": "Fashion image editing is a crucial tool for designers to convey their creative ideas by visualizing design concepts interactively. Current fashion image editing techniques, though advanced with multimodal prompts and powerful diffusion models, often struggle to accurately identify editing regions and preserve the desired garment texture detail. To address these challenges, we introduce a new multimodal fashion image editing architecture based on latent diffusion models, called Detail-Preserved Diffusion Models (DPDEdit). DPDEdit guides the fashion image generation of diffusion models by integrating text prompts, region masks, human pose images, and garment texture images. To precisely locate the editing region, we first introduce Grounded-SAM to predict the editing region based on the user's textual description, and then combine it with other conditions to perform local editing. To transfer the detail of the given garment texture into the target fashion image, we propose a texture injection and refinement mechanism. Specifically, this mechanism employs a decoupled cross-attention layer to integrate textual descriptions and texture images, and incorporates an auxiliary U-Net to preserve the high-frequency details of generated garment texture. Additionally, we extend the VITON-HD dataset using a multimodal large language model to generate paired samples with texture images and textual descriptions. Extensive experiments show that our DPDEdit outperforms state-of-the-art methods in terms of image fidelity and coherence with the given multimodal inputs.",
+    "categories": "cs.CV cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2409.02849",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Anomaly Detection in Offshore Open Radio Access Network Using Long Short-Term Memory Models on a Novel Artificial Intelligence-Driven Cloud-Native Data Platform",
+    "abstract": "The Radio Access Network (RAN) is a critical component of modern telecommunications infrastructure, currently evolving towards disaggregated and open architectures. These advancements are pivotal for integrating intelligent, data-driven applications aimed at enhancing network reliability and operational autonomy through the introduction of cognitive capabilities, as exemplified by the emerging Open Radio Access Network (O-RAN) standards. Despite its potential, the nascent nature of O-RAN technology presents challenges, primarily due to the absence of mature operational standards. This complicates the management of data and intelligent applications, particularly when integrating with traditional network management and operational support systems. Divergent vendor-specific design approaches further hinder migration and limit solution reusability. These challenges are compounded by a skills gap in telecommunications business-oriented engineering, which remains a key barrier to effective O-RAN deployment and intelligent application development. To address these challenges, Boldyn Networks developed a novel cloud-native data analytics platform, specifically designed to support scalable AI integration within O-RAN deployments. This platform underwent rigorous testing in real-world scenarios, and applied advanced Artificial Intelligence (AI) techniques to improve operational efficiency and customer experience. Implementation involved adopting Development Operations (DevOps) practices, leveraging data lakehouse architectures tailored for AI applications, and employing sophisticated data engineering strategies. The platform successfully addresses connectivity challenges inherent in real-world offshore windfarm deployments using Long Short-Term Memory (LSTM) models for anomaly detection in network connectivity.",
+    "categories": "cs.NI",
+    "set": "cs"
+  },
+  {
+    "id": "2409.11205",
+    "created": "2024-09-17",
+    "updated": "2025-09-18",
+    "title": "HS3-Bench: A Benchmark and Strong Baseline for Hyperspectral Semantic Segmentation in Driving Scenarios",
+    "abstract": "Semantic segmentation is an essential step for many vision applications in order to understand a scene and the objects within. Recent progress in hyperspectral imaging technology enables the application in driving scenarios and the hope is that the devices perceptive abilities provide an advantage over RGB-cameras. Even though some datasets exist, there is no standard benchmark available to systematically measure progress on this task and evaluate the benefit of hyperspectral data. In this paper, we work towards closing this gap by providing the HyperSpectral Semantic Segmentation benchmark (HS3-Bench). It combines annotated hyperspectral images from three driving scenario datasets and provides standardized metrics, implementations, and evaluation protocols. We use the benchmark to derive two strong baseline models that surpass the previous state-of-the-art performances with and without pre-training on the individual datasets. Further, our results indicate that the existing learning-based methods benefit more from leveraging additional RGB training data than from leveraging the additional hyperspectral channels. This poses important questions for future research on hyperspectral imaging for semantic segmentation in driving scenarios. Code to run the benchmark and the strong baseline approaches are available under https://github.com/nickstheisen/hyperseg.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "2409.12147",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",
+    "abstract": "Large Language Models' (LLM) reasoning can be improved using test-time aggregation strategies, i.e., generating multiple samples and voting among generated samples. While these improve performance, they often reach a saturation point. Refinement offers an alternative by using LLM-generated feedback to improve solution quality. However, refinement introduces 3 key challenges: (1) Excessive refinement: Uniformly refining all instances can over-correct and reduce the overall performance. (2) Inability to localize and address errors: LLMs have a limited ability to self-correct and struggle to identify and correct their own mistakes. (3) Insufficient refinement: Deciding how many iterations of refinement are needed is non-trivial, and stopping too soon could leave errors unaddressed. To tackle these issues, we propose MAgICoRe, which avoids excessive refinement by categorizing problem difficulty as easy or hard, solving easy problems with coarse-grained aggregation and hard ones with fine-grained and iterative multi-agent refinement. To improve error localization, we incorporate external step-wise reward model (RM) scores. Moreover, to ensure effective refinement, we employ a multi-agent loop with three agents: Solver, Reviewer (which generates targeted feedback based on step-wise RM scores), and the Refiner (which incorporates feedback). To ensure sufficient refinement, we re-evaluate updated solutions, iteratively initiating further rounds of refinement. We evaluate MAgICoRe on Llama-3-8B and GPT-3.5 and show its effectiveness across 5 math datasets. Even one iteration of MAgICoRe beats Self-Consistency by 3.4%, Best-of-k by 3.2%, and Self-Refine by 4.0% while using less than half the samples. Unlike iterative refinement with baselines, MAgICoRe continues to improve with more iterations. Finally, our ablations highlight the importance of MAgICoRe's RMs and multi-agent communication.",
+    "categories": "cs.CL",
+    "set": "cs"
+  },
+  {
+    "id": "2409.12274",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Hierarchical LLMs In-the-loop Optimization for Real-time Multi-Robot Target Tracking under Unknown Hazards",
+    "abstract": "Real-time multi-robot coordination in hazardous and adversarial environments requires fast, reliable adaptation to dynamic threats. While Large Language Models (LLMs) offer strong high-level reasoning capabilities, the lack of safety guarantees limits their direct use in critical decision-making. In this paper, we propose a hierarchical optimization framework that integrates LLMs into the decision loop for multi-robot target tracking in dynamic and hazardous environments. Rather than generating control actions directly, LLMs are used to generate task configuration and adjust parameters in a bi-level task allocation and planning problem. We formulate multi-robot coordination for tracking tasks as a bi-level optimization problem, with LLMs to reason about potential hazards in the environment and the status of the robot team and modify both the inner and outer levels of the optimization. This hierarchical approach enables real-time adjustments to the robots' behavior. Additionally, a human supervisor can offer broad guidance and assessments to address unexpected dangers, model mismatches, and performance issues arising from local minima. We validate our proposed framework in both simulation and real-world experiments with comprehensive evaluations, demonstrating its effectiveness and showcasing its capability for safe LLM integration for multi-robot systems.",
+    "categories": "cs.RO",
+    "set": "cs"
+  },
+  {
+    "id": "2409.14615",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Optimizing Active Perception for Learning Simultaneous Viewpoint Selection and Manipulation with Diffusion Policy",
+    "abstract": "Robotic manipulation tasks often rely on static cameras for perception, which can limit flexibility, particularly in scenarios like robotic surgery and cluttered environments where mounting static cameras is impractical. Ideally, robots could jointly learn a policy for dynamic viewpoint and manipulation. However, dynamic viewpoint control requires additional degrees of freedom and intricate coordination with manipulation, which results in more challenging policy learning than single-arm manipulation. To address this complexity, we propose an integrated learning framework that combines diffusion policy with a novel look-at inverse kinematics solver for active perception. Our framework helps better coordinating between perception and manipulation. It automatically optimizes camera orientation for viewpoint selection, while allowing the policy to focus on essential manipulation and positioning decisions. We demonstrate that our integrated approach achieves superior performance and learning efficiency compared to directly applying diffusion policies to configuration space or end-effector space with various rotation representations. Further analysis suggests that these performance differences are driven by inherent variations in the high-frequency components across different state-action spaces.",
+    "categories": "cs.RO",
+    "set": "cs"
+  },
+  {
+    "id": "2409.19894",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Semantic Alignment-Enhanced Code Translation via an LLM-Based Multi-Agent System",
+    "abstract": "Code translation converts code from one programming language to another while maintaining its original functionality, which is crucial for software migration, system refactoring, and cross-platform development. Traditional rule-based methods rely on manually-written rules, which can be time-consuming and often result in less readable code. To overcome this, learning-based methods have been developed, leveraging parallel data to train models for automated code translation. More recently, the advance of Large Language Models (LLMs) further boosts learning-based code translation. Although promising, LLM-translated program still suffers from diverse quality issues (e.g., syntax errors and semantic errors). In particular, it can be challenging for LLMs to self-debug these errors when simply provided with the corresponding error messages.\n  In this work, we propose a novel LLM-based multi-agent system TRANSAGENT, which enhances LLM-based code translation by fixing the syntax errors and semantic errors with the synergy between four LLM-based agents, including Initial Code Translator, Syntax Error Fixer, Code Aligner, and Semantic Error Fixer. The main insight of TRANSAGENT is to first localize the error code block in the target program based on the execution alignment between the target and source program, which can narrow down the fixing space and thus lower down the fixing difficulties. To evaluate TRANSAGENT, we first construct a new benchmark from recent programming tasks to mitigate the potential data leakage issue. On our benchmark, TRANSAGENT outperforms the latest LLM-based code translation technique UniTrans in both translation effectiveness and efficiency; additionally, our evaluation on different LLMs show the generalization of TRANSAGENT and our ablation study shows the contribution of each agent.",
+    "categories": "cs.SE cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2410.05796",
+    "created": "2024-10-08",
+    "updated": "2025-09-18",
+    "title": "Software analytics for software engineering: A tertiary review",
+    "abstract": "Software analytics (SA) is frequently proposed as a tool to support practitioners in software engineering (SE) tasks. We have observed that several secondary studies on SA have been published. Some of these studies have overlapping aims and some have even been published in the same calendar year. This presents an opportunity to analyze the congruence or divergence of the conclusions in these studies. Such an analysis can help identify broader generalizations beyond any of the individual secondary studies. We identified five secondary studies on the use of SA for SE. These secondary studies cover primary research from 2000 to 2021. Despite the overlapping objectives and search time frames of these secondary studies, there is negligible overlap of primary studies between these secondary studies. Thus, each of them provides an isolated view, and together, they provide a fragmented view, i.e., there is no ``common picture'' of the area. Thus, we conclude that an overview of the literature identified by these secondary studies would be useful in providing a more comprehensive overview of the topic.",
+    "categories": "cs.SE",
+    "set": "cs"
+  },
+  {
+    "id": "2410.06764",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "An Optimal Algorithm for the Stacker Crane Problem on Fixed Topologies",
+    "abstract": "The Stacker Crane Problem (SCP) is a variant of the Traveling Salesman Problem. In SCP, pairs of pickup and delivery points are designated on a graph, and a crane must visit these points to move objects from each pickup location to its respective delivery point. The goal is to minimize the total distance traveled. SCP is known to be NP-hard, even on trees. The only positive results, in terms of polynomial-time solvability, apply to graphs that are topologically equivalent to a path or a cycle.\n  We propose an algorithm that is optimal for each fixed topology, running in near-linear time. This is achieved by demonstrating that the problem is fixed-parameter tractable (FPT) when parameterized by both the cycle rank and the number of branch vertices.",
+    "categories": "cs.DS math.OC",
+    "set": "cs"
+  },
+  {
+    "id": "2410.08299",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Privately Learning from Graphs with Applications in Fine-tuning Large Language Models",
+    "abstract": "Graphs offer unique insights into relationships between entities, complementing data modalities like text and images and enabling AI models to extend their capabilities beyond traditional tasks. However, learning from graphs often involves handling sensitive relationships in the data, raising significant privacy concerns. Existing privacy-preserving methods, such as DP-SGD, rely on gradient decoupling assumptions and are incompatible with relational learning due to the inherent dependencies between training samples. To address this challenge, we propose a privacy-preserving pipeline for relational learning that decouples dependencies in sampled relations for training, ensuring differential privacy through a tailored application of DP-SGD. We apply this approach to fine-tune large language models (LLMs), such as Llama2, on sensitive graph data while addressing the associated computational complexities. Our method is evaluated on four real-world text-attributed graphs, demonstrating significant improvements in relational learning tasks while maintaining robust privacy guarantees. Additionally, we analyze the trade-offs between privacy, utility, and computational efficiency, offering insights into the practical deployment of our approach for privacy-preserving relational learning. Code is available at https://github.com/Graph-COM/PvGaLM.",
+    "categories": "cs.LG cs.CL cs.CR",
+    "set": "cs"
+  },
+  {
+    "id": "2410.09252",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "DAVIS: Planning Agent with Knowledge Graph-Powered Inner Monologue",
+    "abstract": "Designing a generalist scientific agent capable of performing tasks in laboratory settings to assist researchers has become a key goal in recent Artificial Intelligence (AI) research. Unlike everyday tasks, scientific tasks are inherently more delicate and complex, requiring agents to possess a higher level of reasoning ability, structured and temporal understanding of their environment, and a strong emphasis on safety. Existing approaches often fail to address these multifaceted requirements. To tackle these challenges, we present DAVIS. Unlike traditional retrieval-augmented generation (RAG) approaches, DAVIS incorporates structured and temporal memory, which enables model-based planning. Additionally, DAVIS implements an agentic, multi-turn retrieval system, similar to a human's inner monologue, allowing for a greater degree of reasoning over past experiences. DAVIS demonstrates substantially improved performance on the ScienceWorld benchmark comparing to previous approaches on 8 out of 9 elementary science subjects. In addition, DAVIS's World Model demonstrates competitive performance on the famous HotpotQA and MusiqueQA dataset for multi-hop question answering. To the best of our knowledge, DAVIS is the first RAG agent to employ an interactive retrieval method in a RAG pipeline.",
+    "categories": "cs.CL cs.AI cs.HC",
+    "set": "cs"
+  },
+  {
+    "id": "2410.10857",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Mirror-Consistency: Harnessing Inconsistency in Majority Voting",
+    "abstract": "Self-Consistency, a widely-used decoding strategy, significantly boosts the reasoning capabilities of Large Language Models (LLMs). However, it depends on the plurality voting rule, which focuses on the most frequent answer while overlooking all other minority responses. These inconsistent minority views often illuminate areas of uncertainty within the model's generation process. To address this limitation, we present Mirror-Consistency, an enhancement of the standard Self-Consistency approach. Our method incorporates a 'reflective mirror' into the self-ensemble decoding process and enables LLMs to critically examine inconsistencies among multiple generations. Additionally, just as humans use the mirror to better understand themselves, we propose using Mirror-Consistency to enhance the sample-based confidence calibration methods, which helps to mitigate issues of overconfidence. Our experimental results demonstrate that Mirror-Consistency yields superior performance in both reasoning accuracy and confidence calibration compared to Self-Consistency.",
+    "categories": "cs.CL cs.AI",
+    "set": "cs"
+  },
+  {
+    "id": "2410.13034",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Synthesis and Perceptual Scaling of High Resolution Naturalistic Images Using Stable Diffusion",
+    "abstract": "Naturalistic scenes are of key interest for visual perception, but controlling their perceptual and semantic properties is challenging. Previous work on naturalistic scenes has frequently focused on collections of discrete images with considerable physical differences between stimuli. However, it is often desirable to assess representations of naturalistic images that vary along a continuum. Traditionally, perceptually continuous variations of naturalistic stimuli have been obtained by morphing a source image into a target image. This produces transitions driven mainly by low-level physical features and can result in semantically ambiguous outcomes. More recently, generative adversarial networks (GANs) have been used to generate continuous perceptual variations within a stimulus category. Here we extend and generalize this approach using a different machine learning approach, a text-to-image diffusion model (Stable Diffusion XL), to generate a freely customizable stimulus set of photorealistic images that are characterized by gradual transitions, with each image representing a unique exemplar within a prompted category. We demonstrate the approach by generating a set of 108 object scenes from 6 categories. For each object scene, we generate 10 variants that are ordered along a perceptual continuum. This ordering was first estimated using a machine learning model of perceptual similarity (LPIPS) and then subsequently validated with a large online sample of human participants. In a subsequent experiment we show that this ordering is also predictive of confusability of stimuli in a working memory experiment. Our image set is suited for studies investigating the graded encoding of naturalistic stimuli in visual perception, attention, and memory.",
+    "categories": "q-bio.NC cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "2410.13559",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "On estimating the trace of quantum state powers",
+    "abstract": "We investigate the computational complexity of estimating the trace of quantum state powers $\\text{tr}(ρ^q)$ for an $n$-qubit mixed quantum state $ρ$, given its state-preparation circuit of size $\\text{poly}(n)$. This quantity is closely related to and often interchangeable with the Tsallis entropy $\\text{S}_q(ρ) = \\frac{1-\\text{tr}(ρ^q)}{q-1}$, where $q = 1$ corresponds to the von Neumann entropy. For any non-integer $q \\geq 1 + Ω(1)$, we provide a quantum estimator for $\\text{S}_q(ρ)$ with time complexity $\\text{poly}(n)$, exponentially improving the prior best results of $\\exp(n)$ due to Acharya, Issa, Shende, and Wagner (ISIT 2019), Wang, Guan, Liu, Zhang, and Ying (TIT 2024), and Wang, Zhang, and Li (TIT 2024), and Wang and Zhang (ESA 2024). Our speedup is achieved by introducing efficiently computable uniform approximations of positive power functions into quantum singular value transformation.\n  Our quantum algorithm reveals a sharp phase transition between the case of $q=1$ and constant $q>1$ in the computational complexity of the Quantum $q$-Tsallis Entropy Difference Problem (TsallisQED$_q$), particularly deciding whether the difference $\\text{S}_q(ρ_0) - \\text{S}_q(ρ_1)$ is at least $0.001$ or at most $-0.001$:\n  - For any $1+Ω(1) \\leq q \\leq 2$, TsallisQED$_q$ is $\\mathsf{BQP}$-complete, which implies that Purity Estimation is also $\\mathsf{BQP}$-complete.\n  - For any $1 \\leq q \\leq 1 + \\frac{1}{n-1}$, TsallisQED$_q$ is $\\mathsf{QSZK}$-hard, leading to hardness of approximating the von Neumann entropy because $\\text{S}_q(ρ) \\leq \\text{S}(ρ)$, as long as $\\mathsf{BQP} \\subsetneq \\mathsf{QSZK}$.\n  The hardness results are derived from reductions based on new inequalities for the quantum $q$-Jensen-(Shannon-)Tsallis divergence with $1\\leq q \\leq 2$, which are of independent interest.",
+    "categories": "quant-ph cs.CC cs.DS",
+    "set": "cs"
+  },
+  {
+    "id": "2410.19794",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "DiffGAN: A Test Generation Approach for Differential Testing of Deep Neural Networks for Image Analysis",
+    "abstract": "Deep Neural Networks (DNNs) are increasingly deployed across applications. However, ensuring their reliability remains a challenge, and in many situations, alternative models with similar functionality and accuracy are available. Traditional accuracy-based evaluations often fail to capture behavioral differences between models, especially with limited test datasets, making it difficult to select or combine models effectively. Differential testing addresses this by generating test inputs that expose discrepancies in DNN model behavior. However, existing approaches face significant limitations: many rely on model internals or are constrained by available seed inputs. To address these challenges, we propose DiffGAN, a black-box test image generation approach for differential testing of DNN models. DiffGAN leverages a Generative Adversarial Network (GAN) and the Non-dominated Sorting Genetic Algorithm II to generate diverse and valid triggering inputs that reveal behavioral discrepancies between models. DiffGAN employs two custom fitness functions, focusing on diversity and divergence, to guide the exploration of the GAN input space and identify discrepancies between models' outputs. By strategically searching this space, DiffGAN generates inputs with specific features that trigger differences in model behavior. DiffGAN is black-box, making it applicable in more situations. We evaluate DiffGAN on eight DNN model pairs trained on widely used image datasets. Our results show DiffGAN significantly outperforms a SOTA baseline, generating four times more triggering inputs, with greater diversity and validity, within the same budget. Additionally, the generated inputs improve the accuracy of a machine learning-based model selection mechanism, which selects the best-performing model based on input characteristics and can serve as a smart output voting mechanism when using alternative models.",
+    "categories": "cs.CV cs.LG cs.SE",
+    "set": "cs"
+  },
+  {
+    "id": "2410.21419",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "High-Dimensional Gaussian Process Regression with Soft Kernel Interpolation",
+    "abstract": "We introduce Soft Kernel Interpolation (SoftKI), a method that combines aspects of Structured Kernel Interpolation (SKI) and variational inducing point methods, to achieve scalable Gaussian Process (GP) regression on high-dimensional datasets. SoftKI approximates a kernel via softmax interpolation from a smaller number of interpolation points learned by optimizing a combination of the SoftKI marginal log-likelihood (MLL), and when needed, an approximate MLL for improved numerical stability. Consequently, it can overcome the dimensionality scaling challenges that SKI faces when interpolating from a dense and static lattice while retaining the flexibility of variational methods to adapt inducing points to the dataset. We demonstrate the effectiveness of SoftKI across various examples and show that it is competitive with other approximated GP methods when the data dimensionality is modest (around 10).",
+    "categories": "stat.ML cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2410.22454",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Brain age identification from diffusion MRI synergistically predicts neurodegenerative disease",
+    "abstract": "Estimated brain age from magnetic resonance image (MRI) and its deviation from chronological age can provide early insights into potential neurodegenerative diseases, supporting early detection and implementation of prevention strategies. Diffusion MRI (dMRI) presents an opportunity to build an earlier biomarker for neurodegenerative disease prediction because it captures subtle microstructural changes that precede more perceptible macrostructural changes. However, the coexistence of macro- and micro-structural information in dMRI raises the question of whether current dMRI-based brain age estimation models are leveraging the intended microstructural information or if they inadvertently rely on the macrostructural information. To develop a microstructure-specific brain age, we propose a method for brain age identification from dMRI that mitigates the model's use of macrostructural information by non-rigidly registering all images to a standard template. Imaging data from 13,398 participants across 12 datasets were used for the training and evaluation. We compare our brain age models, trained with and without macrostructural information mitigated, with an architecturally similar T1-weighted (T1w) MRI-based brain age model and two recent, popular, openly available T1w MRI-based brain age models that primarily use macrostructural information. We observe difference between our dMRI-based brain age and T1w MRI-based brain age across stages of neurodegeneration, with dMRI-based brain age being older than T1w MRI-based brain age in participants transitioning from cognitively normal (CN) to mild cognitive impairment (MCI), but younger in participants already diagnosed with Alzheimer's disease (AD). Furthermore, dMRI-based brain age may offer advantages over T1w MRI-based brain age in predicting the transition from CN to MCI up to five years before diagnosis.",
+    "categories": "cs.CV",
+    "set": "cs"
+  },
+  {
+    "id": "2411.00364",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Application of the Quantum Approximate Optimization Algorithm in Solving the Total Domination Problem",
+    "abstract": "Recent advancements in quantum computing have spurred substantial research into the application of quantum algorithms to combinatorial optimization problems. Among these challenges, the Total Domination Problem (TDP) emerges as a classic and critical paradigm in the field. For a graph G(V, E), TDP entails finding a minimal subset D subset of V that contains no isolated vertices, where every vertex not in D has at least one neighbor in D. TDP finds extensive applications across domains such as computer networks, social networks, and communications. Since the latter half of the last century, research efforts have focused on establishing its NP-completeness and developing solution algorithms, which have become foundational to combinatorial mathematics. Despite this rich history, the application of quantum algorithms to TDP remains largely underexplored. In this study, we present a pioneering application of the Quantum Approximate Optimization Algorithm (QAOA) to tackle TDP, evaluating its efficacy across a diverse set of parameters. This paper proves that the upper bound on the number of qubits required to solve TDP is 2|V| + |V| log_2( (2|E|)/|V| - 1 ). Our experimental findings demonstrate that QAOA is effective in addressing TDP: under most parameter combinations, it successfully computes a valid total dominating set (TDS). However, the algorithm's performance in identifying the optimal TDS is contingent upon specific parameter choices, revealing a significant bias in the distribution of effective parameter points. This research contributes valuable insights into the potential of quantum algorithms for solving TDP and lays a solid groundwork for future investigations in this area.",
+    "categories": "quant-ph cs.DM",
+    "set": "cs"
+  },
+  {
+    "id": "2411.01544",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Building the Self-Improvement Loop: Error Detection and Correction in Goal-Oriented Semantic Communications",
+    "abstract": "Error detection and correction are essential for ensuring robust and reliable operation in modern communication systems, particularly in complex transmission environments. However, discussions on these topics have largely been overlooked in semantic communication (SemCom), which focuses on transmitting meaning rather than symbols, leading to significant improvements in communication efficiency. Despite these advantages, semantic errors -- stemming from discrepancies between transmitted and received meanings -- present a major challenge to system reliability. This paper addresses this gap by proposing a comprehensive framework for detecting and correcting semantic errors in SemCom systems. We formally define semantic error, detection, and correction mechanisms, and identify key sources of semantic errors. To address these challenges, we develop a Gaussian process (GP)-based method for latent space monitoring to detect errors, alongside a human-in-the-loop reinforcement learning (HITL-RL) approach to optimize semantic model configurations using user feedback. Experimental results validate the effectiveness of the proposed methods in mitigating semantic errors under various conditions, including adversarial attacks, input feature changes, physical channel variations, and user preference shifts. This work lays the foundation for more reliable and adaptive SemCom systems with robust semantic error management techniques.",
+    "categories": "cs.NI cs.LG",
+    "set": "cs"
+  },
+  {
+    "id": "2411.02554",
+    "created": "2024-11-04",
+    "updated": "2025-09-18",
+    "title": "Quantum-Computable One-Way Functions without One-Way Functions",
+    "abstract": "We construct a classical oracle relative to which $\\mathsf{P} = \\mathsf{NP}$ but quantum-computable quantum-secure trapdoor one-way functions exist. This is a substantial strengthening of the result of Kretschmer, Qian, Sinha, and Tal (STOC 2023), which only achieved single-copy pseudorandom quantum states relative to an oracle that collapses $\\mathsf{NP}$ to $\\mathsf{P}$. For example, our result implies multi-copy pseudorandom states and pseudorandom unitaries, but also classical-communication public-key encryption, signatures, and oblivious transfer schemes relative to an oracle on which $\\mathsf{P}=\\mathsf{NP}$. Hence, in our new relativized world, classical computers live in \"Algorithmica\" whereas quantum computers live in \"Cryptomania,\" using the language of Impagliazzo's worlds.\n  Our proof relies on a new distributional block-insensitivity lemma for $\\mathsf{AC^0}$ circuits, wherein a single block is resampled from an arbitrary distribution.",
+    "categories": "quant-ph cs.CC cs.CR",
+    "set": "cs"
+  },
+  {
+    "id": "2411.03793",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Quasi-Monte Carlo for partial differential equations with generalized Gaussian input uncertainty",
+    "abstract": "There has been a surge of interest in uncertainty quantification for parametric partial differential equations (PDEs) with Gevrey regular inputs. The Gevrey class contains functions that are infinitely smooth with a growth condition on the higher-order partial derivatives, but which are nonetheless not analytic in general. Recent studies by Chernov and Le (Comput. Math. Appl., 2024, and SIAM J. Numer. Anal., 2024) as well as Harbrecht, Schmidlin, and Schwab (Math. Models Methods Appl. Sci., 2024) analyze the setting wherein the input random field is assumed to be uniformly bounded with respect to the uncertain parameters. In this paper, we relax this assumption and allow for parameter-dependent bounds. The parametric inputs are modeled as generalized Gaussian random variables, and we analyze the application of quasi-Monte Carlo (QMC) integration to assess the PDE response statistics using randomly shifted rank-1 lattice rules. In addition to the QMC error analysis, we also consider the dimension truncation and finite element errors in this setting.",
+    "categories": "math.NA cs.NA",
+    "set": "cs"
+  },
+  {
+    "id": "2411.03989",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Tensor train solution to uncertain optimization problems with shared sparsity penalty",
+    "abstract": "We develop both first and second order numerical optimization methods to solve non-smooth optimization problems featuring a shared sparsity penalty, constrained by differential equations with uncertainty. To alleviate the curse of dimensionality we use tensor product approximations. To handle the non-smoothness of the objective function we employ a smoothed version of the shared sparsity objective. We consider both a benchmark elliptic PDE constraint, and a more realistic topology optimization problem in engineering. We demonstrate that the error converges linearly in iterations and the smoothing parameter, and faster than algebraically in the number of degrees of freedom, consisting of the number of quadrature points in one variable and tensor ranks. Moreover, in the topology optimization problem, the smoothed shared sparsity penalty actually reduces the tensor ranks compared to the unpenalised solution. This enables us to find a sparse high-resolution design under a high-dimensional uncertainty.",
+    "categories": "math.OC cs.NA math.NA",
+    "set": "cs"
+  },
+  {
+    "id": "2411.06207",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "KBM: Delineating Knowledge Boundary for Adaptive Retrieval in Large Language Models",
+    "abstract": "Large Language Models (LLMs) often struggle with dynamically changing knowledge and handling unknown static information. Retrieval-Augmented Generation (RAG) is employed to tackle these challenges and has a significant impact on improving LLM performance. In fact, we find that not all questions need to trigger RAG. By retrieving parts of knowledge unknown to the LLM and allowing the LLM to answer the rest, we can effectively reduce both time and computational costs. In our work, we propose a Knowledge Boundary Model (KBM) to express the known/unknown of a given question, and to determine whether a RAG needs to be triggered. Experiments conducted on 11 English and Chinese datasets illustrate that the KBM effectively delineates the knowledge boundary, significantly decreasing the proportion of retrievals required for optimal end-to-end performance. Furthermore, we evaluate the effectiveness of KBM in three complex scenarios: dynamic knowledge, long-tail static knowledge, and multi-hop problems, as well as its functionality as an external LLM plug-in.",
+    "categories": "cs.CL",
+    "set": "cs"
+  },
+  {
+    "id": "2411.10212",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Embedding Byzantine Fault Tolerance into Federated Learning via Consistency Scoring",
+    "abstract": "Given sufficient data from multiple edge devices, federated learning (FL) enables training a shared model without transmitting private data to the central server. However, FL is generally vulnerable to Byzantine attacks from compromised edge devices, which can significantly degrade the model performance. In this work, we propose an intuitive plugin that seamlessly embeds Byzantine resilience into existing FL methods. The key idea is to generate virtual data samples and evaluate model consistency scores across local updates to effectively filter out compromised updates. By utilizing this scoring mechanism before the aggregation phase, the proposed plugin enables existing FL methods to become robust against Byzantine attacks while maintaining their original benefits. Numerical results on blood cell classification task demonstrate that the proposed plugin provides strong Byzantine resilience. In detail, plugin-attached FedAvg achieves over 89.6% test accuracy under 30% targeted attacks (vs.19.5% w/o plugin) and maintains 65-70% test accuracy under untargeted attacks (vs.17-19% w/o plugin).",
+    "categories": "cs.LG",
+    "set": "cs"
+  }
+]
