@@ -173,7 +173,7 @@
           {% if papers %}
             {% for p in papers %}
               <tr>
-                <td><a class="title-link" href="{{ p.url }}">{{ p.title }}</a></td>
+                <td><a class="title-link" href="{% url 'paper_detail' p.slug %}">{{ p.title }}</a></td>
                 <td class="muted">{{ p.published|date:"Y-m-d" }}</td>
                 <td class="muted">{{ p.industries|join:", " }}</td>
                 <td><strong>{{ p.score }}</strong></td>

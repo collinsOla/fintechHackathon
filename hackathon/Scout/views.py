@@ -1,5 +1,6 @@
 from datetime import date
 from django.shortcuts import render
+from django.utils.text import slugify
 
 SAMPLE_PAPERS = [
     {"title": "Amplitude amplification and estimation require inverses",
@@ -89,3 +90,21 @@ def home(request):
         "is_demo": True,
     }
     return render(request, "Scout/home.html", context)
+
+seen = set()
+for i, p in enumerate(SAMPLE_PAPERS):
+    base = p.get("slug") or p.get("title") or f"paper-{i}"
+    s = slugify(base)
+    if not s or s in seen:           # avoid empty or duplicate slugs
+        s = f"paper-{i}"
+    p["slug"] = s
+    seen.add(s)
+
+def paper_detail(request, slug: str):
+    paper = next((p for p in SAMPLE_PAPERS if p["slug"] == slug), None)
+    if not paper:
+        from django.http import Http404
+        raise Http404("Paper not found")
+    return render(request, "Scout/detail.html", {"paper": paper, "brand": "Imperial", "product_title": "SciScout", "is_demo": True})
+
+print(slugify("Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis"))
