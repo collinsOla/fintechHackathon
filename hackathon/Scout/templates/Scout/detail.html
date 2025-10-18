@@ -54,22 +54,22 @@
 
     <div class="card">
       <h3>Background & Context</h3>
-      <p>{{ paper.summary_background }}</p>
+      <p>{{ content.0 }}</p>
     </div>
 
     <div class="card">
       <h3>Real-world problems solved</h3>
-      <p>{{ paper.summary_problems }}</p>
+      <p>{{ content.1 }}</p>
     </div>
 
     <div class="card">
       <h3>Market analysis</h3>
-      <p>{{ paper.summary_market }}</p>
+      <p>{{ content.2 }}</p>
     </div>
 
     <div class="card">
       <h3>Immediate ideas for startups/patents</h3>
-      <p>{{ paper.summary_ideas }}</p>
+      <p>{{ content.3 }}</p>
     </div>
 
     {% if paper.url and paper.url != "#" %}

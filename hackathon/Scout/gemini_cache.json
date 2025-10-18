@@ -106,5 +106,35 @@
     "trl": 5,
     "overall_commercialization": 8,
     "rationale": ""
-  }
+  },
+  "7ed44f6641e35629f77358b1": {
+    "scores": {
+      "problem_fit": 4,
+      "practicality_maturity": 4,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 5
+    },
+    "trl": 3,
+    "overall_commercialization": 4,
+    "rationale": ""
+  },
+  "ba3005f1877f3169eab11f0d": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 3,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 4
+    },
+    "trl": 3,
+    "overall_commercialization": 6,
+    "rationale": ""
+  },
+  "arpv1_6cb4a95c8f29914ceef96937": [
+    "This paper introduces new theoretical methods for characterizing quantum resource theories, particularly dynamic ones, by employing novel entropic concepts and operational tasks. It defines the Free Conditional Min-Entropy (FCME) to quantify uncertainty under limited information processing and provides comprehensive entropic conditions for quantum state and channel convertibility, alongside interpretations of resource global robustness and the construction of operational resource monotones.",
+    "While fundamentally theoretical, this work provides critical tools for advancing practical quantum technologies. By offering precise methods to quantify and characterize quantum resources and their convertibility, it lays the groundwork for optimizing the design and performance of quantum communication protocols, enhancing the security of quantum cryptography, and developing more robust and efficient fault-tolerant quantum computing architectures.",
+    "This research is primarily relevant to academic and industrial researchers in quantum information science, theoretical physics, and quantum engineering. Key stakeholders include institutions and companies developing quantum computing hardware, quantum communication systems, and advanced quantum sensors (e.g., IBM Quantum, Google AI Quantum, IonQ, PsiQuantum), who require a deeper theoretical understanding to optimize resource utilization and ensure the robustness of emerging quantum technologies.",
+    "Immediate patent ideas could include: A method for certifying quantum resource convertibility between states or channels utilizing the novel Free Conditional Min-Entropy (FCME); An operational framework for assessing the utility and robustness of dynamic quantum channels based on defined resource monotones derived from communication tasks; A system for quantifying the operational advantage of non-free quantum channels over free ones in specific communication scenarios, using robustness-based measures; Algorithms for optimizing quantum communication protocols by leveraging FCME-derived resource global robustness measures to enhance channel efficiency and reliability."
+  ]
 }
