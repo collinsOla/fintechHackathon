@@ -1,0 +1,902 @@
+[
+  {
+    "id": "2001.10488",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Statistical Consequences of Fat Tails: Real World Preasymptotics, Epistemology, and Applications",
+    "abstract": "(The third edition corrects minor typos and adds 3 chapters synthesized from published papers plus an appendix on maximum entropy distributions.) The monograph investigates the misapplication of conventional statistical techniques to fat tailed distributions and looks for remedies, when possible.\n  Switching from thin tailed to fat tailed distributions requires more than \"changing the color of the dress\". Traditional asymptotics deal mainly with either n=1 or $n=\\infty$, and the real world is in between, under of the \"laws of the medium numbers\" --which vary widely across specific distributions. Both the law of large numbers and the generalized central limit mechanisms operate in highly idiosyncratic ways outside the standard Gaussian or Levy-Stable basins of convergence.\n  A few examples:\n  + The sample mean is rarely in line with the population mean, with effect on \"naive empiricism\", but can be sometimes be estimated via parametric methods.\n  + The \"empirical distribution\" is rarely empirical.\n  + Parameter uncertainty has compounding effects on statistical metrics.\n  + Dimension reduction (principal components) fails.\n  + Inequality estimators (GINI or quantile contributions) are not additive and produce wrong results.\n  + Many \"biases\" found in psychology become entirely rational under more sophisticated probability distributions\n  + Most of the failures of financial economics, econometrics, and behavioral economics can be attributed to using the wrong distributions.\n  This book, the first volume of the Technical Incerto, weaves a narrative around published journal articles.",
+    "categories": "stat.OT q-fin.RM stat.AP stat.ME",
+    "set": "q-fin"
+  },
+  {
+    "id": "2211.04763",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Jihad over Centuries",
+    "abstract": "This paper examines the origins of Islamist insurgencies, or jihad, through the lens of past prosperity, decline, and cultural revival in West Africa. Using shrinking water sources as an instrument, we show that trans-Saharan cities once-thriving under pre-colonial Islamic states but now deserted have become contemporary hotspots of jihadist violence. We argue that military power asymmetries between Islamic states and colonizers during historical jihad shaped the persistence of jihadist ideology, fueling today's resurgence especially in areas that lacked intense armed resistance against colonial invasions. Extensive qualitative evidence, a dynamic model of conflict, and individual-level surveys examining ideologies support this mechanism.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2401.13694",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "The Arrival of Fast Internet and Employment in Africa: Comment",
+    "abstract": "Hjort and Poulsen (2019) frames the staggered arrival of submarine Internet cables on the shores of Africa circa 2010 as a difference-in-differences natural experiment. The paper finds positive impacts of broadband on individual- and firm-level employment -- with a bias toward skilled employment -- and on nighttime light emissions. These results largely are not robust to alternative geocoding of survey locations, to correcting for a satellite changeover at end-2009, and to revisiting a definition of the treated zone that has no clear technological basis, is narrower than the spatial resolution of nearly all the data sources, and is empirically suboptimal as a representation of the geography of broadband.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2410.22706",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Graph Signal Processing for Global Stock Market Realized Volatility Forecasting",
+    "abstract": "This paper introduces an innovative realized volatility (RV) forecasting framework that extends the conventional Heterogeneous autoregressive (HAR) model via integrating Graph Signal Processing (GSP). The study first evaluates various constructions of volatility-interrelationship networks by analyzing how the associated graph signal energy tracks global financial market volatility. Volatility spillovers are subsequently embedded into the proposed framework, which employs the graph Fourier transform (GFT) and its inverse to effectively capture global stock market dynamics in both the spectral and spatial domains. The framework not only provides a global context for modeling the volatility interrelationships, but also captures the nonlinearity and directionality of the volatility spillover effect. The empirical study using RV data of $24$ global stock market indices compares short-, mid- and long-term RV forecasts with various HAR-type benchmarks and a graph neural network-based HAR model. The proposed model consistently outperforms all comparators, demonstrating the effectiveness of integrating GSP into the HAR model for RV forecasting.",
+    "categories": "q-fin.GN",
+    "set": "q-fin"
+  },
+  {
+    "id": "2503.15186",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Optimal Data Splitting for Holdout Cross-Validation in Large Covariance Matrix Estimation",
+    "abstract": "Cross-validation is a statistical tool that can be used to improve large covariance matrix estimation. Although its efficiency is observed in practical applications and a convergence result towards the error of the non linear shrinkage is available in the high-dimensional regime, formal proofs that take into account the finite sample size effects are currently lacking. To carry on analytical analysis, we focus on the holdout method, a single iteration of cross-validation, rather than the traditional $k$-fold approach. We derive a closed-form expression for the expected estimation error when the population matrix follows a white inverse Wishart distribution, and we observe the optimal train-test split scales as the square root of the matrix dimension. For general population matrices, we connected the error to the variance of eigenvalues distribution, but approximations are necessary. In this framework and in the high-dimensional asymptotic regime, both the holdout and $k$-fold cross-validation methods converge to the optimal estimator when the train-test ratio scales with the square root of the matrix dimension which is coherent with the existing theory.",
+    "categories": "math.ST q-fin.PM q-fin.RM stat.AP stat.TH",
+    "set": "q-fin"
+  },
+  {
+    "id": "2507.06422",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Trial Length, Pricing, and Rationally Inattentive Customers",
+    "abstract": "The \"free trial\" followed by automatic renewal is a dominant business model in the digital economy. Standard models explain trials as a mechanism for consumers to learn their valuation for a product. We propose a complementary theory based on the rational inattention framework. Consumers know their valuation but face a cognitive cost to remember to cancel an unwanted subscription. We model this using a Shannon entropy-based cost of information processing, where a consumer's baseline attention level decays with the length of the trial period. This creates a novel trade-off for a monopolist firm: a longer trial increases \"inattentive revenue\" from consumers who fail to cancel, but it also lowers ex-ante consumer utility, making the initial offer less attractive. We show that this trade-off leads to an interior optimal trial length, even for products where value-learning is instantaneous. Our model, under standard assumptions about demand elasticity and the distribution of consumer valuations, generates sharp, testable predictions about the relationship between contract terms. We find that the optimal renewal price and trial length are complements: firms offering longer trials will also set higher post-trial prices. We analyze the impact of policies aimed at curbing consumer exploitation, such as \"click-to-cancel\" regulations. We show that such policies, by making attention effectively cheaper, lead firms to reduce trial lengths. The effect on price depends directly on the elasticity of demand from loyal subscribers. We also extend the model to include paid trials, showing that introductory prices and trial lengths act as strategic substitutes. Our framework provides a micro-founded explanation for common features of subscription contracts and offers a new lens through which to evaluate consumer protection policies in digital markets.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2507.20410",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Beyond pay: AI skills reward more job benefits",
+    "abstract": "This study investigates the non-monetary rewards associated with artificial intelligence (AI) skills in the U.S. labour market. Using a dataset of approximately ten million online job vacancies from 2018 to 2024, we identify AI roles-positions requiring at least one AI-related skill-and examine the extent to which these roles offer non-monetary benefits such as tuition assistance, paid leave, health and well-being perks, parental leave, workplace culture enhancements, and remote work options. While previous research has documented substantial wage premiums for AI-related roles due to growing demand and limited talent supply, our study asks whether this demand also translates into enhanced non-monetary compensation. We find that AI roles are significantly more likely to offer such perks, even after controlling for education requirements, industry, and occupation type. It is twice as likely for an AI role to offer parental leave and almost three times more likely to provide remote working options. Moreover, the highest-paying AI roles tend to bundle these benefits, suggesting a compound premium where salary increases coincide with expanded non-monetary rewards. AI roles offering parental leave or health benefits show salaries that are, on average, 12% to 20% higher than AI roles without this benefit. This pattern is particularly pronounced in years and occupations experiencing the highest AI-related demand, pointing to a demand-driven dynamic. Our findings underscore the strong pull of AI talent in the labor market and challenge narratives of technological displacement, highlighting instead how employers compete for scarce talent through both financial and non-financial incentives.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2508.20075",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Predicting Qualification Thresholds in UEFA's incomplete round-robin tournaments",
+    "abstract": "For the 2024/25 season, the Union of European Football Associations (UEFA) introduced an incomplete round-robin format in the Champions League, Europa League, and Conference League, replacing the traditional group stage with a single league table of all 36 teams. Under this structure, the top eight teams advance directly to the round of 16, while those ranked 9th-24th compete in a play-off round. Simulation-based analyses, such as those by commercial data analyst Opta, provide indicative point thresholds for qualification but reveal deviations when compared with actual outcomes in the first season. To overcome these discrepancies, we employ a bivariate Dixon-Coles model that accounts for the lower frequency of draws observed in the 2024/25 UCL season, with team strengths proxied by Elo ratings. This framework enables the simulation of match outcomes and the estimation of qualification thresholds for both direct advancement and play-off participation. Our results provide scientific guidance for clubs and managers, supporting strategic decision-making under uncertainty regarding their progression prospects in the new UEFA club competition formats.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.12874",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Income Disaster, Role of Income Support, and Optimal Retirement",
+    "abstract": "This paper investigates the interactions among consumption/savings, investment, and retirement choices with income disaster. We consider low-income people who are exposed to income disaster so that they retire involuntarily when income disaster occurs. The government provides extra income support to low-income retirees who suffer from significant income gaps. We demonstrate that the decision to enter retirement in the event of income disaster depends crucially on the level of income support. In particular, we quantitatively identify a certain income support level below which the optimal decision is to delay retirement. This implies that availability of the government's extra income support can be particularly important for the low-income people to achieve optimal retirement with income disaster.",
+    "categories": "q-fin.PM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.13323",
+    "created": "2025-08-17",
+    "updated": "2025-09-18",
+    "title": "AI Behavioral Science",
+    "abstract": "We discuss the three main areas comprising the new and emerging field of \"AI Behavioral Science\". This includes not only how AI can enhance research in the behavioral sciences, but also how the behavioral sciences can be used to study and better design AI and to understand how the world will change as AI and humans interact in increasingly layered and complex ways.",
+    "categories": "cs.HC econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.13374",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Valuation of Exotic Options and Counterparty Games Based on Conditional Diffusion",
+    "abstract": "This paper addresses the challenges of pricing exotic options and structured products, which traditional models often fail to handle due to their inability to capture real-world market phenomena like fat-tailed distributions and volatility clustering. We introduce a Diffusion-Conditional Probability Model (DDPM) to generate more realistic price paths. Our method incorporates a composite loss function with financial-specific features, and we propose a P-Q dynamic game framework for evaluating the model's economic value through adversarial backtesting. Static validation shows our P-model effectively matches market mean and volatility. In dynamic games, it demonstrates significantly higher profitability than a traditional Monte Carlo-based model for European and Asian options. However, the model shows limitations in pricing products highly sensitive to extreme events, such as snowballs and accumulators, because it tends to underestimate tail risks. The study concludes that diffusion models hold significant potential for enhancing pricing accuracy, though further research is needed to improve their ability to model extreme market risks.",
+    "categories": "q-fin.PR cs.LG q-fin.RM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.13578",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "In-between Transatlantic (Monetary) Disturbances",
+    "abstract": "This paper studies the spillovers of European Central Bank (ECB) interest rate shocks into the Canadian economy and compares them with those of the U.S. Federal Reserve (Fed). We combine a VAR model and local projection regressions with identification strategies that explicitly purge information effects around policy announcements. We find that an ECB rate hike leads to a depreciation of the Canadian dollar and a sharp contraction in economic activity. The main transmission channel is international trade: ECB shocks trigger a decline in oil prices and exports, while leaving domestic financial conditions largely unaffected. By contrast, Fed shocks tighten Canadian financial conditions significantly, with more limited effects on trade flows. These findings show that Canada is exposed to foreign monetary policy both directly and indirectly, through its integration in global financial and trade markets.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.13623",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Deep Learning in the Sequence Space",
+    "abstract": "We develop a deep learning algorithm for approximating functional rational expectations equilibria of dynamic stochastic economies in the sequence space. We use deep neural networks to parameterize equilibrium objects of the economy as a function of truncated histories of exogenous shocks. We train the neural networks to fulfill all equilibrium conditions along simulated paths of the economy. To illustrate the performance of our method, we solve three economies of increasing complexity: the stochastic growth model, a high-dimensional overlapping generations economy with multiple sources of aggregate risk, and finally an economy where households and firms face uninsurable idiosyncratic risk, shocks to aggregate productivity, and shocks to idiosyncratic and aggregate volatility. Furthermore, we show how to design practical neural policy function architectures that guarantee monotonicity of the predicted policies, facilitating the use of the endogenous grid method to simplify parts of our algorithm.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.13923",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Holdout cross-validation for large non-Gaussian covariance matrix estimation using Weingarten calculus",
+    "abstract": "Cross-validation is one of the most widely used methods for model selection and evaluation; its efficiency for large covariance matrix estimation appears robust in practice, but little is known about the theoretical behavior of its error. In this paper, we derive the expected Frobenius error of the holdout method, a particular cross-validation procedure that involves a single train and test split, for a generic rotationally invariant multiplicative noise model, therefore extending previous results to non-Gaussian data distributions. Our approach involves using the Weingarten calculus and the Ledoit-Péché formula to derive the oracle eigenvalues in the high-dimensional limit. When the population covariance matrix follows an inverse Wishart distribution, we approximate the expected holdout error, first with a linear shrinkage, then with a quadratic shrinkage to approximate the oracle eigenvalues. Under the linear approximation, we find that the optimal train-test split ratio is proportional to the square root of the matrix dimension. Then we compute Monte Carlo simulations of the holdout error for different distributions of the norm of the noise, such as the Gaussian, Student, and Laplace distributions and observe that the quadratic approximation yields a substantial improvement, especially around the optimal train-test split ratio. We also observe that a higher fourth-order moment of the Euclidean norm of the noise vector sharpens the holdout error curve near the optimal split and lowers the ideal train-test ratio, making the choice of the train-test ratio more important when performing the holdout method.",
+    "categories": "q-fin.ST math.ST q-fin.RM stat.ML stat.TH",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14080",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dynamic Inverse Optimization under Drift and Shocks: Theory, Regret Bounds, and Applications",
+    "abstract": "The growing prevalence of drift and shocks in modern decision environments exposes a gap between classical optimization theory and real-world practice. Standard models assume fixed objectives, yet organizations from hospitals to power grids routinely adapt to shifting priorities, noisy data, and abrupt disruptions. To address this gap, this study develops a dynamic inverse optimization framework that recovers hidden, time-varying preferences from observed allocation trajectories. The framework unifies identifiability analysis with regret guarantees conditions are established for existence and uniqueness of recovered parameters, and sharp static and dynamic regret bounds are derived to characterize responsiveness to gradual drift and sudden shocks. Methodologically, a drift-aware estimator grounded in convex analysis and online learning theory is introduced, with finite-sample guarantees on recovery accuracy. Computational experiments in healthcare, energy, logistics, and finance reveal heterogeneous recovery patterns, ranging from rapid resilience to persistent vulnerability. Overall, dynamic inverse optimization emerges as both a theoretical contribution and a broadly applicable diagnostic tool for benchmarking resilience, uncovering hidden behavioral shifts, and guiding policy interventions in complex stochastic systems.",
+    "categories": "q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14102",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Incentivizing High Quality Entrants When Creators Are Strategic",
+    "abstract": "We study how a platform should design early exposure and rewards when creators strategically choose quality before release. A short testing window with a pass/fail bar induces a pass probability, the slope of which is the key sufficient statistic for incentives. We derive three main results. First, a closed-form ``implementability bounty'' can perfectly align creator and platform objectives, correcting for incomplete revenue sharing. Second, front-loading guaranteed impressions is the most effective way to strengthen incentives for a given attention budget. Third, when impression and cash budgets are constrained, the optimal policy follows an equal-marginal-value rule based on the prize spread and certain exposure. We map realistic ranking engines (e.g., Thompson sampling) into the model's parameters and provide telemetry-based estimators. The framework is simple to operationalize and offers a direct, managerially interpretable solution for platforms to solve the creator cold-start problem and cultivate high-quality supply.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14116",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Minimum pricing or volumetric taxation? Quantity, quality and competition effects of price regulations in alcohol markets",
+    "abstract": "Reforming alcohol price regulations in wine-producing countries is challenging, as current price regulations reflect the alignment of cultural preferences with economic interests rather than public health concerns. We evaluate and compare the impact of counterfactual alcohol pricing policies on consumer behaviors, firms, and markets in France. We develop a micro-founded partial equilibrium model that accounts for consumer preferences over purchase volumes across alcohol categories and over product quality within categories, and for firms' strategic price-setting. After calibration on household scanner data, we compare the impacts of replacing current taxes by ethanol-based volumetric taxes with a minimum unit price (MUP) policy of 0.50 Euro per standard drink. The results show that the MUP in addition to the current tax outperforms a tax reform in reducing ethanol purchases (-15% vs. -10% for progressive taxation), especially among heavy drinking households (-17%). The MUP increases the profits of small and medium wine firms (+39%) while decreasing the profits of large manufacturers and retailers (-39%) and maintaining tax revenues stable. The results support the MUP as a targeted strategy to reduce harmful consumption while benefiting small and medium wine producers. This study provides ex-ante evidence that is crucial for alcohol pricing policies in wine-producing countries.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2403.15243",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Robust Utility Optimization via a GAN Approach",
+    "abstract": "Robust utility optimization enables an investor to deal with market uncertainty in a structured way, with the goal of maximizing the worst-case outcome. In this work, we propose a generative adversarial network (GAN) approach to (approximately) solve robust utility optimization problems in general and realistic settings. In particular, we model both the investor and the market by neural networks (NN) and train them in a mini-max zero-sum game. This approach is applicable for any continuous utility function and in realistic market settings with trading costs, where only observable information of the market can be used. A large empirical study shows the versatile usability of our method. Whenever an optimal reference strategy is available, our method performs on par with it and in the (many) settings without known optimal strategy, our method outperforms all other reference strategies. Moreover, we can conclude from our study that the trained path-dependent strategies do not outperform Markovian ones. Lastly, we uncover that our generative approach for learning optimal, (non-) robust investments under trading costs generates universally applicable alternatives to well known asymptotic strategies of idealized settings.",
+    "categories": "q-fin.CP cs.LG q-fin.MF q-fin.PM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2502.17417",
+    "created": "2025-02-24",
+    "updated": "2025-09-19",
+    "title": "Event-Based Limit Order Book Simulation under a Neural Hawkes Process: Application in Market-Making",
+    "abstract": "In this paper, we propose an event-driven Limit Order Book (LOB) model that captures twelve of the most observed LOB events in exchange-based financial markets. To model these events, we propose using the state-of-the-art Neural Hawkes process, a more robust alternative to traditional Hawkes process models. More specifically, this model captures the dynamic relationships between different event types, particularly their long- and short-term interactions, using a Long Short-Term Memory neural network. Using this framework, we construct a midprice process that captures the event-driven behavior of the LOB by simulating high-frequency dynamics like how they appear in real financial markets. The empirical results show that our model captures many of the broader characteristics of the price fluctuations, particularly in terms of their overall volatility. We apply this LOB simulation model within a Deep Reinforcement Learning Market-Making framework, where the trading agent can now complete trade order fills in a manner that closely resembles real-market trade execution. Here, we also compare the results of the simulated model with those from real data, highlighting how the overall performance and the distribution of trade order fills closely align with the same analysis on real data.",
+    "categories": "q-fin.CP q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2505.18297",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "A deep solver for backward stochastic Volterra integral equations",
+    "abstract": "We present the first deep-learning solver for backward stochastic Volterra integral equations (BSVIEs) and their fully-coupled forward-backward variants. The method trains a neural network to approximate the two solution fields in a single stage, avoiding the use of nested time-stepping cycles that limit classical algorithms. For the decoupled case we prove a non-asymptotic error bound composed of an a posteriori residual plus the familiar square root dependence on the time step. Numerical experiments confirm this rate and reveal two key properties: \\emph{scalability}, in the sense that accuracy remains stable from low dimension up to 500 spatial variables while GPU batching keeps wall-clock time nearly constant; and \\emph{generality}, since the same method handles coupled systems whose forward dynamics depend on the backward solution. These results open practical access to a family of high-dimensional, path-dependent problems in stochastic control and quantitative finance.",
+    "categories": "math.NA cs.LG cs.NA math.PR q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2506.09760",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "The Additive Bachelier model with an application to the oil option market in the Covid period",
+    "abstract": "In April 2020, the Chicago Mercantile Exchange temporarily switched the pricing formula for West Texas Intermediate oil market options from the Black model to the Bachelier model. In this context, we introduce an Additive Bachelier model that provides a simple closed-form solution and a good description of the Implied volatility surface. This new Additive model exhibits several notable mathematical and financial properties. It ensures the no-arbitrage condition, a critical requirement in highly volatile markets, while also enabling a parsimonious synthesis of the volatility surface. The model features only three parameters, each one with a clear financial interpretation: the volatility term structure, vol-of-vol, and a parameter for modelling skew. The proposed model supports efficient pricing of path-dependent exotic options via Monte Carlo simulation, using a straightforward and computationally efficient approach. Its calibration process can follow a cascade calibration: first, it accurately replicates the term structures of forwards and At-The-Money volatilities observed in the market; second, it fits the smile of the volatility surface. Overall this model provides a robust and parsimonious description of the oil option market during the exceptionally volatile first period of the Covid-19 pandemic.",
+    "categories": "q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2507.21298",
+    "created": "2025-08-22",
+    "updated": "2025-09-19",
+    "title": "Slomads Rising: Stay Length Shifts in Digital Nomad Travel, United States 2019-2024",
+    "abstract": "Using all U.S. Airbnb reservations created in 2019-2024 (booking-count weighted), we quantify pandemic-era shifts in nights per booking (NPB) and the mechanism behind them. The mean rose from 3.68 pre-COVID to 4.36 during restrictions and stabilized near 4.07 post-2021 (about 10% above 2019); the booking-weighted median moved from 2 to 3 nights. A two-parameter log-normal fits best by wide AIC/BIC margins, indicating heavy tails. A negative-binomial model with month effects implies post-vaccine bookings are 6.5% shorter than restriction-era bookings, while pre-COVID bookings are 16% shorter. In a two-part model at 28 nights, the booking share of month-plus stays rose from 1.43% (pre) to 2.72% (restriction) and settled at 2.04% (post); conditional means among long stays were about 55-60 nights. Thus the higher average reflects more long stays rather than longer long stays. A SARIMA(0,1,1)(0,1,1)12 with pandemic-phase dummies improves fit (LR=8.39, df=2, p=0.015), consistent with a structural level shift.",
+    "categories": "q-fin.ST",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.12558",
+    "created": "2025-09-16",
+    "updated": "2025-09-19",
+    "title": "A Note on Subadditivity of Value at Risks (VaRs): A New Connection to Comonotonicity",
+    "abstract": "In this paper, we provide a new property of value at risk (VaR), which is a standard risk measure that is widely used in quantitative financial risk management. We show that the subadditivity of VaR for given loss random variables holds for any confidence level if and only if those are comonotonic. This result also gives a new equivalent condition for the comonotonicity of random vectors.",
+    "categories": "q-fin.RM math.PR math.ST stat.TH",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14385",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Adaptive and Regime-Aware RL for Portfolio Optimization",
+    "abstract": "This study proposes a regime-aware reinforcement learning framework for long-horizon portfolio optimization. Moving beyond traditional feedforward and GARCH-based models, we design realistic environments where agents dynamically reallocate capital in response to latent macroeconomic regime shifts. Agents receive hybrid observations and are trained using constrained reward functions that incorporate volatility penalties, capital resets, and tail-risk shocks. We benchmark multiple architectures, including PPO, LSTM-based PPO, and Transformer PPO, against classical baselines such as equal-weight and Sharpe-optimized portfolios. Our agents demonstrate robust performance under financial stress. While Transformer PPO achieves the highest risk-adjusted returns, LSTM variants offer a favorable trade-off between interpretability and training cost. The framework promotes regime-adaptive, explainable reinforcement learning for dynamic asset allocation.",
+    "categories": "q-fin.PM q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14401",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Predictive Performance of LSTM Networks on Sectoral Stocks in an Emerging Market: A Case Study of the Pakistan Stock Exchange",
+    "abstract": "The application of deep learning models for stock price forecasting in emerging markets remains underexplored despite their potential to capture complex temporal dependencies. This study develops and evaluates a Long Short-Term Memory (LSTM) network model for predicting the closing prices of ten major stocks across diverse sectors of the Pakistan Stock Exchange (PSX). Utilizing historical OHLCV data and an extensive set of engineered technical indicators, we trained and validated the model on a multi-year dataset. Our results demonstrate strong predictive performance ($R^2 > 0.87$) for stocks in stable, high-liquidity sectors such as power generation, cement, and fertilizers. Conversely, stocks characterized by high volatility, low liquidity, or sensitivity to external shocks (e.g., global oil prices) presented significant forecasting challenges. The study provides a replicable framework for LSTM-based forecasting in data-scarce emerging markets and discusses implications for investors and future research.",
+    "categories": "q-fin.TR",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14422",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Aggregating Epigenetic Clocks to Study Human Capital Formation",
+    "abstract": "Epigenetics is the study of how people's behavior and environments influence the way their genes are expressed, even though their DNA sequence is itself unchanged. By aggregating age-related epigenetic markers, epigenetic 'clocks' have become the leading tool for studying biological aging. We make an important contribution by developing a novel, integrated measure of epigenetic aging--the Multi EpiGenetic Age (MEGA) clock--which combines several existing epigenetic clocks to reduce measurement error and improve estimation efficiency. We use the MEGA clock in three empirical contexts to show that: i) accelerated epigenetic aging in adolescence is associated with worse educational, mental-health, and labor market outcomes in early adulthood; ii) exposure to child maltreatment before adolescence is associated with half a year higher epigenetic aging; and iii) that entering school one year later accelerates epigenetic aging by age seven, particularly among disadvantaged children. The MEGA clock is robust to alternative methods for constructing it, providing a flexible and interpretable approach for incorporating epigenetic data into a wide variety of settings.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14529",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Unbiased Rough Integrators and No Free Lunch in Rough-Path-Based Market Models",
+    "abstract": "Built to generalise classical stochastic calculus, rough path theory provides a natural and pathwise framework to model continuous non-semimartingale assets. This paper investigates the ultimate capacity of this framework to support frictionless continuous No-Free-Lunch markets à la Kreps-Yan. We establish a ``Rough Kreps-Yan\" theorem, which links our No Controlled Free Lunch (NCFL) condition to the unbiasedness of the driver of the price process as a rough integrator. The central work of this paper is a complete classification of these unbiased rough integrators with respect to different classes of controlled paths as integrands. As the set of admissible trading strategies is enlarged to include Markovian-type and signature-type portfolios, the only admissible random rough paths must be infinitesimally close to the Itô rough path lift of a standard Brownian motion, up to a time change. In particular, Gaussianity is no longer a model assumption, but rather a no-arbitrage market consequence. Notably, simple strategies do not appear in the theory, and if they are then reintroduced, the rough noise is further enforced to be the Itô rough path of Brownian motion itself. Ultimately, this implies that continuous frictionless markets based on rough path theory are inevitably constrained to the semimartingale paradigm, providing a definitive answer on the limits of this approach. Our framework covers $α-$Hölder continuous rough paths for $α>0$ arbitrarily small.",
+    "categories": "q-fin.MF math.PR",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14532",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Leveraging Artificial Intelligence as a Strategic Growth Catalyst for Small and Medium-sized Enterprises",
+    "abstract": "Artificial Intelligence (AI) has transitioned from a futuristic concept reserved for large corporations to a present-day, accessible, and essential growth lever for Small and Medium-sized Enterprises (SMEs). For entrepreneurs and business leaders, strategic AI adoption is no longer an option but an imperative for competitiveness, operational efficiency, and long-term survival. This report provides a comprehensive framework for SME leaders to navigate this technological shift, offering the foundational knowledge, business case, practical applications, and strategic guidance necessary to harness the power of AI. The quantitative evidence supporting AI adoption is compelling; 91% of SMEs using AI report that it directly boosts their revenue. Beyond top-line growth, AI drives profound operational efficiencies, with studies showing it can reduce operational costs by up to 30% and save businesses more than 20 hours of valuable time each month. This transformation is occurring within the context of a seismic economic shift; the global AI market is projected to surge from $233.46 Billion in 2024 to an astonishing $1.77 Trillion by 2032. This paper demystifies the core concepts of AI, presents a business case based on market data, details practical applications, and lays out a phased, actionable adoption strategy.",
+    "categories": "cs.CY cs.AI econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.14645",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Are Final Market Prices Sufficient for Information Aggregation? Evidence from Last-Minute Dynamics in Parimutuel Betting",
+    "abstract": "Most betting market models employ static frameworks that condition decisions on final odds. Using a unique dataset of interim odds from Japanese horse racing, this study examines the validity of such static analyses by asking whether there is a systematic relationship between expected returns and the trajectory of odds. We find that returns are negatively related to last-minute changes in odds, and that these late movements attenuate the favorite-longshot bias by weakening the correlation between final odds and returns. These patterns suggest that informed bettors place wagers at the final stage based on private signals, leaving surprises in final odds.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2212.13638",
+    "created": "2023-09-15",
+    "updated": "2025-09-22",
+    "title": "Battling the Coronavirus Infodemic Among Social Media Users in Kenya and Nigeria",
+    "abstract": "How can we induce social media users to be discerning when sharing information during a pandemic? An experiment on Facebook Messenger with users from Kenya (n = 7,498) and Nigeria (n = 7,794) tested interventions designed to decrease intentions to share COVID-19 misinformation without decreasing intentions to share factual posts. The initial stage of the study incorporated: (i) a factorial design with 40 intervention combinations; and (ii) a contextual adaptive design, increasing the probability of assignment to treatments that worked better for previous subjects with similar characteristics. The second stage evaluated the best-performing treatments and a targeted treatment assignment policy estimated from the data. We precisely estimate null effects from warning flags and related article suggestions, tactics used by social media platforms. However, nudges to consider information's accuracy reduced misinformation sharing relative to control by 4.9% (estimate = -2.3 pp, s.e. = 1.0 , Z = -2.31, p = 0.021, 95% CI = [-4.2 , -0.35]). Such low-cost scalable interventions may improve the quality of information circulating online.",
+    "categories": "cs.SI econ.GN q-fin.EC stat.AP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2406.11426",
+    "created": "2024-06-17",
+    "updated": "2025-09-22",
+    "title": "Can AI with High Reasoning Ability Replicate Human-like Decision Making in Economic Experiments?",
+    "abstract": "Economic experiments offer a controlled setting for researchers to observe human decision-making and test diverse theories and hypotheses; however, substantial costs and efforts are incurred to gather many individuals as experimental participants. To address this, with the development of large language models (LLMs), some researchers have recently attempted to develop simulated economic experiments using LLMs-driven agents, called generative agents. If generative agents can replicate human-like decision-making in economic experiments, the cost problem of economic experiments can be alleviated. However, such a simulation framework has not been yet established. Considering the previous research and the current evolutionary stage of LLMs, this study focuses on the reasoning ability of generative agents as a key factor toward establishing a framework for such a new methodology. A multi-agent simulation, designed to improve the reasoning ability of generative agents through prompting methods, was developed to reproduce the result of an actual economic experiment on the ultimatum game. The results demonstrated that the higher the reasoning ability of the agents, the closer the results were to the theoretical solution than to the real experimental result. The results also suggest that setting the personas of the generative agents may be important for reproducing the results of real economic experiments. These findings are valuable for the future definition of a framework for replacing human participants with generative agents in economic experiments when LLMs are further developed.",
+    "categories": "cs.GT econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2501.06275",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Exploratory Randomization for Discrete-Time Linear Exponential Quadratic Gaussian (LEQG) Problem",
+    "abstract": "We investigate exploratory randomization for an extended linear-exponential-quadratic-Gaussian (LEQG) control problem in discrete time. This extended control problem is related to the structure of risk-sensitive investment management applications. We introduce exploration through a randomization of the control. Next, we apply the duality between free energy and relative entropy to reduce the LEQG problem to an equivalent risk-neutral LQG control problem with an entropy regularization term, see, e.g. Dai Pra et al. (1996), for which we present a solution approach based on Dynamic Programming. Our approach, based on the energy-entropy duality may also be considered as leading to a justification for the use, in the literature, of an entropy regularization when applying a randomized control.",
+    "categories": "math.OC q-fin.PM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2505.05275",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "How General Are Measures of Choice Consistency? Evidence from Experimental and Scanner Data",
+    "abstract": "Choice consistency with utility maximization, as a key assumption in economics, has been extensively used to evaluate decision quality of individuals and to predict real-world outcomes across different contexts. Here we investigate the generalizability of consistency measures derived from budgetary decisions in the lab-in-the-field experiment and purchasing decisions using supermarket scanner data. In the first study, we observe a lack of correlation between consistency scores derived from risky decisions in the experiment and those from supermarket food purchasing decisions. In the second study, we observe moderate correlations between experimental tasks and low to moderate correlations across purchasing categories and over time periods within the supermarket. Moreover, consistency in the two settings exhibits distinct predictive validity in predicting consumer behavior. These results suggest that choice consistency, as a measure of decision quality, may be better characterized as a multidimensional skill set rather than a single-dimensional ability.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2506.10480",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Getting Explicit Instruction Right",
+    "abstract": "There has been substantial public debate about the potentially deleterious effects of the long-run move to ``inquiry-based learning'' in which students are placed at the center of an educational journey and arrive at their own understanding of what is being taught. There have been numerous calls for a return to ``direct'' or ``explicit'' instruction. This paper focuses on identifying the causal effect of correctly implementing explicit instruction on student performance in standardized tests. We utilise a unique setting in Australia\\textemdash a country in which all students in grades 3, 5, 7, and 9 undergo annual basic skills tests (``NAPLAN''). We use a synthetic control approach to study the effect of introducing Explicit Instruction in Charlestown South Public School\\textemdash a median-performing school\\textemdash on Year-3 and Year-5 NAPLAN scores in Reading and Numeracy. Importantly, this is achieved via peer modelling, with Charlestown teaching staff sitting-in during the classes of a high-performing explicit-instruction school. We find that the performance gains are substantial and persistent. JEL: I20, I21. Keywords: Education, Explicit Instruction, Pedagogy.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2507.20474",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "MountainLion: A Multi-Modal LLM-Based Agent System for Interpretable and Adaptive Financial Trading",
+    "abstract": "Cryptocurrency trading is a challenging task requiring the integration of heterogeneous data from multiple modalities. Traditional deep learning and reinforcement learning approaches typically demand large training datasets and encode diverse inputs into numerical representations, often at the cost of interpretability. Recent progress in large language model (LLM)-based agents has demonstrated the capacity to process multi-modal data and support complex investment decision-making. Building on these advances, we present \\textbf{MountainLion}, a multi-modal, multi-agent system for financial trading that coordinates specialized LLM-based agents to interpret financial data and generate investment strategies. MountainLion processes textual news, candlestick charts, and trading signal charts to produce high-quality financial reports, while also enabling modification of reports and investment recommendations through data-driven user interaction and question answering. A central reflection module analyzes historical trading signals and outcomes to continuously refine decision processes, and the system is capable of real-time report analysis, summarization, and dynamic adjustment of investment strategies. Empirical results confirm that MountainLion systematically enriches technical price triggers with contextual macroeconomic and capital flow signals, providing a more interpretable, robust, and actionable investment framework that improves returns and strengthens investor confidence.",
+    "categories": "q-fin.TR cs.CL cs.LG",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15232",
+    "created": "2025-09-10",
+    "updated": "2025-09-22",
+    "title": "Community-level Contagion among Diverse Financial Assets",
+    "abstract": "As global financial markets become increasingly interconnected, financial contagion has developed into a major influencer of asset price dynamics. Motivated by this context, our study explores financial contagion both within and between asset communities. We contribute to the literature by examining the contagion phenomenon at the community level rather than among individual assets. Our experiments rely on high-frequency data comprising cryptocurrencies, stocks and US ETFs over the 4-year period from April 2019 to May 2023. Using the Louvain community detection algorithm, Vector Autoregression contagion detection model and Tracy-Widom random matrix theory for noise removal from financial assets, we present three main findings. Firstly, while the magnitude of contagion remains relatively stable over time, contagion density (the percentage of asset pairs exhibiting contagion within a financial system) increases. This suggests that market uncertainty is better characterized by the transmission of shocks more broadly than by the strength of any single spillover. Secondly, there is no significant difference between intra- and inter-community contagion, indicating that contagion is a system-wide phenomenon rather than being confined to specific asset groups. Lastly, certain communities themselves, especially those dominated by Information Technology assets, consistently appear to act as major contagion transmitters in the financial network over the examined period, spreading shocks with high densities to many other communities. Our findings suggest that traditional risk management strategies such as portfolio diversification through investing in low-correlated assets or different types of investment vehicle might be insufficient due to widespread contagion.",
+    "categories": "physics.soc-ph q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15265",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "AI and jobs. A review of theory, estimates, and evidence",
+    "abstract": "Generative AI is altering work processes, task composition, and organizational design, yet its effects on employment and the macroeconomy remain unresolved. In this review, we synthesize theory and empirical evidence at three levels. First, we trace the evolution from aggregate production frameworks to task- and expertise-based models. Second, we quantitatively review and compare (ex-ante) AI exposure measures of occupations from multiple studies and find convergence towards high-wage jobs. Third, we assemble ex-post evidence of AI's impact on employment from randomized controlled trials (RCTs), field experiments, and digital trace data (e.g., online labor platforms, software repositories), complemented by partial coverage of surveys. Across the reviewed studies, productivity gains are sizable but context-dependent: on the order of 20 to 60 percent in controlled RCTs, and 15 to 30 percent in field experiments. Novice workers tend to benefit more from LLMs in simple tasks. Across complex tasks, evidence is mixed on whether low or high-skilled workers benefit more. Digital trace data show substitution between humans and machines in writing and translation alongside rising demand for AI, with mild evidence of declining demand for novice workers. A more substantial decrease in demand for novice jobs across AI complementary work emerges from recent studies using surveys, platform payment records, or administrative data. Research gaps include the focus on simple tasks in experiments, the limited diversity of LLMs studied, and technology-centric AI exposure measures that overlook adoption dynamics and whether exposure translates into substitution, productivity gains, erode or increase expertise.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15284",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "A moderate share of V2G outperforms large-scale smart charging of electric vehicles and benefits other consumers",
+    "abstract": "While battery electric vehicles (BEVs) play a key role for decarbonizing the transport sector, their impact on the power sector heavily depends on their charging strategies. Here we systematically analyze various combinations between inflexible, smart and bidirectional (or vehicle-to-grid, V2G) charging of 15 million electric cars in Germany. Using a capacity expansion model, we find that even a moderate share of bidirectional charging below 30% leads to lower system costs than a fully smartly charging BEV fleet. At a V2G share of 50%, costs are even lower than in a system without any BEVs. This means that the flexibility effect of half of the BEV fleet charging bidirectionally outweighs the demand effect of the whole BEV fleet. We show how costs savings are driven by the ability of V2G to serve demand, especially during hours with high residual load. We also explore the distributional effects of respective electricity price changes. While V2G car owners internalize a substantial share of overall cost savings, the benefits increasingly spill over to other electricity consumers as the share of bidirectional charging grows. We conclude that policymakers should focus on enabling a moderate fleet share of V2G rather than on enabling every car to charge smartly.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15343",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Poverty and Perceptions of Electoral Integrity in the U.S",
+    "abstract": "We propose two opposing forces that impact the relation between electoral integrity and poverty. On the one hand, it is more costly to provide electoral integrity in states where there is more poverty due to transaction costs and opportunity costs. On the other hand, extreme levels of poverty attract media scrutiny and greater external monitoring of electoral integrity, giving rise to more demand for electoral integrity. Taken together, we expect electoral integrity to be a U-shaped function of poverty. We also hypothesize that electoral integrity will vary depending on the strength of state electoral laws. Expert-level survey data on electoral integrity from the 2016 U.S. Presidential election and the 2018 U.S. congressional election, in combination with U.S. state-level data on poverty are strongly consistent with these predictions.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15510",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "The (Short-Term) Effects of Large Language Models on Unemployment and Earnings",
+    "abstract": "Large Language Models have spread rapidly since the release of ChatGPT in late 2022, accompanied by claims of major productivity gains but also concerns about job displacement. This paper examines the short-run labor market effects of LLM adoption by comparing earnings and unemployment across occupations with differing levels of exposure to these technologies. Using a Synthetic Difference in Differences approach, we estimate the impact of LLM exposure on earnings and unemployment. Our findings show that workers in highly exposed occupations experienced earnings increases following ChatGPT's introduction, while unemployment rates remained unchanged. These results suggest that initial labor market adjustments to LLMs operate primarily through earnings rather than worker reallocation.",
+    "categories": "econ.GN cs.AI cs.CY q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15752",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "An extended CIR process with stochastic discontinuities",
+    "abstract": "We study an extension of the Cox-Ingersoll-Ross (CIR) process that incorporates jumps at deterministic dates, referred to as stochastic discontinuities. Our main motivation stems from short-rate modelling in the context of overnight rates, which often exhibit jumps at predetermined dates corresponding to central bank meetings. We provide a formal definition of a CIR process with stochastic discontinuities, where the jump sizes depend on the pre-jump state, thereby allowing for both upwarrd and downward movements as well as potential autocorrelation among jumps. Under mild assumptions, we establish existence of such a process and identify sufficient and necessary conditions under which the process inherits the affine property of its continuous counterpart. We illustrate our results with practical examples that generate both upward and downward jumps while preserving the affine property and non-negativity. In particular, we show that a stochastically discontinuous CIR process can be constructed by applying a determinisitic cadlag time-change of a classical CIR process. Finally, we further enrich the affine framework by characterizing conditions that ensure infinite divisibility of the extended CIR process.",
+    "categories": "math.PR q-fin.MF q-fin.PR",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.15885",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "The Impact of AI Adoption on Retail Across Countries and Industries",
+    "abstract": "This study investigates the impact of artificial intelligence (AI) adoption on job loss rates using the Global AI Content Impact Dataset (2020--2025). The panel comprises 200 industry-country-year observations across Australia, China, France, Japan, and the United Kingdom in ten industries. A three-stage ordinary least squares (OLS) framework is applied. First, a full-sample regression finds no significant linear association between AI adoption rate and job loss rate ($β\\approx -0.0026$, $p = 0.949$). Second, industry-specific regressions identify the marketing and retail sectors as closest to significance. Third, interaction-term models quantify marginal effects in those two sectors, revealing a significant retail interaction effect ($-0.138$, $p < 0.05$), showing that higher AI adoption is linked to lower job loss in retail. These findings extend empirical evidence on AI's labor market impact, emphasize AI's productivity-enhancing role in retail, and support targeted policy measures such as intelligent replenishment systems and cashierless checkout implementations.",
+    "categories": "econ.GN cs.CY q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16052",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "How Exclusive are Ethereum Transactions? Evidence from non-winning blocks",
+    "abstract": "We analyze 15,097 blocks proposed for inclusion in Ethereum's blockchain over an 8-minute window on December 3, 2024, during which 38 blocks were added to the chain. We classify transactions as exclusive -- present only in blocks from a single builder -- or private -- absent from the public mempool but included in blocks from multiple builders. We find that exclusive transactions account for 84% of the total fees paid by transactions in winning blocks. Furthermore, we show that exclusivity cannot be fully explained by exclusive relationships between senders and builders: about 7% of all exclusive transactions included on-chain, by value, come from senders who route exclusively to a single builder. Analyzing transaction logs shows that some exclusive transactions are duplicates or variations of the same strategy, but even accounting for that, the share of the total fees paid by transactions in winning blocks is at least 77.2%. Taken together, our findings highlight that exclusive transactions are the dominant source of builder revenues.",
+    "categories": "cs.CR cs.DC econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16137",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Enhancing OHLC Data with Timing Features: A Machine Learning Evaluation",
+    "abstract": "OHLC bar data is a widely used format for representing financial asset prices over time due to its balance of simplicity and informativeness. Bloomberg has recently introduced a new bar data product that includes additional timing information-specifically, the timestamps of the open, high, low, and close prices within each bar. In this paper, we investigate the impact of incorporating this timing data into machine learning models for predicting volume-weighted average price (VWAP). Our experiments show that including these features consistently improves predictive performance across multiple ML architectures. We observe gains across several key metrics, including log-likelihood, mean squared error (MSE), $R^2$, conditional variance estimation, and directional accuracy.",
+    "categories": "q-fin.ST",
+    "set": "q-fin"
+  },
+  {
+    "id": "2105.07213",
+    "created": "2021-05-15",
+    "updated": "2025-09-23",
+    "title": "Stationary Discounted and Ergodic Mean Field Games of Singular Control",
+    "abstract": "We study stationary mean field games with singular controls in which the representative player interacts with a long-time weighted average of the population through a discounted and an ergodic performance criterion. This class of games finds natural applications in the context of optimal productivity expansion in dynamic oligopolies. We prove existence and uniqueness of the mean field equilibria, which are completely characterized through nonlinear equations. Furthermore, we relate the mean field equilibria for the discounted and the ergodic games by showing the validity of an Abelian limit. The latter allows also to approximate Nash equilibria of - so far unexplored - symmetric N-player ergodic singular control games through the mean field equilibrium of the discounted game. Numerical examples finally illustrate in a case study the dependency of the mean field equilibria with respect to the parameters of the games.",
+    "categories": "math.OC q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2212.04394",
+    "created": "2023-09-25",
+    "updated": "2025-09-23",
+    "title": "Optimal investment under partial information and robust VaR-type constraint",
+    "abstract": "This paper extends the utility maximization literature by combining partial information and (robust) regulatory constraints. Partial information is characterized by the fact that the stock price itself is observable by the optimizing financial institution, but the outcome of the market price of the risk $θ$ is unknown to the institution. The regulator develops either a congruent or distinct perception of the market price of risk in comparison to the financial institution when imposing the Value-at-Risk (VaR) constraint. We also discuss a robust VaR constraint in which the regulator uses a worst-case measure. The solution to our optimization problem takes the same form as in the full information case: optimal wealth can be expressed as a decreasing function of state price density. The optimal wealth is equal to the minimum regulatory financing requirement in the intermediate economic states. The key distinction lies in the fact that the price density in the final state depends on the overall evolution of the estimated market price of risk, denoted as $\\hatθ(s)$ or that the upper boundary of the intermediate region exhibits stochastic behavior.",
+    "categories": "q-fin.RM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2303.14486",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Exposure to World War II and Its Labor Market Consequences over the Life Cycle",
+    "abstract": "With 70 million dead, World War II remains the most devastating conflict in history. Among the survivors, millions were displaced, returned maimed from the battlefield, or endured years of captivity. We examine the effects of such war exposures on labor market careers, showing that they often become apparent only at certain life stages. While war injuries reduced employment in old age, former prisoners of war prolonged their time in the workforce before retiring. Many displaced workers, especially women, never returned to employment. These responses align with standard life-cycle theory and thus likely hold relevance for other conflicts.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2308.00016",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment",
+    "abstract": "One of the most important tasks in quantitative investment research is mining new alphas (effective trading signals or factors). Traditional alpha mining methods, either hand-crafted factor synthesizing or algorithmic factor mining (e.g., search with genetic programming), have inherent limitations, especially in implementing the ideas of quants. In this work, we propose a new alpha mining paradigm by introducing human-AI interaction, and a novel prompt engineering algorithmic framework to implement this paradigm by leveraging the power of large language models. Moreover, we develop Alpha-GPT, a new interactive alpha mining system framework that provides a heuristic way to ``understand'' the ideas of quant researchers and outputs creative, insightful, and effective alphas. We demonstrate the effectiveness and advantage of Alpha-GPT via a number of alpha mining experiments.",
+    "categories": "q-fin.CP cs.AI cs.CL",
+    "set": "q-fin"
+  },
+  {
+    "id": "2310.02163",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Navigating Uncertainty in ESG Investing",
+    "abstract": "The widespread confusion among investors regarding Environmental, Social, and Governance (ESG) rankings assigned by rating agencies has underscored a critical issue in sustainable investing. To address this uncertainty, our research has devised methods that not only recognize this ambiguity but also offer tailored investment strategies for different investor profiles. By developing ESG ensemble strategies and integrating ESG scores into a Reinforcement Learning (RL) model, we aim to optimize portfolios that cater to both financial returns and ESG-focused outcomes. Additionally, by proposing the Double-Mean-Variance model, we classify three types of investors based on their risk preferences. We also introduce ESG-adjusted Capital Asset Pricing Models (CAPMs) to assess the performance of these optimized portfolios. Ultimately, our comprehensive approach provides investors with tools to navigate the inherent ambiguities of ESG ratings, facilitating more informed investment decisions.",
+    "categories": "q-fin.PM q-fin.ST",
+    "set": "q-fin"
+  },
+  {
+    "id": "2311.06896",
+    "created": "2023-11-12",
+    "updated": "2025-09-23",
+    "title": "Markov Decision Processes with Risk-Sensitive Criteria: An Overview",
+    "abstract": "The paper provides an overview of the theory and applications of risk-sensitive Markov decision processes. The term 'risk-sensitive' refers here to the use of the Optimized Certainty Equivalent as a means to measure expectation and risk. This comprises the well-known entropic risk measure and Conditional Value-at-Risk. We restrict our considerations to stationary problems with an infinite time horizon. Conditions are given under which optimal policies exist and solution procedures are explained. We present both the theory when the Optimized Certainty Equivalent is applied recursively as well as the case where it is applied to the cumulated reward. Discounted as well as non-discounted models are reviewed",
+    "categories": "q-fin.RM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2311.14320",
+    "created": "2025-09-21",
+    "updated": "2025-09-23",
+    "title": "Risk-coping Behaviors in Metropolis: Evidence from Working-class Households in Prewar Tokyo",
+    "abstract": "I analyze the risk-coping strategies of factory-worker households in early twentieth-century Tokyo. I digitized a unique daily longitudinal household budget survey conducted in Tsukishima, a representative manufacturing area, to examine how consumption was affected by idiosyncratic shocks. I find that although the households were vulnerable and their consumption levels were impacted by these shocks, the estimated income elasticity of indispensable consumption was relatively low in the short run. The results of the mechanism analysis suggest that credit purchases from local retailers helped smooth short-run consumption, highlighting the role of informal credit institutions in mitigating vulnerability among urban worker households.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2401.08064",
+    "created": "2025-09-19",
+    "updated": "2025-09-23",
+    "title": "A mechanistic model of trust based on neural information processing",
+    "abstract": "Trust is central to human social interactions, manifesting in actions that make one vulnerable to another. We argue that trust will thus depend on the decision-making processes that arise in neural systems. Building on advances in the cognitive neuroscience of decision making, we propose a mechanistic model of trust arising from multiple parallel systems that perform distinct, complementary information processing. Because each system learns via different mechanisms, trust can be created (or destroyed) in multiple ways. This systems-level taxonomy of information representations provides a principled basis for differentiating forms of trust, linking them to specific learning processes, and generating testable predictions about their expression in behavior. By situating trust within a broader theory of neural decision systems, our account unifies diverse findings across psychology, neuroscience, and the social sciences, and offers a foundation for explaining how humans develop, maintain, and repair trust in a complex social world.",
+    "categories": "econ.GN cs.HC q-bio.NC q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2409.10096",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Robust Reinforcement Learning with Dynamic Distortion Risk Measures",
+    "abstract": "In a reinforcement learning (RL) setting, the agent's optimal strategy heavily depends on her risk preferences and the underlying model dynamics of the training environment. These two aspects influence the agent's ability to make well-informed and time-consistent decisions when facing testing environments. In this work, we devise a framework to solve robust risk-aware RL problems where we simultaneously account for environmental uncertainty and risk with a class of dynamic robust distortion risk measures. Robustness is introduced by considering all models within a Wasserstein ball around a reference model. We estimate such dynamic robust risk measures using neural networks by making use of strictly consistent scoring functions, derive policy gradient formulae using the quantile representation of distortion risk measures, and construct an actor-critic algorithm to solve this class of robust risk-aware RL problems. We demonstrate the performance of our algorithm on a portfolio allocation example.",
+    "categories": "cs.LG q-fin.CP q-fin.PM q-fin.RM stat.ML",
+    "set": "q-fin"
+  },
+  {
+    "id": "2410.17154",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Estimating Spillovers from Sampled Connections",
+    "abstract": "Empirical researchers often estimate spillover effects by fitting linear or non-linear regression models to sampled network data. We show that common sampling schemes bias these estimates, potentially upwards, and derive biased-corrected estimators that researchers can construct from aggregate network statistics. Our results apply under different assumptions on the relationship between observed and unobserved links, allow researchers to bound true effect sizes, and to determine robustness to mismeasured links. As an application, we estimate the propagation of climate shocks between U.S. public firms from self-reported supply links, building a new dataset of county-level incidence of large climate shocks.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2501.12600",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Pontryagin-Guided Deep Policy Learning for Constrained Dynamic Portfolio Choice",
+    "abstract": "We present a Pontryagin-Guided Direct Policy Optimization (PG-DPO) framework for \\emph{constrained} continuous-time portfolio--consumption problems that scales to hundreds of assets. The method couples neural policies with Pontryagin's Maximum Principle and enforces feasibility via a lightweight log-barrier stagewise solve; a \\emph{manifold-projection} variant (P--PGDPO) projects controls onto the PMP/KKT manifold using stabilized adjoints. We prove a barrier--KKT correspondence with $O(ε)$ policy error and $O(ε^2)$ instantaneous Hamiltonian gap, and extend the BPTT--PMP match to constrained settings. On short-sale (nonnegativity, floating cash) and wealth-proportional consumption caps, P--PGDPO reduces risky-weight errors by orders of magnitude versus baseline PG-DPO, while the one-dimensional consumption control shows smaller but consistent gains near binding caps. The approach remains effective when closed-form benchmarks are unavailable, and is readily extensible to transaction costs and interacting limits -- promising even greater benefits under time-varying investment opportunities where classical solutions are scarce.",
+    "categories": "q-fin.PM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2502.08613",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "The Relative Entropy of Expectation and Price",
+    "abstract": "As operators acting on the undetermined final settlement of a derivative security, expectation is linear but price is non-linear. When the market of underlying securities is incomplete, non-linearity emerges from the bid-offer around the mid price that accounts for the residual risks of the optimal funding and hedging strategy. At the extremes, non-linearity also arises from the embedded options on capital that are exercised upon default. In this essay, these convexities are quantified in an entropic risk metric that evaluates the strategic risks, which is realised as a cost with the introduction of bilateral margin. Price is then adjusted for market incompleteness and the risk of default caused by the exhaustion of capital.\n  In the complete market theory, price is derived from a martingale condition. In the incomplete market theory presented here, price is instead derived from a log-martingale condition: \\begin{equation} p=-\\frac{1}α\\log\\mathbb{E}\\exp[-αP] \\notag \\end{equation} for the price $p$ and payoff $P$ of a funded and hedged derivative security, where the price measure $\\mathbb{E}$ has minimum entropy relative to economic expectations, and the parameter $α$ matches the risk aversion of the investor. This price principle is easily applied to standard models for market evolution, with applications considered here in model risk analysis, deep hedging and quantum information.",
+    "categories": "q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2503.15443",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students",
+    "abstract": "Elites disproportionately influence policymaking, yet little is known about their fairness and efficiency preferences -- key determinants of support for redistributive policies. We investigate these preferences in an incentivized lab experiment with a group of future elites -- Ivy League MBA students. We find that MBA students implement substantially more unequal earnings distributions than the average American, regardless of whether inequality stems from luck or merit. Their redistributive choices are also highly responsive to efficiency costs, with an effect that is an order of magnitude larger than that found in representative U.S. samples. Analyzing fairness ideals, we find that MBA students are less likely to be strict meritocrats than the broader population. These findings provide novel insights into how elites' redistributive preferences may shape high levels of inequality in the U.S.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2506.12976",
+    "created": "2025-09-21",
+    "updated": "2025-09-23",
+    "title": "Does Medicaid Expansion Lead to Income Adjustment? Evidence from the Survey of Income Program Participation",
+    "abstract": "Using monthly Survey of Income Program Participation (SIPP) data and a regression discontinuity (RD) design at the 138 percent Federal Poverty Line (FPL) threshold, this paper shows that childless adults in Medicaid expansion states lowered their lowest monthly earnings by about 39 FPL percentage points, equal to 700 dollars in 2025 for a two person household, to qualify for Medicaid. The response was largest when the individual mandate penalty was in effect and declined after the penalty was reduced to zero in 2019. Evidence from zero earnings months and hours worked indicates adjustments along both extensive and intensive margins. These results validate lowest monthly earnings as a practical eligibility measure and provide new evidence of substantial labor supply responses to the Affordable Care Act Medicaid notch.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2508.10585",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Racial bias, colorism, and overcorrection",
+    "abstract": "This paper examines whether increased awareness can affect racial bias and colorism. We exploit a natural experiment from the widespread publicity of Price and Wolfers (2010), which intensified scrutiny of racial bias in men's basketball officiating. We investigate refereeing decisions in the Women's National Basketball Association (WNBA), an organization with a long-standing commitment to diversity, equity, and inclusion (DEI). We apply machine learning techniques to predict player race and to measure skin tone. Our empirical strategy exploits the quasi-random assignment of referees to games, combined with high-dimensional fixed effects, to estimate the relationship between referee-player racial and skin tone compositions and foul-calling behavior. We find no racial bias before the intense media coverage. However, we find evidence of overcorrection, whereby a player receives fewer fouls when facing more referees from the opposite race and skin tone. This overcorrection wears off over time, returning to zero-bias levels. We highlight the need to consider baseline levels of bias before applying any prescription with direct relevance to policymakers and organizations given the recent discourse on DEI.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.10586",
+    "created": "2025-09-21",
+    "updated": "2025-09-23",
+    "title": "Stabilising Lifetime PD Models under Forecast Uncertainty",
+    "abstract": "Estimating lifetime probabilities of default (PDs) under IFRS~9 and CECL requires projecting point--in--time transition matrices over multiple years. A persistent weakness is that macroeconomic forecast errors compound across horizons, producing unstable and volatile PD term structures. This paper reformulates the problem in a state--space framework and shows that a direct Kalman filter leaves non--vanishing variability. We then introduce an anchored observation model, which incorporates a neutral long--run economic state into the filter. The resulting error dynamics exhibit asymptotic stochastic stability, ensuring convergence in probability of the lifetime PD term structure. Simulation on a synthetic corporate portfolio confirms that anchoring reduces forecast noise and delivers smoother, more interpretable projections.",
+    "categories": "q-fin.RM cs.SY eess.SY",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16655",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Incentives and Outcomes in Bug Bounties",
+    "abstract": "Bug bounty programs have contributed significantly to security in technology firms in the last decade, but little is known about the role of reward incentives in producing useful outcomes. We analyze incentives and outcomes in Google's Vulnerability Rewards Program (VRP), one of the world's largest bug bounty programs. We analyze the responsiveness of the quality and quantity of bugs received to changes in payments, focusing on a change in Google's reward amounts posted in July, 2024, in which reward amounts increased by up to 200% for the highest impact tier. Our empirical results show an increase in the volume of high-value bugs received after the reward increase, for which we also compute elasticities. We further break down the sources of this increase between veteran researchers and new researchers, showing that the reward increase both redirected the attention of veteran researchers and attracted new top security researchers into the program.",
+    "categories": "cs.SE cs.CR econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16734",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Multigenerational Inequality",
+    "abstract": "A growing literature provides evidence on multigenerational inequality -- the extent to which socio-economic advantages persist across three or more generations. This chapter reviews its main findings and implications. Most studies find that inequality is more persistent than a naive iteration of conventional parent-child correlations would suggest. We discuss potential interpretations of this new ``fact'' related to (i) latent, (ii) non-Markovian or (iii) non-linear transmission processes, empirical strategies to discriminate between them, and the link between multigenerational and assortative associations.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16912",
+    "created": "2025-09-21",
+    "updated": "2025-09-23",
+    "title": "Analysis of the Impact of an Execution Algorithm with an Order Book Imbalance Strategy on a Financial Market Using an Agent-based Simulation",
+    "abstract": "Order book imbalance (OBI) - buy orders minus sell orders near the best quote - measures supply-demand imbalance that can move prices. OBI is positively correlated with returns, and some investors try to use it to improve performance. Large orders placed at once can reveal intent, invite front-running, raise volatility, and cause losses. Execution algorithms therefore split parent orders into smaller lots to limit price distortion. In principle, using OBI inside such algorithms could improve execution, but prior evidence is scarce because isolating OBI's effect in real markets is nearly impossible amid many external factors.\n  Multi-agent simulation offers a way to study this. In an artificial market, individual actors are agents whose rules and interactions form the model. This study builds an execution algorithm that accounts for OBI, tests it across several market patterns in artificial markets, and analyzes mechanisms, comparing it with a conventional (OBI-agnostic) algorithm.\n  Results: (i) In stable markets, the OBI strategy's performance depends on the number of order slices; outcomes vary with how the parent order is partitioned. (ii) In markets with unstable prices, the OBI-based algorithm outperforms the conventional approach. (iii) Under spoofing manipulation, the OBI strategy is not significantly worse than the conventional algorithm, indicating limited vulnerability to spoofing.\n  Overall, OBI provides a useful signal for execution. Incorporating OBI can add value - especially in volatile conditions - while remaining reasonably robust to spoofing; in calm markets, benefits are sensitive to slicing design.",
+    "categories": "q-fin.CP cs.GT cs.MA",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16925",
+    "created": "2025-09-21",
+    "updated": "2025-09-23",
+    "title": "Tenure Under Pressure: Simulating the Disruptive Effects of AI on Academic Publishing",
+    "abstract": "Generative artificial intelligence (AI) has begun to reshape academic publishing by enabling the rapid production of submission-ready manuscripts. While such tools promise to enhance productivity, they also raise concerns about overwhelming journal systems that have fixed acceptance capacities. This paper uses simulation modeling to investigate how AI-driven surges in submissions may affect desk rejection rates, review cycles, and faculty publication portfolios, with a focus on business school journals and tenure processes. Three scenarios are analyzed: a baseline model, an Early Adopter model where a subset of faculty boosts productivity, and an AI Abuse model where submissions rise exponentially. Results indicate that early adopters initially benefit, but overall acceptance rates fall sharply as load increases, with tenure-track faculty facing disproportionately negative outcomes. The study contributes by demonstrating the structural vulnerabilities of the current publication system and highlights the need for institutional reform in personnel evaluation and research dissemination practices.",
+    "categories": "cs.CY cs.HC econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16955",
+    "created": "2025-09-21",
+    "updated": "2025-09-23",
+    "title": "Quantum Adaptive Self-Attention for Financial Rebalancing: An Empirical Study on Automated Market Makers in Decentralized Finance",
+    "abstract": "We formulate automated market maker (AMM) \\emph{rebalancing} as a binary detection problem and study a hybrid quantum--classical self-attention block, \\textbf{Quantum Adaptive Self-Attention (QASA)}. QASA constructs quantum queries/keys/values via variational quantum circuits (VQCs) and applies standard softmax attention over Pauli-$Z$ expectation vectors, yielding a drop-in attention module for financial time-series decision making. Using daily data for \\textbf{BTCUSDC} over \\textbf{Jan-2024--Jan-2025} with a 70/15/15 time-series split, we compare QASA against classical ensembles, a transformer, and pure quantum baselines under Return, Sharpe, and Max Drawdown. The \\textbf{QASA-Sequence} variant attains the \\emph{best single-model risk-adjusted performance} (\\textbf{13.99\\%} return; \\textbf{Sharpe 1.76}), while hybrid models average \\textbf{11.2\\%} return (vs.\\ 9.8\\% classical; 4.4\\% pure quantum), indicating a favorable performance--stability--cost trade-off.",
+    "categories": "quant-ph cs.LG q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17303",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Trade, Political Distance and the World Trade Organization",
+    "abstract": "Trade agreements are often understood as shielding commerce from fluctuations in political relations. This paper provides evidence that World Trade Organization membership reduces the penalty of political distance on trade at the extensive margin. Using a structural gravity framework covering 1948 to 2023 and two measures of political distance, based on high-frequency events data and UN General Assembly votes, GATT/WTO status is consistently associated with a wider range of products traded between politically distant partners. The association is strongest in the early WTO years (1995 to 2008). Events-based estimates also suggest attenuation at the intensive margin, while UN vote-based estimates do not. Across all specifications, GATT/WTO membership increases aggregate trade volumes. The results indicate that a function of the multilateral trading system has been to foster new trade links across political divides, while raising trade volumes among both close and distant partners.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17555",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "The randomly distorted Choquet integrals with respect to a G-randomly distorted capacity and risk measures",
+    "abstract": "We study randomly distorted Choquet integrals with respect to a capacity c on a measurable space (Ω,F), where the capacity c is distorted by a G-measurable random distortion function (with G a sub-σ-algebra of F). We establish some fundamental properties, including the comonotonic additivity of these integrals under suitable assumptions on the underlying capacity space. We provide a representation result for comonotonic additive conditional risk measures which are monotone with respect to the first-order stochastic dominance relation (with respect to the capacity c) in terms of these randomly distorted Choquet integrals. We also present the case where the random distortion functions are concave. In this case, the G-randomly distorted Choquet integrals are characterised in terms of comonotonic additive conditional risk measures which are monotone with respect to the stop-loss stochastic dominance relation (with respect to the capacity c). We provide examples, extending some well-known risk measures in finance and insurance, such as the Value at Risk and the Average Value at Risk.",
+    "categories": "math.PR q-fin.MF q-fin.RM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17715",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Enhanced fill probability estimates in institutional algorithmic bond trading using statistical learning algorithms with quantum computers",
+    "abstract": "The estimation of fill probabilities for trade orders represents a key ingredient in the optimization of algorithmic trading strategies. It is bound by the complex dynamics of financial markets with inherent uncertainties, and the limitations of models aiming to learn from multivariate financial time series that often exhibit stochastic properties with hidden temporal patterns. In this paper, we focus on algorithmic responses to trade inquiries in the corporate bond market and investigate fill probability estimation errors of common machine learning models when given real production-scale intraday trade event data, transformed by a quantum algorithm running on IBM Heron processors, as well as on noiseless quantum simulators for comparison. We introduce a framework to embed these quantum-generated data transforms as a decoupled offline component that can be selectively queried by models in low-latency institutional trade optimization settings. A trade execution backtesting method is employed to evaluate the fill prediction performance of these models in relation to their input data. We observe a relative gain of up to ~ 34% in out-of-sample test scores for those models with access to quantum hardware-transformed data over those using the original trading data or transforms by noiseless quantum simulation. These empirical results suggest that the inherent noise in current quantum hardware contributes to this effect and motivates further studies. Our work demonstrates the emerging potential of quantum computing as a complementary explorative tool in quantitative finance and encourages applied industry research towards practical applications in trading.",
+    "categories": "quant-ph q-fin.TR",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17875",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Invariance of finite-dimensional realisations of Heath-Jarrow-Morton models under diffusion estimation",
+    "abstract": "We identify all smooth manifolds of curves for Heath-Jarrow-Morton models that are consistent with any tangential diffusion coefficient. In fact, we show that these manifolds cannot be affine but must be of linear-rational type.",
+    "categories": "q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17964",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "FinFlowRL: An Imitation-Reinforcement Learning Framework for Adaptive Stochastic Control in Finance",
+    "abstract": "Traditional stochastic control methods in finance rely on simplifying assumptions that often fail in real world markets. While these methods work well in specific, well defined scenarios, they underperform when market conditions change. We introduce FinFlowRL, a novel framework for financial stochastic control that combines imitation learning with reinforcement learning. The framework first pretrains an adaptive meta policy by learning from multiple expert strategies, then finetunes it through reinforcement learning in the noise space to optimize the generation process. By employing action chunking, that is generating sequences of actions rather than single decisions, it addresses the non Markovian nature of financial markets. FinFlowRL consistently outperforms individually optimized experts across diverse market conditions.",
+    "categories": "q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2407.12924",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Concentration-Based Inference for Evaluating Horizontal Mergers",
+    "abstract": "Antitrust authorities routinely rely on market concentration measures to assess the potential adverse effects of mergers on consumer welfare. Using a first-order approximation argument with logit and CES demand, I derive the relationship between the welfare effect of a merger on consumer surplus and the change in the Herfindahl-Hirschman Index (HHI). My results suggest that merger harm is correlated with the merger-induced change in HHI, and the proportionality coefficient depends on the price responsiveness parameter, market size, and the distribution of market shares within and across the merging firms. I present numerical validation of my formula along with an empirical illustration.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2409.08377",
+    "created": "2025-07-31",
+    "updated": "2025-09-24",
+    "title": "Asian options for local-stochastic volatility models in the short-maturity regime",
+    "abstract": "We derive the short-maturity asymptotics for Asian option prices in local-stochastic volatility (LSV) models. Both out-of-the-money (OTM) and at-the-money (ATM) asymptotics are considered. Using large deviations theory methods, the asymptotics for the OTM options are expressed as a rate function which is represented as a two-dimensional variational problem. We develop a novel expansion method for the variational problem by expanding the rate function around the ATM point. In particular, we derive series expansions in log-moneyness for the solution of this variational problem around the ATM point, and obtain explicit results for the first three terms. We give the ATM volatility level, skew and convexity of the implied volatility of an Asian option in a general local-stochastic volatility model, which can be used as an approximation for pricing Asian options with strikes sufficiently close to the ATM point. Using numerical simulations in the SABR, Heston and an LSV model with bounded local volatility, we show good performance of the asymptotic result for Asian options with sufficiently small maturity.",
+    "categories": "q-fin.PR",
+    "set": "q-fin"
+  },
+  {
+    "id": "2506.17720",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Wealth Thermalization Hypothesis and Social Networks",
+    "abstract": "In 1955 Fermi, Pasta, Ulam and Tsingou performed first numerical studies with the aim to obtain the thermalization in a chain of nonlinear oscillators from dynamical equations of motion. This model happend to have several specific features and the dynamical thermalization was established only later in other studies. In this work we study more generic models based on Random Matrix Theory and social networks with a nonlinear perturbation leading to dynamical thermalization above a certain chaos border. These systems have two integrals of motion being total energy and norm so that the theoretical Rayleigh-Jeans thermal distribution depends on temperature and chemical potential. We introduce the wealth thermalization hypothesis according to which the society wealth is associated with energy in the Rayleigh-Jeans distribution. At relatively small values of total wealth or energy there is a formation of the Rayleigh-Jeans condensate, well studied in physical systems such as multimode optical fibers. This condensation leads to a huge fraction of poor households at low wealth and a small oligarchic fraction which monopolizes a dominant fraction of total wealth thus generating a strong inequality in human society. We show that this thermalization gives a good description of real data of Lorenz curves of US, UK, the whole world and capitalization of companies at Stock Exchange of New York SE (NYSE), London and Hong Kong. It is also shown that above a chaos border the dynamical Rayleigh-Jeans thermalization takes place also in social networks with the Lorenz curves being similar to those of wealth distribution in world countries. Possible actions for inequality reduction are briefly discussed.",
+    "categories": "cond-mat.stat-mech q-fin.ST",
+    "set": "q-fin"
+  },
+  {
+    "id": "2508.17407",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "General Social Agents",
+    "abstract": "Useful social science theories predict behavior across settings. However, applying a theory to make predictions in new settings is challenging: rarely can it be done without ad hoc modifications to account for setting-specific factors. We argue that AI agents put in simulations of those novel settings offer an alternative for applying theory, requiring minimal or no modifications. We present an approach for building such \"general\" agents that use theory-grounded natural language instructions, existing empirical data, and knowledge acquired by the underlying AI during training. To demonstrate the approach in settings where no data from that data-generating process exists--as is often the case in applied prediction problems--we design a heterogeneous population of 883,320 novel games. AI agents are constructed using human data from a small set of conceptually related but structurally distinct \"seed\" games. In preregistered experiments, on average, agents predict initial human play in a random sample of 1,500 games from the population better than (i) a cognitive hierarchy model, (ii) game-theoretic equilibria, and (iii) out-of-the-box agents. For a small set of separate novel games, these simulations predict responses from a new sample of human subjects better even than the most plausibly relevant published human data.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.16334",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Volatility Calibration via Automatic Local Regression",
+    "abstract": "Managing exotic derivatives requires accurate mark-to-market pricing and stable Greeks for reliable hedging. The Local Volatility (LV) model distinguishes itself from other pricing models by its ability to match observable market prices across all strikes and maturities with high accuracy. However, LV calibration is fundamentally ill-posed: finite market observables must determine a continuously-defined surface with infinite local volatility parameters. This ill-posed nature often causes spiky LV surfaces that are particularly problematic for finite-difference-based valuation, and induces high-frequency oscillations in solutions, thus leading to unstable Greeks. To address this challenge, we propose a pre-calibration smoothing method that can be integrated seamlessly into any LV calibration workflow. Our method pre-processes market observables using local regression that automatically minimizes asymptotic conditional mean squared error to generate denoised inputs for subsequent LV calibration. Numerical experiments demonstrate that the proposed pre-calibration smoothing yields significantly smoother LV surfaces and greatly improves Greek stability for exotic options with negligible additional computational cost, while preserving the LV model's ability to fit market observables with high fidelity.",
+    "categories": "q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17919",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Economic Complexity Alignment and Sustainable Development",
+    "abstract": "Economic complexity has been linked to sustainability outcomes, such as income inequality and greenhouse gas emissions. Yet, it is unclear whether the pursuit of complex and/or related activities naturally aligns with these outcomes, or whether meeting sustainability goals requires policy interventions that pursue unrelated diversification. Here, we exploit multidimensional social and environmental sustainability indicators to quantify the alignment between a country's closest diversification opportunities and sustainability goals. We find that high- and upper-middle-income countries face significantly better environmentally aligned diversification opportunities than poorer economies. This means that, while richer countries enjoy diversification opportunities that align complexity, relatedness and environmental performance, this alignment is weaker for developing economies. These findings underscore the value of evaluating future diversification trajectories through a multidimensional sustainability framework, and emphasise the strategic relevance of unrelated diversification for less developed economies to foster sustainable development.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18099",
+    "created": "2025-08-26",
+    "updated": "2025-09-24",
+    "title": "Path-dependent, ESG-valued, option pricing in the Bachelier-Black-Scholes-Merton model",
+    "abstract": "We extend the application of the Cherny-Shiryaev-Yor invariance principle to a unified Bachelier-Black-Scholes-Merton (BBSM) dynamic pricing model. This extension incorporates the influence of the history of the dynamics (i.e., the path dynamics) of a market index on stock price changes. We add an ESG rating component to the price of the risky asset (stock), in such a manner that the impact of the ESG rating on the stock valuation can be explored through variation in the value of a single parameter. We develop discrete, binary tree, option pricing under this extended model. Using an empirical data set of 10 stocks chosen from the Nasdaq-100, we fit the model to stock price changes and compare model-based and published European call option prices.",
+    "categories": "q-fin.PR",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18394",
+    "created": "2025-09-22",
+    "updated": "2025-09-24",
+    "title": "An Artificial Intelligence Value at Risk Approach: Metrics and Models",
+    "abstract": "Artificial intelligence risks are multidimensional in nature, as the same risk scenarios may have legal, operational, and financial risk dimensions. With the emergence of new AI regulations, the state of the art of artificial intelligence risk management seems to be highly immature due to upcoming AI regulations. Despite the appearance of several methodologies and generic criteria, it is rare to find guidelines with real implementation value, considering that the most important issue is customizing artificial intelligence risk metrics and risk models for specific AI risk scenarios. Furthermore, the financial departments, legal departments and Government Risk Compliance teams seem to remain unaware of many technical aspects of AI systems, in which data scientists and AI engineers emerge as the most appropriate implementers. It is crucial to decompose the problem of artificial intelligence risk in several dimensions: data protection, fairness, accuracy, robustness, and information security. Consequently, the main task is developing adequate metrics and risk models that manage to reduce uncertainty for decision-making in order to take informed decisions concerning the risk management of AI systems.\n  The purpose of this paper is to orientate AI stakeholders about the depths of AI risk management. Although it is not extremely technical, it requires a basic knowledge of risk management, quantifying uncertainty, the FAIR model, machine learning, large language models and AI context engineering. The examples presented pretend to be very basic and understandable, providing simple ideas that can be developed regarding specific AI customized environments. There are many issues to solve in AI risk management, and this paper will present a holistic overview of the inter-dependencies of AI risks, and how to model them together, within risk scenarios.",
+    "categories": "cs.CY cs.AI q-fin.RM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18468",
+    "created": "2025-09-22",
+    "updated": "2025-09-24",
+    "title": "The Role of Informal Care in Cognitive Outcome and Healthcare Utilization Among Older Adults with Dementia",
+    "abstract": "This paper examines the relationship between informal caregiving and both cognitive functioning and healthcare utilization among older adults with dementia. Using data from the RAND version of the Health and Retirement Study (HRS), a nationally representative longitudinal panel of U.S. adults over age 50, covering the years 2010 to 2022, I estimate Ordinary Least Squares (OLS) and Instrumental Variables (IV) models to address potential endogeneity in caregiving decisions. The number of children is employed as an instrument for informal care intensity. While OLS estimates suggest a negative association between informal caregiving and cognition, IV estimates show no significant causal effect after controlling for demographic, socioeconomic, and lagged cognition variables. In contrast, IV results indicate that informal care significantly reduces the likelihood of nursing home use, the number of institutional nights, and the probability of institutionalization. No robust causal effects are found for hospital use, doctor visits, or outpatient surgery, although there is some suggestive evidence of a complementary relationship between informal care and home health services. These findings highlight the role of informal caregiving in substituting for institutional care and underscore its importance in long-term care policy for dementia patients. Keywords: Informal Caregiving; Cognitive Decline; Instrumental Variables; Healthcare Utilization: Dementia Patients.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18614",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Connecting Quantum Computing with Classical Stochastic Simulation",
+    "abstract": "This tutorial paper introduces quantum approaches to Monte Carlo computation with applications in computational finance. We outline the basics of quantum computing using Grover's algorithm for unstructured search to build intuition. We then move slowly to amplitude estimation problems and applications to counting and Monte Carlo integration, again using Grover-type iterations. A hands-on Python/Qiskit implementation illustrates these concepts applied to finance. The paper concludes with a discussion on current challenges in scaling quantum simulation techniques.",
+    "categories": "quant-ph cs.NA math.NA q-fin.CP stat.CO",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18633",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Adaptive Learning in Spatial Agent-Based Models for Climate Risk Assessment: A Geospatial Framework with Evolutionary Economic Agents",
+    "abstract": "Climate risk assessment requires modelling complex interactions between spatially heterogeneous hazards and adaptive economic systems. We present a novel geospatial agent-based model that integrates climate hazard data with evolutionary learning for economic agents. Our framework combines Mesa-based spatial modelling with CLIMADA climate impact assessment, introducing adaptive learning behaviours that allow firms to evolve strategies for budget allocation, pricing, wages, and risk adaptation through fitness-based selection and mutation. We demonstrate the framework using riverine flood projections under RCP8.5 until 2100, showing that evolutionary adaptation enables firms to converge with baseline (no hazard) production levels after decades of disruption due to climate stress. Our results reveal systemic risks where even agents that are not directly exposed to floods face impacts through supply chain disruptions, with the end-of-century average price of goods 5.6% higher under RCP8.5 compared to the baseline. This open-source framework provides financial institutions and companies with tools to quantify both direct and cascading climate risks while evaluating cost-effective adaptation strategies.",
+    "categories": "cs.AI q-fin.RM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18820",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Filtering amplitude dependence of correlation dynamics in complex systems: application to the cryptocurrency market",
+    "abstract": "Based on the cryptocurrency market dynamics, this study presents a general methodology for analyzing evolving correlation structures in complex systems using the $q$-dependent detrended cross-correlation coefficient ρ(q,s). By extending traditional metrics, this approach captures correlations at varying fluctuation amplitudes and time scales. The method employs $q$-dependent minimum spanning trees ($q$MSTs) to visualize evolving network structures. Using minute-by-minute exchange rate data for 140 cryptocurrencies on Binance (Jan 2021-Oct 2024), a rolling window analysis reveals significant shifts in $q$MSTs, notably around April 2022 during the Terra/Luna crash. Initially centralized around Bitcoin (BTC), the network later decentralized, with Ethereum (ETH) and others gaining prominence. Spectral analysis confirms BTC's declining dominance and increased diversification among assets. A key finding is that medium-scale fluctuations exhibit stronger correlations than large-scale ones, with $q$MSTs based on the latter being more decentralized. Properly exploiting such facts may offer the possibility of a more flexible optimal portfolio construction. Distance metrics highlight that major disruptions amplify correlation differences, leading to fully decentralized structures during crashes. These results demonstrate $q$MSTs' effectiveness in uncovering fluctuation-dependent correlations, with potential applications beyond finance, including biology, social and other complex systems.",
+    "categories": "q-fin.ST cs.CE econ.EM physics.data-an stat.AP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.18837",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Fair Volatility: A Framework for Reconceptualizing Financial Risk",
+    "abstract": "Volatility is the canonical measure of financial risk, a role largely inherited from Modern Portfolio Theory. Yet, its universality rests on restrictive efficiency assumptions that render volatility, at best, an incomplete proxy for true risk. This paper identifies three fundamental inconsistencies: (i) volatility is path-independent and blind to temporal dependence and non-stationarity; (ii) its relevance collapses in derivative-intensive strategies, where volatility often represents opportunity rather than risk; and (iii) it lacks an absolute benchmark, providing no guidance on what level of volatility is economically ``fair'' in efficient markets. To address these limitations, we propose a new paradigm that reconceptualizes risk in terms of predictability rather than variability. Building on a general class of stochastic processes, we derive an analytical link between volatility and the Hurst-Holder exponent within the Multifractional Process with Random Exponent (MPRE) framework. This relationship yields a formal definition of ``fair volatility'', namely the volatility implied under market efficiency, where prices follow semi-martingale dynamics. Extensive empirical analysis on global equity indices supports this framework, showing that deviations from fair volatility provide a tractable measure of market inefficiency, distinguishing between momentum-driven and mean-reverting regimes. Our results advance both the theoretical foundations and empirical assessment of financial risk, offering a definition of volatility that is efficiency-consistent and economically interpretable.",
+    "categories": "q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19042",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Predicting Credit Spreads and Ratings with Machine Learning: The Role of Non-Financial Data",
+    "abstract": "We build a 167-indicator comprehensive credit risk indicator set, integrating macro, corporate financial, bond-specific indicators, and for the first time, 30 large-scale corporate non-financial indicators. We use seven machine learning models to construct a bond credit spread prediction model, test their spread predictive power and economic mechanisms, and verify their credit rating prediction effectiveness. Results show these models outperform Chinese credit rating agencies in explaining credit spreads. Specially, adding non-financial indicators more than doubles their out-of-sample performance vs. traditional feature-driven models. Mechanism analysis finds non-financial indicators far more important than traditional ones (macro-level, financial, bond features)-seven of the top 10 are non-financial (e.g., corporate governance, property rights nature, information disclosure evaluation), the most stable predictors. Models identify high-risk traits (deteriorating operations, short-term debt, higher financing constraints) via these indicators for spread prediction and risk identification. Finally, we pioneer a credit rating model using predicted spreads (predicted implied rating model), with full/sub-industry models achieving over 75% accuracy, recall, F1. This paper provides valuable guidance for bond default early warning, credit rating, and financial stability.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19151",
+    "created": "2025-09-23",
+    "updated": "2025-09-24",
+    "title": "Sharp Large Deviations and Gibbs Conditioning for Threshold Models in Portfolio Credit Risk",
+    "abstract": "We obtain sharp large deviation estimates for exceedance probabilities in dependent triangular array threshold models with a diverging number of latent factors. The prefactors quantify how latent-factor dependence and tail geometry enter at leading order, yielding three regimes: Gaussian or exponential-power tails produce polylogarithmic refinements of the Bahadur-Rao $n^{-1/2}$ law; regularly varying tails yield index-driven polynomial scaling; and bounded-support (endpoint) cases lead to an $n^{-3/2}$ prefactor. We derive these results through Laplace-Olver asymptotics for exponential integrals and conditional Bahadur-Rao estimates for the triangular arrays. Using these estimates, we establish a Gibbs conditioning principle in total variation: conditioned on a large exceedance event, the default indicators become asymptotically i.i.d., and the loss-given-default distribution is exponentially tilted (with the boundary case handled by an endpoint analysis). As illustrations, we obtain second-order approximations for Value-at-Risk and Expected Shortfall, clarifying when portfolios operate in the genuine large-deviation regime. The results provide a transferable set of techniques-localization, curvature, and tilt identification-for sharp rare-event analysis in dependent threshold systems.",
+    "categories": "math.PR math.ST q-fin.MF q-fin.PM q-fin.RM stat.TH",
+    "set": "q-fin"
+  },
+  {
+    "id": "2503.04476",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Optimizing Economic Complexity",
+    "abstract": "Efforts to apply economic complexity to identify diversification opportunities often rely on diagrams comparing the relatedness and complexity or products, technologies, or industries. Yer, the use of these diagrams is not based on empirical or theoretidal evidence supporting some notion of optimality. Here, we introduce an optimization-based framework that identifies diversification opportunities by minimizing a cost function capturing the constraints imposed by an economy's pattern of specialization. We show that the resulting portfolios often differ from those implied by relatedness-complexity diagrams, providing a target-oriented optimization layer to the economic complexity toolkit.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2507.00978",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Decentralised Multi-Manager Fund Framework",
+    "abstract": "We introduce a decentralised, algorithmic framework for permissionless, multi-strategy capital allocation via tokenised, automated vaults. The system is designed to function analogously to a multi-strategy asset management company, but implemented entirely on-chain through a modular architecture comprising four interacting layers. The first, the capitalisation layer, composed of vaults that facilitate multi-asset deposits, tokenises investor participation, and specifies high level risk limits and admissible venues for deployment. The second, the strategy layer, enables the submission of strategies by human developers or autonomous agents, creating a decentralised marketplace governed by a validation mechanism incorporating adversarial and gamified elements. The third, the execution layer, operationalises strategy deployment using the host blockchain network's services. The fourth layer, the validated allocation layer, assesses and allocates capital among validated strategies, dynamically rebalancing toward those exhibiting superior risk-adjusted performance. In the framework, each admitted strategy acts as a manager for the \"fund\", encapsulated in a smart contract vault that issues transferable V-Tokens, conveying fractional ownership of the real-time portfolio operated by the vault. The system is designed to be open to participation by both human and AI agents, who collectively perform the roles of capital allocators, strategy developers, and validated allocators. The resulting structure is a self-regulating asset management ecosystem capable of decentralised, cooperative optimisation across traditional and digital financial domains. This framework is facilitated by a host chain network, which offers native automation and data oracle services enabling vault entities to autonomously operate on-chain, paving the way for being self sufficient in dynamic allocation of capital.",
+    "categories": "q-fin.GN",
+    "set": "q-fin"
+  },
+  {
+    "id": "2507.09419",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Comrades and Cause: Peer Influence on West Point Cadets' Civil War Allegiances",
+    "abstract": "Do social networks and peer influence shape major life decisions in highly polarized settings? We explore this question by examining how peers influenced the allegiances of West Point cadets during the American Civil War. Leveraging quasi-random variations in the proportion of cadets from Free States, we analyze how these differences affected cadets' decisions about which army to join. We have four main findings. First, there was a strong and significant peer effect: a higher proportion of classmates from Free States significantly increased the likelihood that cadets from Slave States joined the Union Army. Second, the peer effect interacted with geography and economic circumstances: almost all cadets from Free States joined the Union Army (if they decided to join the war), and most cadets from Slave States that had more than a third of their population in slavery joined the Confederacy. The cadets who were most highly influenced were from Slave States that had less than a third of their population in slavery. Third, we analyze how cadets' decisions affected their military rank and career outcomes. Fourth, we show that having served together in the Mexican-American war increased the peer influence, providing additional evidence that peer interaction was influential.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.05760",
+    "created": "2025-09-23",
+    "updated": "2025-09-25",
+    "title": "Rethinking Beta: A Causal Take on CAPM",
+    "abstract": "The CAPM regression is typically interpreted as if the market return contemporaneously \\emph{causes} individual returns, motivating beta-neutral portfolios and factor attribution. For realized equity returns, however, this interpretation is inconsistent: a same-period arrow $R_{m,t} \\to R_{i,t}$ conflicts with the fact that $R_m$ is itself a value-weighted aggregate of its constituents, unless $R_m$ is lagged or leave-one-out -- the ``aggregator contradiction.'' We formalize CAPM as a structural causal model and analyze the admissible three-node graphs linking an external driver $Z$, the market $R_m$, and an asset $R_i$. The empirically plausible baseline is a \\emph{fork}, $Z \\to \\{R_m, R_i\\}$, not $R_m \\to R_i$. In this setting, OLS beta reflects not a causal transmission, but an attenuated proxy for how well $R_m$ captures the underlying driver $Z$. Consequently, ``beta-neutral'' portfolios can remain exposed to macro or sectoral shocks, and hedging on $R_m$ can import index-specific noise. Using stylized models and large-cap U.S.\\ equity data, we show that contemporaneous betas act like proxies rather than mechanisms; any genuine market-to-stock channel, if at all, appears only at a lag and with modest economic significance. The practical message is clear: CAPM should be read as associational. Risk management and attribution should shift from fixed factor menus to explicitly declared causal paths, with ``alpha'' reserved for what remains invariant once those causal paths are explicitly blocked.",
+    "categories": "econ.TH q-fin.PR q-fin.ST stat.AP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.17236",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "An Ambit Field Framework for the Full Panel of Day-ahead Electricity Prices",
+    "abstract": "This paper considers the often overlooked fact that electricity spot prices in individual European generation zones evolve as a high dimensional panel structure. A general continuous time framework is developed by formulating the panel as an ambit field indexed by a cylinder surface, where the cross sectional dimension is represented by a circle. This requires a treatment of ambit fields on manifolds, but the departure from Euclidean space allows for embedding intrinsic dependence structures into the index set in a flexible and parameter-free way, where the daily delivery periods have a canonical mapping onto the circle. The model is a natural space-time extension of volatility modulated Lévy-driven Volterra processes, which have previously been studied in the context of energy markets, and the pricing of electricity derivatives turns out to be essentially as analytically tractable as in the null-spatial setting. The space-time framework extends the scope of possible derivatives to products written on individual delivery periods, where spreads between these constitute an interesting example. We establish useful formulas for the pricing of various derivatives along with a simulation scheme, and study specifications of the dependence structure in detail.",
+    "categories": "q-fin.MF",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19413",
+    "created": "2025-09-23",
+    "updated": "2025-09-25",
+    "title": "Research and development as a driver of innovation and economic growth; case of developing economies",
+    "abstract": "The goal of this research is to uncover the channels through which research and development (R&D) impacts economic growth in developing countries. The study employed nine variables from three broader categories in the World Economic Forum database, each covering 32 countries from the lower-middle-income group for the year 2019. The theoretical framework is based on the R&D ecosystem, which includes components such as Institutions, Human capital, Capital market, R&D, and Innovation. Each of these components can contribute to the economic development of the country. Using Structural Equation Modelling (SEM), we build a path diagram to visualize and confirm a potential relationship between the components. R&D features had a positive impact on innovation (regression weight estimate: +0.34, p = 0.001), as did capital market institutions (regression weight estimate: +0.12, p = 0.007), but neither had a significant impact on growth. According to the Schumpeterian institutional interpretation, R&D and innovation efforts may not lead to sustained growth in middle-income countries. We find no significant connection between innovation performance and economic growth. This suggests that while R&D and capital markets may contribute to innovation through entrepreneurship, this contribution is not impactful enough to drive economic growth in developing countries. Our findings provide further evidence of the middle-income trap.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19416",
+    "created": "2025-09-23",
+    "updated": "2025-09-25",
+    "title": "Changes in varieties of capitalism within the OECD between 2010 and 2020",
+    "abstract": "This study aims to reveal different varieties of capitalism and to uncover new patterns of development that emerged between 2010 and 2020. A hybrid model is applied that quantifies three pillars of development (Future - F, Outside - O, Inside - I) using supply-side and demand-side indicators that measure norms, institutions, and policies. Investigating 34 OECD members, this study describes five varieties of capitalism: traditional, dualistic, government-led, open market-based, and human capital-based models. It is suggested that the most significant cut-off point in the development of OECD economies in this period was along the green growth dimension, where European countries with a tradition in coordinated markets outperform the rest. Using Israel and Estonia as an example, it is also suggested that institutional and policy changes that enhance the quality of governance and make coordination more effective are the way out of the middle-income trap.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19556",
+    "created": "2025-09-23",
+    "updated": "2025-09-25",
+    "title": "Gender and Agricultural Commercialization in Sub-Saharan Africa: Evidence from Three Panel Surveys",
+    "abstract": "Agricultural commercialization is often promoted as a key driver of development in Sub-Saharan Africa, yet its benefits may not extend equally to all farmers. Using longitudinal household data from the LSMS-ISA and a two-way Mundlak fixed effects estimator, we examine the relationship between farmers' gender and agricultural commercialization in Ethiopia, Nigeria, and Tanzania. In Ethiopia and Nigeria, women-headed households and those with a higher share of women-managed land face substantial disadvantages in market engagement, particularly in households oriented towards self-consumption. Interestingly, in both countries, women-headed households that do engage in sales are more likely to sell to market buyers and less likely to sell to individual buyers compared to men-headed households. In contrast, in Tanzania, the negative associations between gender and commercialization are weaker and less robust across outcomes. Overall, these findings demonstrate that gender gaps in commercialization are highly context-specific rather than universal, highlighting the need for country-tailored policies that address the institutional and market constraints faced by women farmers.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19628",
+    "created": "2025-09-23",
+    "updated": "2025-09-25",
+    "title": "Multimodal Language Models with Modality-Specific Experts for Financial Forecasting from Interleaved Sequences of Text and Time Series",
+    "abstract": "Text and time series data offer complementary views of financial markets: news articles provide narrative context about company events, while stock prices reflect how markets react to those events. However, despite their complementary nature, effectively integrating these interleaved modalities for improved forecasting remains challenging. In this work, we propose a unified neural architecture that models these interleaved sequences using modality-specific experts, allowing the model to learn unique time series patterns, while still enabling joint reasoning across modalities and preserving pretrained language understanding capabilities. To further improve multimodal understanding, we introduce a cross-modal alignment framework with a salient token weighting mechanism that learns to align representations across modalities with a focus on the most informative tokens. We demonstrate the effectiveness of our approach on a large-scale financial forecasting task, achieving state-of-the-art performance across a wide variety of strong unimodal and multimodal baselines. We develop an interpretability method that reveals insights into the value of time series-context and reinforces the design of our cross-modal alignment objective. Finally, we demonstrate that these improvements translate to meaningful economic gains in investment simulations.",
+    "categories": "cs.CE cs.CL q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.19663",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Long-Range Dependence in Financial Markets: Empirical Evidence and Generative Modeling Challenges",
+    "abstract": "This study presents a comprehensive empirical investigation of the presence of long-range dependence (LRD) in the dynamics of major U.S. stock market indexes--S\\&P 500, Dow Jones, and Nasdaq--at daily, weekly, and monthly frequencies. We employ three distinct methods: the classical rescaled range (R/S) analysis, the more robust detrended fluctuation analysis (DFA), and a sophisticated ARFIMA--FIGARCH model with Student's $t$-distributed innovations. Our results confirm the presence of LRD, primarily driven by long memory in volatility rather than in the mean returns. Building on these findings, we explore the capability of a modern deep learning approach, Quant generative adversarial networks (GANs), to learn and replicate the LRD observed in the empirical data. While Quant GANs effectively capture heavy-tailed distributions and some aspects of volatility clustering, they suffer from significant limitations in reproducing the LRD, particularly at higher frequencies. This work highlights the challenges and opportunities in using data-driven models for generating realistic financial time series that preserve complex temporal dependencies.",
+    "categories": "q-fin.ST q-fin.CP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.20015",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Roughness Analysis of Realized Volatility and VIX through Randomized Kolmogorov-Smirnov Distribution",
+    "abstract": "We introduce a novel distribution-based estimator for the Hurst parameter of log-volatility, leveraging the Kolmogorov-Smirnov statistic to assess the scaling behavior of entire distributions rather than individual moments. To address the temporal dependence of financial volatility, we propose a random permutation procedure that effectively removes serial correlation while preserving marginal distributions, enabling the rigorous application of the KS framework to dependent data. We establish the asymptotic variance of the estimator, useful for inference and confidence interval construction. From a computational standpoint, we show that derivative-free optimization methods, particularly Brent's method and the Nelder-Mead simplex, achieve substantial efficiency gains relative to grid search while maintaining estimation accuracy. Empirical analysis of the CBOE VIX index and the 5-minute realized volatility of the S&P 500 reveals a statistically significant hierarchy of roughness, with implied volatility smoother than realized volatility. Both measures, however, exhibit Hurst exponents well below one-half, reinforcing the rough volatility paradigm and highlighting the open challenge of disentangling local roughness from long-memory effects in fractional modeling.",
+    "categories": "q-fin.MF q-fin.CP stat.ME",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.20203",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Healthy diets are affordable but often displaced by other foods in Indonesia",
+    "abstract": "New methods for modeling least-cost diets that meet nutritional requirements for health have emerged as important tools for informing nutrition policy and programming around the world. This study develops a three-step approach using cost of healthy diet to inform targeted nutrition programming in Indonesia. We combine detailed retail prices and household survey data from Indonesia to describe how reported consumption and expenditure patterns across all levels of household income diverge from least cost healthy diets using items from nearby markets. In this analysis, we examine regional price variations, identify households with insufficient income for healthy diets, and analyze the nutrient adequacy of reported consumption patterns. We find that household food spending was sufficient to meet national dietary guidelines using the least expensive locally available items for over 98% of Indonesians, but almost all households consume substantial quantities of discretionary foods and mixed dishes while consuming too little energy from fruits, vegetables, and legumes, nuts, and seeds. Households with higher incomes have higher nutrient adequacy and are closer to meeting local dietary guidelines, but still fall short of recommendations. These findings shed new light on how actual food demand differs from least-cost healthy diets, due to factors other than affordability, such as taste, convenience, and aspirations shaped by marketing and other sociocultural influences.",
+    "categories": "econ.GN q-fin.EC",
+    "set": "q-fin"
+  },
+  {
+    "id": "2509.20239",
+    "created": "2025-09-24",
+    "updated": "2025-09-25",
+    "title": "Error Propagation in Dynamic Programming: From Stochastic Control to Option Pricing",
+    "abstract": "This paper investigates theoretical and methodological foundations for stochastic optimal control (SOC) in discrete time. We start formulating the control problem in a general dynamic programming framework, introducing the mathematical structure needed for a detailed convergence analysis. The associate value function is estimated through a sequence of approximations combining nonparametric regression methods and Monte Carlo subsampling. The regression step is performed within reproducing kernel Hilbert spaces (RKHSs), exploiting the classical KRR algorithm, while Monte Carlo sampling methods are introduced to estimate the continuation value. To assess the accuracy of our value function estimator, we propose a natural error decomposition and rigorously control the resulting error terms at each time step. We then analyze how this error propagates backward in time-from maturity to the initial stage-a relatively underexplored aspect of the SOC literature. Finally, we illustrate how our analysis naturally applies to a key financial application: the pricing of American options.",
+    "categories": "stat.ML cs.LG q-fin.CP q-fin.PR stat.AP",
+    "set": "q-fin"
+  },
+  {
+    "id": "2410.04459",
+    "created": "2025-09-25",
+    "updated": "2025-09-26",
+    "title": "Two-fund separation under hyperbolically distributed returns and concave utility functions",
+    "abstract": "Portfolio selection problems that optimize expected utility are usually difficult to solve. If the number of assets in the portfolio is large, such expected utility maximization problems become even harder to solve numerically. Therefore, analytical expressions for optimal portfolios are always preferred. In our work, we study portfolio optimization problems under the expected utility criterion for a wide range of utility functions, assuming return vectors follow hyperbolic distributions. Our main result demonstrates that under this setup, the two-fund monetary separation holds. Specifically, an individual with any utility function from this broad class will always choose to hold the same portfolio of risky assets, only adjusting the mix between this portfolio and a riskless asset based on their initial wealth and the specific utility function used for decision making. We provide explicit expressions for this mutual fund of risky assets. As a result, in our economic model, an individual's optimal portfolio is expressed in closed form as a linear combination of the riskless asset and the mutual fund of risky assets. Additionally, we discuss expected utility maximization problems under exponential utility functions over any domain of the portfolio set. In this part of our work, we show that the optimal portfolio in any given convex domain of the portfolio set either lies on the boundary of the domain or is the unique globally optimal portfolio within the entire domain.",
+    "categories": "q-fin.PM",
+    "set": "q-fin"
+  },
+  {
+    "id": "2505.08654",
+    "created": "2025-09-24",
+    "updated": "2025-09-26",
+    "title": "An Efficient Multi-scale Leverage Effect Estimator under Dependent Microstructure Noise",
+    "abstract": "Estimating the leverage effect from high-frequency data is vital but challenged by complex, dependent microstructure noise, often exhibiting non-Gaussian higher-order moments. This paper introduces a novel multi-scale framework for efficient and robust leverage effect estimation under such flexible noise structures. We develop two new estimators, the Subsampling-and-Averaging Leverage Effect (SALE) and the Multi-Scale Leverage Effect (MSLE), which adapt subsampling and multi-scale approaches holistically using a unique shifted window technique. This design simplifies the multi-scale estimation procedure and enhances noise robustness without requiring the pre-averaging approach. We establish central limit theorems and stable convergence, with MSLE achieving convergence rates of an optimal $n^{-1/4}$ and a near-optimal $n^{-1/9}$ for the noise-free and noisy settings, respectively. A cornerstone of our framework's efficiency is a specifically designed MSLE weighting strategy that leverages covariance structures across scales. This significantly reduces asymptotic variance and, critically, yields substantially smaller finite-sample errors than existing methods under both noise-free and realistic noisy settings. Extensive simulations and empirical analyses confirm the superior efficiency, robustness, and practical advantages of our approach.",
+    "categories": "stat.ME econ.EM q-fin.ST",
+    "set": "q-fin"
+  }
+]
