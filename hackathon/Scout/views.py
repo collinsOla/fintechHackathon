@@ -11,6 +11,61 @@ from django.core.paginator import Paginator
 from .ai_scoring import score_abstract_with_gemini
 # views.py (top)
 from .signals import find_signals, find_top_signal
+import re
+from html import unescape
+from .content import arp_report_list_with_gemini
+
+HEAD_RE = re.compile(
+    r'\\textbf\{\s*(\d\.)\s*([^}]+?)\s*\}\s*\\\\',  # e.g., \textbf{1. BACKGROUND & CONTEXT}\\
+    flags=re.DOTALL | re.IGNORECASE
+)
+
+def _clean_tex(s: str) -> str:
+    s = s.strip()
+    s = re.sub(r'\\vspace\{[^}]*\}', ' ', s)
+    s = s.replace(r'\noindent', ' ')
+    s = s.replace(r'\\', '\n')
+    s = re.sub(r'\s+\n', '\n', s)
+    s = re.sub(r'\n{3,}', '\n\n', s)
+    s = re.sub(r'\s{2,}', ' ', s)
+    return unescape(s).strip()
+
+def parse_gemini_output(gemini_output: str) -> dict:
+    # Find all header matches with their spans
+    matches = list(HEAD_RE.finditer(gemini_output))
+    sections = {}
+
+    # Helper to slice content between headers
+    for i, m in enumerate(matches):
+        start = m.end()
+        end = matches[i+1].start() if i+1 < len(matches) else len(gemini_output)
+        num = m.group(1).strip().rstrip('.')
+        title = m.group(2).strip().upper()
+
+        content = _clean_tex(gemini_output[start:end])
+
+        key_map = {
+            '1': 'background_context',
+            '2': 'real_world_problems_solved',
+            '3': 'market_analysis',
+            '4': 'immediate_startup_patent_ideas'
+        }
+        key = key_map.get(num, f'section_{num}')
+        sections[key] = content
+
+    # Ensure all four keys exist, even if missing
+    for k in ['background_context',
+              'real_world_problems_solved',
+              'market_analysis',
+              'immediate_startup_patent_ideas']:
+        sections.setdefault(k, "")
+
+    return sections
+
+# Example:
+# parsed = parse_gemini_output(gemini_output_string)
+# print(parsed['market_analysis'])
+
 
 
 
@@ -279,6 +334,32 @@ def paper_detail(request, paper_id):
     abstract = paper.get("summary_background") or paper.get("abstract") or ""
     ai = score_abstract_with_gemini(abstract)
     idea_text = abstract or paper.get("title", "")
+
+    # Open the file for reading
+    with open("Scout/ideareports/top15_demo_ideas.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+    content=[]
+    gen = False
+    for rec in data:
+        if rec.get("id")==paper["id"]:
+            gen=True
+            gemout = rec.get("gemini_output")
+            gemout = parse_gemini_output(gemout)
+            background_context = gemout["background_context"]
+            real_world_problems_solved = gemout["real_world_problems_solved"]
+            market_analysis = gemout["market_analysis"]
+            immediate_startup_patent_ideas = gemout["immediate_startup_patent_ideas"]
+            content = [background_context,real_world_problems_solved,market_analysis,immediate_startup_patent_ideas]
+    if gen == False:
+        content = arp_report_list_with_gemini(paper["title"],abstract)
+
+        
+    
+    
+
+    
+
+
     try:
         signals_data = find_signals(idea_text)  # full JSON: { idea, summary, signals[] }
         best_signal = find_top_signal(idea_text)  # optional: single best item (or None)
@@ -293,5 +374,6 @@ def paper_detail(request, paper_id):
         "product_title": "SciScout",
         "is_demo": True,
         "signals_data": signals_data,
-        "best_signal": best_signal
+        "best_signal": best_signal,
+        "content":content
     })
