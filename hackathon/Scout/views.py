@@ -266,8 +266,8 @@ for i, p in enumerate(SAMPLE_PAPERS):
     p["slug"] = s
     seen.add(s)
 
-def paper_detail(request, slug: str):
-    paper = next((p for p in get_papers() if p["slug"] == slug), None)
+def paper_detail(request, paper_id):
+    paper = next((p for p in get_papers() if str(p["id"]) == str(paper_id)), None)
     if not paper:
         from django.http import Http404
         raise Http404("Paper not found")
