@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1911.02526",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dynamic traversal of large gaps by insects and legged robots reveals a template",
+    "abstract": "It is well known that animals can use neural and sensory feedback via vision, tactile sensing, and echolocation to negotiate obstacles. Similarly, most robots use deliberate or reactive planning to avoid obstacles, which relies on prior knowledge or high-fidelity sensing of the environment. However, during dynamic locomotion in complex, novel, 3-D terrains such as forest floor and building rubble, sensing and planning suffer bandwidth limitation and large noise and are sometimes even impossible. Here, we study rapid locomotion over a large gap, a simple, ubiquitous obstacle, to begin to discover general principles of dynamic traversal of large 3-D obstacles. We challenged the discoid cockroach and an open-loop six-legged robot to traverse a large gap of varying length. Both the animal and the robot could dynamically traverse a gap as large as 1 body length by bridging the gap with its head, but traversal probability decreased with gap length. Based on these observations, we developed a template that well captured body dynamics and quantitatively predicted traversal performance. Our template revealed that high approach speed, initial body pitch, and initial body pitch angular velocity facilitated dynamic traversal, and successfully predicted a new strategy of using body pitch control that increased the robot maximal traversal gap length by 50%. Our study established the first template of dynamic locomotion beyond planar surfaces and is an important step in expanding terradynamics into complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "1911.02527",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Body-terrain interaction affects large bump traversal of insects and legged robots",
+    "abstract": "Small animals and robots must often rapidly traverse large bump-like obstacles when moving through complex 3-D terrains, during which, in addition to leg-ground contact, their body inevitably comes into physical contact with the obstacles. However, we know little about the performance limits of large bump traversal and how body-terrain interaction affects traversal. To address these, we challenged the discoid cockroach and an open-loop six-legged robot to dynamically run into a large bump of varying height to discover the maximal traversal performance, and studied how locomotor modes and traversal performance are affected by body-terrain interaction. Remarkably, during rapid running, both the animal and the robot were capable of dynamically traversing a bump much higher than its hip height (up to 4 times the hip height for the animal and 3 times for the robot, respectively) at traversal speeds typical of running, with decreasing traversal probability with increasing bump height. A stability analysis using a novel locomotion energy landscape model explained why traversal was more likely when the animal or robot approached the bump with a low initial body yaw and a high initial body pitch, and why deflection was more likely otherwise. Inspired by these principles, we demonstrated a novel control strategy of active body pitching that increased the robot maximal traversable bump height by 75%. Our study is a major step in establishing the framework of locomotion energy landscapes to understand locomotion in complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.RO q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2002.09711",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Robotic modeling of snake traversing large, smooth obstacles reveals stability benefits of body compliance",
+    "abstract": "Snakes can move through almost any terrain. Although their locomotion on flat surfaces using planar gaits is inherently stable, when snakes deform their body out of plane to traverse complex terrain, maintaining stability becomes a challenge. On trees and desert dunes, snakes grip branches or brace against depressed sand for stability. However, how they stably surmount obstacles like boulders too large and smooth to gain such anchor points is less understood. Similarly, snake robots are challenged to stably traverse large, smooth obstacles for search and rescue and building inspection. Our recent study discovered that snakes combine body lateral undulation and cantilevering to stably traverse large steps. Here, we developed a snake robot with this gait and snake-like anisotropic friction and used it as a physical model to understand stability principles. The robot traversed steps as high as a third of its body length rapidly and stably. However, on higher steps, it was more likely to fail due to more frequent rolling and flipping over, which was absent in the snake with a compliant body. Adding body compliance reduced the robot roll instability by statistically improving surface contact, without reducing speed. Besides advancing understanding of snake locomotion, our robot achieved high traversal speed surpassing most previous snake robots and approaching snakes, while maintaining high traversal probability.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2308.02762",
+    "created": "2024-03-05",
+    "updated": "2025-09-18",
+    "title": "Fixation times on directed graphs",
+    "abstract": "Computing the rate of evolution in spatially structured populations is difficult. A key quantity is the fixation time of a single mutant with relative reproduction rate $r$ which invades a population of residents. We say that the fixation time is \"fast\" if it is at most a polynomial function in terms of the population size $N$. Here we study fixation times of advantageous mutants ($r>1$) and neutral mutants ($r=1$) on directed graphs, which are those graphs that have at least some one-way connections. We obtain three main results. First, we prove that for any directed graph the fixation time is fast, provided that $r$ is sufficiently large. Second, we construct an efficient algorithm that gives an upper bound for the fixation time for any graph and any $r\\ge 1$. Third, we identify a broad class of directed graphs with fast fixation times for any $r\\ge 1$. This class includes previously studied amplifiers of selection, such as Superstars and Metafunnels. We also show that on some graphs the fixation time is not a monotonically declining function of $r$; in particular, neutral fixation can occur faster than fixation for small selective advantages.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2402.17131",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Predicting O-GlcNAcylation Sites in Mammalian Proteins with Transformers and RNNs Trained with a New Loss Function",
+    "abstract": "O-GlcNAcylation, a subtype of glycosylation, has the potential to be an important target for therapeutics, but methods to reliably predict O-GlcNAcylation sites had not been available until 2023; a 2021 review correctly noted that published models were insufficient and failed to generalize. Moreover, many are no longer usable. In 2023, a considerably better recurrent neural network (RNN) model was published. This article creates improved models by using a new loss function, which we call the weighted focal differentiable MCC. RNN models trained with this new loss display superior performance to models trained using the weighted cross-entropy loss; this new function can also be used to fine-tune trained models. An RNN trained with this loss achieves state-of-the-art performance in O-GlcNAcylation site prediction with an F$_1$ score of 38.88% and an MCC of 38.20% on an independent test set from the largest dataset available.",
+    "categories": "cs.LG q-bio.MN",
+    "set": "q-bio"
+  },
+  {
+    "id": "2403.08592",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Data-Efficient Sleep Staging with Synthetic Time Series Pretraining",
+    "abstract": "Analyzing electroencephalographic (EEG) time series can be challenging, especially with deep neural networks, due to the large variability among human subjects and often small datasets. To address these challenges, various strategies, such as self-supervised learning, have been suggested, but they typically rely on extensive empirical datasets. Inspired by recent advances in computer vision, we propose a pretraining task termed \"frequency pretraining\" to pretrain a neural network for sleep staging by predicting the frequency content of randomly generated synthetic time series. Our experiments demonstrate that our method surpasses fully supervised learning in scenarios with limited data and few subjects, and matches its performance in regimes with many subjects. Furthermore, our results underline the relevance of frequency information for sleep stage scoring, while also demonstrating that deep neural networks utilize information beyond frequencies to enhance sleep staging performance, which is consistent with previous research. We anticipate that our approach will be advantageous across a broad spectrum of applications where EEG data is limited or derived from a small number of subjects, including the domain of brain-computer interfaces.",
+    "categories": "cs.LG q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2410.13034",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Synthesis and Perceptual Scaling of High Resolution Naturalistic Images Using Stable Diffusion",
+    "abstract": "Naturalistic scenes are of key interest for visual perception, but controlling their perceptual and semantic properties is challenging. Previous work on naturalistic scenes has frequently focused on collections of discrete images with considerable physical differences between stimuli. However, it is often desirable to assess representations of naturalistic images that vary along a continuum. Traditionally, perceptually continuous variations of naturalistic stimuli have been obtained by morphing a source image into a target image. This produces transitions driven mainly by low-level physical features and can result in semantically ambiguous outcomes. More recently, generative adversarial networks (GANs) have been used to generate continuous perceptual variations within a stimulus category. Here we extend and generalize this approach using a different machine learning approach, a text-to-image diffusion model (Stable Diffusion XL), to generate a freely customizable stimulus set of photorealistic images that are characterized by gradual transitions, with each image representing a unique exemplar within a prompted category. We demonstrate the approach by generating a set of 108 object scenes from 6 categories. For each object scene, we generate 10 variants that are ordered along a perceptual continuum. This ordering was first estimated using a machine learning model of perceptual similarity (LPIPS) and then subsequently validated with a large online sample of human participants. In a subsequent experiment we show that this ordering is also predictive of confusability of stimuli in a working memory experiment. Our image set is suited for studies investigating the graded encoding of naturalistic stimuli in visual perception, attention, and memory.",
+    "categories": "q-bio.NC cs.CV",
+    "set": "q-bio"
+  },
+  {
+    "id": "2412.14498",
+    "created": "2025-08-12",
+    "updated": "2025-09-18",
+    "title": "Diverging network architecture of the $\\textit{C. elegans}$ connectome and signaling network",
+    "abstract": "The connectome describes the complete set of synaptic contacts through which neurons communicate. While the architecture of the $\\textit{C. elegans}$ connectome has been extensively characterized, much less is known about the organization of causal signaling networks arising from functional interactions between neurons. Understanding how effective communication pathways relate to or diverge from the underlying structure is a central question in neuroscience. Here, we analyze the modular architecture of the $\\textit{C. elegans}$ signal propagation network, measured via calcium imaging and optogenetics, and compare it to the underlying anatomical wiring measured by electron microscopy. Compared to the connectome, we find that signaling modules are not aligned with the modular boundaries of the anatomical network, highlighting an instance where function deviates from structure. However, we find that some of the most striking features of the anatomical network are preserved, as exemplified by the pharynx, which is delineated into a separate community in both anatomy and signaling. We analyze the cellular compositions of the signaling architecture and find that its modules are enriched for specific cell types and functions, suggesting that the network modules are neurobiologically relevant. Lastly, we identify a \"rich club\" of hub neurons in the signaling network. The membership of the signaling rich club differs from the rich club detected in the anatomical network, challenging the view that structural hubs occupy positions of influence in functional (signaling) networks. Our results provide new insight into the interplay between brain structure, in the form of a complete synaptic-level connectome, and brain function, in the form of a system-wide causal signal propagation atlas.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2501.13119",
+    "created": "2025-09-11",
+    "updated": "2025-09-18",
+    "title": "Derivation from kinetic theory and 2-D pattern analysis of chemotaxis models for Multiple Sclerosis",
+    "abstract": "In this paper, a class of reaction-diffusion equations for Multiple Sclerosis is presented. These models are derived by means of a diffusive limit starting from a proper kinetic description, taking account of the underlying microscopic interactions among cells. At the macroscopic level, we discuss the necessary conditions for Turing instability phenomena and the formation of two-dimensional patterns, whose shape and stability are investigated by means of a weakly nonlinear analysis. Some numerical simulations, confirming and extending theoretical results, are proposed for a specific scenario.",
+    "categories": "q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2501.13628",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Language modulates vision: Evidence from neural networks and human brain-lesion models",
+    "abstract": "Comparing information structures in between deep neural networks (DNNs) and the human brain has become a key method for exploring their similarities and differences. Recent research has shown better alignment of vision-language DNN models, such as CLIP, with the activity of the human ventral occipitotemporal cortex (VOTC) than earlier vision models, supporting the idea that language modulates human visual perception. However, interpreting the results from such comparisons is inherently limited due to the \"black box\" nature of DNNs. To address this, we combined model-brain fitness analyses with human brain lesion data to examine how disrupting the communication pathway between the visual and language systems causally affects the ability of vision-language DNNs to explain the activity of the VOTC. Across four diverse datasets, CLIP consistently captured unique variance in VOTC neural representations, relative to both label-supervised (ResNet) and unsupervised (MoCo) models. This advantage tended to be left-lateralized at the group level, aligning with the human language network. Analyses of 33 stroke patients revealed that reduced white matter integrity between the VOTC and the language region in the left angular gyrus was correlated with decreased CLIP-brain correspondence and increased MoCo-brain correspondence, indicating a dynamic influence of language processing on the activity of the VOTC. These findings support the integration of language modulation in neurocognitive models of human vision, reinforcing concepts from vision-language DNN models. The sensitivity of model-brain similarity to specific brain lesions demonstrates that leveraging manipulation of the human brain is a promising framework for evaluating and developing brain-like computer models.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2503.09841",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Maintaining diversity in structured populations",
+    "abstract": "We examine population structures for their ability to maintain diversity in neutral evolution. We use the general framework of evolutionary graph theory and consider birth-death (bd) and death-birth (db) updating. The population is of size $N$. Initially all individuals represent different types. The basic question is: what is the time $T_N$ until one type takes over the population? This time is known as consensus time in computer science and as total coalescent time in evolutionary biology. For the complete graph, it is known that $T_N$ is quadratic in $N$ for db and bd. For the cycle, we prove that $T_N$ is cubic in $N$ for db and bd. For the star, we prove that $T_N$ is cubic for bd and quasilinear ($N\\log N$) for db. For the double star, we show that $T_N$ is quartic for bd. We derive upper and lower bounds for all undirected graphs for bd and db. We also show the Pareto front of graphs (of size $N=8$) that maintain diversity the longest for bd and db. Further, we show that some graphs that quickly homogenize can maintain high levels of diversity longer than graphs that slowly homogenize. For directed graphs, we give simple contracting star-like structures that have superexponential time scales for maintaining diversity.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.08548",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Emergence: from physics to biology, sociology, and computer science",
+    "abstract": "Many systems involve numerous interacting parts and the whole system can have properties that the individual parts do not. I take this novelty as the defining characteristic of an emergent property. Other characteristics associated with emergence discussed include universality, order, complexity, unpredictability, irreducibility, diversity, self-organisation, discontinuities, and singularities. Emergent phenomena are widespread across physics, biology, social sciences, and computing, and are central to major scientific and societal challenges. Understanding emergence involves considering the stratification of reality across different scales (energy, time, length, complexity), each with its distinct ontology and epistemology, leading to semi-autonomous scientific disciplines. A central challenge is bridging the gap between macroscopic emergent properties and microscopic component interactions. Identifying an intermediate mesoscopic scale where new, weakly interacting entities or modular structures emerge is key. Theoretical approaches, such as effective theories (describing phenomena at a specific scale) and toy models (simplified systems for analysis), are vital. The Ising model exemplifies how toy models can elucidate emergence characteristics. Emergence is central to condensed matter physics, chaotic systems, fluid dynamics, nuclear physics, quantum gravity, neural networks, protein folding, and social segregation. An emergent perspective should influence scientific strategy by shaping research questions, methodologies, priorities, and resource allocation. An elusive goal is the design and control of emergent properties.",
+    "categories": "physics.hist-ph cond-mat.stat-mech q-bio.NC quant-ph",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.14233",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Excitonic Coupling and Photon Antibunching in Venus Yellow Fluorescent Protein Dimers: A Lindblad Master Equation Approach",
+    "abstract": "Strong excitonic coupling and photon antibunching (AB) have been observed together in Venus yellow fluorescent protein dimers and currently lack a cohesive theoretical explanation. In 2019, Kim et al. demonstrated Davydov splitting in circular dichroism spectra, revealing strong J-like coupling, while antibunched fluorescence emission was confirmed by combined antibunching--fluorescence correlation spectroscopy (AB/FCS fingerprinting). To investigate the implications of this coexistence, Venus dimer population dynamics are modeled within a Lindblad master equation framework, justified by the separation of characteristic coupling, dephasing, and thermal relaxation rates. Simulations predict rapid decoherence, yielding bright/dark state mixtures consistent with antibunched fluorescence emission at room temperature. Thus, excitonic coupling and photon AB are reconciled without invoking long-lived quantum coherence. More broadly, fluorescent proteins emerge as tractable model systems for probing evolutionary pressures on chromoprotein photophysics and quantum dynamics. Cryogenic cooling may extend coherence time into the regime required for ultrafast gate operations, suggesting fluorescent protein dimers as a viable platform for bio-inspired qubits.",
+    "categories": "quant-ph cond-mat.mes-hall physics.bio-ph physics.optics q-bio.BM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.08179",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Computational modelling of Parkinson's disease: A multiscale approach with deep brain stimulation and stochastic noise",
+    "abstract": "Multiscale modelling presents a multifaceted perspective into understanding the mechanisms of the brain and how neurodegenerative disorders like Parkinson's disease (PD) manifest and evolve over time. In this study, we propose a novel co-simulation multiscale approach that unifies both micro- and macroscales to more rigorously capture brain dynamics. The presented design considers the electrodiffusive activity across the brain and in the network defined by the cortex, basal ganglia, and thalamus that is implicated in the mechanics of PD, as well as the contribution of presynaptic inputs in the highlighted regions. The application of deep brain stimulation (DBS) and its effects, along with the inclusion of stochastic noise are also examined. We found that the thalamus exhibits large, fluctuating spiking in both the deterministic and stochastic conditions, suggesting that noise contributes primarily to neural variability, rather than driving the overall spiking activity. Ultimately, this work intends to provide greater insights into the dynamics of PD and the brain which can eventually be converted into clinical use.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.10432",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Standards in the Preparation of Biomedical Research Metadata: A Bridge2AI Perspective",
+    "abstract": "AI-readiness describes the degree to which data may be optimally and ethically used for subsequent AI and Machine Learning (AI/ML) methods, where those methods may involve some combination of model training, data classification, and ethical, explainable prediction. The Bridge2AI consortium has defined the particular criteria a biomedical dataset may possess to render it AI-ready: in brief, a dataset's readiness is related to its FAIRness, provenance, degree of characterization, explainability, sustainability, and computability, in addition to its accompaniment with documentation about ethical data practices.\n  To ensure AI-readiness and to clarify data structure and relationships within Bridge2AI's Grand Challenges (GCs), particular types of metadata are necessary. The GCs within the Bridge2AI initiative include four data-generating projects focusing on generating AI/ML-ready datasets to tackle complex biomedical and behavioral research problems. These projects develop standardized, multimodal data, tools, and training resources to support AI integration, while addressing ethical data practices. Examples include using voice as a biomarker, building interpretable genomic tools, modeling disease trajectories with diverse multimodal data, and mapping cellular and molecular health indicators across the human body.\n  This report assesses the state of metadata creation and standardization in the Bridge2AI GCs, provides guidelines where required, and identifies gaps and areas for improvement across the program. New projects, including those outside the Bridge2AI consortium, would benefit from what we have learned about creating metadata as part of efforts to promote AI readiness.",
+    "categories": "q-bio.OT cs.AI",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13344",
+    "created": "2025-09-12",
+    "updated": "2025-09-18",
+    "title": "Benchmarking Dimensionality Reduction Techniques for Spatial Transcriptomics",
+    "abstract": "We introduce a unified framework for evaluating dimensionality reduction techniques in spatial transcriptomics beyond standard PCA approaches. We benchmark six methods PCA, NMF, autoencoder, VAE, and two hybrid embeddings on a cholangiocarcinoma Xenium dataset, systematically varying latent dimensions ($k$=5-40) and clustering resolutions ($ρ$=0.1-1.2). Each configuration is evaluated using complementary metrics including reconstruction error, explained variance, cluster cohesion, and two novel biologically-motivated measures: Cluster Marker Coherence (CMC) and Marker Exclusion Rate (MER). Our results demonstrate distinct performance profiles: PCA provides a fast baseline, NMF maximizes marker enrichment, VAE balances reconstruction and interpretability, while autoencoders occupy a middle ground. We provide systematic hyperparameter selection using Pareto optimal analysis and demonstrate how MER-guided reassignment improves biological fidelity across all methods, with CMC scores improving by up to 12\\% on average. This framework enables principled selection of dimensionality reduction methods tailored to specific spatial transcriptomics analyses.",
+    "categories": "q-bio.GN cs.LG",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13360",
+    "created": "2025-09-15",
+    "updated": "2025-09-18",
+    "title": "PREDICT-GBM: Platform for Robust Evaluation and Development of Individualized Computational Tumor Models in Glioblastoma",
+    "abstract": "Glioblastoma is the most prevalent primary brain malignancy, distinguished by its highly invasive behavior and exceptionally high rates of recurrence. Conventional radiation therapy, which employs uniform treatment margins, fails to account for patient-specific anatomical and biological factors that critically influence tumor cell migration. To address this limitation, numerous computational models of glioblastoma growth have been developed, enabling generation of tumor cell distribution maps extending beyond radiographically visible regions and thus informing more precise treatment strategies. However, despite encouraging preliminary findings, the clinical adoption of these growth models remains limited. To bridge this translational gap and accelerate both model development and clinical validation, we introduce PREDICT-GBM, a comprehensive integrated pipeline and dataset for modeling and evaluation. This platform enables systematic benchmarking of state-of-the-art tumor growth models using an expert-curated clinical dataset comprising 255 subjects with complete tumor segmentations and tissue characterization maps. Our analysis demonstrates that personalized radiation treatment plans derived from tumor growth predictions achieved superior recurrence coverage compared to conventional uniform margin approaches for two of the evaluated models. This work establishes a robust platform for advancing and systematically evaluating cutting-edge tumor growth modeling approaches, with the ultimate goal of facilitating clinical translation and improving patient outcomes.",
+    "categories": "eess.IV cs.CV cs.LG q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13372",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Generative AI Pipeline for Interactive Prompt-driven 2D-to-3D Vascular Reconstruction for Fontan Geometries from Contrast-Enhanced X-Ray Fluoroscopy Imaging",
+    "abstract": "Fontan palliation for univentricular congenital heart disease progresses to hemodynamic failure with complex flow patterns poorly characterized by conventional 2D imaging. Current assessment relies on fluoroscopic angiography, providing limited 3D geometric information essential for computational fluid dynamics (CFD) analysis and surgical planning.\n  A multi-step AI pipeline was developed utilizing Google's Gemini 2.5 Flash (2.5B parameters) for systematic, iterative processing of fluoroscopic angiograms through transformer-based neural architecture. The pipeline encompasses medical image preprocessing, vascular segmentation, contrast enhancement, artifact removal, and virtual hemodynamic flow visualization within 2D projections. Final views were processed through Tencent's Hunyuan3D-2mini (384M parameters) for stereolithography file generation.\n  The pipeline successfully generated geometrically optimized 2D projections from single-view angiograms after 16 processing steps using a custom web interface. Initial iterations contained hallucinated vascular features requiring iterative refinement to achieve anatomically faithful representations. Final projections demonstrated accurate preservation of complex Fontan geometry with enhanced contrast suitable for 3D conversion. AI-generated virtual flow visualization identified stagnation zones in central connections and flow patterns in branch arteries. Complete processing required under 15 minutes with second-level API response times.\n  This approach demonstrates clinical feasibility of generating CFD-suitable geometries from routine angiographic data, enabling 3D generation and rapid virtual flow visualization for cursory insights prior to full CFD simulation. While requiring refinement cycles for accuracy, this establishes foundation for democratizing advanced geometric and hemodynamic analysis using readily available imaging data.",
+    "categories": "eess.IV cs.AI cs.CV cs.ET q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13376",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Unleashing the power of computational insights in revealing the complexity of biological systems in the new era of spatial multi-omics",
+    "abstract": "Recent advances in spatial omics technologies have revolutionized our ability to study biological systems with unprecedented resolution. By preserving the spatial context of molecular measurements, these methods enable comprehensive mapping of cellular heterogeneity, tissue architecture, and dynamic biological processes in developmental biology, neuroscience, oncology, and evolutionary studies. This review highlights a systematic overview of the continuous advancements in both technology and computational algorithms that are paving the way for a deeper, more systematic comprehension of the structure and mechanisms of mammalian tissues and organs by using spatial multi-omics. Our viewpoint demonstrates how advanced machine learning algorithms and multi-omics integrative modeling can decode complex biological processes, including the spatial organization and topological relationships of cells during organ development, as well as key molecular signatures and regulatory networks underlying tumorigenesis and metastasis. Finally, we outline future directions for technological innovation and modeling insights of spatial omics in precision medicine.",
+    "categories": "q-bio.QM cs.LG",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13459",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Why all roads don't lead to Rome: Representation geometry varies across the human visual cortical hierarchy",
+    "abstract": "Biological and artificial intelligence systems navigate the fundamental efficiency-robustness tradeoff for optimal encoding, i.e., they must efficiently encode numerous attributes of the input space while also being robust to noise. This challenge is particularly evident in hierarchical processing systems like the human brain. With a view towards understanding how systems navigate the efficiency-robustness tradeoff, we turned to a population geometry framework for analyzing representations in the human visual cortex alongside artificial neural networks (ANNs). In the ventral visual stream, we found general-purpose, scale-free representations characterized by a power law-decaying eigenspectrum in most areas. However, in certain higher-order visual areas did not have scale-free representations, indicating that scale-free geometry is not a universal property of the brain. In parallel, ANNs trained with a self-supervised learning objective also exhibited free-free geometry, but not after fine-tune on a specific task. Based on these empirical results and our analytical insights, we posit that a system's representation geometry is not a universal property and instead depends upon the computational objective.",
+    "categories": "q-bio.NC cs.LG cs.NE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13476",
+    "created": "2025-09-15",
+    "updated": "2025-09-18",
+    "title": "A Geometric Graph-Based Deep Learning Model for Drug-Target Affinity Prediction",
+    "abstract": "In structure-based drug design, accurately estimating the binding affinity between a candidate ligand and its protein receptor is a central challenge. Recent advances in artificial intelligence, particularly deep learning, have demonstrated superior performance over traditional empirical and physics-based methods for this task, enabled by the growing availability of structural and experimental affinity data. In this work, we introduce DeepGGL, a deep convolutional neural network that integrates residual connections and an attention mechanism within a geometric graph learning framework. By leveraging multiscale weighted colored bipartite subgraphs, DeepGGL effectively captures fine-grained atom-level interactions in protein-ligand complexes across multiple scales. We benchmarked DeepGGL against established models on CASF-2013 and CASF-2016, where it achieved state-of-the-art performance with significant improvements across diverse evaluation metrics. To further assess robustness and generalization, we tested the model on the CSAR-NRC-HiQ dataset and the PDBbind v2019 holdout set. DeepGGL consistently maintained high predictive accuracy, highlighting its adaptability and reliability for binding affinity prediction in structure-based drug discovery.",
+    "categories": "q-bio.BM cs.LG",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13481",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Complex-valued Phase Synchrony Reveals Directional Coupling in FMRI and Tracks Medication Effects",
+    "abstract": "Understanding interactions in complex systems requires capturing the directionality of coupling, not only its strength. Phase synchronization captures this timing, yet most methods either reduce phase to its cosine or collapse it into scaler indices such as phase-locking value, discarding directionality. We propose a complex-valued phase synchrony (CVPS) framework that estimates phase with an adaptive Gabor wavelet and preserves both cosine and sine components. Simulations confirm that CVPS recovers true phase offsets and tracks non-stationary dynamics more faithfully than Hilbert-based methods. Because antipsychotics are known to modulate the timing of cortical interactions, they provide a rigorous context to evaluate whether CVPS can capture such pharmacological effects. CVPS further reveals cortical neuro-hemodynamic drivers, with occipital-to-parietal and prefrontal-to-striatal lead-lag flows consistent with known receptor targets, confirming its ability to capture pharmacological timing. CVPS, therefore, offers a robust and generalizable framework for detecting directional coupling in complex systems such as the brain.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13556",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Collective multicellular patterns arising from cadherin-linked cytoskeletal domains",
+    "abstract": "In multicellular systems, adhesion complexes, such as those composed of E-cadherin and associated catenins, mechanically couple neighboring cells by directly linking their actin-based cytoskeletal assemblies. However, the mechanics of how forces are transmitted across these adhesions remains largely unstudied. Here, we introduce a biophysical model that explicitly couples adhesion complex dynamics to intracellular mechanics across cell boundaries. A cadherin dimer plus associated catenins connecting two cells is represented as a spring whose ends experience drag with respect to the moving actin cytoskeleton. The cytoskeleton is modeled as a contractile gel driven by myosin activity in its bulk and forces from adhesion on its boundaries. Our model captures this bidirectional coupling via a coarse-grained continuum framework and reveals a range of observed cell- and tissue-scale behaviors. These include global cell polarization of the multicellular collective, other polarization patterns and oscillatory dynamics, spontaneously formed actin rings within cells, and supracellular stress chains. Many of these features arise from modeling the direct mechanical coupling between cytoskeleton and adhesion. This model can be extended to other adhesion-cytoskeleton feedback systems and used to advance our understanding of multicellular tissue dynamics, particularly during development.",
+    "categories": "physics.bio-ph q-bio.CB",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13612",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Rest2Visual: Predicting Visually Evoked fMRI from Resting-State Scans",
+    "abstract": "Understanding how spontaneous brain activity relates to stimulus-driven neural responses is a fundamental challenge in cognitive neuroscience. While task-based functional magnetic resonance imaging (fMRI) captures localized stimulus-evoked brain activation, its acquisition is costly, time-consuming, and difficult to scale across populations. In contrast, resting-state fMRI (rs-fMRI) is task-free and abundant, but lacks direct interpretability. We introduce Rest2Visual, a conditional generative model that predicts visually evoked fMRI (ve-fMRI) from resting-state input and 2D visual stimuli. It follows a volumetric encoder--decoder design, where multiscale 3D features from rs-fMRI are modulated by image embeddings via adaptive normalization, enabling spatially accurate, stimulus-specific activation synthesis. To enable model training, we construct a large-scale triplet dataset from the Natural Scenes Dataset (NSD), aligning each rs-fMRI volume with stimulus images and their corresponding ve-fMRI activation maps. Quantitative evaluation shows that the predicted activations closely match ground truth across standard similarity and representational metrics, and support successful image reconstruction in downstream decoding. Notably, the predicted maps preserve subject-specific structure, demonstrating the model's capacity to generate individualized functional surrogates. Our results provide compelling evidence that individualized spontaneous neural activity can be transformed into stimulus-aligned representations, opening new avenues for scalable, task-free functional brain modeling.",
+    "categories": "q-bio.NC cs.CV",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13867",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Plasticity-induced multistability on fast and slow timescales enables optimal information encoding and spontaneous sequence discrimination",
+    "abstract": "Neural circuits exhibit remarkable computational flexibility, enabling adaptive responses to noisy and ever-changing environmental cues. A fundamental question in neuroscience concerns how a wide range of behaviors can emerge from a relatively limited set of underlying biological mechanisms. In particular, the interaction between activities of neuronal populations and plasticity modulation of synaptic connections may endow neural circuits with a variety of functional responses when coordinated over different characteristic timescales. Here, we develop an information-theoretic framework to quantitatively explore this idea. We consider a stochastic model for neural activities that incorporates the presence of a coupled dynamic plasticity and time-varying stimuli. We show that long-term plasticity modulations play the functional role of steering neural activities towards a regime of optimal information encoding. By constructing the associated phase diagram, we demonstrate that either Hebbian or anti-Hebbian plasticity may become optimal strategies depending on how the external input is projected to the target neural populations. Conversely, short-term plasticity enables the discrimination of temporal ordering in sequences of inputs by navigating the emergent multistable attractor landscape. By allowing a degree of variability in external stimuli, we also highlight the existence of an optimal variability for sequence discrimination at a given plasticity strength. In summary, the timescale of plasticity modulation shapes how inputs are represented in neural activities, thereby fundamentally altering the computational properties of the system. Our approach offers a unifying information-theoretic perspective of the role of plasticity, paving the way for a quantitative understanding of the emergence of complex computations in coupled neuronal-synaptic dynamics.",
+    "categories": "cond-mat.stat-mech q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14029",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Deep Learning-Driven Peptide Classification in Biological Nanopores",
+    "abstract": "A device capable of performing real time classification of proteins in a clinical setting would allow for inexpensive and rapid disease diagnosis. One such candidate for this technology are nanopore devices. These devices work by measuring a current signal that arises when a protein or peptide enters a nanometer-length-scale pore. Should this current be uniquely related to the structure of the peptide and its interactions with the pore, the signals can be used to perform identification. While such a method would allow for real time identification of peptides and proteins in a clinical setting, to date, the complexities of these signals limit their accuracy. In this work, we tackle the issue of classification by converting the current signals into scaleogram images via wavelet transforms, capturing amplitude, frequency, and time information in a modality well-suited to machine learning algorithms. When tested on 42 peptides, our method achieved a classification accuracy of ~$81\\,\\%$, setting a new state-of-the-art in the field and taking a step toward practical peptide/protein diagnostics at the point of care. In addition, we demonstrate model transfer techniques that will be critical when deploying these models into real hardware, paving the way to a new method for real-time disease diagnosis.",
+    "categories": "cs.LG eess.SP physics.comp-ph q-bio.BM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14037",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "PhenoGnet: A Graph-Based Contrastive Learning Framework for Disease Similarity Prediction",
+    "abstract": "Understanding disease similarity is critical for advancing diagnostics, drug discovery, and personalized treatment strategies. We present PhenoGnet, a novel graph-based contrastive learning framework designed to predict disease similarity by integrating gene functional interaction networks with the Human Phenotype Ontology (HPO). PhenoGnet comprises two key components: an intra-view model that separately encodes gene and phenotype graphs using Graph Convolutional Networks (GCNs) and Graph Attention Networks (GATs), and a cross view model implemented as a shared weight multilayer perceptron (MLP) that aligns gene and phenotype embeddings through contrastive learning. The model is trained using known gene phenotype associations as positive pairs and randomly sampled unrelated pairs as negatives. Diseases are represented by the mean embeddings of their associated genes and/or phenotypes, and pairwise similarity is computed via cosine similarity. Evaluation on a curated benchmark of 1,100 similar and 866 dissimilar disease pairs demonstrates strong performance, with gene based embeddings achieving an AUCPR of 0.9012 and AUROC of 0.8764, outperforming existing state of the art methods. Notably, PhenoGnet captures latent biological relationships beyond direct overlap, offering a scalable and interpretable solution for disease similarity prediction. These results underscore its potential for enabling downstream applications in rare disease research and precision medicine.",
+    "categories": "q-bio.GN cs.AI cs.LG",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14118",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Multi-Source Neural Activity Indices and Spatial Filters for EEG/MEG Inverse Problem: An Extension to MNE-Python",
+    "abstract": "Accurate EEG/MEG source localization is essential for understanding brain function, yet remains challenging because the inverse problem is inherently ill-posed. In spatial filtering (beamforming) approaches, single-source LCMV spatial filters, though widely used, suffer from source cancellation when sources are correlated - a common experimental scenario. Multi-source frameworks, such as the multi-source minimum-variance pseudo-unbiased reduced-rank (MV-PURE) method, offer improved reconstruction and robust neural activity indices, yet their adoption has been limited by incomplete theory and lack of accessible implementations. In this paper, we present a rigorous derivation of multi-source neural activity indices and spatial filters, establishing a complete analytical framework with automated parameter selection. The resulting compact algebraic forms enable straightforward implementation. To facilitate adoption, we provide a full implementation extending MNE-Python, along with an accompanying tutorial, and demonstrate its utility on EEG experimental data, highlighting the practical advantages of multi-source spatial filtering for source localization and reconstruction.",
+    "categories": "math.OC q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14166",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Reaction-diffusion models of invasive tree pest spread: quantifying the spread of oak processionary moth in the UK",
+    "abstract": "UK woodlands, forests, and urban treescapes are under threat from invasive species, exacerbated by climate change, trade, and transport. Invasive tree pests debilitate their host and disrupt forest ecosystems, thus it is imperative to quantitatively model and predict their spread. Addressing this, we represent the spatial distribution of the pest as a population density field which evolves according to a spatiotemporal reaction-diffusion equation. We solve this intractable system of equations numerically and, from the solution, we determine first arrival times of the pest at locations in the field. The adopted model permits us to obtain the expansion rate of pest spread directly from the model parameters, which we infer in the Bayesian paradigm, using a Markov chain Monte Carlo scheme. We apply our framework to the ongoing spread of oak processionary moth in the UK, an outbreak which continues to grow despite management efforts. We demonstrate that our approach effectively captures the spread of the pest and that this has occurred at a non-constant expansion rate. The proposed framework is a powerful tool for quantitatively modelling the spread of an invasive tree pest and could underpin future prediction and management approaches.",
+    "categories": "q-bio.PE q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14167",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Deconstructing Intraocular Pressure: A Non-invasive Multi-Stage Probabilistic Inverse Framework",
+    "abstract": "Many critical healthcare decisions are challenged by the inability to measure key underlying parameters. Glaucoma, a leading cause of irreversible blindness driven by elevated intraocular pressure (IOP), provides a stark example. The primary determinant of IOP, a tissue property called trabecular meshwork permeability, cannot be measured in vivo, forcing clinicians to depend on indirect surrogates. This clinical challenge is compounded by a broader computational one: developing predictive models for such ill-posed inverse problems is hindered by a lack of ground-truth data and prohibitive cost of large-scale, high-fidelity simulations. We address both challenges with an end-to-end framework to noninvasively estimate unmeasurable variables from sparse, routine data. Our approach combines a multi-stage artificial intelligence architecture to functionally separate the problem; a novel data generation strategy we term PCDS that obviates the need for hundreds of thousands of costly simulations, reducing the effective computational time from years to hours; and a Bayesian engine to quantify predictive uncertainty. Our framework deconstructs a single IOP measurement into its fundamental components from routine inputs only, yielding estimates for the unmeasurable tissue permeability and a patient's outflow facility. Our noninvasively estimated outflow facility achieved excellent agreement with state-of-the-art tonography with precision comparable to direct physical instruments. Furthermore, the newly derived permeability biomarker demonstrates high accuracy in stratifying clinical cohorts by disease risk, highlighting its diagnostic potential. More broadly, our framework establishes a generalizable blueprint for solving similar inverse problems in other data-scarce, computationally-intensive domains.",
+    "categories": "cs.LG q-bio.QM stat.AP stat.ME",
+    "set": "q-bio"
+  },
+  {
+    "id": "2408.07637",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Synaptic Theory of Chunking in Working Memory",
+    "abstract": "Working memory often appears to exceed its basic span by organizing items into compact representations called chunks. Chunking can be learned over time for familiar inputs; however, it can also arise spontaneously for novel stimuli. Such on-the-fly structuring is crucial for cognition, yet the underlying neural mechanism remains unclear. Here we introduce a synaptic theory of chunking, in which short-term synaptic plasticity enables the formation of chunk representations in working memory. We show that a specialized population of ``chunking neurons'' selectively controls groups of stimulus-responsive neurons, akin to gating. As a result, the network maintains and retrieves the stimuli in chunks, thereby exceeding the basic capacity. Moreover, we show that our model can dynamically construct hierarchical representations within working memory through hierarchical chunking. A consequence of this proposed mechanism is a new limit on the number of items that can be stored and subsequently retrieved from working memory, depending only on the basic working memory capacity when chunking is not invoked. Predictions from our model were confirmed by analyzing single-unit responses in epileptic patients and memory experiments with verbal material. Our work provides a novel conceptual and analytical framework for understanding how the brain organizes information in real time.",
+    "categories": "q-bio.NC cond-mat.dis-nn cs.CL",
+    "set": "q-bio"
+  },
+  {
+    "id": "2409.04103",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "The Role of Graph Topology in the Performance of Biomedical Knowledge Graph Completion Models",
+    "abstract": "Knowledge Graph Completion has been increasingly adopted as a useful method for helping address several tasks in biomedical research, such as drug repurposing or drug-target identification. To that end, a variety of datasets and Knowledge Graph Embedding models have been proposed over the years. However, little is known about the properties that render a dataset, and associated modelling choices, useful for a given task. Moreover, even though theoretical properties of Knowledge Graph Embedding models are well understood, their practical utility in this field remains controversial. In this work, we conduct a comprehensive investigation into the topological properties of publicly available biomedical Knowledge Graphs and establish links to the accuracy observed in real-world tasks. By releasing all model predictions and a new suite of analysis tools we invite the community to build upon our work and continue improving the understanding of these crucial applications.",
+    "categories": "cs.LG cs.AI q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2409.12562",
+    "created": "2025-04-14",
+    "updated": "2025-09-19",
+    "title": "EEG-based Decoding of Selective Visual Attention in Superimposed Videos",
+    "abstract": "Selective attention enables humans to efficiently process visual stimuli by enhancing important elements and filtering out irrelevant information. Locating visual attention is fundamental in neuroscience with potential applications in brain-computer interfaces. Conventional paradigms often use synthetic stimuli or static images, but visual stimuli in real life contain smooth and highly irregular dynamics. We show that these irregular dynamics can be decoded from electroencephalography (EEG) signals for selective visual attention decoding. To this end, we propose a free-viewing paradigm in which participants attend to one of two superimposed videos, each showing a center-aligned person performing a stage act. Superimposing ensures that the relative differences in the neural responses are not driven by differences in object locations. A stimulus-informed decoder is trained to extract EEG components correlated with the motion patterns of the attended object, and can detect the attended object in unseen data with significantly above-chance accuracy. This shows that the EEG responses to naturalistic motion are modulated by selective attention. Eye movements are also found to be correlated to the motion patterns in the attended video, despite the spatial overlap with the distractor. We further show that these eye movements do not dominantly drive the EEG-based decoding and that complementary information exists in EEG and gaze data. Moreover, our results indicate that EEG may also capture neural responses to unattended objects. To our knowledge, this study is the first to explore EEG-based selective visual attention decoding on natural videos, opening new possibilities for experiment design.",
+    "categories": "eess.SP q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2410.20872",
+    "created": "2025-06-27",
+    "updated": "2025-09-19",
+    "title": "Peripheral brain interfacing: Reading high-frequency brain signals from the output of the nervous system",
+    "abstract": "Accurate and robust recording and decoding from the central nervous system (CNS) is essential for advances in human-machine interfacing. However, technologies used to directly measure CNS activity are limited by their resolution, sensitivity to interferences, and invasiveness. Advances in muscle recordings and deep learning allow us to decode the spiking activity of spinal motor neurons (MNs) in real time and with high accuracy. MNs represent the motor output layer of the CNS, receiving and sampling signals originating in different regions in the nervous system, and generating the neural commands that control muscles. The input signals to MNs can be estimated from the MN outputs. Here we argue that peripheral neural interfaces using muscle sensors represent a promising, non-invasive approach to estimate some neural activity from the CNS that reaches the MNs but does not directly modulate force production. We also discuss the evidence supporting this concept, and the necessary advances to consolidate and test MN-based CNS interfaces in controlled and real-world settings.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2502.09628",
+    "created": "2025-05-20",
+    "updated": "2025-09-19",
+    "title": "Characterizing nonlinear dynamics by contrastive cartography",
+    "abstract": "The qualitative study of dynamical systems using bifurcation theory is key to understanding systems from biological clocks and neurons to physical phase transitions. Data generated from such systems can feature complex transients, an unknown number of attractors, and stochasticity. Characterization of these often-complicated behaviors remains challenging. Making an analogy to bifurcation analysis, which specifies that useful dynamical features are often invariant to coordinate transforms, we leverage contrastive learning to devise a generic tool to discover dynamical classes from stochastic trajectory data. By providing a model-free trajectory analysis tool, this method automatically recovers the dynamical phase diagram of known models and provides a \"map\" of dynamical behaviors for a large ensemble of dynamical systems. The method thus provides a way to characterize and compare dynamical trajectories without governing equations or prior knowledge of target behavior. We additionally show that the same strategy can be used to characterize the stochastic motion of bacteria, establishing that this approach can be used as a standalone analysis tool or as a component of a broader data-driven analysis framework for dynamical data.",
+    "categories": "nlin.CD physics.data-an q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2504.13379",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Radial Basis Function Techniques for Neural Field Models on Surfaces",
+    "abstract": "We present a numerical framework for solving neural field equations on surfaces using Radial Basis Function (RBF) interpolation and quadrature. Neural field models describe the evolution of macroscopic brain activity, but modeling studies often overlook the complex geometry of curved cortical domains. Traditional numerical methods, such as finite element or spectral methods, can be computationally expensive and challenging to implement on irregular domains. In contrast, RBF-based methods provide a flexible alternative by offering interpolation and quadrature schemes that efficiently handle arbitrary geometries with high-order accuracy. We first develop an RBF-based interpolatory projection framework for neural field models on general surfaces. Quadrature for both flat and curved domains are derived in detail, ensuring high-order accuracy and stability as they depend on RBF hyperparameters (basis functions, augmenting polynomials, and stencil size). Through numerical experiments, we demonstrate the convergence of our method, highlighting its advantages over traditional approaches in terms of flexibility and accuracy. We conclude with an exposition of numerical simulations of spatiotemporal activity on complex surfaces, illustrating the method's ability to capture complex wave propagation patterns.",
+    "categories": "math.NA cs.NA nlin.PS q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2505.11460",
+    "created": "2025-08-10",
+    "updated": "2025-09-19",
+    "title": "Mechanistic inference of stochastic gene expression from structured single-cell data",
+    "abstract": "Single-cell gene expression measurements encode variability spanning molecular noise, cell-to-cell heterogeneity, and technical artifacts. Mechanistic stochastic models provide powerful approaches to disentangle these sources, yet inferring underlying dynamics from standard snapshot sequencing data faces fundamental identifiability limitations. This review focuses on how structured datasets with temporal, spatial, or multimodal features offer constraints to resolve these ambiguities, but demand more sophisticated models and inference strategies, including machine-learning techniques with inherent tradeoffs. We highlight recent progress in the judicious integration of structured single-cell data, stochastic model development, and innovative inference strategies to extract predictive, gene-level insights. These advances lay the foundation for scaling mechanistic inference upward to regulatory networks and multicellular tissues.",
+    "categories": "q-bio.QM stat.AP",
+    "set": "q-bio"
+  },
+  {
+    "id": "2507.13253",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Life Finds A Way: Emergence of Cooperative Structures in Adaptive Threshold Networks",
+    "abstract": "There has been a long debate on how new levels of organization have evolved. It might seem unlikely, as cooperation must prevail over competition. One well-studied example is the emergence of autocatalytic sets, which seem to be a prerequisite for the evolution of life. Using a simple model, we investigate how varying bias toward cooperation versus antagonism shapes network dynamics, revealing that higher-order organization emerges even amid pervasive antagonistic interactions. In general, we observe that a quantitative increase in the number of elements in a system leads to a qualitative transition.\n  We present a random threshold-directed network model that integrates node-specific traits with dynamic edge formation and node removal, simulating arbitrary levels of cooperation and competition. In our framework, intrinsic node values determine directed links through various threshold rules. Our model generates a multi-digraph with signed edges (reflecting support/antagonism, labeled ``help''/``harm''), which ultimately yields two parallel yet interdependent threshold graphs. Incorporating temporal growth and node turnover in our approach allows exploration of the evolution, adaptation, and potential collapse of communities and reveals phase transitions in both connectivity and resilience.\n  Our findings extend classical random threshold and Erdős-Rényi models, offering new insights into adaptive systems in biological and economic contexts, with emphasis on the application to Collective Affordance Sets. This framework should also be useful for making predictions that will be tested by ongoing experiments of microbial communities in soil.",
+    "categories": "q-bio.PE cs.SI",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.03706",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Controllable Surface Diffusion Generative Model for Neurodevelopmental Trajectories",
+    "abstract": "Preterm birth disrupts the typical trajectory of cortical neurodevelopment, increasing the risk of cognitive and behavioral difficulties. However, outcomes vary widely, posing a significant challenge for early prediction. To address this, individualized simulation offers a promising solution by modeling subject-specific neurodevelopmental trajectories, enabling the identification of subtle deviations from normative patterns that might act as biomarkers of risk. While generative models have shown potential for simulating neurodevelopment, prior approaches often struggle to preserve subject-specific cortical folding patterns or to reproduce region-specific morphological variations. In this paper, we present a novel graph-diffusion network that supports controllable simulation of cortical maturation. Using cortical surface data from the developing Human Connectome Project (dHCP), we demonstrate that the model maintains subject-specific cortical morphology while modeling cortical maturation sufficiently well to fool an independently trained age regression network, achieving a prediction accuracy of $0.85 \\pm 0.62$.",
+    "categories": "q-bio.NC cs.AI",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.10987",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "A High-Order Cumulant Extension of Quasi-Linkage Equilibrium",
+    "abstract": "A central question in evolutionary biology is how to quantitatively understand the dynamics of genetically diverse populations. Modeling the genotype distribution is challenging, as it ultimately requires tracking all correlations (or cumulants) among alleles at different loci. The quasi-linkage equilibrium (QLE) approximation simplifies this by assuming that correlations between alleles at different loci are weak -- i.e., low linkage disequilibrium -- allowing their dynamics to be modeled perturbatively. However, QLE breaks down under strong selection, significant epistatic interactions, or weak recombination. We extend the multilocus QLE framework to allow cumulants up to order $K$ to evolve dynamically, while higher-order cumulants ($>K$) are assumed to equilibrate rapidly. This extended QLE (exQLE) framework yields a general equation of motion for cumulants up to order $K$, which parallels the standard QLE dynamics (recovered when $K = 1$). In this formulation, cumulant dynamics are driven by the gradient of average fitness, mediated by a geometrically interpretable matrix that stems from competition among genotypes. Our analysis shows that the exQLE with $K=2$ accurately captures cumulant dynamics even when the fitness function includes higher-order (e.g., third- or fourth-order) epistatic interactions, capabilities that standard QLE lacks. We also applied the exQLE framework to infer fitness parameters from temporal sequence data. Overall, exQLE provides a systematic and interpretable approximation scheme, leveraging analytical cumulant dynamics and reducing complexity by progressively truncating higher-order cumulants.",
+    "categories": "q-bio.PE stat.CO",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14053",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Network representations reveal structured uncertainty in music",
+    "abstract": "Music, as a structured yet perceptually rich experience, can be modeled as a network to uncover how humans encode and process auditory information. While network-based representations of music are increasingly common, the impact of feature selection on structural properties and cognitive alignment remains underexplored. In this study, we evaluated eight network models, each constructed from symbolic representations of piano compositions using distinct combinations of pitch, octave, duration, and interval, designed to be representative of existing approaches in the literature. By comparing these models through topological metrics, entropy analysis, and divergence with respect to inferred cognitive representations, we assessed both their structural and perceptual efficiency. Our findings reveal that simpler, feature-specific models better match human perception, whereas complex, multidimensional representations introduce cognitive inefficiencies. These results support the view that humans rely on modular, parallel cognitive networks--an architecture consistent with theories of predictive processing and free energy minimization. Moreover, we find that musical networks are structurally organized to guide attention toward transitions that are both uncertain and inferable. The resulting structure concentrates uncertainty in a few frequently visited nodes, creating local entropy gradients that alternate between stable and unpredictable regions, thereby enabling the expressive dynamics of tension and release that define the musical experience. These findings show that network structures make the organization of uncertainty in music observable, offering new insight into how patterned flows of expectation shape perception, and open new directions for studying how musical structures evolve across genres, cultures, and historical periods through the lens of network science.",
+    "categories": "physics.soc-ph cs.SD eess.AS q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14287",
+    "created": "2025-09-16",
+    "updated": "2025-09-19",
+    "title": "Property-Isometric Variational Autoencoders for Sequence Modeling and Design",
+    "abstract": "Biological sequence design (DNA, RNA, or peptides) with desired functional properties has applications in discovering novel nanomaterials, biosensors, antimicrobial drugs, and beyond. One common challenge is the ability to optimize complex high-dimensional properties such as target emission spectra of DNA-mediated fluorescent nanoparticles, photo and chemical stability, and antimicrobial activity of peptides across target microbes. Existing models rely on simple binary labels (e.g., binding/non-binding) rather than high-dimensional complex properties. To address this gap, we propose a geometry-preserving variational autoencoder framework, called PrIVAE, which learns latent sequence embeddings that respect the geometry of their property space. Specifically, we model the property space as a high-dimensional manifold that can be locally approximated by a nearest neighbor graph, given an appropriately defined distance measure. We employ the property graph to guide the sequence latent representations using (1) graph neural network encoder layers and (2) an isometric regularizer. PrIVAE learns a property-organized latent space that enables rational design of new sequences with desired properties by employing the trained decoder. We evaluate the utility of our framework for two generative tasks: (1) design of DNA sequences that template fluorescent metal nanoclusters and (2) design of antimicrobial peptides. The trained models retain high reconstruction accuracy while organizing the latent space according to properties. Beyond in silico experiments, we also employ sampled sequences for wet lab design of DNA nanoclusters, resulting in up to 16.1-fold enrichment of rare-property nanoclusters compared to their abundance in training data, demonstrating the practical utility of our framework.",
+    "categories": "q-bio.QM cs.AI cs.LG",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14360",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Embodied sensorimotor control: computational modeling of the neural control of movement",
+    "abstract": "We review how sensorimotor control is dictated by interacting neural populations, optimal feedback mechanisms, and the biomechanics of bodies. First, we outline the distributed anatomical loops that shuttle sensorimotor signals between cortex, subcortical regions, and spinal cord. We then summarize evidence that neural population activity occupies low-dimensional, dynamically evolving manifolds during planning and execution of movements. Next, we summarize literature explaining motor behavior through the lens of optimal control theory, which clarifies the role of internal models and feedback during motor control. Finally, recent studies on embodied sensorimotor control address gaps within each framework by aiming to elucidate neural population activity through the explicit control of musculoskeletal dynamics. We close by discussing open problems and opportunities: multi-tasking and cognitively rich behavior, multi-regional circuit models, and the level of anatomical detail needed in body and network models. Together, this review and recent advances point towards reaching an integrative account of the neural control of movement.",
+    "categories": "q-bio.NC cs.AI",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14418",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Theoretical Note: The Relation Between Structure and Dynamics in Psychological Networks of Attitudes",
+    "abstract": "Two claims of the Causal Attitude Network (CAN) model and the descendent Attitude Entropy framework (AE) are indicative of significant theoretical hurdles facing the psychological network modeling efforts of attitudes. The first claim is that the dynamics of change in an Ising like attitude network, under perturbation of any one single node, can be inferred from the static network attributes of said node. The second claim is that psychological network models of attitudes with Ising like dynamics will maximize both attitudinal consistency and accuracy when within the small world topological regime. The first claim, one with significant application potentials, has not been sufficiently tested; the second claim, one with high theoretical novelty, has never been addressed. Using a set of analytic results and simulations, we found little support for these claims; in short, the predictions are not logically consistent with the theory. Our results have implications beyond attitude models to the larger field of psychological networks (e.g., in clinical psychology) in reference to how we should explain and understand their dynamics.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14446",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Mouse vs. AI: A Neuroethological Benchmark for Visual Robustness and Neural Alignment",
+    "abstract": "Visual robustness under real-world conditions remains a critical bottleneck for modern reinforcement learning agents. In contrast, biological systems such as mice show remarkable resilience to environmental changes, maintaining stable performance even under degraded visual input with minimal exposure. Inspired by this gap, we propose the Mouse vs. AI: Robust Foraging Competition, a novel bioinspired visual robustness benchmark to test generalization in reinforcement learning (RL) agents trained to navigate a virtual environment toward a visually cued target. Participants train agents to perform a visually guided foraging task in a naturalistic 3D Unity environment and are evaluated on their ability to generalize to unseen, ecologically realistic visual perturbations. What sets this challenge apart is its biological grounding: real mice performed the same task, and participants receive both behavioral performance data and large-scale neural recordings (over 19,000 neurons across visual cortex) for benchmarking. The competition features two tracks: (1) Visual Robustness, assessing generalization across held-out visual perturbations; and (2) Neural Alignment, evaluating how well agents' internal representations predict mouse visual cortical activity via a linear readout. We provide the full Unity environment, a fog-perturbed training condition for validation, baseline proximal policy optimization (PPO) agents, and a rich multimodal dataset. By bridging reinforcement learning, computer vision, and neuroscience through a shared, behaviorally grounded task, this challenge advances the development of robust, generalizable, and biologically inspired AI.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14455",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "Charting trajectories of human thought using large language models",
+    "abstract": "Language provides the most revealing window into the ways humans structure conceptual knowledge within cognitive maps. Harnessing this information has been difficult, given the challenge of reliably mapping words to mental concepts. Artificial Intelligence large language models (LLMs) now offer unprecedented opportunities to revisit this challenge. LLMs represent words and phrases as high-dimensional numerical vectors that encode vast semantic knowledge. To harness this potential for cognitive science, we introduce VECTOR, a computational framework that aligns LLM representations with human cognitive map organisation. VECTOR casts a participant's verbal reports as a geometric trajectory through a cognitive map representation, revealing how thoughts flow from one idea to the next. Applying VECTOR to narratives generated by 1,100 participants, we show these trajectories have cognitively meaningful properties that predict paralinguistic behaviour (response times) and real-world communication patterns. We suggest our approach opens new avenues for understanding how humans dynamically organise and navigate conceptual knowledge in naturalistic settings.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14468",
+    "created": "2025-09-17",
+    "updated": "2025-09-19",
+    "title": "A generative model of function growth explains hidden self-similarities across biological and social systems",
+    "abstract": "From genomes and ecosystems to bureaucracies and cities, the growth of complex systems occurs by adding new types of functions and expanding existing ones. We present a simple generative model that generalizes the Yule-Simon process by including: (i) a size-dependent probability of introducing new functions, and (ii) a generalized preferential attachment mechanism for expanding existing ones. We uncover a shared underlying structure that helps explain how function diversity evolves in empirical observations, such as prokaryotic proteomes, U.S. federal agencies, and urban economies. We show that real systems are often best represented as having non-Zipfian rank-frequency distributions, driven by sublinear preferential attachment, whilst still maintaining power-law scaling in their abundance distributions. Furthermore, our analytics explain five distinct phases of the organization of functional elements across complex systems. The model integrates empirical findings regarding the logarithmic growth of diversity in cities and the self-similarity of their rank-frequency distributions. Self-similarity previously observed in the rank-frequency distributions of cities is not observed in cells and federal agencies -- however, under a rescaling relative to the total diversity, all systems admit self-similar structures predicted by our theory.",
+    "categories": "physics.soc-ph cond-mat.stat-mech nlin.AO physics.bio-ph q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14498",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Data coarse graining can improve model performance",
+    "abstract": "Lossy data transformations by definition lose information. Yet, in modern machine learning, methods like data pruning and lossy data augmentation can help improve generalization performance. We study this paradox using a solvable model of high-dimensional, ridge-regularized linear regression under 'data coarse graining.' Inspired by the renormalization group in statistical physics, we analyze coarse-graining schemes that systematically discard features based on their relevance to the learning task. Our results reveal a nonmonotonic dependence of the prediction risk on the degree of coarse graining. A 'high-pass' scheme--which filters out less relevant, lower-signal features--can help models generalize better. By contrast, a 'low-pass' scheme that integrates out more relevant, higher-signal features is purely detrimental. Crucially, using optimal regularization, we demonstrate that this nonmonotonicity is a distinct effect of data coarse graining and not an artifact of double descent. Our framework offers a clear, analytical explanation for why careful data augmentation works: it strips away less relevant degrees of freedom and isolates more predictive signals. Our results highlight a complex, nonmonotonic risk landscape shaped by the structure of the data, and illustrate how ideas from statistical physics provide a principled lens for understanding modern machine learning phenomena.",
+    "categories": "cond-mat.stat-mech cond-mat.dis-nn cs.LG q-bio.NC stat.ML",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14788",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Structure-Aware Contrastive Learning with Fine-Grained Binding Representations for Drug Discovery",
+    "abstract": "Accurate identification of drug-target interactions (DTI) remains a central challenge in computational pharmacology, where sequence-based methods offer scalability. This work introduces a sequence-based drug-target interaction framework that integrates structural priors into protein representations while maintaining high-throughput screening capability. Evaluated across multiple benchmarks, the model achieves state-of-the-art performance on Human and BioSNAP datasets and remains competitive on BindingDB. In virtual screening tasks, it surpasses prior methods on LIT-PCBA, yielding substantial gains in AUROC and BEDROC. Ablation studies confirm the critical role of learned aggregation, bilinear attention, and contrastive alignment in enhancing predictive robustness. Embedding visualizations reveal improved spatial correspondence with known binding pockets and highlight interpretable attention patterns over ligand-residue contacts. These results validate the framework's utility for scalable and structure-aware DTI prediction.",
+    "categories": "cs.LG cs.AI q-bio.BM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14827",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Template-Based Cortical Surface Reconstruction with Minimal Energy Deformation",
+    "abstract": "Cortical surface reconstruction (CSR) from magnetic resonance imaging (MRI) is fundamental to neuroimage analysis, enabling morphological studies of the cerebral cortex and functional brain mapping. Recent advances in learning-based CSR have dramatically accelerated processing, allowing for reconstructions through the deformation of anatomical templates within seconds. However, ensuring the learned deformations are optimal in terms of deformation energy and consistent across training runs remains a particular challenge. In this work, we design a Minimal Energy Deformation (MED) loss, acting as a regularizer on the deformation trajectories and complementing the widely used Chamfer distance in CSR. We incorporate it into the recent V2C-Flow model and demonstrate considerable improvements in previously neglected training consistency and reproducibility without harming reconstruction accuracy and topological correctness.",
+    "categories": "cs.CV cs.AI cs.LG q-bio.NC stat.ML",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14862",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Modelling species distributions using remote sensing predictors: Comparing Dynamic Habitat Index and LULC",
+    "abstract": "This study compares the predictive capacity of the Dynamic Habitat Index (DHI) - a remote sensing (RS)-based measure of habitat productivity and variability - against traditional land-use/land-cover (LULC) metrics in species distribution modelling (SDM) applications. RS and LULC-based SDMs were built using distribution data for eleven bird, amphibian, and mammal species in Île-de-France. Predictor variables were derived from Sentinel-2 RS data and LULC classifications, with the latter incorporating Euclidean distance to habitat types. Ensemble SDMs were built using nine algorithms and evaluated with the Continuous Boyce Index (CBI) and a calibrated AUC. Habitat suitability scores and their binary transformations were assessed using niche overlap indices (Schoener, Warren, and Spearman rank correlation coefficient). Both RS and LULC approaches exhibited similar predictive accuracy overall. After binarisation however, the resulting niche maps diverged significantly. While LULC-based models exhibited spatial constraints (habitat suitability decreased as distance from recorded occurrences increased), RS-based models, which used continuous data, were not affected by geographic bias or distance effects. These results underscore the need to account for spatial biases in LULC-based SDMs. The DHI may offer a more spatially neutral alternative, making it a promising predictor for modelling species niches at regional scales.",
+    "categories": "q-bio.QM q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.14910",
+    "created": "2025-09-18",
+    "updated": "2025-09-19",
+    "title": "Dynamic effects of electric field in hybrid coupling thermosensitive neuronal network",
+    "abstract": "The dynamic of thermosensitive neuronal networks under the influence of external electric fields is explored, focusing on hybrid coupling models that incorporate both electrical and chemical synapses. Numerical simulations reveal a variety of complex behaviors, including coherent, incoherent, and chimera states, which are influenced by the frequency of the external field and the cell size. Specificaly chemical coupling is shown to enhances the appearance of a typical chimera states called traveling chimera states, while the external electric field modulates synchronization based on its frequency. Low-frequency fields induce localized synchronization, whereas high-frequency fields exert minimal influence. The study also investigates the role of intrinsic electric fields, represented by cell size, and their effect on both individual neuron activity and network dynamics. These findings enhance the understanding of how external fields control collective neuronal behavior and open up new possibilities for the modulation of neural activity.",
+    "categories": "nlin.CD q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2003.13733",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Lateral oscillation and body compliance help snakes and snake robots stably traverse large, smooth obstacles",
+    "abstract": "Snakes can move through almost any terrain. Similarly, snake robots hold the promise as a versatile platform to traverse complex environments like earthquake rubble. Unlike snake locomotion on flat surfaces which is inherently stable, when snakes traverse complex terrain by deforming their body out of plane, it becomes challenging to maintain stability. Here, we review our recent progress in understanding how snakes and snake robots traverse large, smooth obstacles that lack anchor points for gripping or bracing. First, we discovered that the generalist variable kingsnake combines lateral oscillation and cantilevering. Regardless of step height and surface friction, the overall gait is preserved. Next, to quantify static stability of the snake, we developed a method to interpolate continuous body in three dimensions (both position and orientation) between discrete tracked markers. By analyzing the base of support using the interpolated continuous body 3-D kinematics, we discovered that the snake maintained perfect stability during traversal, even on the most challenging low friction, high step. Finally, we applied this gait to a snake robot and systematically tested its performance traversing large steps with variable heights to further understand stability principles. The robot rapidly and stably traversed steps nearly as high as a third of its body length. As step height increased, the robot rolled more frequently to the extent of flipping over, reducing traversal probability. The absence of such failure in the snake with a compliant body inspired us to add body compliance to the robot. With better surface contact, the compliant body robot suffered less roll instability and traversed high steps at higher probability, without sacrificing traversal speed. Our robot traversed large step-like obstacles more rapidly than most previous snake robots, approaching that of the animal.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2006.12717",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "An energy landscape approach to locomotor transitions in complex 3D terrain",
+    "abstract": "Effective locomotion in nature happens by transitioning across multiple modes (e.g., walk, run, climb). Despite this, far more mechanistic understanding of terrestrial locomotion has been on how to generate and stabilize around near-steady-state movement in a single mode. We still know little about how locomotor transitions emerge from physical interaction with complex terrain. Consequently, robots largely rely on geometric maps to avoid obstacles, not traverse them. Recent studies revealed that locomotor transitions in complex 3-D terrain occur probabilistically via multiple pathways. Here, we show that an energy landscape approach elucidates the underlying physical principles. We discovered that locomotor transitions of animals and robots self-propelled through complex 3-D terrain correspond to barrier-crossing transitions on a potential energy landscape. Locomotor modes are attracted to landscape basins separated by potential energy barriers. Kinetic energy fluctuation from oscillatory self-propulsion helps the system stochastically escape from one basin and reach another to make transitions. Escape is more likely towards lower barrier direction. These principles are surprisingly similar to those of near-equilibrium, microscopic systems. Analogous to free energy landscapes for multi-pathway protein folding transitions, our energy landscape approach from first principles is the beginning of a statistical physics theory of multi-pathway locomotor transitions in complex terrain. This will not only help understand how the organization of animal behavior emerges from multi-scale interactions between their neural and mechanical systems and the physical environment, but also guide robot design, control, and planning over the large, intractable locomotor-terrain parameter space to generate robust locomotor transitions through the real world.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2008.08981",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Coordinated appendages accumulate more energy to self-right on the ground",
+    "abstract": "Animals and robots must right themselves after flipping over on the ground. The discoid cockroach pushes its wings against the ground in an attempt to dynamically self-right by a somersault. However, because this maneuver is strenuous, the animal often fails to overcome the potential energy barrier and makes continual attempts. In this process, the animal flails its legs, whose lateral perturbation eventually leads it to roll to the side to self-right. Our previous work developed a cockroach-inspired robot capable of leg-assisted, winged self-righting, and a robot simulation study revealed that the outcome of this strategy depends sensitively on wing-leg coordination (measured by the phase between their motions). Here, we further elucidate why this is the case by developing a template to model the complex hybrid dynamics resulting from discontinuous contact and actuation. We used the template to calculate the potential energy barrier that the body must overcome to self-right, mechanical energy contribution by wing pushing and leg flailing, and mechanical energy dissipation due to wing-ground collision. The template revealed that wing-leg coordination (phase) strongly affects self-righting outcome by changing mechanical energy budget. Well-coordinated appendage motions (good phase) accumulate more mechanical energy than poorly-coordinated motions (bad phase), thereby better overcoming the potential energy barrier to self-right more successfully. Finally, we demonstrated practical use of the template for predicting a new control strategy to further increase self-righting performance and informing robot design.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2305.14366",
+    "created": "2023-05-17",
+    "updated": "2025-09-22",
+    "title": "Information processing via human soft tissue",
+    "abstract": "This study demonstrates that the soft biological tissues of humans can be used as a type of soft body in physical reservoir computing. Soft biological tissues possess characteristics such as stress-strain nonlinearity and viscoelasticity that satisfy the requirements for physical reservoir computing, including nonlinearity and memory. The aim of this study was to utilize the dynamics of human soft tissues as a physical reservoir for the emulation of nonlinear dynamical systems. To demonstrate this concept, joint angle data during motion in the flexion-extension direction of the wrist joint, and ultrasound images of the muscles associated with that motion, were acquired from human participants. The input to the system was the angle of the wrist joint, while the deformation field within the muscle (obtained from ultrasound images) represented the state of the reservoir. The results indicate that the dynamics of soft tissue have a positive impact on the computational task of emulating nonlinear dynamical systems. This research suggests that the soft tissue of humans can be used as a potential computational resource.",
+    "categories": "q-bio.NC cs.AI cs.HC cs.LG cs.RO cs.SY eess.SY",
+    "set": "q-bio"
+  },
+  {
+    "id": "2309.07088",
+    "created": "2023-09-13",
+    "updated": "2025-09-22",
+    "title": "Modelling individual motion sickness accumulation in vehicles and driving simulators",
+    "abstract": "Users of automated vehicles will move away from being drivers to passengers, preferably engaged in other activities such as reading or using laptops and smartphones, which will strongly increase susceptibility to motion sickness. Similarly, in driving simulators, the presented visual motion with scaled or even without any physical motion causes an illusion of passive motion, creating a conflict between perceived and expected motion, and eliciting motion sickness. Given the very large differences in sickness susceptibility between individuals, we need to consider sickness at an individual level. This paper combines a group-averaged sensory conflict model with an individualized accumulation model to capture individual differences in motion sickness susceptibility across various vision conditions. The model framework can be used to develop personalized models for users of automated vehicles and improve the design of new motion cueing algorithms for simulators. The feasibility and accuracy of this model framework are verified using two existing datasets with sickening. Both datasets involve passive motion, representative of being driven by an automated vehicle. The model is able to fit an individuals motion sickness responses using only 2 parameters (gain K1 and time constant T1), as opposed to the 5 parameters in the original model. This ensures unique parameters for each individual. Better fits, on average by a factor of 1.7 of an individuals motion sickness levels, are achieved as compared to using only the group-averaged model. Thus, we find that models predicting group-averaged sickness incidence cannot be used to predict sickness at an individual level. On the other hand, the proposed combined model approach predicts individual motion sickness levels and thus can be used to control sickness.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2404.05781",
+    "created": "2024-04-08",
+    "updated": "2025-09-22",
+    "title": "Group-specific discriminant analysis reveals statistically validated sex differences in lateralization of brain functional network",
+    "abstract": "Lateralization is a fundamental feature of the human brain, where sex differences have been observed. Conventional studies in neuroscience on sex-specific lateralization are typically conducted on univariate statistical comparisons between male and female groups. However, these analyses often lack effective validation of group specificity. Here, we formulate modeling sex differences in lateralization of functional networks as a dual-classification problem, consisting of first-order classification for left vs. right functional networks and second-order classification for male vs. female models. To capture sex-specific patterns, we develop the Group-Specific Discriminant Analysis (GSDA) for first-order classification. The evaluation on two public neuroimaging datasets demonstrates the efficacy of GSDA in learning sex-specific models from functional networks, achieving a significant improvement in group specificity over baseline methods. The major sex differences are in the strength of lateralization and the interactions within and between lobes. The GSDA-based method is generic in nature and can be adapted to other group-specific analyses such as handedness-specific or disease-specific analyses.",
+    "categories": "q-bio.NC cs.LG",
+    "set": "q-bio"
+  },
+  {
+    "id": "2405.17847",
+    "created": "2024-05-28",
+    "updated": "2025-09-22",
+    "title": "Sparsification of Phylogenetic Covariance Matrices of $k$-Regular Trees",
+    "abstract": "Consider a tree $T=(V,E)$ with root $\\circ$ and edge length function $\\ell:E\\to\\mathbb{R}_+$. The phylogenetic covariance matrix of $T$ is the matrix $C$ with rows and columns indexed by $L$, the leaf set of $T$, with entries $C(i,j):=\\sum_{e\\in[i\\wedge j,o]}\\ell(e)$, for each $i,j\\in L$. Recent work [15] has shown that the phylogenetic covariance matrix of a large, random binary tree $T$ is significantly sparsified with overwhelmingly high probability under a change-of-basis with respect to the so-called Haar-like wavelets of $T$. This finding notably enables manipulating the spectrum of covariance matrices of large binary trees without the necessity to store them in computer memory but instead performing two post-order traversals of the tree. Building on the methods of [15], this manuscript further advances their sparsification result to encompass the broader class of $k$-regular trees, for any given $k\\ge2$. This extension is achieved by refining existing asymptotic formulas for the mean and variance of the internal path length of random $k$-regular trees, utilizing hypergeometric function properties and identities.",
+    "categories": "q-bio.PE cs.DM math.CO math.PR",
+    "set": "q-bio"
+  },
+  {
+    "id": "2502.15868",
+    "created": "2025-06-23",
+    "updated": "2025-09-22",
+    "title": "Multilevel classification framework for breast cancer cell selection and its integration with advanced disease models",
+    "abstract": "Breast cancer cell lines are indispensable tools for unraveling disease mechanisms, enabling drug discovery, and developing personalized treatments, yet their heterogeneity and inconsistent classification pose significant challenges in model selection and data reproducibility. This review aims at providing a comprehensive and user-friendly framework for broadly mapping the features of breast cancer types and commercially available human breast cancer cell lines, defining absolute criteria, i.e. objective features such as origin (e.g., MDA-MB, MCF), histological subtype (ductal, lobular), hormone receptor status (ER/PR/HER2), and genetic mutations (BRCA1, TP53), and relative criteria, which contextualize functional behaviors like metastatic potential, drug sensitivity, and genomic instability. It then examines how the proposed framework could be applied to cell line screening in advanced and emerging disease models. By supporting better informed choices, this work aims to improve experimental design and strengthen the connection between in vitro breast cancer studies and their clinical translation.",
+    "categories": "q-bio.QM q-bio.CB",
+    "set": "q-bio"
+  },
+  {
+    "id": "2503.21274",
+    "created": "2025-08-21",
+    "updated": "2025-09-22",
+    "title": "Integrated data-driven biotechnology research environments",
+    "abstract": "In the past few decades, the life sciences have experienced an unprecedented accumulation of data, ranging from genomic sequences and proteomic profiles to heavy-content imaging, clinical assays, and commercial biological products for research. Traditional static databases have been invaluable in providing standardized and structured information. However, they fall short when it comes to facilitating exploratory data interrogation, real-time query, multidimensional comparison and dynamic visualization. Integrated data-driven research environments aiming at supporting user-driven data queries and visualization offer promising new avenues for making the best use of the vast and heterogeneous data streams collected in biological research. This perspective article discusses the potential of interactive and integrated frameworks, highlighting the importance of implementing this model in biotechnology research, while going through the state-of-the-art in database design, technical choices behind modern data management systems, and emerging needs in multidisciplinary research. Special attention is given to data interrogation strategies, user interface design, and comparative analysis capabilities, along with challenges such as data standardization and scalability in data-heavy applications. Conceptual features for developing interactive data environments along diverse life science domains are then presented in the user case of cell line selection for in vitro research to bridge the gap between research data generation, actionable biological insight, experimental design, and clinical relevance.",
+    "categories": "cs.DB q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2506.21943",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Single-Trajectory Bayesian Modeling Reveals Multi-State Diffusion of the MSH Sliding Clamp",
+    "abstract": "DNA mismatch repair (MMR) is the essential mechanism for preserving genomic integrity in various living organisms. In this process, MutS homologs (MSH) play crucial roles in identifying mismatched basepairs and recruiting downstream MMR proteins. The MSH protein exhibits distinct functions and diffusion dynamics before and after the recognition of mismatches while traversing along DNA. An ADP-bound MSH, known as the MSH searching clamp, scans DNA sequences via rotational diffusion along the DNA backbone. Upon recognizing a mismatch, the MSH combines with ATP molecules, forming a stable sliding clamp. Recent experimental evidence challenges the conventional view that the sliding clamp performs a simple Brownian motion. In this study, we explore the diffusion dynamics of the ATP-bound MSH sliding clamp through single-particle tracking experiments and introduce a Bayesian single-trajectory modeling framework to analyze its motion. Our quantitative analysis reveals that the diffusion characteristics defy explanation by a single-state diffusion mechanism. Instead, our in-depth model inference uncovers three distinct diffusion states, each characterized by specific diffusion coefficients. These states alternate over time, with cross-state transitions predominantly involving one intermediate state, and direct transitions between the slowest and the fastest states being scarce. We propose that these multi-state dynamics reflect underlying conformational changes in the MSH sliding clamp, highlighting a more intricate diffusion mechanism than previously appreciated.",
+    "categories": "physics.bio-ph q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.03593",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "On the (In)Significance of Feature Selection in High-Dimensional Datasets",
+    "abstract": "Feature selection (FS) is assumed to improve predictive performance and identify meaningful features in high-dimensional datasets. Surprisingly, small random subsets of features (0.02-1%) match or outperform the predictive performance of both full feature sets and FS across 28 out of 30 diverse datasets (microarray, bulk and single-cell RNA-Seq, mass spectrometry, imaging, etc.). In short, any arbitrary set of features is as good as any other (with surprisingly low variance in results) - so how can a particular set of selected features be \"important\" if they perform no better than an arbitrary set? These results challenge the assumption that computationally selected features reliably capture meaningful signals, emphasizing the importance of rigorous validation before interpreting selected features as actionable, particularly in computational genomics.",
+    "categories": "cs.LG q-bio.GN stat.ML",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.20895",
+    "created": "2025-08-28",
+    "updated": "2025-09-22",
+    "title": "Multicritical Infection Spreading",
+    "abstract": "The contact process is a simple infection spreading model showcasing an out-of-equilibrium phase transition between a macroscopically active and an inactive phase. Such absorbing state phase transitions are often sensitive to the presence of quenched disorder. Traditionally, a phase transition in the disordered contact process is either triggered by dilution or by locally varying the infection rate. However, when both factors play an important role, a multicritical point emerges that remains poorly understood. Here, we study the multicritical contact process by large-scale Monte Carlo simulations in two and three dimensions. The multicritical behavior is found to be universal and exhibits ultra-slow, activated dynamical scaling, with exponents consistent with those predicted by the strong disorder renormalization group method. This finding indicates that the multicritical contact process belongs to the same universality class as the multicritical quantum Ising model, opening future directions to measure quantum entanglement properties via classical simulations.",
+    "categories": "cond-mat.stat-mech cond-mat.dis-nn physics.bio-ph q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.21053",
+    "created": "2025-08-28",
+    "updated": "2025-09-22",
+    "title": "Activity propagation with Hebbian learning",
+    "abstract": "We investigate the impact of Hebbian learning on the contact process, a paradigmatic model for infection spreading, which has been also proposed as a simple model to capture the dynamics of inter-regional brain activity propagation as well as population spreading. Each of these contexts calls for an extension of the contact process with local learning. We introduce Hebbian learning as a positive or negative reinforcement of the activation rate between a pair of sites after each successful activation event. Learning can happen either in both directions motivated by social distancing (mutual learning model), or in only one of the directions motivated by brain and population dynamics (source or target learning models). Hebbian learning leads to a rich class of emergent behavior, where local incentives can lead to the opposite global effects. In general, positive reinforcement (increasing activation rates) leads to a loss of the active phase, while negative reinforcement (reducing activation rates) can turn the inactive phase into a globally active phase. In two dimensions and above, the effect of negative reinforcement is twofold: it promotes the spreading of activity, but at the same time gives rise to the appearance of effectively immune regions, entailing the emergence of two distinct critical points. Positive reinforcement can lead to Griffiths effects with non-universal power-law scaling, through the formation of random loops of activity, a manifestation of the ``ant mill\" phenomenon.",
+    "categories": "cond-mat.stat-mech cond-mat.dis-nn physics.bio-ph q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.08578",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak",
+    "abstract": "Timely and robust influenza incidence forecasting is critical for public health decision-making. This paper presents MAESTRO (Multi-modal Adaptive Estimation for Temporal Respiratory Disease Outbreak), a novel, unified framework that synergistically integrates advanced spectro-temporal modeling with multi-modal data fusion, including surveillance, web search trends, and meteorological data. By adaptively weighting heterogeneous data sources and decomposing complex time series patterns, the model achieves robust and accurate forecasts. Evaluated on over 11 years of Hong Kong influenza data (excluding the COVID-19 period), MAESTRO demonstrates state-of-the-art performance, achieving a superior model fit with an R-square of 0.956. Extensive ablations confirm the significant contributions of its multi-modal and spectro-temporal components. The modular and reproducible pipeline is made publicly available to facilitate deployment and extension to other regions and pathogens, presenting a powerful tool for epidemiological forecasting.",
+    "categories": "cs.LG q-bio.PE q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.13428",
+    "created": "2025-09-16",
+    "updated": "2025-09-22",
+    "title": "Autonomous Reporting of Normal Chest X-rays by Artificial Intelligence in the United Kingdom. Can We Take the Human Out of the Loop?",
+    "abstract": "Chest X-rays (CXRs) are the most commonly performed imaging investigation. In the UK, many centres experience reporting delays due to radiologist workforce shortages. Artificial intelligence (AI) tools capable of distinguishing normal from abnormal CXRs have emerged as a potential solution. If normal CXRs could be safely identified and reported without human input, a substantial portion of radiology workload could be reduced.\n  This article examines the feasibility and implications of autonomous AI reporting of normal CXRs. Key issues include defining normal, ensuring generalisability across populations, and managing the sensitivity-specificity trade-off. It also addresses legal and regulatory challenges, such as compliance with IR(ME)R and GDPR, and the lack accountability frameworks for errors. Further considerations include the impact on radiologists practice, the need for robust post-market surveillance, and incorporation of patient perspectives. While the benefits are clear, adoption must be cautious.",
+    "categories": "q-bio.PE cs.CV eess.IV",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15278",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Assessing metadata privacy in neuroimaging",
+    "abstract": "The ethical and legal imperative to share research data without causing harm requires careful attention to privacy risks. While mounting evidence demonstrates that data sharing benefits science, legitimate concerns persist regarding the potential leakage of personal information that could lead to reidentification and subsequent harm. We reviewed metadata accompanying neuroimaging datasets from six heterogeneous studies openly available on OpenNeuro, involving participants across the lifespan, from children to older adults, with and without clinical diagnoses, and including associated clinical score data. Using metaprivBIDS (https://github.com/CPernet/metaprivBIDS), a novel tool for the systematic assessment of privacy in tabular data, we found that privacy is generally well maintained, with serious vulnerabilities being rare. Nonetheless, minor issues were identified in nearly all datasets and warrant mitigation. Notably, clinical score data (e.g., neuropsychological results) posed minimal reidentification risk, whereas demographic variables (age, sex, race, income, and geolocation) represented the principal privacy vulnerabilities. We outline practical measures to address these risks, enabling safer data sharing practices.",
+    "categories": "q-bio.OT cs.CR cs.CY eess.IV",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15328",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Kuramoto Orientation Diffusion Models",
+    "abstract": "Orientation-rich images, such as fingerprints and textures, often exhibit coherent angular directional patterns that are challenging to model using standard generative approaches based on isotropic Euclidean diffusion. Motivated by the role of phase synchronization in biological systems, we propose a score-based generative model built on periodic domains by leveraging stochastic Kuramoto dynamics in the diffusion process. In neural and physical systems, Kuramoto models capture synchronization phenomena across coupled oscillators -- a behavior that we re-purpose here as an inductive bias for structured image generation. In our framework, the forward process performs \\textit{synchronization} among phase variables through globally or locally coupled oscillator interactions and attraction to a global reference phase, gradually collapsing the data into a low-entropy von Mises distribution. The reverse process then performs \\textit{desynchronization}, generating diverse patterns by reversing the dynamics with a learned score function. This approach enables structured destruction during forward diffusion and a hierarchical generation process that progressively refines global coherence into fine-scale details. We implement wrapped Gaussian transition kernels and periodicity-aware networks to account for the circular geometry. Our method achieves competitive results on general image benchmarks and significantly improves generation quality on orientation-dense datasets like fingerprints and textures. Ultimately, this work demonstrates the promise of biologically inspired synchronization dynamics as structured priors in generative modeling.",
+    "categories": "cs.LG cs.CV q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15338",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Epidemic amplification by correlated superspreading",
+    "abstract": "Infectious pathogens often propagate by superspreading, which focusses onward transmission on disproportionately few infected individuals. At the same time, infector-infectee pairs tend to have more similar transmission potentials than expected by chance, as risk factors assort among individuals who frequently interact. A key problem for infectious disease epidemiology, and in the dynamics of complex systems, is to understand how structured variation in individual transmission will scale to impact epidemic dynamics. Here we introduce a framework that reveals how population structure shapes epidemic thresholds, through autocorrelation of individual reproductive numbers along chains of transmission. We show that chains of superspreading can sustain epidemics even when the average transmission rate in the host population is below one, and derive a mathematical threshold beyond which correlated superspreading allows epidemics in otherwise subcritical systems. Empirical analysis of 47 transmission trees for 13 human pathogens indicate self-organizing bursts of superspreading are common and that many trees are near the critical boundary. Vaccination campaigns that proceed up assortative hierarchies of transmission are predicted to sustain the force of infection until herd immunity is reached, providing a mechanistic basis for threshold dynamics observed in real-world settings. Conversely, modulating correlations in transmission, rather than mean or variance, could enable cities and other complex systems to develop immune-like capacities that suppress contagion while preserving core functions.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15344",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Modeling Adaptive Tracking of Predictable Stimuli in Electric Fish",
+    "abstract": "The weakly electric fish \\emph{Eigenmannia virescens} naturally swims back and forth to stay within a moving refuge, tracking its motion using visual and electrosensory feedback. Previous experiments show that when the refuge oscillates as a low-frequency sinusoid (below about 0.5 Hz), the tracking is nearly perfect, but phase lag increases and gain decreases at higher frequencies. Here, we model this nonlinear behavior as an adaptive internal model principle (IMP) system. Specifically, an adaptive state estimator identifies the \\emph{a priori} unknown frequency, and feeds this parameter estimate into a closed-loop IMP-based system built around a lightly damped harmonic oscillator. We prove that the closed-loop tracking error of the IMP-based system, where the online adaptive frequency estimate is used as a surrogate for the unknown frequency, converges exponentially to that of an ideal control system with perfect information about the stimulus. Simulations further show that our model reproduces the fish refuge tracking Bode plot across a wide frequency range. These results establish the theoretical validity of combining the IMP with an adaptive identification process and provide a basic framework in adaptive sensorimotor control.",
+    "categories": "eess.SY cs.SY q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15371",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "KoMbine: Propagating Statistical and Systematic Errors to Kaplan--Meier Curves",
+    "abstract": "Kaplan--Meier curves are widely used in medical research to evaluate the performance of biomarkers and predict patient outcomes. These curves are often shown without error bands, and even when error bands are provided, they typically only account for the statistical uncertainty resulting from the finite number of patients in the study. In reality, other sources of uncertainty affect the measurements as well. As datasets grow, the statistical uncertainty on the number of patients no longer dominates the overall uncertainty, and other uncertainties are increasingly important to model. The KoMbine package, developed based on procedures used in particle physics, provides the first method to propagate both statistical and systematic uncertainties through the Kaplan--Meier curve estimation processes.",
+    "categories": "stat.ME q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15429",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Random Matrix Theory-guided sparse PCA for single-cell RNA-seq data",
+    "abstract": "Single-cell RNA-seq provides detailed molecular snapshots of individual cells but is notoriously noisy. Variability stems from biological differences, PCR amplification bias, limited sequencing depth, and low capture efficiency, making it challenging to adapt computational pipelines to heterogeneous datasets or evolving technologies. As a result, most studies still rely on principal component analysis (PCA) for dimensionality reduction, valued for its interpretability and robustness. Here, we improve upon PCA with a Random Matrix Theory (RMT)-based approach that guides the inference of sparse principal components using existing sparse PCA algorithms. We first introduce a novel biwhitening method, inspired by the Sinkhorn-Knopp algorithm, that simultaneously stabilizes variance across genes and cells. This enables the use of an RMT-based criterion to automatically select the sparsity level, rendering sparse PCA nearly parameter-free. Our mathematically grounded approach retains the interpretability of PCA while enabling robust, hands-off inference of sparse principal components. Across seven single-cell RNA-seq technologies and four sparse PCA algorithms, we show that this method systematically improves the reconstruction of the principal subspace and consistently outperforms PCA-, autoencoder-, and diffusion-based methods in cell-type classification tasks.",
+    "categories": "cs.LG physics.bio-ph q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15460",
+    "created": "2025-09-18",
+    "updated": "2025-09-22",
+    "title": "Incorporating Visual Cortical Lateral Connection Properties into CNN: Recurrent Activation and Excitatory-Inhibitory Separation",
+    "abstract": "The original Convolutional Neural Networks (CNNs) and their modern updates such as the ResNet are heavily inspired by the mammalian visual system. These models include afferent connections (retina and LGN to the visual cortex) and long-range projections (connections across different visual cortical areas). However, in the mammalian visual system, there are connections within each visual cortical area, known as lateral (or horizontal) connections. These would roughly correspond to connections within CNN feature maps, and this important architectural feature is missing in current CNN models. In this paper, we present how such lateral connections can be modeled within the standard CNN framework, and test its benefits and analyze its emergent properties in relation to the biological visual system. We will focus on two main architectural features of lateral connections: (1) recurrent activation and (2) separation of excitatory and inhibitory connections. We show that recurrent CNN using weight sharing is equivalent to lateral connections, and propose a custom loss function to separate excitatory and inhibitory weights. The addition of these two leads to increased classification accuracy, and importantly, the activation properties and connection properties of the resulting model show properties similar to those observed in the biological visual system. We expect our approach to help align CNN closer to its biological counterpart and better understand the principles of visual cortical computation.",
+    "categories": "q-bio.NC cs.AI cs.CV",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15584",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Polynomial Equivalence of Extended Chemical Reaction Models",
+    "abstract": "The ability to detect whether a species (or dimension) is zero in Chemical Reaction Networks (CRN), Vector Addition Systems, or Petri Nets is known to increase the power of these models -- making them capable of universal computation. While this ability may appear in many forms, such as extending the models to allow transitions to be inhibited, prioritized, or synchronized, we present an extension that directly performs this zero checking. We introduce a new void genesis CRN variant with a simple design that merely increments the count of a specific species when any other species' count goes to zero. As with previous extensions, we show that the model is Turing Universal. We then analyze several other studied CRN variants and show that they are all equivalent through a polynomial simulation with the void genesis model, which does not merely follow from Turing-universality. Thus, inhibitor species, reactions that occur at different rates, being allowed to run reactions in parallel, or even being allowed to continually add more volume to the CRN, does not add additional simulation power beyond simply detecting if a species count becomes zero.",
+    "categories": "q-bio.MN cs.CC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15664",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "siDPT: siRNA Efficacy Prediction via Debiased Preference-Pair Transformer",
+    "abstract": "Small interfering RNA (siRNA) is a short double-stranded RNA molecule (about 21-23 nucleotides) with the potential to cure diseases by silencing the function of target genes. Due to its well-understood mechanism, many siRNA-based drugs have been evaluated in clinical trials. However, selecting effective binding regions and designing siRNA sequences requires extensive experimentation, making the process costly. As genomic resources and publicly available siRNA datasets continue to grow, data-driven models can be leveraged to better understand siRNA-mRNA interactions. To fully exploit such data, curating high-quality siRNA datasets is essential to minimize experimental errors and noise. We propose siDPT: siRNA efficacy Prediction via Debiased Preference-Pair Transformer, a framework that constructs a preference-pair dataset and designs an siRNA-mRNA interactive transformer with debiased ranking objectives to improve siRNA inhibition prediction and generalization. We evaluate our approach using two public datasets and one newly collected patent dataset. Our model demonstrates substantial improvement in Pearson correlation and strong performance across other metrics.",
+    "categories": "q-bio.GN eess.SP q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15748",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Hybrid Lie semi-group and cascade structures for the generalized Gaussian derivative model for visual receptive fields",
+    "abstract": "Because of the variabilities of real-world image structures under the natural image transformations that arise when observing similar objects or spatio-temporal events under different viewing conditions, the receptive field responses computed in the earliest layers of the visual hierarchy may be strongly influenced by such geometric image transformations. One way of handling this variability is by basing the vision system on covariant receptive field families, which expand the receptive field shapes over the degrees of freedom in the image transformations.\n  This paper addresses the problem of deriving relationships between spatial and spatio-temporal receptive field responses obtained for different values of the shape parameters in the resulting multi-parameter families of receptive fields. For this purpose, we derive both (i) infinitesimal relationships, roughly corresponding to a combination of notions from semi-groups and Lie groups, as well as (ii) macroscopic cascade smoothing properties, which describe how receptive field responses at coarser spatial and temporal scales can be computed by applying smaller support incremental filters to the output from corresponding receptive fields at finer spatial and temporal scales, structurally related to the notion of Lie algebras, although with directional preferences.\n  The presented results provide (i) a deeper understanding of the relationships between spatial and spatio-temporal receptive field responses for different values of the filter parameters, which can be used for both (ii) designing more efficient schemes for computing receptive field responses over populations of multi-parameter families of receptive fields, as well as (iii)~formulating idealized theoretical models of the computations of simple cells in biological vision.",
+    "categories": "cs.CV q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15787",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "A Visual Discrete Event-based Simulator for Protection of Plants against Herbivores Employed as Computational Optimization Game",
+    "abstract": "Plants come with sophisticated strategies to survive within a highly competing environment. In addition, they need to resist frequent attacks from a variety of herbivores acting alone, in small groups, or in swarms. Since the amount of energy a plant might invest in defense and reproduction is limited, a complex optimization problem emerges. In a shared habitat, plants fight herbivores by shape and camouflage, by the release of specific toxins, or by attracting predators of herbivores. Furthermore, plants alert their surrounding field by signaling substances in the event of an assault. Transported by air or through a network of roots, signaling substances reach neighbors to trigger their defense. The offsprings of a plant commonly grow within a certain distance to benefit from symbiotic protection. We introduce a grid-based visual simulation software for detailed configuration and subsequent processing of the behavior of the resulting system in time and space. In terms of solution to a computational optimization problem inspired by nature, settings with low energy need and long life able to cope with different patterns of attack can be figured out and analyzed. Applications include novel techniques for efficient construction and secure operation of sensor networks.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15796",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Monte Carlo Tree Diffusion with Multiple Experts for Protein Design",
+    "abstract": "The goal of protein design is to generate amino acid sequences that fold into functional structures with desired properties. Prior methods combining autoregressive language models with Monte Carlo Tree Search (MCTS) struggle with long-range dependencies and suffer from an impractically large search space. We propose MCTD-ME, Monte Carlo Tree Diffusion with Multiple Experts, which integrates masked diffusion models with tree search to enable multi-token planning and efficient exploration. Unlike autoregressive planners, MCTD-ME uses biophysical-fidelity-enhanced diffusion denoising as the rollout engine, jointly revising multiple positions and scaling to large sequence spaces. It further leverages experts of varying capacities to enrich exploration, guided by a pLDDT-based masking schedule that targets low-confidence regions while preserving reliable residues. We propose a novel multi-expert selection rule (PH-UCT-ME) extends predictive-entropy UCT to expert ensembles. On the inverse folding task (CAMEO and PDB benchmarks), MCTD-ME outperforms single-expert and unguided baselines in both sequence recovery (AAR) and structural similarity (scTM), with gains increasing for longer proteins and benefiting from multi-expert guidance. More generally, the framework is model-agnostic and applicable beyond inverse folding, including de novo protein engineering and multi-objective molecular generation.",
+    "categories": "cs.LG cs.AI q-bio.BM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15832",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Overcoming Output Dimension Collapse: How Sparsity Enables Zero-shot Brain-to-Image Reconstruction at Small Data Scales",
+    "abstract": "Advances in brain-to-image reconstruction are enabling us to externalize the subjective visual experiences encoded in the brain as images. Achieving such reconstruction with limited training data requires generalization beyond the training set, a task known as zero-shot prediction. Despite its importance, we still lack theoretical guidelines for achieving efficient and accurate reconstruction. In this paper, we provide a theoretical analysis of two widely used models for translating brain activity to latent image features. We define the data scale as the ratio of the number of training samples to the latent feature dimensionality and characterize how each model behaves across data scales. We first show that the naive linear regression model, which uses a shared set of input variables for all outputs, suffers from \"output dimension collapse\" at small data scales, restricting generalization beyond the training data. We then mathematically characterize the prediction error of the sparse linear regression model by deriving formulas linking prediction error with data scale and other problem parameters. Leveraging the sparsity of the brain-to-feature mapping, this approach enables accurate zero-shot prediction even at small data scales without trapping in output dimension collapse. Our results provide a theoretical guideline for achieving zero-shot reconstruction and highlight the benefits of variable selection in brain-to-image reconstruction.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15854",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "Changes in Liver Fibrosis in Patients with Chronic Hepatitis B Treated with Pegylated Interferon Combined with Oral Antiviral Agents: A 48-Week Observation from a Prospective Cohort Study",
+    "abstract": "Background and Aims: Pegylated interferon (PEG-IFN) combined with oral antiviral agents is currently the most widely used and highly effective treatment regimen for chronic hepatitis B virus (HBV) infection. While effectively suppressing HBV replication, its impact on liver histopathological fibrosis and inflammation remains a critical concern for clinicians and patients. Methods : A total of 625 patients who completed 48 weeks of PEG-IFN combined with oral antiviral therapy were enrolled in this real-world study. Based on their virological response at 48 weeks, patients were categorized into Clearance group and Non-clearance group. Changes in liver biochemistry, fibrosis, and renal function were compared between groups and before/after treatment. Results: No significant differences were observed in baseline blood tests, liver biochemical markers, or histopathological features between the Clearance group and Non-clearance group. Similarly, baseline renal function showed no significant variation. Further analysis revealed that the Clearance group exhibited significant aggravation of liver fibrosis after 48 weeks of treatment, which correlated strongly with alterations in liver enzyme levels. However, one patient who underwent paired liver biopsies before and after treatment demonstrated marked histopathological improvement in fibrosis. This finding underscores the irreplaceable role of liver histopathology in assessing fibrosis and inflammation. Conclusion: PEG-IFN combined with oral antiviral therapy exerts favorable effects on liver fibrosis and inflammation in chronic HBV patients. Non-invasive fibrosis assessment models can monitor fibrotic progression but are susceptible to confounding by hepatic inflammation.",
+    "categories": "q-bio.TO",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.15911",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "The evolution of asymmetrical regulation of physiology is central to aging",
+    "abstract": "The evolutionary biology of aging is fundamental to understanding the mechanisms of aging and how to develop anti-aging treatments. Thus far most evolutionary theory concerns the genetics of aging with limited physiological integration. Here we present an intuitive evolutionary framework built on how physiology is regulated and how this regulation itself is then predicted to age. Life has evolved to secure reproduction and avoid system failure in early life, and it is the physiological regulation that evolves in response to those early life selection pressures that leads to the emergence of aging. Importantly, asymmetrical regulation of physiology will evolve as the Darwinian fitness costs of loss of regulation will not be symmetrical. When asymmetrical regulatory systems break during aging, they cause physiological function to drift towards the physiological range where costs of dysregulation are lowest, rendering aging directional. Our model explains many puzzling aspects of the biology of aging. These include why aging appears (but is not) programmed, why aging is gradual yet heterogeneous, why cellular and hormonal signaling are closely related to aging, the compensation law of mortality, why trade-offs between reproduction and aging remain elusive, why longer-lived organisms show more signs of aging during their natural lifespans, and why longer-lived organisms can be less responsive to treatments of aging that work well in short-lived organisms. We provide predictions of our theory that are empirically testable. By incorporating physiological regulation into evolutionary models of aging, we provide a novel perspective to guide empirical research in this still growing field.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.16070",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "A Hypothesis-First Framework for Mechanistic Model Evaluation and Selection in Neuroimaging",
+    "abstract": "Neuroimaging provides rich measurements of brain structure and neural activity, but turning these data into mechanistic insight remains difficult. Statistical models quantify associations without much considerations for how they arise, whereas bio-realistic models directly embody candidate mechanisms but remain hard to deploy rigorously without specialized training. We present a framework that recasts modeling choices as testable mechanistic hypotheses and supplies a simple protocol for rejecting inappropriate model specifications, such as under-/over-parameterization or invalid simplifying assumptions, based on predefined criteria before any parameter inference. The key idea is expected model behavior under feature generalization constraints: instead of judging a model solely by how well it fits a specific target feature of interest Y at an optimal parameter set, we evaluate the model's expected Y output when the model is constrained to reproduce a broader, or distinct, feature Z over the entire parameter space. We then assess whether a mirror statistical model, derived from the model's expected Y outputs, to the empirical statistical model using standard statistics. In synthetic experiments with known ground truth (Wilson Cowan dynamics), the framework correctly rejects mis-specified hypotheses, penalizes unnecessary degrees of freedom, and preserves valid specifications. This provides a practical, hypothesis-first route to using mechanistic models for neuroimaging without requiring expert-level methodology.",
+    "categories": "q-bio.NC q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.16133",
+    "created": "2025-09-19",
+    "updated": "2025-09-22",
+    "title": "A Unified and Predictive Measure of Functional Diversity",
+    "abstract": "Despite the critical role of functional diversity (FD) in understanding ecological systems and processes, its robust quantification remains a significant challenge. A long-held view in the field is that it is not possible to capture its three facets -- functional richness, functional divergence, and functional evenness -- in a single index. This perspective has prompted recent proposals for FD measurement to use three separate indices, one for each aspect. Here, we challenge this paradigm by demonstrating that the probability-weighted Vendi Score (pVS), first introduced by Friedman and Dieng (2023), can serve as a powerful functional diversity index that can capture its three facets. We adapt pVS to functional ecology by defining it as the exponential of the Rényi entropy of the eigenvalues of the abundance-weighted trait similarity matrix. This formulation allows pVS to be applicable at any biological level. It can be defined at the species level, at which most existing FD metrics are defined, and at the individual level to naturally incorporate intraspecific trait variation (ITV) when detailed data are available. We theoretically and empirically demonstrate the robustness of pVS. We first mathematically prove it satisfies several essential desiderata for FD metrics, including invariance to functional redundancy, set monotonicity, distance monotonicity, and concavity. We then show that pVS consistently exhibits the expected ground-truth behavior on simulated ecosystem scenarios under which many FD metrics fail. By integrating abundances and trait similarities within a single, theoretically sound framework, pVS provides a generally applicable index for ecology.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2008.08983",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Randomness in appendage coordination facilitates strenuous ground self-righting",
+    "abstract": "Randomness is common in biological and artificial systems, resulting either from stochasticity of the environment or noise in organisms or devices themselves. In locomotor control, randomness is typically considered a nuisance. For example, during dynamic walking, randomness in stochastic terrain leads to metastable dynamics, which must be mitigated to stabilize the system around limit cycles. Here, we studied whether randomness in motion is beneficial for strenuous locomotor tasks. Our study used robotic simulation modeling of strenuous, leg-assisted, winged ground self-righting observed in cockroaches, in which unusually large randomness in wing and leg motions is present. We developed a simplified simulation robot capable of generating similar self-righting behavior and varied the randomness level in wing-leg coordination. During each wing opening attempt, the more randomness added to the time delay between wing opening and leg swinging, the more likely it was for the naive robot (which did not know what coordination is best) to self-right within a finite time. Wing-leg coordination, measured by the phase between wing and leg oscillations, had a crucial impact on self-righting outcome. Without randomness, periodic wing and leg oscillations often limited the system to visit a few bad phases, leading to failure to escape from the metastable state. With randomness, the system explored phases thoroughly and had a better chance of encountering good phases to self-right. Our study complements previous work by demonstrating that randomness helps destabilize locomotor systems from being trapped in undesired metastable states, a situation common in strenuous locomotion.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2401.08064",
+    "created": "2025-09-19",
+    "updated": "2025-09-23",
+    "title": "A mechanistic model of trust based on neural information processing",
+    "abstract": "Trust is central to human social interactions, manifesting in actions that make one vulnerable to another. We argue that trust will thus depend on the decision-making processes that arise in neural systems. Building on advances in the cognitive neuroscience of decision making, we propose a mechanistic model of trust arising from multiple parallel systems that perform distinct, complementary information processing. Because each system learns via different mechanisms, trust can be created (or destroyed) in multiple ways. This systems-level taxonomy of information representations provides a principled basis for differentiating forms of trust, linking them to specific learning processes, and generating testable predictions about their expression in behavior. By situating trust within a broader theory of neural decision systems, our account unifies diverse findings across psychology, neuroscience, and the social sciences, and offers a foundation for explaining how humans develop, maintain, and repair trust in a complex social world.",
+    "categories": "econ.GN cs.HC q-bio.NC q-fin.EC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2403.09548",
+    "created": "2025-05-21",
+    "updated": "2025-09-23",
+    "title": "Breast Cancer Classification Using Gradient Boosting Algorithms Focusing on Reducing the False Negative and SHAP for Explainability",
+    "abstract": "Cancer is one of the diseases that kill the most women in the world, with breast cancer being responsible for the highest number of cancer cases and consequently deaths. However, it can be prevented by early detection and, consequently, early treatment. Any development for detection or perdition this kind of cancer is important for a better healthy life. Many studies focus on a model with high accuracy in cancer prediction, but sometimes accuracy alone may not always be a reliable metric. This study implies an investigative approach to studying the performance of different machine learning algorithms based on boosting to predict breast cancer focusing on the recall metric. Boosting machine learning algorithms has been proven to be an effective tool for detecting medical diseases. The dataset of the University of California, Irvine (UCI) repository has been utilized to train and test the model classifier that contains their attributes. The main objective of this study is to use state-of-the-art boosting algorithms such as AdaBoost, XGBoost, CatBoost and LightGBM to predict and diagnose breast cancer and to find the most effective metric regarding recall, ROC-AUC, and confusion matrix. Furthermore, our study is the first to use these four boosting algorithms with Optuna, a library for hyperparameter optimization, and the SHAP method to improve the interpretability of our model, which can be used as a support to identify and predict breast cancer. We were able to improve AUC or recall for all the models and reduce the False Negative for AdaBoost and LigthGBM the final AUC were more than 99.41\\% for all models.",
+    "categories": "cs.LG cs.AI cs.CY q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2501.03247",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "A sub-Riemannian model of neural states in the primary motor cortex",
+    "abstract": "We develop a neurogeometric model for the arm area of motor cortex, which encodes complex motor primitives, ranging from simple movement features like movement direction, to short hand trajectories, termed fragments, and ultimately to more complex patterns known as neural states (Georgopoulos, Hatsopoulos, Kadmon-Harpaz et al). Based on the sub-riemannian framework introduced in 2023, we model the space of fragments as a set of short curves defined by kinematic parameters. We then introduce a geometric kernel that serves as a model for cortical connectivity and use it in a differential equation to describe cortical activity. By applying a grouping algorithm to this cortical activity model, we successfully recover the neural states observed in Kadmon-Harpaz et al, which were based on measured cortical activity. This confirms that the choice of kinematic variables and the distance metric used here are sufficient to explain the phenomena of neural state formation. The modularity of our model reflects the brain's hierarchical structure, where initial groupings in the kinematic space $\\mathcal{M}$ lead to more abstract representations. This approach mimics how the brain processes stimuli at different scales, extracting both local and global properties.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2501.12069",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Tikhonov-Fenichel Reductions and their Application to a Novel Modelling Approach for Mutualism",
+    "abstract": "When formulating a model there is a trade-off between model complexity and (biological) realism. In the present paper we demonstrate how model reduction from a precise mechanistic \"super model\" to simpler conceptual models using Tikhonov--Fenichel reductions, an algebraic approach to singular perturbation theory, can mitigate this problem. Compared to traditional methods for time scale separations (Tikhonov's theorem, quasi-steady state assumption), Tikhonov--Fenichel reductions have the advantage that we can compute a reduction directly for a separation of rates into slow and fast ones instead of a separation of components of the system. Moreover, we can find all such eductions algorithmically. In this work we use Tikhonov--Fenichel reductions to analyse a mutualism model tailored towards lichens with an explicit description of the interaction. We find: (1) the implicit description of the interaction given in the reductions by interaction terms (functional responses) varies depending on the scenario, (2) there is a tendency for the Mycobiont, an obligate mutualist, to always benefit from the interaction while it can be detrimental for the photobiont, a facultative mutualist, depending on the parameters, (3) our model is capable of describing the shift from mutualism to parasitism, (4) via numerical analyis, that our model experiences bistability with multiple stable fixed points in the interior of the first orthant. To analyse the reductions we formalize and discuss a mathematical criterion that categorizes two-species interactions. Throughout the paper we focus on the relation between the mathematics behind Tikhonov--Fenichel reductions and their biological interpretation.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2503.09076",
+    "created": "2025-09-19",
+    "updated": "2025-09-23",
+    "title": "Bounding the SNPR distance between two tree-child networks using generalised agreement forests",
+    "abstract": "Agreement forests continue to play a central role in the comparison of phylogenetic trees since their introduction more than 25 years ago. More specifically, they are used to characterise several distances that are based on tree rearrangement operations and related quantifiers of dissimilarity between phylogenetic trees. In addition, the concept of agreement forests continues to underlie most advancements in the development of algorithms that exactly compute the aforementioned measures. In this paper, we introduce agreement digraphs, a concept that generalises agreement forests for two phylogenetic trees to two phylogenetic networks. Analogous to the way in which agreement forests compute the subtree prune and regraft distance between two phylogenetic trees but inherently more complex, we then use agreement digraphs to bound the subnet prune and regraft distance between two tree-child networks from above and below and show that our bounds are tight.",
+    "categories": "math.CO q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2504.03699",
+    "created": "2025-09-22",
+    "updated": "2025-09-23",
+    "title": "Enhancing Clinical Decision-Making: Integrating Multi-Agent Systems with Ethical AI Governance",
+    "abstract": "Recent advances in the data-driven medicine approach, which integrates ethically managed and explainable artificial intelligence into clinical decision support systems (CDSS), are critical to ensure reliable and effective patient care. This paper focuses on comparing novel agent system designs that use modular agents to analyze laboratory results, vital signs, and clinical context, and to predict and validate results. We implement our agent system with the eICU database, including running lab analysis, vitals-only interpreters, and contextual reasoners agents first, then sharing the memory into the integration agent, prediction agent, transparency agent, and a validation agent. Our results suggest that the multi-agent system (MAS) performed better than the single-agent system (SAS) with mortality prediction accuracy (59\\%, 56\\%) and the mean error for length of stay (LOS)(4.37 days, 5.82 days), respectively. However, the transparency score for the SAS (86.21) is slightly better than the transparency score for MAS (85.5). Finally, this study suggests that our agent-based framework not only improves process transparency and prediction accuracy but also strengthens trustworthy AI-assisted decision support in an intensive care setting.",
+    "categories": "cs.AI cs.CY cs.LG cs.MA q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2505.09584",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Tropical Fermat-Weber Points over Spaces of $M$-Ultrametrics",
+    "abstract": "We extend reconstruction methods for phylogenetic trees to ultrametrics of arbitrary matroids and study the stability of these data analysis methods in the combinatorial spirit of Andreas Dress. In particular, we generalize Atteson's work on the safety radius of phylogenetic reconstruction methods, as well as Gascuel and Steel's work on the stochastic safety radius, to arbitrary matroids. We also show that although the tropical Fermat-Weber points of an $M$-ultrametric sample are generally not contained in the space of $M$-ultrametrics, the intersection between the Fermat-Weber set and the space of $M$-ultrametrics is non-empty.",
+    "categories": "math.CO q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2505.19144",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "DPASyn: Mechanism-Aware Drug Synergy Prediction via Dual Attention and Precision-Aware Quantization",
+    "abstract": "Drug combinations are essential in cancer therapy, leveraging synergistic drug-drug interactions (DDI) to enhance efficacy and combat resistance. However, the vast combinatorial space makes experimental screening impractical, and existing computational models struggle to capture the complex, bidirectional nature of DDIs, often relying on independent drug encoding or simplistic fusion strategies that miss fine-grained inter-molecular dynamics. Moreover, state-of-the-art graph-based approaches suffer from high computational costs, limiting scalability for real-world drug discovery. To address this, we propose DPASyn, a novel drug synergy prediction framework featuring a dual-attention mechanism and Precision-Aware Quantization (PAQ). The dual-attention architecture jointly models intra-drug structures and inter-drug interactions via shared projections and cross-drug attention, enabling fine-grained, biologically plausible synergy modeling. While this enhanced expressiveness brings increased computational resource consumption, our proposed PAQ strategy complements it by dynamically optimizing numerical precision during training based on feature sensitivity-reducing memory usage by 40% and accelerating training threefold without sacrificing accuracy. With LayerNorm-stabilized residual connections for training stability, DPASyn outperforms seven state-of-the-art methods on the O'Neil dataset (13,243 combinations) and supports full-batch processing of up to 256 graphs on a single GPU, setting a new standard for efficient and expressive drug synergy prediction.",
+    "categories": "cs.LG q-bio.QM",
+    "set": "q-bio"
+  },
+  {
+    "id": "2506.12986",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "Improving spliced alignment by modeling splice sites with deep learning",
+    "abstract": "Motivation: Spliced alignment refers to the alignment of messenger RNA (mRNA) or protein sequences to eukaryotic genomes. It plays a critical role in gene annotation and the study of gene functions. Accurate spliced alignment demands sophisticated modeling of splice sites, but current aligners use simple models, which may affect their accuracy given dissimilar sequences.\n  Results: We implemented minisplice to learn splice signals with a one-dimensional convolutional neural network (1D-CNN) and trained a model with 7,026 parameters for vertebrate and insect genomes. It captures conserved splice signals across phyla and reveals GC-rich introns specific to mammals and birds. We used this model to estimate the empirical splicing probability for every GT and AG in genomes, and modified minimap2 and miniprot to leverage pre-computed splicing probability during alignment. Evaluation on human long-read RNA-seq data and cross-species protein datasets showed our method greatly improves the junction accuracy especially for noisy long RNA-seq reads and proteins of distant homology.\n  Availability and implementation: https://github.com/lh3/minisplice",
+    "categories": "q-bio.GN",
+    "set": "q-bio"
+  },
+  {
+    "id": "2507.03718",
+    "created": "2025-08-08",
+    "updated": "2025-09-23",
+    "title": "Finding easy regions for short-read variant calling from pangenome data",
+    "abstract": "Background: While benchmarks on short-read variant calling suggest low error rate below 0.5%, they are only applicable to predefined confident regions. For a human sample without such regions, the error rate could be 10 times higher. Although multiple sets of easy regions have been identified to alleviate the issue, they fail to consider non-reference samples or are biased towards existing short-read data or aligners.\n  Results: Here, using hundreds of high-quality human assemblies, we derived a set of sample-agnostic easy regions where short-read variant calling reaches high accuracy. These regions cover 88.2% of GRCh38, 92.2% of coding regions and 96.3% of ClinVar pathogenic variants. They achieve a good balance between coverage and easiness and can be generated for other human assemblies or species with multiple well assembled genomes.\n  Conclusion: This resource provides a convient and powerful way to filter spurious variant calls for clinical or research human samples.",
+    "categories": "q-bio.GN",
+    "set": "q-bio"
+  },
+  {
+    "id": "2508.06835",
+    "created": "2025-09-19",
+    "updated": "2025-09-23",
+    "title": "Expand or better manage protected areas: a framework for minimizing extinction risk when threats are concentrated near edges",
+    "abstract": "Several international agreements have called for the rapid expansion of protected areas to halt biodiversity declines. However, recent research has shown that expanding protected areas may be less cost-effective than redirecting resources towards threat management in existing reserves. These findings often assume that threats are homogeneously distributed in the landscape. In some cases, threats are more concentrated near the edge of protected areas. As protected areas expand, core habitat in the centre expands more rapidly than its edge, potentially creating a refuge from threats. In this paper, we present a framework linking protected area expansion and threat management to extinction risk, via their impact on population carrying capacity and growth rate within core and edge habitats. We demonstrate the framework using a simple population model where individuals are uniformly distributed in a circular protected area threatened by poachers who penetrate the protected area to a fixed distance. We parameterise the model for Peter's Duiker (Cephalophus callipygus) harvested for food in the dense undergrowth of African forests using snares. Expanding protected areas can reduce extinction risk more effectively compared to an equivalent investment in snare removal for larger protected areas that already sustain core unhunted habitat. Our results demonstrate the importance of protected area expansion in buffering susceptible populations from fixed hunting pressure restricted to protected area edges. However, for cases where threats, wildlife, and managers respond to each other strategically in space, the relative importance of expansion versus increased management remains a significant open problem.",
+    "categories": "q-bio.PE",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.01426",
+    "created": "2025-09-20",
+    "updated": "2025-09-23",
+    "title": "DCA: Graph-Guided Deep Embedding Clustering for Brain Atlases",
+    "abstract": "Brain atlases are essential for reducing the dimensionality of neuroimaging data and enabling interpretable analysis. However, most existing atlases are predefined, group-level templates with limited flexibility and resolution. We present Deep Cluster Atlas (DCA), a graph-guided deep embedding clustering framework for generating individualized, voxel-wise brain parcellations. DCA combines a pretrained autoencoder with spatially regularized deep clustering to produce functionally coherent and spatially contiguous regions. Our method supports flexible control over resolution and anatomical scope, and generalizes to arbitrary brain structures. We further introduce a standardized benchmarking platform for atlas evaluation, using multiple large-scale fMRI datasets. Across multiple datasets and scales, DCA outperforms state-of-the-art atlases, improving functional homogeneity by 98.8% and silhouette coefficient by 29%, and achieves superior performance in downstream tasks such as autism diagnosis and cognitive decoding. We also observe that a fine-tuned pretrained model achieves superior results on the corresponding task. Codes and models are available at https://github.com/ncclab-sustech/DCA .",
+    "categories": "q-bio.NC cs.AI cs.CV",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.16229",
+    "created": "2025-09-14",
+    "updated": "2025-09-23",
+    "title": "Low-Cost Shield MicroBCI to Measure EEG with STM32",
+    "abstract": "The article introduces an accessible pathway into neuroscience using the MicroBCI device, which leverages the STM32 Nucleo-55RG development board as the core platform. MicroBCI enables the STM32 board to function as a brain-computer interface, capable of recording EEG, EMG, and ECG signals across 8 channels. Over the past decade, the rapid growth of artificial intelligence has transformed many fields, including neurobiology. The application of machine learning methods has created opportunities for the practical use of EEG signals in diverse technological domains. This growing interest has fueled the popularity of affordable brain-computer interface systems that utilize non-invasive electrodes for EEG acquisition. The MicroBCI device demonstrates reliable noise performance and accuracy for applied research and prototyping. Furthermore, it effectively detects alpha brain waves, confirming its ability to capture key neurological signals.",
+    "categories": "q-bio.NC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.16232",
+    "created": "2025-09-15",
+    "updated": "2025-09-23",
+    "title": "Emotions are Recognized Patterns of Cognitive Activities",
+    "abstract": "Emotions play a crucial role in human life. The research community has proposed many theories on emotions without reaching much consensus. The situation is similar for emotions in cognitive architectures and autonomous agents. I propose in this paper that emotions are recognized patterns of cognitive activities. These activities are responses of an agent to the deviations between the targets of its goals and the performances of its actions. Emotions still arise even if these activities are purely logical. I map the patterns of cognitive activities to emotions. I show the link between emotions and attention and the impacts of the parameterized functions in the cognitive architecture on the computing of emotions. My proposition bridges different theories on emotions and advances the building of consensus.",
+    "categories": "q-bio.NC cs.HC",
+    "set": "q-bio"
+  },
+  {
+    "id": "2509.16238",
+    "created": "2025-09-16",
+    "updated": "2025-09-23",
+    "title": "Evolvable Graph Diffusion Optimal Transport with Pattern-Specific Alignment for Brain Connectome Modeling",
+    "abstract": "Network analysis of human brain connectivity indicates that individual differences in cognitive abilities arise from neurobiological mechanisms inherent in structural and functional brain networks. Existing studies routinely treat structural connectivity (SC) as optimal or fixed topological scaffolds for functional connectivity (FC), often overlooking higher-order dependencies between brain regions and limiting the modeling of complex cognitive processes. Besides, the distinct spatial organizations of SC and FC complicate direct integration, as naive alignment may distort intrinsic nonlinear patterns of brain connectivity. In this study, we propose a novel framework called Evolvable Graph Diffusion Optimal Transport with Pattern-Specific Alignment (EDT-PA), designed to identify disease-specific connectome patterns and classify brain disorders. To accurately model high-order structural dependencies, EDT-PA incorporates a spectrum of evolvable modeling blocks to dynamically capture high-order dependencies across brain regions. Additionally, a Pattern-Specific Alignment mechanism employs optimal transport to align structural and functional representations in a geometry-aware manner. By incorporating a Kolmogorov-Arnold network for flexible node aggregation, EDT-PA is capable of modeling complex nonlinear interactions among brain regions for downstream classification. Extensive evaluations on the REST-meta-MDD and ADNI datasets demonstrate that EDT-PA outperforms state-of-the-art methods, offering a more effective framework for revealing structure-function misalignments and disorder-specific subnetworks in brain disorders. The project of this work is released via this link.",
+    "categories": "q-bio.NC cs.GR",
+    "set": "q-bio"
+  }
+]

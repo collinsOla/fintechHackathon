@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1005.0130",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "The Existence and Role of Quantum-State Noise",
+    "abstract": "The key observation about quantum reality is that it often appears as if, at some moment, the probability of a quantum event becomes a definite outcome for us. A careful analysis suggests, however, that what we perceive as a definite state -- the observed outcome of a quantum experiment -- is not strictly definite. From this, we conclude that the quantum world is active: its influence extends beyond a merely statistical and permanently fixed determination of reality as we experience it.",
+    "categories": "physics.gen-ph quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "1911.02526",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dynamic traversal of large gaps by insects and legged robots reveals a template",
+    "abstract": "It is well known that animals can use neural and sensory feedback via vision, tactile sensing, and echolocation to negotiate obstacles. Similarly, most robots use deliberate or reactive planning to avoid obstacles, which relies on prior knowledge or high-fidelity sensing of the environment. However, during dynamic locomotion in complex, novel, 3-D terrains such as forest floor and building rubble, sensing and planning suffer bandwidth limitation and large noise and are sometimes even impossible. Here, we study rapid locomotion over a large gap, a simple, ubiquitous obstacle, to begin to discover general principles of dynamic traversal of large 3-D obstacles. We challenged the discoid cockroach and an open-loop six-legged robot to traverse a large gap of varying length. Both the animal and the robot could dynamically traverse a gap as large as 1 body length by bridging the gap with its head, but traversal probability decreased with gap length. Based on these observations, we developed a template that well captured body dynamics and quantitatively predicted traversal performance. Our template revealed that high approach speed, initial body pitch, and initial body pitch angular velocity facilitated dynamic traversal, and successfully predicted a new strategy of using body pitch control that increased the robot maximal traversal gap length by 50%. Our study established the first template of dynamic locomotion beyond planar surfaces and is an important step in expanding terradynamics into complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "physics"
+  },
+  {
+    "id": "1911.02527",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Body-terrain interaction affects large bump traversal of insects and legged robots",
+    "abstract": "Small animals and robots must often rapidly traverse large bump-like obstacles when moving through complex 3-D terrains, during which, in addition to leg-ground contact, their body inevitably comes into physical contact with the obstacles. However, we know little about the performance limits of large bump traversal and how body-terrain interaction affects traversal. To address these, we challenged the discoid cockroach and an open-loop six-legged robot to dynamically run into a large bump of varying height to discover the maximal traversal performance, and studied how locomotor modes and traversal performance are affected by body-terrain interaction. Remarkably, during rapid running, both the animal and the robot were capable of dynamically traversing a bump much higher than its hip height (up to 4 times the hip height for the animal and 3 times for the robot, respectively) at traversal speeds typical of running, with decreasing traversal probability with increasing bump height. A stability analysis using a novel locomotion energy landscape model explained why traversal was more likely when the animal or robot approached the bump with a low initial body yaw and a high initial body pitch, and why deflection was more likely otherwise. Inspired by these principles, we demonstrated a novel control strategy of active body pitching that increased the robot maximal traversable bump height by 75%. Our study is a major step in establishing the framework of locomotion energy landscapes to understand locomotion in complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.RO q-bio.QM",
+    "set": "physics"
+  },
+  {
+    "id": "2002.09711",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Robotic modeling of snake traversing large, smooth obstacles reveals stability benefits of body compliance",
+    "abstract": "Snakes can move through almost any terrain. Although their locomotion on flat surfaces using planar gaits is inherently stable, when snakes deform their body out of plane to traverse complex terrain, maintaining stability becomes a challenge. On trees and desert dunes, snakes grip branches or brace against depressed sand for stability. However, how they stably surmount obstacles like boulders too large and smooth to gain such anchor points is less understood. Similarly, snake robots are challenged to stably traverse large, smooth obstacles for search and rescue and building inspection. Our recent study discovered that snakes combine body lateral undulation and cantilevering to stably traverse large steps. Here, we developed a snake robot with this gait and snake-like anisotropic friction and used it as a physical model to understand stability principles. The robot traversed steps as high as a third of its body length rapidly and stably. However, on higher steps, it was more likely to fail due to more frequent rolling and flipping over, which was absent in the snake with a compliant body. Adding body compliance reduced the robot roll instability by statistically improving surface contact, without reducing speed. Besides advancing understanding of snake locomotion, our robot achieved high traversal speed surpassing most previous snake robots and approaching snakes, while maintaining high traversal probability.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "physics"
+  },
+  {
+    "id": "2101.11062",
+    "created": "2022-05-02",
+    "updated": "2025-09-18",
+    "title": "The Competition Between Deformation Twinning and Dislocation Slip in Deformed Face-Centered Cubic Metals",
+    "abstract": "The competition between deformation twinning and dislocation slip underpins the evolution of mesoscale plasticity in face-centered cubic materials. While competition between these mechanisms is known to be related to the critical features of the generalized planar fault energy landscape, a physical theory that tracks competition over extended plasticity has yet to emerge. Here, we report a methodology to predict the mesoscale evolution of this competition in deformed crystals. Our approach implements kinetic Monte Carlo simulations to examine fault structure evolution in face-centered cubic metals using intrinsic material parameters as inputs. These results are leveraged to derive an analytical model for the evolution of the fault fraction, fault densities, and partitioning of plastic strains among deformation mechanisms. In addition, we define a competition parameter that measures the tendencies for deformation twinning and dislocation slip. In contrast to previous twinnability parameters, our derivation considers deformation history when examining mechanism competition. This contribution therefore extends the reach of deformation twinning theory beyond incipient nucleation events. These products find direct applications in work hardening and crystal plasticity models, which have previously relied on phenomenological relations to predict the mesoscale evolution of deformation twin microstructures.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2202.12919",
+    "created": "2022-03-09",
+    "updated": "2025-09-18",
+    "title": "An analytical method to quantify the statistics of energy landscapes in random solid solutions",
+    "abstract": "Recent studies of concentrated solid solutions have highlighted the role of varied solute interactions in the determination of a wide variety of mesoscale properties. These solute interactions emerge as spatial fluctuations in potential energy, which arise from local variations in the chemical environment. Although observations of potential energy fluctuations are well documented in the literature, there remains a paucity of methods to determine their statistics. Here, we present a set of analytical equations to quantify the statistics of potential energy landscapes in randomly arranged solid solutions. Our approach is based on a reparameterization of the relations of the embedded atom method in terms of the solute coordination environment. The final equations are general and can be applied to different crystal lattices and energy landscapes, provided the systems of interest can be described by sets of coordination relations. We leverage these statistical relations to study the cohesive energy and generalized planar fault energy landscapes of several different solid solutions. Analytical predictions are validated using molecular statics simulations, which find excellent agreement in most cases. The outcomes of this analysis provide new insights into phase stability and the interpretation of local planar fault energies in solid solutions, which are topics of ongoing discussion within the community.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2206.14837",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "New physics above 50 TeV: probing its phenomenology through UHECR air-shower simulations",
+    "abstract": "Ground based observations appear to indicate that Ultra High Energy Cosmic Rays (UHECR) of the highest energies (>10^{18.7} eV) consist of heavy particles -- shower depth and muon production data both pointing towards this conclusion. On the other hand, cosmic-ray arrival directions at energies >10^{18.9} eV exhibit a dipole anisotropy, which disfavors heavy composition, since higher-Z nuclei are strongly deflected by the Galactic magnetic field, suppressing anisotropy. This is the composition problem of UHECR. One solution could be the existence of yet-unknown effects in proton interactions at center-of-mass (CM) energies 50 TeV, which would alter the interaction cross section and the multiplicity of interaction products, mimicking heavy primaries. We study the impact of such changes on cosmic-ray observables using simulations of Extensive Air-Shower (EAS), in order to place constrains on the phenomenology of any new effects for high energy proton interactions that could be probed by \\sqrt{s}>50 TeV collisions. We simulate showers of primaries with energies in the range 10^{17} - 10^{20} eV using the CORSIKA code, modified to implement a possible increase in cross-section and multiplicity in hadronic collisions exceeding a CM energy threshold of 50 TeV. We study the composition-sensitive shower observables (shower depth, muons) as a function of cross-section, multiplicity, and primary energy. We find that in order to match the Auger shower depth measurements by means of new hadronic collision effects alone (if extragalactic UHECR are all protons even at the highest energies), the cross-section of proton-air interactions has to be 800 mb at 140 TeV CM energy, accompanied by an increase of a factor of 2-3 in secondary particles. We also study the muon production of the showers in the same scenario.",
+    "categories": "astro-ph.HE",
+    "set": "physics"
+  },
+  {
+    "id": "2207.13285",
+    "created": "2022-07-27",
+    "updated": "2025-09-18",
+    "title": "Characterizing Superradiant Phase of the Quantum Rabi Model",
+    "abstract": "Recently, a superradiant phase transition first predicted theoretically in the quantum Rabi model (QRM) has been verified experimentally. This further stimulates the interest in the study of the process of phase transition and the nature of the superradiant phase since the fundamental role of the QRM in describing the interaction of light and matter, and more importantly, the QRM contains rich physics deserving further exploration despite its simplicity. Here we propose a scheme consisting of two successive diagonalization to accurately obtain the ground-state and excited states wavefunctions of the QRM in full parameter regime ranging from weak to deep-strong couplings. Thus one is able to see how the phase transition happens and how the photons populate in Fock space of the superradiant phase. We characterize the photon populations by borrowing the distribution concept in random matrix theory and find that the photon population follows a Poissonian-like distribution once the phase transition happens and further exhibits the statistics of Gaussian unitary ensemble as increasing coupling strength. More interestingly, the photons in the excited states behave even like the statistics of Gaussian orthogonal ensemble. Our results not only deepen understanding on the superradiant phase transition but also provide an insight on the nature of the superradiant phase of the QRM and related models.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2208.01688",
+    "created": "2024-11-03",
+    "updated": "2025-09-18",
+    "title": "Duality theory for Clifford tensor powers",
+    "abstract": "The representation theory of the Clifford group is playing an increasingly prominent role in quantum information theory, including in such diverse use cases as the construction of protocols for quantum system certification, quantum simulation, and quantum cryptography. In these applications, the tensor powers of the defining representation seem particularly important. The representation theory of these tensor powers is understood in two regimes. 1. For odd qudits in the case where the power t is not larger than the number of systems n: Here, a duality theory between the Clifford group and certain discrete orthogonal groups can be used to make fairly explicit statements about the occurring irreps (this theory is related to Howe duality and the eta-correspondence). 2. For qubits: Tensor powers up to t=4 have been analyzed on a case-by-case basis. In this paper, we provide a unified framework for the duality approach that also covers qubit systems. To this end, we translate the notion of rank of symplectic representations to representations of the qubit Clifford group, and generalize the eta correspondence between symplectic and orthogonal groups to a correspondence between the Clifford and certain orthogonal-stochastic groups. As a sample application, we provide a protocol to efficiently implement the complex conjugate of a black-box Clifford unitary evolution.",
+    "categories": "quant-ph math-ph math.MP math.RT",
+    "set": "physics"
+  },
+  {
+    "id": "2209.14530",
+    "created": "2022-09-29",
+    "updated": "2025-09-18",
+    "title": "Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom",
+    "abstract": "We show that quantum states with \"low stabilizer complexity\" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|ψ\\rangle$, we give an efficient algorithm that distinguishes whether $|ψ\\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\\frac{1}{k}$ (i.e., has fidelity at least $\\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|ψ\\rangle$, our algorithm uses $O\\!\\left( k^{12} \\log(1/δ)\\right)$ copies of $|ψ\\rangle$ and $O\\!\\left(n k^{12} \\log(1/δ)\\right)$ time to succeed with probability at least $1-δ$, and, with access to a state preparation unitary for $|ψ\\rangle$ (and its inverse), $O\\!\\left( k^{3} \\log(1/δ)\\right)$ queries and $O\\!\\left(n k^{3} \\log(1/δ)\\right)$ time suffice.\n  As a corollary, we prove that $ω(\\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.",
+    "categories": "quant-ph cs.CC cs.LG",
+    "set": "physics"
+  },
+  {
+    "id": "2212.00879",
+    "created": "2023-05-02",
+    "updated": "2025-09-18",
+    "title": "Quantum Cryptography in Algorithmica",
+    "abstract": "We construct a classical oracle relative to which $\\mathsf{P} = \\mathsf{NP}$ yet single-copy secure pseudorandom quantum states exist. In the language of Impagliazzo's five worlds, this is a construction of pseudorandom states in \"Algorithmica,\" and hence shows that in a black-box setting, quantum cryptography based on pseudorandom states is possible even if one-way functions do not exist. As a consequence, we demonstrate that there exists a property of a cryptographic hash function that simultaneously (1) suffices to construct pseudorandom states, (2) holds for a random oracle, and (3) is independent of $\\mathsf{P}$ vs. $\\mathsf{NP}$ in the black-box setting. We also introduce a conjecture that would generalize our results to multi-copy secure pseudorandom states.\n  We build on the recent construction by Aaronson, Ingram, and Kretschmer (CCC 2022) of an oracle relative to which $\\mathsf{P} = \\mathsf{NP}$ but $\\mathsf{BQP} \\neq \\mathsf{QCMA}$, based on hardness of the OR $\\circ$ Forrelation problem. Our proof also introduces a new discretely-defined variant of the Forrelation distribution, for which we prove pseudorandomness against $\\mathsf{AC^0}$ circuits. This variant may be of independent interest.",
+    "categories": "quant-ph cs.CC cs.CR",
+    "set": "physics"
+  },
+  {
+    "id": "2212.14399",
+    "created": "2023-05-02",
+    "updated": "2025-09-18",
+    "title": "Quantum Mass Production Theorems",
+    "abstract": "We prove that for any $n$-qubit unitary transformation $U$ and for any $r = 2^{o(n / \\log n)}$, there exists a quantum circuit to implement $U^{\\otimes r}$ with at most $O(4^n)$ gates. This asymptotically equals the number of gates needed to implement just a single copy of a worst-case $U$. We also establish analogous results for quantum states and diagonal unitary transformations. Our techniques are based on the work of Uhlig [Math. Notes 1974], who proved a similar mass production theorem for Boolean functions.",
+    "categories": "quant-ph cs.CC cs.DS",
+    "set": "physics"
+  },
+  {
+    "id": "2302.09603",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Frobenius structure and $p$-adic zeta values",
+    "abstract": "For differential operators of Calabi-Yau type, Candelas, de la Ossa and van Straten conjecture the appearance of $p$-adic zeta values in the matrix entries of their $p$-adic Frobenius structure expressed in the standard basis of solutions near a MUM-point. We prove that this phenomenon holds for simplicial and hyperoctahedral families of Calabi-Yau hypersurfaces in $n$ dimensions, in which case the Frobenius matrix entries are rational linear combinations of products of $ζ_p(k)$ with $1 < k < n$.",
+    "categories": "math.NT math-ph math.AG math.MP",
+    "set": "physics"
+  },
+  {
+    "id": "2302.10332",
+    "created": "2023-11-21",
+    "updated": "2025-09-18",
+    "title": "A Qubit, a Coin, and an Advice String Walk Into a Relational Problem",
+    "abstract": "Relational problems (those with many possible valid outputs) are different from decision problems, but it is easy to forget just how different. This paper initiates the study of FBQP/qpoly, the class of relational problems solvable in quantum polynomial-time with the help of polynomial-sized quantum advice, along with its analogues for deterministic and randomized computation (FP, FBPP) and advice (/poly, /rpoly).\n  Our first result is that FBQP/qpoly != FBQP/poly, unconditionally, with no oracle -- a striking contrast with what we know about the analogous decision classes. The proof repurposes the separation between quantum and classical one-way communication complexities due to Bar-Yossef, Jayram, and Kerenidis. We discuss how this separation raises the prospect of near-term experiments to demonstrate \"quantum information supremacy,\" a form of quantum supremacy that would not depend on unproved complexity assumptions.\n  Our second result is that FBPP is not contained in FP/poly -- that is, Adleman's Theorem fails for relational problems -- unless PSPACE is contained in NP/poly. Our proof uses IP=PSPACE and time-bounded Kolmogorov complexity. On the other hand, we show that proving FBPP not in FP/poly will be hard, as it implies a superpolynomial circuit lower bound for PromiseBPEXP.\n  We prove the following further results: * Unconditionally, FP != FBPP and FP/poly != FBPP/poly (even when these classes are carefully defined). * FBPP/poly = FBPP/rpoly (and likewise for FBQP). For sampling problems, by contrast, SampBPP/poly != SampBPP/rpoly (and likewise for SampBQP).",
+    "categories": "quant-ph cs.CC",
+    "set": "physics"
+  },
+  {
+    "id": "2303.01134",
+    "created": "2023-03-02",
+    "updated": "2025-09-18",
+    "title": "Error mitigation of entangled states using brainbox quantum autoencoders",
+    "abstract": "Current quantum hardware is subject to various sources of noise that limits the access to multi-qubit entangled states. Quantum autoencoder circuits with a single qubit bottleneck have shown capability to correct error in noisy entangled state. By introducing slightly more complex structures in the bottleneck, the so-called brainboxes, the denoising process can take place faster and for stronger noise channels. Choosing the most suitable brainbox for the bottleneck is the result of a trade-off between noise intensity on the hardware, and the training impedance. Finally, by studying Rényi entropy flow throughout the networks we demonstrate that the localization of entanglement plays a central role in denoising through learning.",
+    "categories": "quant-ph cs.LG",
+    "set": "physics"
+  },
+  {
+    "id": "2303.01952",
+    "created": "2025-08-31",
+    "updated": "2025-09-18",
+    "title": "Quantum state testing beyond the polarizing regime and quantum triangular discrimination",
+    "abstract": "The complexity class Quantum Statistical Zero-Knowledge ($\\mathsf{QSZK}$) captures computational difficulties of the time-bounded quantum state testing problem with respect to the trace distance, deciding whether $\\mathrm{T}(ρ_0,ρ_1)$ is at least $α$ or at most $β$, known as the Quantum State Distinguishability Problem ($\\mathrm{QSDP}$) introduced by Watrous (FOCS 2002). However, $\\mathrm{QSDP}[α,β]$ is in $\\mathsf{QSZK}$ only within the constant polarizing regime, where $α$ and $β$ are constants satisfying $α^2 > β$ (rather than $α> β$), similar to its classical counterpart shown by Sahai and Vadhan (JACM 2003) due to the polarization lemma (error reduction for $\\mathrm{SDP}$).\n  Recently, Berman, Degwekar, Rothblum, and Vasudevan (TCC 2019) extended the $\\mathsf{SZK}$ containment of $\\mathrm{SDP}$ beyond the polarizing regime via the time-bounded distribution testing problems with respect to the triangular discrimination and the Jensen-Shannon divergence. Our work introduces proper quantum analogs for these problems by defining quantum counterparts for triangular discrimination. We investigate whether the quantum analogs behave similarly to their classical counterparts and examine the limitations of existing approaches to polarization regarding quantum distances. These new $\\mathsf{QSZK}$-complete problems improve $\\mathsf{QSZK}$ containments of $\\mathrm{QSDP}$ beyond the polarizing regime and establish a simple $\\mathsf{QSZK}$-hardness for the quantum entropy difference problem ($\\mathrm{QEDP}$) defined by Ben-Aroya, Schwartz, and Ta-Shma (ToC 2010). Furthermore, we prove that $\\mathrm{QSDP}$ with some exponentially small errors is in $\\mathsf{PP}$, while the same problem without error is in $\\mathsf{NQP}$.",
+    "categories": "quant-ph cs.CC cs.IT math.IT",
+    "set": "physics"
+  },
+  {
+    "id": "2304.13915",
+    "created": "2024-03-29",
+    "updated": "2025-09-18",
+    "title": "Improved Stabilizer Estimation via Bell Difference Sampling",
+    "abstract": "We study the complexity of learning quantum states in various models with respect to the stabilizer formalism and obtain the following results:\n  - We prove that $Ω(n)$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, an exponential improvement over the previously known bound. This bound is asymptotically tight if linear-time quantum-secure pseudorandom functions exist.\n  - Given an $n$-qubit pure quantum state $|ψ\\rangle$ that has fidelity at least $τ$ with some stabilizer state, we give an algorithm that outputs a succinct description of a stabilizer state that witnesses fidelity at least $τ- \\varepsilon$. The algorithm uses $O(n/(\\varepsilon^2τ^4))$ samples and $\\exp\\left(O(n/τ^4)\\right) / \\varepsilon^2$ time. In the regime of $τ$ constant, this algorithm estimates stabilizer fidelity substantially faster than the naïve $\\exp(O(n^2))$-time brute-force algorithm over all stabilizer states.\n  - In the special case of $τ> \\cos^2(π/8)$, we show that a modification of the above algorithm runs in polynomial time.\n  - We exhibit a tolerant property testing algorithm for stabilizer states.\n  The underlying algorithmic primitive in all of our results is Bell difference sampling. To prove our results, we establish and/or strengthen connections between Bell difference sampling, symplectic Fourier analysis, and graph theory.",
+    "categories": "quant-ph cs.CC cs.DS",
+    "set": "physics"
+  },
+  {
+    "id": "2306.14982",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Thermodynamics of oscillating neutrinos",
+    "abstract": "The title theory is formulated. It entails a quantum-coherent variant of the Fermi-Dirac distribution and casts new light on neutrino oscillations. It might enable the incorporation of neutrino mixing into the modeling of core-collapse supernovae and neutron star mergers.",
+    "categories": "hep-ph astro-ph.HE",
+    "set": "physics"
+  },
+  {
+    "id": "2307.02187",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Phase transitions, anomalous baryon number violation and electroweak multiplet dark matter",
+    "abstract": "We perform a comprehensive analysis of baryon number violation during an electroweak phase transition (EWPT) within the framework of a scalar electroweak multiplet extension of the Standard Model. We classify the multiplet representations, topological properties, and corresponding thermal histories. Sphaleron or monopole topological field solutions emerge during the EWPT depending on the stage of the phase transition and the hypercharge of the new scalar multiplet. Furthermore, the monopole field solution pertains when the neutral component of the additional scalar multiplet is a viable dark matter candidate. We further analyze other formal considerations, including the construction of the \\lq\\lq sphaleron matrix\\rq\\rq\\, for higher dimensional representations, computation of the sphaleron and monopole masses, and the choice of boundary conditions when solving the field equations of motion. We apply these considerations to the computation of sphaleron energy and monopole mass within the context of a multi-step EWPT, employing the SU(2)$_L$ septuplet scalar extension to the Standard Model (SM) as a case of study from the minimal dark matter paradigm. For the first step of a two-step EWPT, we delineate the relationship between the monopole mass and the parameters relevant to dark matter phenomenology.",
+    "categories": "hep-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2307.02341",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Necessary and sufficient symmetries in Event-Chain Monte Carlo with generalized flows and Application to hard dimers",
+    "abstract": "Event-Chain Monte Carlo (ECMC) methods generate continuous-time and non-reversible Markov processes which often display significant accelerations compared to reversible counterparts. However their generalization to any system may appear less straightforward. In this work, our aim is to distinctly define the essential symmetries that such ECMC algorithms must adhere to, differentiating between necessary and sufficient conditions. This exploration intends to delineate the balance between requirements that could be overly limiting in broad applications and those that are fundamentally essential. To do so, we build on the recent analytical description of such methods as generating Piecewise Deterministic Markov Processes (PDMP). Thus, starting with translational flows, we establish the necessary rotational invariance of the probability flows, along with determining the minimum event rate. This rate identifies with the corresponding infinitesimal Metropolis rejection rate. Obeying such conditions ensures the correct invariance for any ECMC scheme. Subsequently, we extend these findings to encompass schemes involving deterministic flows that are more general than mere translational ones. Specifically, we define two classes of interest of general flows: the ideal and uniform-ideal ones. They respectively suppresses or reduces the event rates. From there, we implement a comprehensive non-reversible sampling of a systems of hard dimers by introducing rotational flows, which are uniform-ideal. This implementation results in a speed-up of up to $\\sim 3$ compared to the state-of-the-art ECMC/Metropolis hybrid scheme.",
+    "categories": "cond-mat.stat-mech",
+    "set": "physics"
+  },
+  {
+    "id": "2307.06319",
+    "created": "2025-06-06",
+    "updated": "2025-09-18",
+    "title": "Model Reduction for Quantum Systems: Discrete-time Quantum Walks and Open Markov Dynamics",
+    "abstract": "A general approach to obtain reduced models for a wide class of discrete-time quantum systems is proposed. The obtained models not only reproduce exactly the output of a given quantum model, but are also guaranteed to satisfy physical constraints, namely complete positivity and preservation of total probability. A fundamental framework for exact model reduction of quantum systems is constructed leveraging on algebraic methods, as well as novel results on quantum conditional expectations in finite-dimensions. The proposed reduction algorithm is illustrated and tested on prototypical examples, including the quantum walk realizing Grover's algorithm.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2309.02242",
+    "created": "2023-09-05",
+    "updated": "2025-09-18",
+    "title": "Compressing and forecasting atomic material simulations with descriptors",
+    "abstract": "Atomic simulations of material microstructure require significant resources to generate, store and analyze. Here, atomic descriptor functions are proposed as a general latent space to compress atomic microstructure, ideal for use in large-scale simulations. Descriptors can regress a broad range of properties, including character-dependent dislocation densities, stress states or radial distribution functions. A vector autoregressive model can generate trajectories over yield points, resample from new initial conditions and forecast trajectory futures. A forecast confidence, essential for practical application, is derived by propagating forecasts through the Mahalanobis outlier distance, providing a powerful tool to assess coarse-grained models. Application to nanoparticles and yielding of dislocation networks confirms low uncertainty forecasts are accurate and resampling allows for the propagation of smooth microstructure distributions. Yielding is associated with a collapse in the intrinsic dimension of the descriptor manifold, which is discussed in relation to the yield surface.",
+    "categories": "cond-mat.mtrl-sci physics.comp-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2310.07590",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Recovering CMB polarization maps with neural networks: Performance in realistic simulations",
+    "abstract": "Recovering the polarized cosmic microwave background (CMB) is essential for shedding light on the exponential expansion of the very early Universe, known as cosmic inflation. Achieving this goal requires not only improved instrumental sensitivity but also the development of robust and diverse data analysis techniques. In this work, we explore a novel component separation approach based on neural networks to reconstruct the Stokes $Q$ and $U$ polarization maps. To validate the method, we first test the network on realistic \\textit{Planck} sky simulations, finding a mean absolute error of $0.1 \\pm 0.3~μK^{2}$ for the $E$-mode and $-0.1 \\pm 0.3~μK^{2}$ for the $B$-mode. We then apply the trained network to public \\textit{Planck} observations, with results consistent with those obtained using the Commander method. Based on these findings, we conclude that neural network-based methods show potential as component separation techniques in polarization CMB experiments. However, substantial improvements and more comprehensive analyses are necessary before these methods can provide reliable high-precision cosmological estimates.",
+    "categories": "astro-ph.CO astro-ph.IM",
+    "set": "physics"
+  },
+  {
+    "id": "2310.12078",
+    "created": "2023-10-18",
+    "updated": "2025-09-18",
+    "title": "Deformation Mechanisms in High Entropy Alloys: A Minireview of Short-Range Order Effects",
+    "abstract": "The complex atomic scale structure of high entropy alloys presents new opportunities to expand the deformation theories of mechanical metallurgy. In this regard, solute-defect interactions have emerged as critical piece in elucidating the operation of deformation mechanisms. While notable progress has been made in understanding solute-defect interactions for random solute arrangements, recent interest in high entropy alloys with short-range order adds a new layer of structural complexity for which a cohesive picture has yet to emerge. To this end, this minireview synthesizes the current understanding of short-range order effects on defect behavior through an examination of the key recent literature. This analysis centers on the nanoscale metallurgy of deformation mechanisms, with the order-induced changes to the relevant defect energy landscapes serving as a touchstone for discussion. The topics reviewed include dislocation-mediated strengthening, twinning and phase transformation-based mechanisms, and vacancy-mediated processes. This minireview concludes with remarks on current challenges and opportunities for future efforts.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2310.16982",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Non-Clifford and parallelizable fault-tolerant logical gates on constant and almost-constant rate homological quantum LDPC codes via higher symmetries",
+    "abstract": "We study parallel fault-tolerant quantum computing for families of homological quantum low-density parity-check (LDPC) codes defined on 3-manifolds with constant or almost-constant encoding rate. We derive generic formula for a transversal $T$ gate of color codes on general 3-manifolds, which acts as collective non-Clifford logical CCZ gates on any triplet of logical qubits with their logical-$X$ membranes having a $\\mathbb{Z}_2$ triple intersection at a single point. The triple intersection number is a topological invariant, which also arises in the path integral of the emergent higher symmetry operator in a topological quantum field theory: the $\\mathbb{Z}_2^3$ gauge theory. Moreover, the transversal $S$ gate of the color code corresponds to a higher-form symmetry supported on a codimension-1 submanifold, giving rise to exponentially many addressable and parallelizable logical CZ gates. A construction of constant-depth circuits of the above logical gates via cup product cohomology operation is also presented for three copies of identical toric codes on arbitrary 3-manifolds. We have developed a generic formalism to compute the triple intersection invariants for 3-manifolds. We further develop three types of LDPC codes supporting such logical gates: (1) A quasi-hyperbolic code from the product of 2D hyperbolic surface and a circle, with almost-constant rate $k/n=O(1/\\log(n))$ and $O(\\log(n))$ distance; (2) A homological fibre bundle code with $O(1/\\log^{\\frac{1}{2}}(n))$ rate and $O(\\log^{\\frac{1}{2}}(n))$ distance; (3) A specific family of 3D hyperbolic codes: the Torelli mapping torus code, constructed from mapping tori of a pseudo-Anosov element in the Torelli subgroup, which has constant rate while the distance scaling is currently unknown. We then show a generic constant-overhead scheme for applying a parallelizable universal gate set with the aid of logical-$X$ measurements.",
+    "categories": "quant-ph cond-mat.str-el cs.IT hep-th math.GT math.IT",
+    "set": "physics"
+  },
+  {
+    "id": "2311.00432",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Misaligned magnetized accretion flows onto spinning black holes: Magneto-spin alignment, outflow power, and intermittent jets",
+    "abstract": "Magnetic fields regulate black hole (BH) accretion, governing both inflow and outflow dynamics. When a BH accumulates substantial vertical magnetic flux, it enters the magnetically arrested disk (MAD) state, where dynamically important fields power jets and trigger disk eruptions. We investigate MAD evolution when the BH spin and disk angular momentum are misaligned, a likely scenario in many BH systems. Using numerical simulations, we show that jets from rapidly spinning, prograde BHs realign the inner disk via the magneto-spin alignment mechanism for initial tilts up to $T \\lesssim 60^\\circ$. Larger tilts lead to intermittent jets that disrupt the disk out to $r\\gtrsim100$ gravitational radii, creating hot cavities and magnetized filaments. These episodic jets form a mini$-$feedback loop and may explain quasiperiodic X-ray and radio flares observed in low-luminosity active galaxies. We also find that (i) BH spin and disk tilt influence the amount of magnetic flux accumulated at the horizon, and (ii) large-scale, thick, misaligned accretion flows do not exhibit sustained Lense$-$Thirring (LT) precession. This suggests that slowly accreting BHs ($\\dot{M} \\ll 10^{-3} \\dot{M}_{\\rm Edd}$) are unlikely to show lightcurve quasiperiodic oscillations from LT precession, consistent with observations. Instead, magnetic flux eruptions drive jet wobbling and lateral motion, offering an alternative explanation for phenomena such as the M87 jet's apparent precession and rapid swings in blazar jet orientation.",
+    "categories": "astro-ph.HE astro-ph.GA",
+    "set": "physics"
+  },
+  {
+    "id": "2311.11621",
+    "created": "2024-02-22",
+    "updated": "2025-09-18",
+    "title": "Evaluating the Practicality of Quantum Optimization Algorithms for Prototypical Industrial Applications",
+    "abstract": "The optimization of the power consumption of antenna networks is a problem with a potential impact in the field of telecommunications. In this work, we investigate the application of the quantum approximate optimization algorithm (QAOA) and the quantum adiabatic algorithm (QAA), to the solution of a prototypical model in this field. We use statevector emulation in a high-performance computing environment to compare the performance of these two algorithms in terms of solution quality, using selected evaluation metrics. We estimate the circuit depth scaling with the problem size while maintaining a certain level of solution quality, and we extend our analysis up to 31 qubits, which is rarely addressed in the literature. Our calculations show that as the problem size increases, the probability of measuring the exact solution decreases exponentially for both algorithms. This issue is particularly severe when we include constraints in the problem, resulting in full connectivity between the sites. Nonetheless, we observe that the cumulative probability of measuring solutions close to the optimal one remains high also for the largest instances considered in this work. Our findings keep the way open to the application of these algorithms, or variants thereof, to generate suboptimal solutions at scales relevant to industrial use-cases.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2311.14119",
+    "created": "2025-05-13",
+    "updated": "2025-09-18",
+    "title": "Magnetic penetration depth of Aluminum thin films",
+    "abstract": "We present a study of the superconducting penetration depth $λ$ in aluminum thin films of varying thickness. The range of thicknesses chosen spans from the thin-film regime to the regime approaching bulk behavior. The penetration depths observed range from $λ= 163.3\\pm0.4~\\rm{nm}$ for the thinnest $20~\\rm{nm}$ samples down to $λ= 53.6\\pm0.4~\\rm{nm}$ for the $200~\\rm{nm}$-thick ones. In order to accurately determine $λ$, we performed complementary measurements using the frequency of superconducting $LC$ resonators as well as the resistance of normal-state meanders. Both methods yield comparable results, providing a well-characterized set of values of $λ$ in aluminum in the relevant range for applications in fields such as quantum computing and microwave radiation detector technologies.",
+    "categories": "cond-mat.supr-con quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2311.14167",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Non-linear instability of slowly rotating Kerr-AdS black holes",
+    "abstract": "Generic scalar perturbations on a fixed slowly rotating Kerr-AdS black hole background exhibit stable trapping, that is, the scalar field remains in a region between the exterior of the black hole and the AdS boundary for a very long time, decaying only inverse logarithmically in time. We study this effect employing fully general simulations that take into account the non-linear backreaction of the scalar field on the geometry. We find that the stable trapping of generic perturbations of Kerr-AdS persists at the non-linear level. Furthermore, the spacetime settles into a time-dependant and non-axisymmetric black hole which differs from Kerr-AdS. Since our perturbations are generic, our results indicate that slowly rotating Kerr-AdS black holes are non-linearly unstable.",
+    "categories": "hep-th gr-qc",
+    "set": "physics"
+  },
+  {
+    "id": "2401.04309",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Bosonic Quantum Breakdown Hubbard Model",
+    "abstract": "We propose a bosonic quantum breakdown Hubbard model, which generalizes the Bose-Hubbard model by adding an asymmetric breakdown interaction turning one boson into two between adjacent sites. When the normal hopping is zero, this model has a global exponential U(1) symmetry, and we show that the ground state undergoes a first-order phase transition from a Mott insulator (MI) to a spontaneously symmetry breaking (SSB) breakdown condensate as the breakdown interaction increases. Surprisingly, the SSB breakdown condensate does not have a gapless Goldstone mode, which invalidates the Mermin-Wagner theorem and leads to stable SSB in one dimension. Moreover, we show that the quench dynamics of a boson added to MI exhibits a dynamical transition from dielectric to breakdown phases, which happens at a larger breakdown interaction than the ground state phase transition. Between these two transitions, the MI (dielectric) state is a false vacuum stable against dynamical breakdown. Our results reveal that quantum models with unconventional symmetries such as the exponential symmetry can exhibit unexpected properties.",
+    "categories": "cond-mat.str-el cond-mat.mes-hall cond-mat.quant-gas",
+    "set": "physics"
+  },
+  {
+    "id": "2401.09312",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "On the structure of the large-$N$ expansion in SU($N$) Yang-Mills theory",
+    "abstract": "Recently, we have computed the short-distance asymptotics of the generating functional of Euclidean correlators of single-trace twist-$2$ operators in the large-$N$ expansion of SU($N$) Yang-Mills (YM) theory to the leading-nonplanar order. Remarkably, it has the structure of the logarithm of a functional determinant, but with the sign opposite to the one that would follow from the spin-statistics theorem for the glueballs. In order to solve this sign puzzle, we have reconsidered the proof in the literature that in the 't Hooft topological expansion of large-$N$ YM theory the leading-nonplanar contribution to the generating functional consists of the sum over punctures of $n$-punctured tori. We have discovered that for twist-$2$ operators it contains -- in addition to the $n$-punctured tori -- the normalization of tori with $1 \\leq p \\leq n$ pinches and $n-p$ punctures. Once the existence of the new sector is taken into account, the violation of the spin-statistics theorem disappears. Moreover, the new sector contributes trivially to the nonperturbative $S$ matrix because -- for example -- the $n$-pinched torus represents nonperturbatively a loop of $n$ glueball propagators with no external leg. This opens the way for an exact solution limited to the new sector that may be solvable thanks to the vanishing $S$ matrix.",
+    "categories": "hep-th hep-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2401.13828",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Asymptotic solutions for self-similarly expanding fault slip induced by fluid injection at constant rate",
+    "abstract": "We examine the circular, self-similar expansion of frictional rupture due to fluid injected at a constant rate. Fluid migrates within a thin permeable layer parallel to and containing the fault plane. When the Poisson ratio $ν=0$, self-similarity of the fluid pressure implies fault slip also evolves in an axisymmetric, self-similar manner, reducing the three-dimensional problem for the evolution of fault slip to a single self-similar dimension. The rupture radius grows as $λ\\sqrt{4α_{hy} t}$, where $t$ is time since the start of injection and $α_{hy}$ is the hydraulic diffusivity of the pore fluid pressure. The prefactor $λ$ is determined by a single parameter, $T$, which depends on the pre-injection stress state and injection conditions. The prefactor has the range $0<λ<\\infty$, the lower and upper limits of which correspond to marginal pressurization of the fault and critically stressed conditions, in which the fault-resolved shear stress is close to the pre-injection fault strength. In both limits, we derive solutions for slip by perturbation expansion, to arbitrary order. In the marginally pressurized limit ($λ\\rightarrow 0$), the perturbation is regular and the series expansion is convergent. For the critically stressed limit ($λ\\rightarrow \\infty$), the perturbation is singular, contains a boundary layer and an outer solution, and the series is divergent. In this case, we provide a composite solution with uniform convergence over the entire rupture using a matched asymptotic expansion. We provide error estimates of the asymptotic expansions in both limits, and demonstrate optimal truncation of the singular perturbation in the critically stressed limit.",
+    "categories": "physics.flu-dyn physics.geo-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2402.08896",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Implications of conservation laws and ergodicity for neutrino flavor instability",
+    "abstract": "Collective neutrino flavor instabilities are believed to be prevalent in core-collapse supernovae and neutron star mergers. This work establishes two points related to instability, both in the spirit of developing a more fundamental understanding of collective flavor dynamics. First, a conservation law related to lepton number implies that spectral crossings are necessary for instability. Second, the most permissive application of the ergodic hypothesis to neutrino flavor evolution implies that spectral crossings are in fact sufficient for instability. We also discuss flavor thermalization and energy conservation in relation to ergodicity.",
+    "categories": "hep-ph astro-ph.HE",
+    "set": "physics"
+  },
+  {
+    "id": "2403.11688",
+    "created": "2024-03-18",
+    "updated": "2025-09-18",
+    "title": "Layer dependent topological phases and transitions in TaRhTe$_4$: From monolayer and bilayer to bulk",
+    "abstract": "The recently synthesized ternary quasi-2D material TaRhTe$_4$ is a bulk Weyl semimetal with an intrinsically layered structure, which poses the question how the topology of its electronic structure depends on layers separations. Experimentally these separations may be changed for instance by intercalation of the bulk, or by exfoliation to reach monolayer or few-layer structures. Here we show that in the monolayer limit a quantum spin Hall insulator (QSHI) state emerges, employing density functional calculations as well as a minimal four-orbital tight-binding model that we develop. Even for weak spin-orbit couplings the QSHI is present, which has an interesting edge state that features Rashba-split bands with quadratic band minima. Further we find that a weak topological insulator (WTI) manifests in the bilayer system due to sizable intralayer hopping, contrary to the common lore that only weak interlayer interactions between stacked QSHIs lead to WTIs. Stacked bilayers give rise to a phase diagram as function of the interlayer separation that comprises a Weyl semimetal, WTI and normal insulator phases. These insights on the evolution of topology with dimension can be transferred to the family of layered ternary transition metal tellurides.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2404.06087",
+    "created": "2025-08-02",
+    "updated": "2025-09-18",
+    "title": "The Overlap Gap Property limits limit swapping in the QAOA",
+    "abstract": "The Quantum Approximate Optimization Algorithm (QAOA) is a quantum algorithm designed for Combinatorial Optimization Problem (COP). We show that if a local algorithm is limited in performance at logarithmic depth for a spin glass type COP with an underlying Erdös--Rényi hypergraph, then a random regular hypergraph is similarly limited in performance as well. As such, we re-derived the fact that the average-case value obtained by the QAOA for even $q\\ge 4$, Max-$q$-XORSAT is bounded away from optimality when optimised using asymptotic analysis due to the Overlap Gap Property (OGP). While this result was proven before, the proof is rather technical compared to ours. In addition, we show that the earlier result implicitly also implies limitation at logarithmic depth $p \\le ε\\log n$ providing an improvement over limitation at constant depth. Furthermore, the extension to logarithmic depth leads to a tightening of the upper bound that the QAOA outputs at logarithmic depth for MaxCUT and Max-$q$-XORSAT problems. We also provide some numerical evidence the limitation should be extended to odd $q$ by showing that the OGP exists for the Max-$3$-XORSAT on random regular graphs.",
+    "categories": "quant-ph cond-mat.dis-nn cond-mat.stat-mech cs.DS",
+    "set": "physics"
+  },
+  {
+    "id": "2405.08067",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Local Zeta Functions of Multiparameter Calabi-Yau Threefolds from the Picard-Fuchs Equations",
+    "abstract": "The deformation approach of arXiv:2104.07816 for computing zeta functions of one-parameter Calabi-Yau threefolds is generalised to cover also multiparameter manifolds. Consideration of the multiparameter case requires the development of an improved formalism. This allows us, among other things, to make progress on some issues left open in previous work, such as the treatment of apparent and conifold singularities and changes of coordinates. We also discuss the efficient numerical computation of the zeta functions. As examples, we compute the zeta functions of the two-parameter mirror octic, a non-symmetric split of the quintic threefold also with two parameters, and the $S_5$ symmetric five-parameter Hulek-Verrill manifolds. These examples allow us to exhibit the several new types of geometries for which our methods make practical computations possible. They also act as consistency checks, as our results reproduce and extend those of arXiv:hep-th/0409202 and arXiv:math/0304169. To make the methods developed here more approachable, a Mathematica package \"CY3Zeta\" for computing the zeta functions of Calabi-Yau threefolds, which is attached to this paper, is presented.",
+    "categories": "hep-th math.NT",
+    "set": "physics"
+  },
+  {
+    "id": "2407.06370",
+    "created": "2024-07-08",
+    "updated": "2025-09-18",
+    "title": "An extreme thermal cycling reliability test of ATLAS ITk Strips barrel modules",
+    "abstract": "At the end of Run 3 of the Large Hadron Collider (LHC), the accelerator complex will be upgraded to the High-Luminosity LHC (HL-LHC) in order to increase the total amount of data provided to its experiments. To cope with the increased rates of data, radiation, and pileup, the ATLAS detector will undergo a substantial upgrade, including a replacement of the Inner Detector with a future Inner Tracker, called the ITk. The ITk will be composed of pixel and strip sub-detectors, where the strips portion will be composed of 17,888 silicon strip detector modules. During the HL-LHC running period, the ITk will be cooled and warmed a number of times from about ${-35}^\\circ$C to room temperature as part of the operational cycle, including warm-ups during yearly shutdowns. To ensure ITk Strips modules are functional after these expected temperature changes, and to ensure modules are mechanically robust, each module must undergo ten thermal cycles and pass a set of electrical and mechanical criteria before it is placed on a local support structure. This paper describes the thermal cycling Quality Control (QC) procedure, and results from the barrel pre-production phase (about 5% of the production volume). Additionally, in order to assess the headroom of the nominal QC procedure of 10 cycles and to ensure modules don't begin failing soon after, four representative ITk Strips barrel modules were thermally cycled 100 times - this study is also described.",
+    "categories": "physics.ins-det hep-ex",
+    "set": "physics"
+  },
+  {
+    "id": "2407.09875",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Stationary reduction method based on nonisospectral deformation of orthogonal polynomials, and discrete Painlevé-type equations",
+    "abstract": "In this work, we propose a new approach called ``stationary reduction method based on nonisospectral deformation of orthogonal polynomials\" for deriving discrete Painlevé-type (d-P-type) equations. We apply this approach to (bi)orthogonal polynomials satisfying ordinary orthogonality, $(1,m)$-biorthogonality, generalized Laurent biorthogonality, Cauchy biorthogonality and partial-skew orthogonality. As a result, several seemingly novel classes of high order d-P-type equations or integrable difference systems with potential relations with new d-P-type equations, along with their particular solutions and respective Lax pairs, are derived. Notably, the derived integrable difference system related to the Cauchy biorthogonality is a stationary reduction of a nonisospectral generalization involving the first two flows of the Toda hierarchy of CKP type. Additionally, the integrable difference system related to the partial-skew orthogonality is associated with the nonisospectral Toda hierarchy of BKP type, and it is found to admit a solution expressed in terms of Pfaffians.",
+    "categories": "nlin.SI math-ph math.MP",
+    "set": "physics"
+  },
+  {
+    "id": "2407.10356",
+    "created": "2025-09-12",
+    "updated": "2025-09-18",
+    "title": "Surprising symmetry properties and exact solutions of Kolmogorov backward equations with power diffusivity",
+    "abstract": "Using the original advanced version of the direct method, we efficiently compute the equivalence groupoids and equivalence groups of two peculiar classes of Kolmogorov backward equations with power diffusivity and solve the problems of their complete group classifications. The results on the equivalence groups are double-checked with the algebraic method. Within these classes, the remarkable Fokker-Planck and the fine Kolmogorov backward equations are distinguished by their exceptional symmetry properties. We extend the known results on these two equations to their counterparts with respect to a nontrivial discrete equivalence transformation. Additionally, we carry out Lie reductions of the equations under consideration up to the point equivalence, exhaustively study their hidden Lie symmetries and generate wider families of their new exact solutions via acting by their recursion operators on constructed Lie-invariant solutions. This analysis reveals eight powers of the space variable with exponents -1, 0, 1, 2, 3, 4, 5 and 6 as values of the diffusion coefficient that are prominent due to symmetry properties of the corresponding equations.",
+    "categories": "math-ph math.AP math.MP",
+    "set": "physics"
+  },
+  {
+    "id": "2407.11667",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Limit theorems for walks and triangles on Erdös-Rényi random graphs with large interaction radius",
+    "abstract": "We study cumulants of numbers of $q$-step walks on Erdös-Rényi-type random graphs of long-range percolation radius model in the limit when the number of vertices $N$, concentration $c$, and the interaction radius $R$ tend to infinity. These cumulants can be associated with a formal cumulant expansion of the free energy of matrix models of exponential random graphs widely known in mathematical and theoretical physics.\n  We show that in three different asymptotic regimes, the limiting values of $k$-th cumulants ${\\cal F}_k^{(q)}$ exist and can be associated with one or another family of tree-type diagrams, in dependence of the asymptotic behavior of parameters $cR/N$ for $q$-step non-closed walks and $c^2R/N^2$ for 3-step closed walks, respectively. In certain cases, we obtain ${\\cal F}_k^{(q)}$ in explicit form.\n  These results allow us to prove Limit Theorems for the number of non-closed walks and for the number of triangles in corresponding ensembles of large random graphs. As a consequence, we indicate an asymptotic regime when in random graphs that we consider, the average vertex degree remains bounded while the total number of triangles infinitely increases, thus rigorously solving a graph collapse problem known in applications.",
+    "categories": "math.PR math-ph math.CO math.MP",
+    "set": "physics"
+  },
+  {
+    "id": "2408.00208",
+    "created": "2024-08-01",
+    "updated": "2025-09-18",
+    "title": "Prognosis of COVID-19 using Artificial Intelligence: A Systematic Review and Meta-analysis",
+    "abstract": "Purpose: Artificial intelligence (AI) techniques have been extensively utilized for diagnosing and prognosis of several diseases in recent years. This study identifies, appraises and synthesizes published studies on the use of AI for the prognosis of COVID-19. Method: Electronic search was performed using Medline, Google Scholar, Scopus, Embase, Cochrane and ProQuest. Studies that examined machine learning or deep learning methods to determine the prognosis of COVID-19 using CT or chest X-ray images were included. Polled sensitivity, specificity area under the curve and diagnostic odds ratio were calculated. Result: A total of 36 articles were included; various prognosis-related issues, including disease severity, mechanical ventilation or admission to the intensive care unit and mortality, were investigated. Several AI models and architectures were employed, such as the Siamense model, support vector machine, Random Forest , eXtreme Gradient Boosting, and convolutional neural networks. The models achieved 71%, 88% and 67% sensitivity for mortality, severity assessment and need for ventilation, respectively. The specificity of 69%, 89% and 89% were reported for the aforementioned variables. Conclusion: Based on the included articles, machine learning and deep learning methods used for the prognosis of COVID-19 patients using radiomic features from CT or CXR images can help clinicians manage patients and allocate resources more effectively. These studies also demonstrate that combining patient demographic, clinical data, laboratory tests and radiomic features improves model performances.",
+    "categories": "physics.med-ph cs.AI cs.LG",
+    "set": "physics"
+  },
+  {
+    "id": "2408.00858",
+    "created": "2024-08-16",
+    "updated": "2025-09-18",
+    "title": "Constructive Fermionic Matrix Product States for Projected Fermi Sea",
+    "abstract": "Projected wave functions offer a means for incorporating local correlation effects in gapless electronic phases of matter like metals. Although such wave functions can be readily specified formally, it is challenging to compute their associated physical observables. Tensor network approaches offer a modern numerical method for this task. In this work, we develop and demonstrate a constructive tensor-network approach for obtaining physical quantities, like fermion two-point functions and density-density correlation functions, for one-dimensional projected Fermi sea states. We benchmark our method against exact analytical results for spin-1/2 electrons subjected to the Gutzwiller projection, and then present results on spinless fermions with nearest-neighbor repulsion. For a state with two pairs of Fermi points, we reveal a correlation-tuning of the characteristic wave vector of the charge density modulation in the system.",
+    "categories": "cond-mat.str-el cond-mat.mes-hall cond-mat.stat-mech",
+    "set": "physics"
+  },
+  {
+    "id": "2408.02008",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Helical Superconductors with Multiple Majorana Kramers Pairs in Rashba Bilayers",
+    "abstract": "The momentum dependence of Rashba spin-orbit coupling (RSOC) is a key ingredient for engineering topological superconductors (TSCs), but research has largely focused on the linear-in-momentum form. This focus has restricted time-reversal invariant TSCs to helical $p$-wave states with only a single Majorana Kramers pair, whose existence is tied to the criterion of an odd number of Fermi surfaces (FSs). In this Letter, we demonstrate that a bilayer system with pure cubic RSOC and intrinsic odd-parity pairing on a single FS yields a rare 2D helical $f$-wave TSC. This state is characterized by a large mirror Chern number (MCN) of ${\\cal N}_{\\text{M}}=3$ and hosts three Kramers pairs of Majorana edge modes. Remarkably, the interplay of linear and cubic RSOCs in this bilayer can generate a helical hybrid $p+f$-wave TSC with an even larger MCN of ${\\cal N}_{\\text{M}}=4$ from a normal state with two FSs, thereby circumventing the conventional odd-FS criterion. Our work establishes higher-order RSOC as a powerful design principle for realizing TSCs with multiple Majorana Kramers channels, fundamentally reshapes the helical hybrid for helical TSCs, and holds immediate relevance for tunable platforms like oxide heterostructures.",
+    "categories": "cond-mat.supr-con",
+    "set": "physics"
+  },
+  {
+    "id": "2408.03991",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Berry Phases in the Bosonization of Nonlinear Edge Modes",
+    "abstract": "We consider chiral, generally nonlinear density waves in one dimension, modelling the bosonized edge modes of a two-dimensional fermionic topological insulator. Using the coincidence between bosonization and Lie-Poisson dynamics on an affine U(1) group, we show that wave profiles which are periodic in time produce Berry phases accumulated by the underlying fermionic field. These phases can be evaluated in closed form for any Hamiltonian, and they serve as a diagnostic of nonlinearity. As an explicit example, we discuss the Korteweg-de Vries equation, viewed as a model of nonlinear quantum Hall edge modes.",
+    "categories": "cond-mat.mes-hall hep-th math-ph math.MP math.SG",
+    "set": "physics"
+  },
+  {
+    "id": "2408.10025",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "The influence of the scalar unparticle and polarization on the exclusive W boson hadronic decays in the final state at muon colliders in the Randall-Sundrum model",
+    "abstract": "An attempt is made to present the effect of unparticle physics and polarization on the exclusive decays of W boson at high energy colliders in the Randall-Sundrum (RS) model. By using Feynman diagram techniques we have evaluated the influence of the scalar unparticle and polarization on the exclusive W boson hadronic decays of $W^{\\pm} \\rightarrow π^{\\pm}γ$, $W^{\\pm} \\rightarrow K^{\\pm}γ$ and $W^{\\pm} \\rightarrow ρ^{\\pm}γ$ at the high energy muon colliders in the RS model. The result shows that with fixed collision energies, the total cross-section for hadronic productions in the final state depends strongly on the parameters of the unparticle physics and muon beam polarizes. With a center-of-mass energy of 10 TeV, the total cross-sections achieve the maximum value when the benchmark background as $(Λ_{U}, d_{U})$ $= (1 TeV, 1.9)$ and the polarization coefficient as $(P_{μ^{-}}, P_{μ^{+}} )= (1,1)$. The numerical evaluation for the statistical significance is given in detail which indicates that the effect can be detected in the future experiments with moderately high energy colliders.",
+    "categories": "hep-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2408.14760",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Interrelation between $\\bar{p}$-Ca Atom Spectra and Nuclear Density Profiles",
+    "abstract": "This work studies $\\bar{p}$-Ca atom spectra in light of the strong shifts and level widths, using the optical model with several types of parametric coefficients. The spectroscopic quantities are obtained as the eigenvalues of the Dirac equation, where the nuclear densities computed via nuclear Density Functional Theory and the effect of the anomalous magnetic moment are incorporated. The results indicate that the isovector term's contribution to the optical potential is crucial for explaining the systematical differences in the strong shifts between $^{40}$Ca and $^{48}$Ca. Furthermore, it is found that both the strong shifts and the level widths exhibit significant dependence on the nuclear density profiles. These findings provide critical insights into the nuclear structures, particularly in the context of Calcium isotopes, by offering a more comprehensive understanding of the underlying nuclear-hadron properties.",
+    "categories": "nucl-th",
+    "set": "physics"
+  },
+  {
+    "id": "2408.16378",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Unconditionally separating noisy $\\mathsf{QNC}^0$ from bounded polynomial threshold circuits of constant depth",
+    "abstract": "The rapid evolution of quantum devices fuels concerted efforts to experimentally establish quantum advantage over classical computing. Many demonstrations of quantum advantage, however, rely on computational assumptions and face verification challenges. Furthermore, steady advances in classical algorithms and machine learning make the issue of provable, practically demonstrable quantum advantage a moving target. In this work, we unconditionally demonstrate that parallel quantum computation can exhibit greater computational power than previously recognized. We prove that polynomial-size biased threshold circuits of constant depth -- which model neural networks with tunable expressivity -- fail to solve certain problems solvable by small constant-depth quantum circuits with local gates, for values of the bias that allow quantifiably large computational power. Additionally, we identify a family of problems that are solvable in constant depth by a universal quantum computer over prime-dimensional qudits with bounded connectivity, but remain hard for polynomial-size biased threshold circuits. We thereby bridge the foundational theory of non-local games in higher dimensions with computational advantage on emerging devices operating on a wide range of physical platforms. Finally, we show that these quantum advantages are robust to noise across all prime qudit dimensions with all-to-all connectivity, enhancing their practical appeal.",
+    "categories": "quant-ph cs.CC",
+    "set": "physics"
+  },
+  {
+    "id": "2409.09737",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Revealing the $q^2$ dependence in $b \\to s μ^+ μ^-$ baryonic decay modes",
+    "abstract": "Measurements from the LHCb experiment and $B$ factories have revealed several discrepancies in angular observables of rare semileptonic $B$ decays involving the quark-level transition $b \\to s \\ell^+ \\ell^-$. In this work, we conduct a model-independent comparative analysis of the rare semileptonic decays of baryons $Λ_b$, $Σ_b$ and $Ξ_b$, exploring various new physics scenarios. Our analysis includes predictions for branching ratios and angular observables, including forward-backward asymmetry, longitudinal polarization fractions, and lepton flavor universality ratios, both within the Standard Model and across six distinct new physics scenarios. Notably, we find that certain new physics scenarios significantly affect the observables in the $(Λ_b, Σ_b, Ξ_b) \\to (Λ, Σ, Ξ) μ^+ μ^-$ processes.",
+    "categories": "hep-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2409.15431",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Signatures of anti-social mass-loss in the ordinary Type II SN 2024bch -- A non-interacting supernova with early high-ionisation features",
+    "abstract": "In this paper we analyse the spectro-photometric properties of the Type II supernova 2024bch, exploded in NGC 3206 at a distance of $19.9\\,\\rm{Mpc}$. Its early spectra are characterised by narrow high-ionisation emission lines, often interpreted as signatures of ongoing interaction between rapidly expanding ejecta and a confined dense circumstellar medium. However, we provide a model for the bolometric light curve of the transient that does not require sources of energy different than radioactive decays and H recombination. Our model can reproduce the bolometric light curve of SN 2024bch adopting an ejected mass of $M_{bulk}\\simeq5\\,\\rm{M_{\\odot}}$ surrounded by an extended envelope of only $0.2\\,\\rm{M_{\\odot}}$ with an outer radius $R_{env}=7.0\\times10^{13}\\,\\rm{cm}$. An accurate modelling focused on the radioactive part of the light curve, which accounts for incomplete $γ-$ray trapping, gives a $^{56}\\rm{Ni}$ mass of $0.048\\,\\rm{M_{\\odot}}$. We propose narrow lines to be powered by Bowen fluorescence induced by scattering of He II Ly$α$ photons, resulting in the emission of high-ionisation resonance lines. Simple light travel time calculations based on the maximum phase of the narrow emission lines place the inner radius of the H-rich, un-shocked shell at a radius $\\simeq4.4\\times10^{15}\\,\\rm{cm}$, compatible with an absence of ejecta-CSM interaction during the first weeks of evolution. Possible signatures of interaction appear only $\\sim69\\,\\rm{days}$ after explosion, although the resulting conversion of kinetic energy into radiation does not seem to contribute significantly to the total luminosity of the transient.",
+    "categories": "astro-ph.HE astro-ph.SR",
+    "set": "physics"
+  },
+  {
+    "id": "2410.01377",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "The Laplacian with complex magnetic fields",
+    "abstract": "We study the two-dimensional magnetic Laplacian when the magnetic field is allowed to be complex-valued. Under the assumption that the imaginary part of the magnetic potential is relatively form-bounded with respect to the real part of the magnetic Laplacian, we introduce the operator as an m-sectorial operator. In two dimensions, sufficient conditions are established to guarantee that the resolvent is compact. In the case of non-critical complex magnetic fields, a WKB approach is used to construct semiclassical pseudomodes, which do not exist when the magnetic field is real-valued.",
+    "categories": "math-ph math.FA math.MP math.SP",
+    "set": "physics"
+  },
+  {
+    "id": "2410.04600",
+    "created": "2024-10-06",
+    "updated": "2025-09-18",
+    "title": "Thickness-Driven Transitions Between Novel Magnetic States in Ferromagnetic Films",
+    "abstract": "Magnetic materials hosting stable topological spin textures have demonstrated energy efficiency and potential as information carriers in novel logic and memory devices, offering an alternative to magnetic tunnel junction technology. While these structures are well understood in 2D, in 3D their stability, interactions, and topological transitions require further exploration. Here we present two thermodynamically stable topological states, termed the \"hourglass\" and \"dome\", in centrosymmetric magnetic films of varying thickness. Crucially, we observe thickness-dependent transitions between the two states, with regions of metastability where both configurations coexist. We construct a phase diagram detailing the parameter space for their existence and transitions, provide an effective description of the interactions that mediate the transition, and discuss the implications of this type of state switching.",
+    "categories": "cond-mat.mes-hall cond-mat.other",
+    "set": "physics"
+  },
+  {
+    "id": "2410.11753",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Identification and modelling of optically thin inverse Compton scattering in the prompt emission of GRB131014A",
+    "abstract": "The mechanism responsible for the prompt gamma-ray emission of a gamma-ray burst continues to remain an enigma. The detailed analysis of the spectrum of GRB 131014A observed by the $Fermi$ gamma ray burst monitor and Large Area Telescope has revealed an unconventional spectral shape that significantly deviates from the typical Band function. The spectrum exhibits three distinctive breaks and an extended power law at higher energies. Furthermore, the lower end of the spectrum aligns with power-law indices greater than -0.5, and in the brightest region of the burst, these values approach +1. The lowest spectral break is thereby found to be consistent with a blackbody. These observed spectral characteristics strongly suggest the radiation process to be inverse Compton scattering in an optically thin region. Applying the empirical fit parameters for physical modeling, we find that the kinetic energy of the GRB jet of bulk Lorentz factor, $Γ\\sim 400$, gets dissipated just above the photosphere, approximately at a radius of $\\sim 10^{14}$ cm. The electrons involved in this process are accelerated to a power-law index of $δ= -1.5$, and the minimum electron Lorentz factor, $γ_{min}$, is approximately $3$. In summary, this study provides a comprehensive identification and detailed modeling of optically thin inverse Compton scattering in the prompt emission of GRB 131014A.",
+    "categories": "astro-ph.HE",
+    "set": "physics"
+  },
+  {
+    "id": "2410.13559",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "On estimating the trace of quantum state powers",
+    "abstract": "We investigate the computational complexity of estimating the trace of quantum state powers $\\text{tr}(ρ^q)$ for an $n$-qubit mixed quantum state $ρ$, given its state-preparation circuit of size $\\text{poly}(n)$. This quantity is closely related to and often interchangeable with the Tsallis entropy $\\text{S}_q(ρ) = \\frac{1-\\text{tr}(ρ^q)}{q-1}$, where $q = 1$ corresponds to the von Neumann entropy. For any non-integer $q \\geq 1 + Ω(1)$, we provide a quantum estimator for $\\text{S}_q(ρ)$ with time complexity $\\text{poly}(n)$, exponentially improving the prior best results of $\\exp(n)$ due to Acharya, Issa, Shende, and Wagner (ISIT 2019), Wang, Guan, Liu, Zhang, and Ying (TIT 2024), and Wang, Zhang, and Li (TIT 2024), and Wang and Zhang (ESA 2024). Our speedup is achieved by introducing efficiently computable uniform approximations of positive power functions into quantum singular value transformation.\n  Our quantum algorithm reveals a sharp phase transition between the case of $q=1$ and constant $q>1$ in the computational complexity of the Quantum $q$-Tsallis Entropy Difference Problem (TsallisQED$_q$), particularly deciding whether the difference $\\text{S}_q(ρ_0) - \\text{S}_q(ρ_1)$ is at least $0.001$ or at most $-0.001$:\n  - For any $1+Ω(1) \\leq q \\leq 2$, TsallisQED$_q$ is $\\mathsf{BQP}$-complete, which implies that Purity Estimation is also $\\mathsf{BQP}$-complete.\n  - For any $1 \\leq q \\leq 1 + \\frac{1}{n-1}$, TsallisQED$_q$ is $\\mathsf{QSZK}$-hard, leading to hardness of approximating the von Neumann entropy because $\\text{S}_q(ρ) \\leq \\text{S}(ρ)$, as long as $\\mathsf{BQP} \\subsetneq \\mathsf{QSZK}$.\n  The hardness results are derived from reductions based on new inequalities for the quantum $q$-Jensen-(Shannon-)Tsallis divergence with $1\\leq q \\leq 2$, which are of independent interest.",
+    "categories": "quant-ph cs.CC cs.DS",
+    "set": "physics"
+  },
+  {
+    "id": "2410.16877",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Quasinormal modes for charged Lifshitz black holes with scalar hair",
+    "abstract": "In this paper, we investigate massive charged scalar perturbations in four-dimensional charged Lifshitz-AdS black holes with scalar hair, within the framework of Einstein--Maxwell--Dilaton (EMD) gravity. Using the improved asymptotic iteration method (AIM), we compute the quasinormal modes (QNMs) and explore their dependence on key parameters, including the Lifshitz dynamical exponent $z$, the scalar field mass and charge, and the black hole charge, under various spatial curvature settings ($k=0, \\pm1$). Our results reveal rich and sensitive behavior in both the real and imaginary parts of QNMs. In particular, the decay rates can exhibit monotonic or non-monotonic dependence on the black hole charge, depending on the values of $z$, $m_s$, and $q_s$. These findings highlight the significant role of field and geometric parameters in governing the dynamical stability of Lifshitz black holes and offer insights into the perturbative properties of non-AdS holographic systems.",
+    "categories": "hep-th",
+    "set": "physics"
+  },
+  {
+    "id": "2410.19101",
+    "created": "2025-05-06",
+    "updated": "2025-09-18",
+    "title": "Bell's inequality in relativistic Quantum Field Theory",
+    "abstract": "A concise and self-contained introduction to the Bell inequality in relativistic Quantum Field Theory is presented. Taking the example of a real scalar massive field, the violation of the Bell inequality in the vacuum state and for causal complementary wedges is illustrated.",
+    "categories": "quant-ph hep-th math-ph math.MP",
+    "set": "physics"
+  },
+  {
+    "id": "2411.00364",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Application of the Quantum Approximate Optimization Algorithm in Solving the Total Domination Problem",
+    "abstract": "Recent advancements in quantum computing have spurred substantial research into the application of quantum algorithms to combinatorial optimization problems. Among these challenges, the Total Domination Problem (TDP) emerges as a classic and critical paradigm in the field. For a graph G(V, E), TDP entails finding a minimal subset D subset of V that contains no isolated vertices, where every vertex not in D has at least one neighbor in D. TDP finds extensive applications across domains such as computer networks, social networks, and communications. Since the latter half of the last century, research efforts have focused on establishing its NP-completeness and developing solution algorithms, which have become foundational to combinatorial mathematics. Despite this rich history, the application of quantum algorithms to TDP remains largely underexplored. In this study, we present a pioneering application of the Quantum Approximate Optimization Algorithm (QAOA) to tackle TDP, evaluating its efficacy across a diverse set of parameters. This paper proves that the upper bound on the number of qubits required to solve TDP is 2|V| + |V| log_2( (2|E|)/|V| - 1 ). Our experimental findings demonstrate that QAOA is effective in addressing TDP: under most parameter combinations, it successfully computes a valid total dominating set (TDS). However, the algorithm's performance in identifying the optimal TDS is contingent upon specific parameter choices, revealing a significant bias in the distribution of effective parameter points. This research contributes valuable insights into the potential of quantum algorithms for solving TDP and lays a solid groundwork for future investigations in this area.",
+    "categories": "quant-ph cs.DM",
+    "set": "physics"
+  },
+  {
+    "id": "2411.02554",
+    "created": "2024-11-04",
+    "updated": "2025-09-18",
+    "title": "Quantum-Computable One-Way Functions without One-Way Functions",
+    "abstract": "We construct a classical oracle relative to which $\\mathsf{P} = \\mathsf{NP}$ but quantum-computable quantum-secure trapdoor one-way functions exist. This is a substantial strengthening of the result of Kretschmer, Qian, Sinha, and Tal (STOC 2023), which only achieved single-copy pseudorandom quantum states relative to an oracle that collapses $\\mathsf{NP}$ to $\\mathsf{P}$. For example, our result implies multi-copy pseudorandom states and pseudorandom unitaries, but also classical-communication public-key encryption, signatures, and oblivious transfer schemes relative to an oracle on which $\\mathsf{P}=\\mathsf{NP}$. Hence, in our new relativized world, classical computers live in \"Algorithmica\" whereas quantum computers live in \"Cryptomania,\" using the language of Impagliazzo's worlds.\n  Our proof relies on a new distributional block-insensitivity lemma for $\\mathsf{AC^0}$ circuits, wherein a single block is resampled from an arbitrary distribution.",
+    "categories": "quant-ph cs.CC cs.CR",
+    "set": "physics"
+  },
+  {
+    "id": "2411.04283",
+    "created": "2025-03-31",
+    "updated": "2025-09-18",
+    "title": "Learning the closest product state",
+    "abstract": "We study the problem of finding a (pure) product state with optimal fidelity to an unknown $n$-qubit quantum state $ρ$, given copies of $ρ$. This is a basic instance of a fundamental question in quantum learning: is it possible to efficiently learn a simple approximation to an arbitrary state? We give an algorithm which finds a product state with fidelity $\\varepsilon$-close to optimal, using $N = n^{\\text{poly}(1/\\varepsilon)}$ copies of $ρ$ and $\\text{poly}(N)$ classical overhead. We further show that estimating the optimal fidelity is NP-hard for error $\\varepsilon = 1/\\text{poly}(n)$, showing that the error dependence cannot be significantly improved.\n  For our algorithm, we build a carefully-defined cover over candidate product states, qubit by qubit, and then demonstrate that extending the cover can be reduced to approximate constrained polynomial optimization. For our proof of hardness, we give a formal reduction from polynomial optimization to finding the closest product state. Together, these results demonstrate a fundamental connection between these two seemingly unrelated questions. Building on our general approach, we also develop more efficient algorithms in three simpler settings: when the optimal fidelity exceeds $5/6$; when we restrict ourselves to a discrete class of product states; and when we are allowed to output a matrix product state.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2411.12221",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Non-adiabatic phonon self-energy due to electrons with finite linewidths",
+    "abstract": "We develop the theory of the non-adiabatic phonon self-energy arising from coupling to electrons with finite linewidths using the spectral representation of Green's functions. Our formalism naturally includes the contribution from the intra-band electronic transitions (as well as the inter-band ones) at all electron wavevectors to the phonon linewidths, which is forbidden for zone-center optical phonons if infinitesimal electron linewidths are used. As a proof of principle, we use the theory to calculate the linewidth of the double-degenerate, zone-center optical $E_{\\rm 2g}$ phonons of graphene as a function of the chemical potential. The calculated phonon linewidths obtained with finite electron linewidths differ significantly from those obtained with infinitesimal electron linewidths even at low temperatures. Intra-band electronic transitions play an important role in making this difference. Moreover, only the results accounting for the finite electron linewidths are in quantitative agreement with the available experimental data. The presented formalism is suitable for first-principles calculations.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2411.12608",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Exploring the Potential of Quantum Approximate Optimization Algorithm in Tackling the Perfect Domination Problem",
+    "abstract": "Perfect Domination Problem (PDP), a canonical challenge in combinatorial optimization, finds critical applications in real-world systems such as error-correcting codes, wireless communication networks, and social networks. Decades of research have firmly established its NP-completeness across numerous graph classes. Motivated by rapid advances in quantum computing, significant effort has recently been directed toward quantum algorithms for NP-complete problems, most notably the Quantum Approximate Optimization Algorithm (QAOA). Nonetheless, the applicability and efficacy of quantum approaches to the PDP remain entirely unexplored. This paper initiates the first systematic investigation of the PDP via QAOA. We evaluate solution quality on three benchmark instances of 6, 7, and 8 vertices using 15-18 qubits on a quantum simulator, examining more than 400 distinct parameter configurations. Experimental results confirm the algorithm's effectiveness and expose discernible trends in parameter selection. These outcomes substantiate QAOA's viability for the PDP and mark a seminal step toward situating this classical problem within the quantum-computing paradigm.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2411.19681",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Point-Cloud Based Inverse Design of Free-Form Metamaterials Using Deep Generative Networks",
+    "abstract": "Mechanical metamaterials enable precise control over structural properties, but their design method remains challenging due to their complex structure. Although additive manufacturing has expanded geometric freedom, navigating this vast and complex design space still requires computationally intensive simulations or expert-driven processes. Recently, artificial intelligence (AI)-driven design approaches have emerged to address these limitations, but many studies restrict their scope to parametric representations, limiting their generative capacity to predefined shapes. Here, we present a point cloud-based generative framework that enables the inverse design of 3D metamaterial without parametric constraints. Trained on a number of structurally valid unit cells, the present machine learning model learns geometric patterns, mitigates common connectivity issues inherent in point cloud generation. The proposed model constructs a latent space organized by mechanical properties and naturally clustered by unit cell types. By sampling this latent space, our method supports both property-guided inverse design and generation of topologically gradient transition between distinct unit cell types. This approach facilitates inverse design of 3D metamaterials with high geometric complexity.",
+    "categories": "cond-mat.soft",
+    "set": "physics"
+  },
+  {
+    "id": "2412.02577",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Towards Hamiltonian Formalism for String Field Theory and Nonlocality",
+    "abstract": "String field theories exhibit exponential suppression of interactions among the component fields at high energies due to infinite-derivative factors such as $e^{\\ell^2 \\Box / 2}$ in the vertices. This nonlocality has hindered the development of a consistent Hamiltonian formalism, leading some to question whether such a formalism is even viable. To address this challenge, we introduce a toy model inspired by string field theory and construct its Hamiltonian formalism by demanding that it reproduce all correlation functions derived from the path-integral formalism. Within this framework, we demonstrate for this toy model that physical-state constraints can be imposed to eliminate negative-norm states, while zero-norm states decouple from the physical state space. This approach provides a novel perspective on the nonlocality inherent in string field theories.",
+    "categories": "hep-th",
+    "set": "physics"
+  },
+  {
+    "id": "2412.06631",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Recurrent convolutional neural networks for modeling non-adiabatic dynamics of quantum-classical systems",
+    "abstract": "Recurrent neural networks (RNNs) have recently been extensively applied to model the time-evolution in fluid dynamics, weather predictions, and even chaotic systems thanks to their ability to capture temporal dependencies and sequential patterns in data. Here we present a RNN model based on convolution neural networks for modeling the nonlinear non-adiabatic dynamics of hybrid quantum-classical systems. The dynamical evolution of the hybrid systems is governed by equations of motion for classical degrees of freedom and von Neumann equation for electrons. The physics-aware recurrent convolution (PARC) neural network structure incorporates a differentiator-integrator architecture that inductively models the spatiotemporal dynamics of generic physical systems. We apply our RNN approach to learn the space-time evolution of a one-dimensional semi-classical Holstein model after an interaction quench. For shallow quenches (small changes in electron-lattice coupling), the deterministic dynamics can be accurately captured using a single-CNN-based recurrent network. In contrast, deep quenches induce chaotic evolution, making long-term trajectory prediction significantly more challenging. Nonetheless, we demonstrate that the PARC-CNN architecture can effectively learn the statistical climate of the Holstein model under deep-quench conditions.",
+    "categories": "quant-ph physics.comp-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2412.08716",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "UFig v1: The ultra-fast image generator",
+    "abstract": "With the rise of simulation-based inference (SBI) methods, simulations need to be fast as well as realistic. $\\texttt{UFig v1}$ is a public Python package that simulates astronomical images with exceptional speed, taking approximately the same time as source extraction. This makes it particularly well-suited for SBI methods where computational efficiency is crucial. To render an image, $\\texttt{UFig}$ requires a galaxy catalog, and a description of the point spread function (PSF). It can also add background noise, sample stars using the Besançon model of the Milky Way, and run $\\texttt{SExtractor}$ to extract sources from the rendered image. The extracted sources can be matched to the intrinsic catalog, flagged based on $\\texttt{SExtractor}$ output and survey masks, and emulators can be used to bypass the image simulation and extraction steps. A first version of $\\texttt{UFig}$ was presented in Bergé et al. (2013) and the software has since been used and further developed in a variety of forward modelling applications.",
+    "categories": "astro-ph.IM astro-ph.CO",
+    "set": "physics"
+  },
+  {
+    "id": "2412.09452",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Revisiting the Galactic Winds in M82 I: the recent starburst and launch of outflow in simulations",
+    "abstract": "We revisit the launch of the galactic outflow in M82 using hydrodynamic simulations. Employing a sink-particle module, we self-consistently resolve star formation and feedback, avoiding reliance on simplified models. We investigate the effects of stellar feedback mechanisms, gas return from star-forming clouds, and disk mass on the starburst and outflow. Our simulations generate a starburst lasting $\\sim25$ Myr, peaking at 20-50 $\\rm{M_{\\odot}\\,yr^{-1}}$, although the total stellar mass often exceeds M82's estimated value. The outflow develops in two stages: initially, continuous SNe form small bubbles that merge into a superbubble containing warm/hot gas and intermediate- to high-density cool filaments. After $\\sim10$ Myr, the superbubble breaks out of the disk, and within $\\sim15$ Myr a kpc-scale outflow forms. Cool filaments survive stellar feedback, become entrained in the wind, and stretch to hundreds of parsecs. Most cool gas in outflow originates from pre-existing cool ISM, with minor contributions from in-situ cooling. While the mass loading factor is comparable to M82, the cool gas outflow rate and velocity are lower, with velocities $\\sim60\\%$ below observed values; warm and hot gas are $\\sim25\\%$ slower. SN feedback is the primary driver, and gas return significantly influences the starburst and outflow, while other factors are secondary. Stronger clustered SN feedback is likely required to better match observations.",
+    "categories": "astro-ph.GA astro-ph.SR",
+    "set": "physics"
+  },
+  {
+    "id": "2412.15149",
+    "created": "2024-12-22",
+    "updated": "2025-09-18",
+    "title": "A holographic study on QCD phase transition and neutron star properties",
+    "abstract": "We investigate the QCD phase transition and its phase structure within Einstein-Maxwell-Dilaton-scalar system and compare the results with those obtained from the Einstein-Maxwell-Dilaton system. It is shown that both models reproduce behavior consistent with lattice QCD. In particular, the Einstein-Maxwell-Dilaton-scalar system exhibits a first-order phase transition in the pure gauge sector, aligning with predictions from Yang-Mills theory. Based on these models, we construct a holographic model for neutron stars, incorporating leptons to satisfy electric charge neutrality, and examine the cold equation of state, the mass-radius relation, and tidal deformability of neutron stars. It is demonstrated that the Einstein-Maxwell-Dilaton-scalar system enables us to describe neutron star properties that meet current astrophysical constraints.",
+    "categories": "hep-ph astro-ph.HE",
+    "set": "physics"
+  },
+  {
+    "id": "2412.19859",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Statistical research on determining sensitivity of neutrinoless double beta decays",
+    "abstract": "The determination of experimental sensitivity is a key step in the search for neutrinoless double beta decay ($0νββ$), providing a quantitative benchmark for detector design. Two commonly used statistical approaches are the counting method, which estimates sensitivity from the number of events in a predefined region of interest (RoI), and the fitting method, which extracts the signal contribution by fitting the full energy spectrum. In this work, we investigate both discovery sensitivity and exclusion sensitivity within these two approaches. Through statistical derivation and simulation verification, we show that the relative performance of the methods depends on both energy resolution and exposure, while at higher exposures the fitting method consistently yields more stringent sensitivity. These results provide guidance for selecting the optimal statistical method in future $0νββ$ experiments.",
+    "categories": "physics.ins-det hep-ex nucl-ex",
+    "set": "physics"
+  },
+  {
+    "id": "2412.20579",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Crossover of Critical Behavior in Dynamic Phase Transitions of Multilayer Ising Model Systems",
+    "abstract": "We investigate the crossover of critical behavior for the dynamic phase transition (DPT) in ferromagnetic thin films using Monte Carlo simulations of the kinetic Ising model, focusing on the scaling behavior of the dynamic order parameter under a time-dependent external magnetic field. Specifically, we study the transition of the critical behavior of such multilayer film systems from two-dimensional (2D) to three-dimensional (3D) as a function of the film thickness and the distance to the critical point, which enables dimensional crossover observations. Our results indicate that the effective critical exponents exhibit a clear transition in their scaling behavior, with thinner films showing 2D-like characteristics and thicker films displaying 3D-like behavior, for both the DPT and the thermodynamic phase transitions (TPT). Quantitatively, the crossover from 2D to 3D behavior occurs at larger film thicknesses for the DPT compared to the TPT, suggesting that DPT and TPT are governed by distinctly different length scales and underlying surface effects. These findings are in agreement with experimental observations in ultrathin Co films, where dynamic and thermodynamic critical exponents were found to differ. Therefore, our study provides an in-depth explanation for critical phenomena in thin-film ferromagnets driven by a time-dependent magnetic field. By comparing the dimensional crossover properties of both TPT and DPT, we present a comprehensive understanding of how thin-film geometry and surface effects influence the scaling laws and critical behavior in nonequilibrium systems.",
+    "categories": "cond-mat.stat-mech",
+    "set": "physics"
+  },
+  {
+    "id": "2501.00622",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Light intensity does not always decay with the inverse of the square of the distance: an open-inquiry laboratory",
+    "abstract": "The square inverse law with distance plays an important role in many fields of physics covering electromagnetism, optics or acoustics. However, as every law in physics has its range of validity. We propose an open-inquiry laboratory where we challenge these concepts by proposing experiments where the intensity of light decays linearly or even remains constant over a range of distances. Using the light sensors built into smartphones, it is possible to measure light curves for different sources: point, linear, planar and even LED ring lights. The analysis of these curves allows us to discuss the limits of the physical theories. This low-cost laboratory, initially proposed in the context of the COVID19 pandemic, has the virtue of challenging intuition and encouraging the critical spirit of the students.",
+    "categories": "physics.ed-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2501.02005",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Machine Learns Quantum Complexity",
+    "abstract": "We study how a machine based on deep learning algorithms learns Krylov spread complexity in quantum systems with N x N random Hamiltonians drawn from the Gaussian unitary ensemble. Using thermofield double states as initial conditions, we demonstrate that a convolutional neural network-based algorithm successfully learns the Krylov spread complexity across all timescales, including the late-time plateaus where states appear nearly featureless and random. Performance strongly depends on the basis choice, performing well with the energy eigenbasis or the Krylov basis but failing in the original basis of the random Hamiltonian. The algorithm also effectively distinguishes temperature-dependent features of thermofield double states. Furthermore, we show that the system time variable of state predicted by deep learning is an irrelevant quantity, reinforcing that the Krylov spread complexity well captures the essential features of the quantum state, even at late times.",
+    "categories": "quant-ph hep-th",
+    "set": "physics"
+  },
+  {
+    "id": "2501.03201",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Resonator-assisted quantum transduction between superconducting qubits and trapped atomic systems via Rydberg levels",
+    "abstract": "Using a shared microwave resonator, we propose a transduction scheme between superconducting qubits and qubit states encoded in the low-lying internal levels of trapped atomic systems. The approach employs atomic Rydberg levels together with laser pulses that connect them to the low-lying qubit states. We explore two coupling protocols: one based on resonant interactions between the subsystems, and another operating in the dispersive regime, where the resonator is far detuned from the transition frequencies of the matter qubits. These protocols enable the transfer of a general qubit state from the superconducting qubit to the atomic qubit. Transfer fidelity is evaluated across different coupling regimes and under various sources of dissipation and decoherence, including resonator decay, Rydberg state decay, and both relaxation and pure dephasing of the superconducting qubit, providing a detailed assessment of the performance of the proposed scheme.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2501.05824",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Indirect reciprocity as a dynamics for weak balance",
+    "abstract": "A social network is often divided into many factions. People are friends within each faction, while they are enemies of the other factions, and even my enemy's enemy is not necessarily my friend. This configuration can be described in terms of a weak form of structural balance. Although weak balance explains a number of real social networks, which dynamical rule achieves it has remained relatively unexplored. In this work, we show that the answer can be found in the field of indirect reciprocity, which assumes that people assess each other's behavior and choose how to behave to others based on the assessment according to a social norm. We begin by showing that weak structural balance is equivalent to stationarity when the rule is given by a norm called `judging'. By analyzing its cluster dynamics of merging, fission, and migration induced by assessment error in complete graphs, we obtain the cluster size distribution in a steady state, which shows the coexistence of a giant cluster and smaller ones. This study suggests that indirect reciprocity can provide insight into the interplay between a norm that individuals abide by and the macroscopic group structure in society.",
+    "categories": "physics.soc-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2501.08321",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Computation of FCC-ee Sensitivity to Heavy New Physics with Interactions of Any Flavor Structure",
+    "abstract": "We present a tool to compute the sensitivity of the Future Circular Electron--Positron Collider (FCC-ee) to the interactions of new, heavy particles via publicly available extensions to the smelli and flavio computer programs. We parameterize new particles' effects without any flavor assumptions and take into account the projected experimental and correlated theoretical uncertainties of various electroweak and Higgs observables at the proposed collider. We illustrate a use of the tool by estimating the sensitivity of the FCC-ee to a $Z^\\prime$ model with flavor-specific couplings which explains anomalies inferred from present-day measurements and Standard Model predictions of observables that involve the $b \\rightarrow s \\ell^+ \\ell^-$ transition.",
+    "categories": "hep-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2501.09748",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "PyPLUTO: a data analysis Python package for the PLUTO code",
+    "abstract": "In recent years, numerical simulations have become indispensable for addressing complex astrophysical problems. The MagnetoHydroDynamics (MHD) framework represents a key tool for investigating the dynamical evolution of astrophysical plasmas, which are described as a set of partial differential equations that enforce the conservation of mass, momentum, and energy, along with Maxwell's equations for the evolution of the electromagnetic fields. Due to the high nonlinearity of the MHD equations (regardless of their specifications, e.g., classical/relativistic or ideal/resistive), a general analytical solution is precluded, making the numerical approach crucial. Numerical simulations usually end up producing large sets of data files, and their scientific analysis leans on dedicated software designed for data visualization. However, in order to encompass all of the code output features, specialized tools focusing on the numerical code may represent a more versatile and built-in tool. Here, we present PyPLUTO, a Python package tailored for efficient loading, manipulation, and visualization of outputs produced with the PLUTO code (Mignone et al., 2007; Mignone et al., 2012). PyPLUTO uses memory mapping to optimize data loading and provides general routines for data manipulation and visualization. PyPLUTO also supports the particle modules of the PLUTO code, enabling users to load and visualize particles, such as cosmic rays (Mignone et al., 2018), Lagrangian (Vaidya et al., 2018), or dust (Mignone et al., 2019) particles, from hybrid simulations. A dedicated Graphical User Interface simplifies the generation of single-subplot figures, making PyPLUTO a powerful yet user-friendly toolkit for astrophysical data analysis.",
+    "categories": "astro-ph.IM",
+    "set": "physics"
+  },
+  {
+    "id": "2501.10158",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Primordial Black Holes Formed during Magneto-Hydrodynamic Turbulence in The Early Universe as Dominant Part of Dark Matter",
+    "abstract": "Primordial black holes (PBHs) offer a compelling candidate for dark matter. The production of PBHs through well-tested and accepted physical processes is highly worthy of investigation. This work highlights the role of turbulences in the very early universe in sustaining intense and persistent fluctuations in energy or mass density, which could provide a natural mechanism for PBH formation in the primordial universe. We analyze the mass range and abundance of PBHs produced in the magnetohydrodynamic turbulence induced by the electroweak phase transition. Remarkably, we find that the mass range of the produced PBHs falls within the most viable ``asteroid mass'' window from the present-day observations, and within natural parameter regions their abundance can be sufficiently large. These findings suggest that PBHs produced during magnetohydrodynamic turbulence in the very early universe may comprise a dominant part of dark matter.",
+    "categories": "gr-qc astro-ph.CO astro-ph.HE hep-th",
+    "set": "physics"
+  },
+  {
+    "id": "2501.11947",
+    "created": "2025-01-21",
+    "updated": "2025-09-18",
+    "title": "Modeling finite viscoelasticity based on the Green-Naghdi kinematic assumption and generalized strains",
+    "abstract": "We propose a modeling framework for finite viscoelasticity, inspired by the kinematic assumption made by Green and Naghdi in plasticity. This approach fundamentally differs from the widely used multiplicative decomposition of the deformation gradient, as the intermediate configuration, a concept that remains debated, becomes unnecessary. The advent of the concept of generalized strains allows the Green-Naghdi assumption to be employed with different strains, offering a flexible mechanism to separate inelastic deformation from total deformation. This leads to a constitutive theory in which the kinematic separation is adjustable and can be calibrated. For quadratic configurational free energy, the framework yields a suite of finite linear viscoelasticity models governed by linear evolution equations. Notably, these models recover established models, including those by Green and Tobolsky (1946) and Simo (1987), when the Seth-Hill strain is chosen with the strain parameter being -2 and 2, respectively. It is also related to the model of Miehe and Keck (2000) when the strain is of the Hencky type. We further extend the approach by adopting coercive strains, which allows us to define an elastic deformation tensor locally. This facilitates modeling the viscous branch using general forms of the configurational free energy, and we construct a micromechanical viscoelastic model as a representative instantiation. The constitutive integration algorithms of the proposed models are detailed. We employ the experimental data of VHB 4910 to examine the proposed models, which demonstrate their effectiveness and potential advantages in the quality of fitting and prediction. Three-dimensional finite element analysis is also conducted to assess the influence of different strains on the viscoelastic behavior.",
+    "categories": "math.NA cond-mat.soft cs.NA physics.app-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2501.17380",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Chiral Altermagnon in MnTe",
+    "abstract": "Altermagnetism has surfaced as a novel magnetic phase, bridging the properties of ferro- and anti-ferromagnetism. The momentum-dependent spin-splitting observed in these materials reflects their unique symmetry characteristics, which also establish the conditions for chiral magnons to emerge. Here we provide the first direct experimental evidence for a chiral magnon in the altermagnetic candidate MnTe revealed by circular-dichroism resonant inelastic X-ray scattering (CD-RIXS). This mode which we term chiral altermagnon exhibits a distinct momentum dependence of its spin polarization consistent with the proposed altermagnetic $g-$wave symmetry of MnTe. Our polarization-resolved results corroborate the existence of a new class of magnetic excitations, demonstrating how altermagnetic order shapes spin dynamics and paves the way for advances in spintronic and quantum technologies.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2501.18167",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Scattering approach to diffusion quantifies axonal damage in brain injury",
+    "abstract": "Early diagnosis and noninvasive monitoring of neurological disorders require sensitivity to elusive cellular-level alterations that occur much earlier than volumetric changes observable with the millimeter-resolution of medical imaging modalities. Morphological changes in axons, such as axonal varicosities or beadings, are observed in neurological disorders, as well as in development and aging. Here, we reveal the sensitivity of time-dependent diffusion MRI (dMRI) to the structurally disordered axonal morphology at the micrometer scale. Scattering theory uncovers the two parameters that determine the diffusive dynamics of water along axons: the average reciprocal cross-section and the variance of long-range cross-sectional fluctuations. This theoretical development allows us to predict dMRI metrics sensitive to axonal alterations over tens of thousands of axons in seconds rather than months of simulations in a rat model of traumatic brain injury, and is corroborated with ex vivo dMRI. Our approach bridges the gap between micrometers and millimeters in resolution, offering quantitative and objective biomarkers applicable to a broad spectrum of neurological disorders.",
+    "categories": "physics.med-ph cs.CV physics.bio-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.00913",
+    "created": "2025-02-02",
+    "updated": "2025-09-18",
+    "title": "Influence of pressure on properties of multi-gap type-I superconductor BeAu",
+    "abstract": "We report on studies of the superconducting and normal state properties of the noncentrosymmetric superconductor BeAu under hydrostatic pressure conditions. The room-temperature equation of state (EOS) reveals the values of the bulk modulus ($B_0$) and its first derivative ($B^\\prime_0$) at ambient pressure to be $B_0 \\simeq 132$~GPa and $B^\\prime_0 \\simeq 30$, respectively. Up to the highest pressures studied ($p \\simeq 2.2$~GPa), BeAu remains a multi-gap type-I superconductor. The analysis of $B_{\\rm c}(T, p)$ data within the self-consistent two-gap approach suggests the presence of two superconducting energy gaps, with the gap-to-$T_{\\rm c}$ ratios $Δ_1/k_{\\rm B}T_{\\rm c} \\sim 2.3$ and $Δ_2/k_{\\rm B}T_{\\rm c} \\sim 1.1$ for the larger and smaller gaps, respectively [$Δ= Δ(0)$ is the zero-temperature value of the gap and $k_{\\rm B}$ is the Boltzmann constant]. With increasing pressure, $Δ_1/k_{\\rm B}T_{\\rm c}$ increases while $Δ_2/k_{\\rm B}T_{\\rm c}$ decreases, suggesting that pressure enhances (weakens) the coupling strength between the superconducting carriers within the bands where the larger (smaller) superconducting energy gap has opened. The superconducting transition temperature $T_{\\rm c}$, \\textcolor{black}{the zero-temperature values of the superconducting gaps $Δ_1$ and $Δ_2$} and the zero-temperature value of the thermodynamic critical field $B_{\\rm c}(0)$ decrease with increasing pressure, with the rates of ${\\rm d}T_{\\rm c}/{\\rm d}p \\simeq -0.195$~K/GPa, \\textcolor{black}{${\\rm d}Δ_1/{\\rm d}p \\simeq -0.034$~meV/GPa, ${\\rm d}Δ_2/{\\rm d}p \\simeq -0.029$~meV/GPa,} and ${\\rm d}B_{\\rm c}(0)/{\\rm d}p = -2.65(1)$~mT/GPa, respectively. The measured $B_{\\rm c}(0)$ values plotted as a function of $T_{\\rm c}$ follow an empirical scaling relation established for conventional type-I superconductors.",
+    "categories": "cond-mat.supr-con",
+    "set": "physics"
+  },
+  {
+    "id": "2502.02660",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Enhancing the Hyperpolarizability of Crystals with Quantum Geometry",
+    "abstract": "We demonstrate that higher-order electric susceptibilities in crystals can be enhanced and understood through nontrivial topological invariants and quantum geometry, using one-dimensional $π$-conjugated chains as representative model systems. First, we show that the crystalline-symmetry-protected topology of these chains imposes a lower bound on their quantum metric and hyperpolarizabilities. Second, we employ numerical simulations to reveal the tunability of nonlinear, quantum geometry-driven optical responses in various one-dimensional crystals in which band topology can be externally controlled. Third, we develop a semiclassical picture to deliver an intuitive understanding of these effects. Our findings offer a firm interpretation of otherwise elusive experimental observations of colossal hyperpolarizabilities and establish guidelines for designing topological materials of any dimensionality with enhanced nonlinear optical properties.",
+    "categories": "cond-mat.mes-hall cond-mat.mtrl-sci physics.optics quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.05247",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Excited states of coherent harmonic qubits with long-range photon coupling and dissipation",
+    "abstract": "It is known that ensembles of interacting oscillators or qubits can exhibit the phenomenon of quantum synchronization. In this work we consider a set of $N$ identical two-state systems that we call ``harmonic qubits'', because the kinetic part of their Hamiltonian is of the form $ω_0 \\sum_i a^\\dagger_i a_i$, coupled through a multi-state ``photon'' mode subject to dissipation. It has been proven numerically that when the coupling between the qubits and the photon is sufficiently strong, the ensemble condenses into a ground state with negative energy, the energy gap is proportional to $N$ and there are clear cross correlations $\\langle a^\\dagger_i a_j \\rangle$. Here we are interested into the energy spectrum of the excited states of this system. In order to obtain information on the coherent transitions we introduce a weak coupling of each qubit with an external oscillator of variable frequency $ω$ and we check via Monte Carlo time evolution for which values of $ω$ variations in the occupation of the external oscillator occur. After adding a second external oscillator coupled to the first only through the $N$ qubits, we also look at the energy transfer between the two external oscillators in dependence on their frequency, a transfer which is possible only through the excited states of the qubits. Above threshold (when $E_0<0$) we find resonant transfer at frequencies which are definitely higher, and growing with $N$. This signals the presence of collective excited states, separated by large energy gaps, which are absent below threshold.",
+    "categories": "physics.gen-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.08930",
+    "created": "2025-08-18",
+    "updated": "2025-09-18",
+    "title": "Velocity correlations of vortices and rarefaction pulses in compressible planar quantum fluids",
+    "abstract": "We present a quantitative analytical framework for calculating two-point velocity correlations in compressible quantum fluids, focusing on two key classes of superfluid excitations: vortices and rarefaction pulses. We employ two complementary approaches. First, we introduce a new ansatz for vortex cores in planar quantum fluids that enhances analytic integrability. This ansatz yields closed-form expressions for power spectra and velocity correlations for general vortex distributions. Using it, we identify distinct signatures of short- and long-range velocity correlations corresponding to vortex dipoles and vortex pairs, respectively. Second, we analyze the fast rarefaction pulse regime of the Jones-Roberts soliton. By applying the asymptotic high-velocity wavefunction, we derive analytic expressions for the velocity power spectrum and correlation function, capturing the soliton characteristic length scale. We validate our analytical results for the homogeneous system against numerical treatment of a large trapped system, finding close quantitative agreement. Our findings provide the first analytic treatment of velocity correlations for Jones-Roberts solitons in quantum fluids of light [M. Baker-Rasooli et al., Physical Review Letters, 134, 233401 (2025)], and establish a foundation for characterizing vortices and solitons in compressible quantum fluids.",
+    "categories": "cond-mat.quant-gas nlin.PS quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.09323",
+    "created": "2025-02-13",
+    "updated": "2025-09-18",
+    "title": "NextGenPB: an analytically-enabled super resolution and local (de)refinement Poisson-Boltzmann Equation solver",
+    "abstract": "The Poisson-Boltzmann equation (PBE) is a relevant partial differential equation commonly used in biophysical applications to estimate the electrostatic energy of biomolecular systems immersed in electrolytic solutions. A conventional mean to improve the accuracy of its solution, when grid-based numerical techniques are used, consists in increasing the resolution, locally or globally. This, however, usually entails higher complexity, memory demand and computational cost. Here, we introduce NextGenPB, a linear PBE, adaptive-grid, FEM solver that leverages analytical calculations to maximize the accuracy-to-computational-cost ratio. Indeed, in NextGenPB (aka NGPB), analytical corrections at the surface of the solute enhance the solution's accuracy without requiring grid adaptation. This leads to more precise estimates of the electrostatic potential, fields, and energy at no perceptible additional cost. Also, we apply computationally efficient yet accurate boundary conditions by taking advantage of local grid de-refinement. To assess the accuracy of our methods directly, we expand the traditionally available analytical case set to many non-overlapping dielectric spheres. Then, we use an existing benchmark set of real biomolecular systems to evaluate the energy convergence concerning grid resolution. Thanks to these advances, we have improved state-of-the-art results and shown that the approach is accurate and largely scalable for modern high-performance computing architectures. Lastly, we suggest that the presented core ideas could be instrumental in improving the solution of other partial differential equations with discontinuous coefficients.",
+    "categories": "physics.comp-ph cond-mat.soft physics.bio-ph physics.chem-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.11240",
+    "created": "2025-05-23",
+    "updated": "2025-09-18",
+    "title": "Quantum Dynamical Microscopic Approach to Stellar Carbon Burning",
+    "abstract": "The process of carbon burning is vital to understanding late stage stellar evolution of massive stars and the conditions of certain supernovae. Carbon burning is a complex problem, involving quantum tunnelling and nuclear molecular states. Quantum dynamical calculations of carbon burning are presented, combining the time-dependent wave-packet method and the density-constrained time-dependent Hartree-Fock (DC-TDHF) approach. By limiting the contribution of triaxial molecular configurations to fusion, we demonstrate that the DC-TDHF interaction potential successfully explains the appearance of some resonant structures in the sub-barrier fusion cross-section. This result shows the critical role of nucleon-nucleon interactions in the 12C + 12C fusion resonances observed at astrophysical energies.",
+    "categories": "nucl-th",
+    "set": "physics"
+  },
+  {
+    "id": "2502.12905",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "On the consistency of measurement protocols for quantum processes fluctuations",
+    "abstract": "Quantum fluctuations are fundamental in quantum technologies, affecting computing, sensing, cryptography, and thermodynamics. These include fluctuations in the variation of energy, charge, and other observables driven by interactions with lasers and baths. Despite the precise rules quantum mechanics provides for measuring observables at instants of time, no standard framework exists for characterizing the fluctuations of their variations over time. This gap leads to inconsistencies in fluctuation predictions, impacting quantum technologies. In this work, we propose four basic criteria that any measurement of these variations must satisfy, grounded in conservation laws, the no-signaling principle, and expected constraints on physical realism. We demonstrate that only one protocol fulfills all these criteria: the two-times quantum observables. This result has the potential to establish the foundations for measurements of quantum processes, possibly resolving ambiguities in quantum fluctuation measurements. Moreover, it enables the extension of quantum information concepts, such as entanglement and Bell's inequalities, to processes rather than instantaneous observables.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.13237",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Study of magnification and angular resolution of a single water droplet placed on a glass surface",
+    "abstract": "In this study, we investigate the magnification and angular resolution of a single water droplet positioned on a glass surface, functioning as an optical imaging system. Through theoretical analysis of the droplet's shape, magnification, and angular resolution, we derive predictions that are subsequently validated through experiments. Our study explores the impact of key parameters, including droplet size, the distance between the droplet and the object, and the contact angle, on the aforementioned optical characteristics. Our findings reveal that smaller droplets exhibit higher magnification at shorter object-to-droplet distances and demonstrate superior resolving capability (i.e., smaller angular resolution).",
+    "categories": "physics.optics",
+    "set": "physics"
+  },
+  {
+    "id": "2502.13635",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Production of Dark Photons through Higher Electromagnetic Moments at LDMX: Simulations and Model Discrimination",
+    "abstract": "We extend the projected sensitivity of LDMX for sub-GeV dark matter (DM) to the case of dark photons produced through higher order electromagnetic moments. These moments arise from loop diagrams involving portal matter fields, along with the gauge fields of new symmetry groups. Due to the Lorentz structures, in particular the momentum dependence, of these additional interactions, the kinematic distributions expected at missing momentum/energy experiments vary with model in addition to dark photon mass. By considering four additional types of interactions -- magnetic and electric dipole, charge radius, and anapole moment -- we show that LDMX Phase-II is expected to probe the relic target of these additional dark photon models. We compare the analytic with the numerical methods for calculating the dark bremsstrahlung cross section, and compute the kinematic distributions for each model. The potential for model discrimination in the scenario of non-zero signal events at LDMX is discussed. We find that there is a degeneracy between the dark photon mass and model, which can be partially broken by considering both the energy and the transverse momentum of the recoil electron.",
+    "categories": "hep-ph astro-ph.CO hep-ex hep-th",
+    "set": "physics"
+  },
+  {
+    "id": "2502.16595",
+    "created": "2025-02-23",
+    "updated": "2025-09-18",
+    "title": "Ultrasound-Coupled Microdroplet Laser Chip for High-Throughput Hyperlipidemia Screening",
+    "abstract": "The mechanical properties of biological fluids can serve as early indicators of disease, offering valuable insights into complex physiological and pathological processes. However, the existing technologies can hardly support high throughput measurement, which hinders their broad applications in disease diagnosis. Here, we propose the ultrasound-coupled microdroplet laser chips to enable high-throughput measurement of the intrinsic mechanical properties of fluids. The microdroplets supporting high-Q (10^4) whispering gallery modes (WGM) lasing were massively fabricated on a hydrophobic surface with inject printing. The ultrasound was used to actuate the mechanical vibration of the microdroplets. We found that the stimulus-response of the laser emission is strongly dependent on the intrinsic mechanical properties of the liquid, which as subsequently employed to quantify the viscosity. The ultrasound-coupled microdroplet laser chips were used to monitor molecular interactions of bovine serum albumin. High-throughput screening of hyperlipidemia disease was also demonstrated by performing over 2,000 measurements using fast laser scanning. Thanks to the small volume of the microdroplets, a single drop of blood can support over eight billion measurements. The high-throughput ability and small sample consumption of the microlaser chip make it a promising tool for clinical diagnoses based on mechanical properties.",
+    "categories": "physics.optics",
+    "set": "physics"
+  },
+  {
+    "id": "2502.17079",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "A Variational Principle for Extended Irreversible Thermodynamics: Heat Conducting Viscous Fluids",
+    "abstract": "Extended irreversible thermodynamics is a theory that expands the classical framework of nonequilibrium thermodynamics by going beyond the local-equilibrium assumption. A notable example of this is the Maxwell-Cattaneo heat flux model, which introduces a time lag in the heat flux response to temperature gradients. In this paper, we develop a variational formulation of the equations of extended irreversible thermodynamics by introducing an action principle for a nonequilibrium Lagrangian that treats thermodynamic fluxes as independent variables. A key feature of this approach is that it naturally extends both Hamilton's principle of reversible continuum mechanics and the earlier variational formulation of classical irreversible thermodynamics. The variational principle is initially formulated in the material (Lagrangian) description, from which the Eulerian form is derived using material covariance (or relabeling symmetries). The tensorial structure of the thermodynamic fluxes dictates the choice of objective rate in the Eulerian description, and plays a central role in the emergence of nonequilibrium stresses - arising from both viscous and thermal effects - that are essential to ensure thermodynamic consistency. This framework naturally results in the Cattaneo-Christov model for heat flux. We also investigate the extension of the approach to accommodate higher-order fluxes and the general form of entropy fluxes. The variational framework presented in this paper has promising applications in the development of structure-preserving and thermodynamically consistent numerical methods. It is particularly relevant for modeling systems where entropy production is a delicate issue that requires careful treatment to ensure consistency with the laws of thermodynamics.",
+    "categories": "math-ph cond-mat.stat-mech math.MP physics.class-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2502.18014",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Ground States for the Defocusing Nonlinear Schrödinger Equation on Non-Compact Metric Graphs",
+    "abstract": "We investigate the existence and stability of ground states for the defocusing nonlinear Schrödinger equation on non-compact metric graphs. We establish a sharp criterion for the existence of action ground states in terms of the spectral properties of the underlying Hamiltonian: ground states exist if and only if the bottom of the spectrum is negative and the frequency lies within a suitable range. We further explore the relation between action and energy ground states, showing that while every action minimizer yields an energy minimizer, the converse fails in general. In particular, we prove that energy ground states may not exist for arbitrary masses. This discrepancy is illustrated through explicit examples on star graphs with $δ$ and $δ'$-type vertex conditions: in the mass-subcritical case, we exhibit a large interval of masses for which no energy minimizer exists, whereas in the supercritical regime, energy ground states exist for all masses.",
+    "categories": "math.AP math-ph math.MP",
+    "set": "physics"
+  },
+  {
+    "id": "2502.20261",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Carrier Localization and Spontaneous Formation of Two-Dimensional Polarization Domain in Halide Perovskites",
+    "abstract": "Halide perovskites are known for their rich phase diagram and superior performance in diverse optoelectronics applications. The latter property is often attributed to the long electron-hole recombination time, whose underlying physical mechanism has been a long-standing controversy. In this Letter, we investigate the transport and localization properties of electron and hole carriers in a prototypical halide perovskite (CsPbBr$_3$), through \\textit{ab initio} tight-binding nonadiabatic dynamics approach for large-scale (tens of nm size) supercell calculations, to simulate electron and ion dynamics on the same footing. We found distinct structural, lattice polarization, and electron-phonon coupling properties at low (below 100 K) and high temperatures, consistent with experimental observations. In particular, at low temperature we find spontaneous formation of polar grain boundaries in the nonpolar bulk systems, which result in two-dimensional polarization patterns that serve to localize and separate electrons and holes. We reveal phonon-assisted variable-range hopping mostly responsible for low-temperature transport, and their characteristic frequency correlates with temperature-dependent phonon power spectrum and energy oscillation frequency in nonadiabatic dynamics. We answer the critical questions of long electron-hole recombination lifetime at low temperature and offer the correlation among polarization domains, electron-phonon couplings, and photocarrier dynamics.",
+    "categories": "cond-mat.mtrl-sci",
+    "set": "physics"
+  },
+  {
+    "id": "2503.06160",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Quantum response theory and momentum-space gravity",
+    "abstract": "We present a quantum response approach to momentum-space gravity in dissipative multiband systems, which dresses both the quantum geometry--through an interband Weyl transformation--and the equations of motion. In addition to clarifying the roles of the contorsion and symplectic terms, we introduce the three-state quantum geometric tensor as a necessary element in the geometric classification of nonlinear responses and discuss the significance of the emergent terms from a gravitational point of view. We also identify a dual quantum geometric drag force in momentum space that provides an entropic source term for the multiband matrix of Einstein field equations.",
+    "categories": "cond-mat.mes-hall gr-qc hep-th quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2503.07549",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Beyond first light: Global monitoring for high-energy neutrino astronomy",
+    "abstract": "Decades of progress have culminated in first light for high-energy neutrino astronomy: the identification of the first astrophysical sources of TeV-PeV neutrinos by the IceCube neutrino telescope, the active galactic nuclei NGC 1068 and TXS 0506+056. Today, the prospect of going beyond first light to build high-energy neutrino astronomy in earnest by discovering many more neutrino sources is hampered by the relatively low rate of neutrino detection and the limited view of the sky afforded by IceCube, the single cubic-kilometer-scale neutrino telescope in operation. Yet, this will not stand for much longer. Already today, and over the next 10-20 years, the combined observations of new neutrino telescopes, larger and distributed around the world, will have the potential for transformative progress. Together, they will increase the global rate of neutrino detection by up to 30 times and continuously monitor the entire sky. Within a new joint analysis network - the Planetary Neutrino Monitoring network (PLEnuM) - we make detailed forecasts for the discovery of steady-state astrophysical sources of high-energy neutrinos. We show that a combined analysis of global data will expedite source discovery - in some cases, by decades - and enable the detection of fainter sources anywhere in the sky, discovering up to tens of new neutrino sources.",
+    "categories": "astro-ph.HE",
+    "set": "physics"
+  },
+  {
+    "id": "2503.13697",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Grid instability growth rates for explicit, electrostatic momentum- and energy-conserving particle-in-cell algorithms",
+    "abstract": "When the Debye length is not resolved in a simulation using the most common particle-in-cell (PIC) algorithm, the plasma will unphysically heat until the Debye length becomes resolved via a phenomenon known as grid heating. This article presents detailed numerical measurements of grid heating for several explicit PIC algorithms including the first systematic (covering the Debye length resolution and drift-velocity parameter space) study of grid-heating growth rates for the most-common electrostatic momentum-conserving PIC algorithm. Additionally, we derive and test a cubic-spline-based PIC algorithm that ensures that the interpolated electric field has a continuous first derivative, but find that a differentiable electric field has minimal impact on grid-heating stability. Also considered are energy-conserving PIC algorithms with linear and quadratic interpolation functions. In all cases, we find that unphysical heating can occur for some combinations of Debye under-resolution and plasma drift. We demonstrate analytically and numerically that grid heating cannot be eliminated by using a higher-order field solve, and give an analytical expression for the cold-beam stability limits of some energy-conserving algorithms.",
+    "categories": "physics.plasm-ph physics.comp-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2503.16384",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Spontaneous vortex-antivortex lattice and Majorana fermions in rhombohedral graphene",
+    "abstract": "The discovery of superconducting states in multilayer rhombohedral graphene with spin and valley polarization has raised an interesting question: how does superconductivity cope with time-reversal symmetry breaking? In this work, using Ginzburg-Landau theory and microscopic calculation, we predict the existence of a new superconducting state at low electron density, which exhibits a spontaneously formed lattice of vortices and antivortices hosting Majorana zero-modes in their cores. We further identify this vortex-antivortex lattice (VAL) state in the experimental phase diagram and describe its experimental manifestations.",
+    "categories": "cond-mat.supr-con cond-mat.str-el",
+    "set": "physics"
+  },
+  {
+    "id": "2503.17789",
+    "created": "2025-07-09",
+    "updated": "2025-09-18",
+    "title": "Non-commutativity in Hayward spacetime",
+    "abstract": "In this work, we propose a new black hole solution, namely, a Hayward-like metric incorporating corrections due to non-commutativity by taking into account $\\partial_r\\wedge\\partial_θ$ Moyal twist. We begin by deriving this solution using the non-commutative gauge theory framework. The general properties of the metric are then analyzed, including the event horizon structure and the Kretschmann scalar. Analogous to the standard Hayward solution, the modified black hole remains regular, provided that additional dependence on the angle $θ$. Next, we examine the thermodynamic properties, computing the Hawking temperature, entropy, and heat capacity. From the temperature profile, we verify that there is no physical remnant mass when $T^{(Θ,l)} \\to 0$, indicating a complete evaporation process. Quantum radiation is analyzed by considering both bosonic and fermionic particle modes, with an estimation of the particle creation density provided for each case. The effective potential is evaluated perturbatively to accomplish the analysis of quasinormal modes and the time-domain response for scalar perturbations. The study of null geodesics is explored to enable the characterization of the photon sphere and black hole shadows. Additionally, constraints on the shadows are estimated based on EHT (Event Horizon Telescope) data. Furthermore, the Gaussian curvature is determined to assess the stability of critical orbits, followed by an analysis of gravitational lensing using the Gauss-Bonnet theorem. Finally, the constraints (bounds) on the parameters $Θ$ (non-commutativity) and $l$ (``Hayward parameter'') are derived based on solar system tests, including the perihelion precession of Mercury, light deflection, and the Shapiro time delay effect.",
+    "categories": "gr-qc hep-th",
+    "set": "physics"
+  },
+  {
+    "id": "2503.21596",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Classical bounds on two-outcome bipartite Bell expressions and linear prepare-and-measure witnesses: Efficient computation in parallel environments such as graphics processing units",
+    "abstract": "The presented program aims at speeding up the brute force computation of the so-called $L_d$ norm of a matrix $M$ using graphics processing units (GPUs). Alternatives for CPUs have also been implemented, and the algorithm is applicable to any parallel environment. The $n\\times m$ matrix $M$ has real elements which may represent coefficients of a bipartite Bell expression or those of a linear prepare-and-measure (PM) witness. In this interpretation, the $L_1$ norm is the local bound of the given correlation-type Bell expression, and the $L_d$ norm for $d\\ge 2$ is the classical $d$-dimensional bound of the given PM witness, which is associated with the communication of $d$-level classical messages in the PM scenario. The program is also capable of calculating the local bound of Bell expressions including marginals. In all scenarios, the output is assumed to be binary. The code for GPUs is written in CUDA C and can utilize one NVIDIA GPU in a computer. To illustrate the performance of our implementation, we refer to Brierley et al. [arXiv:1609.05011] who needed approximately three weeks to compute the local bound on a Bell expression defined by a $42\\times 42$ matrix on a standard desktop using a single CPU core. In contrast, our efficient implementation of the brute force algorithm allows us to reduce this to three minutes using a single NVIDIA RTX 6000 Ada graphics card on a workstation. For CPUs, the algorithm was implemented with OpenMP and MPI according to the shared and distributed memory models, respectively, and achieves a comparable speedup at a number of CPU cores around 100.",
+    "categories": "quant-ph",
+    "set": "physics"
+  },
+  {
+    "id": "2504.00260",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Extremal monomial property of q-characters and polynomiality of the X-series",
+    "abstract": "The character of every irreducible finite-dimensional representation of a simple Lie algebra has the highest weight property. The invariance of the character under the action of the Weyl group W implies that there is a similar \"extremal weight property\" for every weight obtained by applying an element of W to the highest weight. In this paper we conjecture an analogous \"extremal monomial property\" of the q-characters of simple finite-dimensional modules over the quantum affine algebras, using the braid group action on q-characters defined by Chari. In the case of the identity element of W, this is the highest monomial property of q-characters proved in arXiv:math/9911112. Here we prove it for simple reflections. Somewhat surprisingly, the extremal monomial property for each w in W turns out to be equivalent to polynomiality of the \"X-series\" corresponding to w, which we introduce in this paper. We show that these X-series are equal to certain limits of the generalized Baxter operators for all w in W. Thus, we find a new bridge between q-characters and the spectra of XXZ-type quantum integrable models associated to quantum affine algebras. This leads us to conjecture polynomiality of all generalized Baxter operators, extending the results of arXiv:1308.3444.",
+    "categories": "math.QA cond-mat.stat-mech hep-th math.RT nlin.SI",
+    "set": "physics"
+  },
+  {
+    "id": "2504.00582",
+    "created": "2025-08-19",
+    "updated": "2025-09-18",
+    "title": "Towards Non-Invasive Sediment Monitoring Using Muography: A Pilot Run at the Shanghai Outer Ring Tunnel",
+    "abstract": "This study demonstrates the application of cosmic-ray muography as a non-invasive method for monitoring sediment accumulation and tidal influences in the Shanghai Outer Ring Tunnel, an immersed tube tunnel located beneath the Huangpu River in Shanghai, China. A portable, dual-layer plastic scintillator detector was deployed to conduct muon flux scans along the tunnel's length and to continuously monitor muon flux, allowing for the study of tidal effects. Geant4 simulations validated the correlation between muon attenuation and overburden thickness, incorporating sediment, water, and concrete layers. Key findings include a strong anti-correlation between the measured muon flux and the water levels observed at a nearby tide gauge. The results align with geotechnical data and simulations, especially in the region of interest, confirming muography's sensitivity to sediment dynamics. This work establishes muography as a robust tool for long-term, real-time monitoring of submerged infrastructure, offering significant advantages over conventional invasive techniques. The study underscores the potential for integrating muography into civil engineering practices to enhance safety and operational resilience in tidal environments.",
+    "categories": "physics.app-ph physics.ins-det",
+    "set": "physics"
+  },
+  {
+    "id": "2504.00620",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Tailor-Made Metasurface Camouflage",
+    "abstract": "Reducing electromagnetic scattering from an object has always been a task, inspiring efforts across disciplines such as materials science and electromagnetic theory. The pursuit of electromagnetic cloaking significantly advanced the field of metamaterials, yet achieving broadband, conformal cloaking for complex, non-trivial objects remains an unresolved challenge. Here, we introduce the concept of 'tailor-made metasurfaces' - machine-designed aperiodic structures optimized to suppress scattering from arbitrary objects by accounting for their layout, including resonant or large-scale features. Specifically, we demonstrated a wideband ~20% fractional bandwidth scattering suppression of more than 20-30 dB for various generic test objects, including randomly distributed wire meshes, spheres, and polygons. The demonstrated evolutionary optimization marks a leap forward in electromagnetic design, enabling the development of high-performance structures to meet complex technological demands.",
+    "categories": "physics.optics physics.app-ph physics.comp-ph physics.data-an",
+    "set": "physics"
+  }
+]
