@@ -1,5 +1,6 @@
 from datetime import date
 from django.shortcuts import render
+from google import genai
 from django.utils.text import slugify
 
 
