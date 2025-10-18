@@ -278,5 +278,3 @@ def paper_detail(request, paper_id):
         "product_title": "SciScout",
         "is_demo": True,
     })
-
-print(slugify("Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis"))
