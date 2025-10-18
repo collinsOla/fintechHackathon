@@ -46,5 +46,65 @@
     "trl": 6,
     "overall_commercialization": 8,
     "rationale": ""
+  },
+  "948bc922e99e1ad69d46bc99": {
+    "scores": {
+      "problem_fit": 3,
+      "practicality_maturity": 1,
+      "novelty": 5,
+      "market_fit": 2,
+      "partner_interest": 1
+    },
+    "trl": 2,
+    "overall_commercialization": 2,
+    "rationale": ""
+  },
+  "39caa1c8fd330382cfbaa39d": {
+    "scores": {
+      "problem_fit": 2,
+      "practicality_maturity": 1,
+      "novelty": 4,
+      "market_fit": 1,
+      "partner_interest": 1
+    },
+    "trl": 1,
+    "overall_commercialization": 1,
+    "rationale": ""
+  },
+  "2f55a49b7d4c1cc69083c7eb": {
+    "scores": {
+      "problem_fit": 4,
+      "practicality_maturity": 4,
+      "novelty": 4,
+      "market_fit": 4,
+      "partner_interest": 4
+    },
+    "trl": 4,
+    "overall_commercialization": 7,
+    "rationale": ""
+  },
+  "d3fbbeb36ce8951fbf3fcb89": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 5
+    },
+    "trl": 5,
+    "overall_commercialization": 5,
+    "rationale": ""
+  },
+  "c87e22c2fd0ea84c1b1fe995": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 5,
+      "market_fit": 5,
+      "partner_interest": 5
+    },
+    "trl": 5,
+    "overall_commercialization": 8,
+    "rationale": ""
   }
 }
