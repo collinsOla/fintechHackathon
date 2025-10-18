@@ -1,5 +1,6 @@
 from datetime import date
 from django.shortcuts import render
+from google import genai
 
 SAMPLE_PAPERS = [
     {"title": "Amplitude amplification and estimation require inverses",

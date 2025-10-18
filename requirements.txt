@@ -4,3 +4,4 @@ psycopg2-binary==2.9.9            # PostgreSQL adapter
 gunicorn==20.1.0                   # Production WSGI server
 requests==2.31.0                   # HTTP requests
 python-decouple==3.8                # For environment variables
+google-genai
