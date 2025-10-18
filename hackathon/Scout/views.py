@@ -8,6 +8,7 @@ from datetime import date, datetime
 from django.conf import settings
 from django.utils.text import slugify
 from django.core.paginator import Paginator
+from .ai_scoring import score_abstract_with_gemini
 
 
 # ---- JSON loader + normalizers ----
@@ -272,8 +273,11 @@ def paper_detail(request, paper_id):
     if not paper:
         from django.http import Http404
         raise Http404("Paper not found")
+    abstract = paper.get("summary_background") or paper.get("abstract") or ""
+    ai = score_abstract_with_gemini(abstract)
     return render(request, "Scout/detail.html", {
         "paper": paper,
+        "ai_score":ai,
         "brand": "Imperial",
         "product_title": "SciScout",
         "is_demo": True,

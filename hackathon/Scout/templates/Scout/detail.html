@@ -35,6 +35,9 @@
       <div class="brand">{{ brand }}</div>
       <a class="back" href="{% url 'home' %}">← Back to results</a>
     </div>
+    
+    
+  
 
     <div class="card">
       <div class="title">{{ paper.title }}</div>
@@ -75,5 +78,26 @@
       </div>
     {% endif %}
   </div>
+  {% if ai_score %}
+  <div class="card">
+    <h3>Commercialization assessment</h3>
+    <p class="muted">{{ ai_score.rationale }}</p>
+    <div class="chips">
+      <span class="chip">Problem fit: {{ ai_score.scores.problem_fit }}/5</span>
+      <span class="chip">Practicality: {{ ai_score.scores.practicality_maturity }}/5</span>
+      <span class="chip">Novelty: {{ ai_score.scores.novelty }}/5</span>
+      <span class="chip">Market: {{ ai_score.scores.market_fit }}/5</span>
+      <span class="chip">Partner/Investor: {{ ai_score.scores.partner_interest }}/5</span>
+      <span class="chip">TRL: {{ ai_score.trl }}/9</span>
+      <span class="chip"><strong>Overall: {{ ai_score.overall_commercialization }}/9</strong></span>
+    </div>
+  </div>
+  <div class="card" style="text-align:center;">
+        <a class="btn-link" href="https://arxiv.org/abs/{{paper.id}}" target="_blank" rel="noopener">
+          🔗 Read Full Article
+        </a>
+  </div>
+  {% endif %}
+
 </body>
 </html>
