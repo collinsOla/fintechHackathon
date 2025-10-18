@@ -217,10 +217,10 @@
           <form style="display:inline" method="get">
             <input type="hidden" name="q" value="{{ q|default:'' }}">
             <select class="select" name="per_page" onchange="this.form.submit()">
-              {% for n in per_page_options %}
-                <option value="{{ n }}" {% if per_page == n %}selected{% endif %}>{{ n }}</option>
-              {% endfor %}
-            </select>
+            {% for n in per_page_options %}
+              <option value="{{ n }}" {% if per_page == n %}selected{% endif %}>{{ n }}</option>
+            {% endfor %}
+          </select>
             <span class="muted">entries</span>
           </form>
         </div>
@@ -242,7 +242,7 @@
           {% if papers %}
             {% for p in papers %}
               <tr>
-                <td><a class="title-link" href="{% url 'paper_detail' p.slug %}">{{ p.title }}</a></td>
+                <td><a href="{% url 'paper_detail' p.id %}">{{ p.title }}</a></td>
                 <td class="muted">{{ p.published|date:"Y-m-d" }}</td>
                 <td class="muted">{{ p.industries|join:", " }}</td>
                 <td><strong>{{ p.score }}</strong></td>
@@ -260,14 +260,21 @@
           {% if page > 1 %}
             <a class="page-btn" href="?q={{ q }}&per_page={{ per_page }}&page={{ page|add:-1 }}">Prev</a>
           {% endif %}
-          {% for i in page_numbers %}
-            <a class="page-btn" href="?q={{ q }}&per_page={{ per_page }}&page={{ i }}"
-               {% if i == page %}aria-current="page"{% endif %}>{{ i }}</a>
+
+          {% for i in page_range %}
+            {% if i == '…' %}
+              <span class="page-btn muted" aria-hidden="true">…</span>
+            {% else %}
+              <a class="page-btn" href="?q={{ q }}&per_page={{ per_page }}&page={{ i }}"
+                {% if i == page %}aria-current="page"{% endif %}>{{ i }}</a>
+            {% endif %}
           {% endfor %}
+
           {% if page < total_pages %}
             <a class="page-btn" href="?q={{ q }}&per_page={{ per_page }}&page={{ page|add:1 }}">Next</a>
           {% endif %}
         </nav>
+
       </div>
     </div>
 
