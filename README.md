@@ -1,7 +1,7 @@
 # fintechHackathon
 Shared repository for the Fintech Hackathon.
 
-Members: Collins, Nahom, Aarav, Aryan
+Members: Collins, Nahom, Aarav, Aaryan
 
 To run (assuming docker is installed) run following commands:
     "docker build -t hackathon-project ."  
