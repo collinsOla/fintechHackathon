@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1911.02526",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dynamic traversal of large gaps by insects and legged robots reveals a template",
+    "abstract": "It is well known that animals can use neural and sensory feedback via vision, tactile sensing, and echolocation to negotiate obstacles. Similarly, most robots use deliberate or reactive planning to avoid obstacles, which relies on prior knowledge or high-fidelity sensing of the environment. However, during dynamic locomotion in complex, novel, 3-D terrains such as forest floor and building rubble, sensing and planning suffer bandwidth limitation and large noise and are sometimes even impossible. Here, we study rapid locomotion over a large gap, a simple, ubiquitous obstacle, to begin to discover general principles of dynamic traversal of large 3-D obstacles. We challenged the discoid cockroach and an open-loop six-legged robot to traverse a large gap of varying length. Both the animal and the robot could dynamically traverse a gap as large as 1 body length by bridging the gap with its head, but traversal probability decreased with gap length. Based on these observations, we developed a template that well captured body dynamics and quantitatively predicted traversal performance. Our template revealed that high approach speed, initial body pitch, and initial body pitch angular velocity facilitated dynamic traversal, and successfully predicted a new strategy of using body pitch control that increased the robot maximal traversal gap length by 50%. Our study established the first template of dynamic locomotion beyond planar surfaces and is an important step in expanding terradynamics into complex 3-D terrains.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "eess"
+  },
+  {
+    "id": "2002.09711",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Robotic modeling of snake traversing large, smooth obstacles reveals stability benefits of body compliance",
+    "abstract": "Snakes can move through almost any terrain. Although their locomotion on flat surfaces using planar gaits is inherently stable, when snakes deform their body out of plane to traverse complex terrain, maintaining stability becomes a challenge. On trees and desert dunes, snakes grip branches or brace against depressed sand for stability. However, how they stably surmount obstacles like boulders too large and smooth to gain such anchor points is less understood. Similarly, snake robots are challenged to stably traverse large, smooth obstacles for search and rescue and building inspection. Our recent study discovered that snakes combine body lateral undulation and cantilevering to stably traverse large steps. Here, we developed a snake robot with this gait and snake-like anisotropic friction and used it as a physical model to understand stability principles. The robot traversed steps as high as a third of its body length rapidly and stably. However, on higher steps, it was more likely to fail due to more frequent rolling and flipping over, which was absent in the snake with a compliant body. Adding body compliance reduced the robot roll instability by statistically improving surface contact, without reducing speed. Besides advancing understanding of snake locomotion, our robot achieved high traversal speed surpassing most previous snake robots and approaching snakes, while maintaining high traversal probability.",
+    "categories": "physics.bio-ph cs.SY eess.SY q-bio.QM",
+    "set": "eess"
+  },
+  {
+    "id": "2307.13197",
+    "created": "2023-07-25",
+    "updated": "2025-09-18",
+    "title": "BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings",
+    "abstract": "The holistic management of a building requires data from heterogeneous sources such as building management systems (BMS), Internet-of-Things (IoT) sensor networks, and building information models. Data interoperability is a key component to eliminate silos of information, and using semantic web technologies like the BRICK schema, an effort to standardize semantic descriptions of the physical, logical, and virtual assets in buildings and the relationships between them, is a suitable approach. However, current data integration processes can involve significant manual interventions. This paper presents a methodology to automatically collect, assemble, and integrate information from a building information model to a knowledge graph. The resulting application, called BIM-to-BRICK, is run on the SDE4 building located in Singapore. BIM-to-BRICK generated a bidirectional link between a BIM model of 932 instances and experimental data collected for 17 subjects into 458 BRICK objects and 1219 relationships in 17 seconds. The automation of this approach can be compared to traditional manual mapping of data types. This scientific innovation incentivizes the convergence of disparate data types and structures in built-environment applications.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2310.03110",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Dual mode multispectral imaging system for food and agricultural product quality estimation",
+    "abstract": "Multispectral imaging coupled with Artificial Intelligence, Machine Learning and Signal Processing techniques work as a feasible alternative for laboratory testing, especially in food quality control. Most of the recent related research has been focused on reflectance multispectral imaging but a system with both reflectance, transmittance capabilities would be ideal for a wide array of specimen types including solid and liquid samples. In this paper, a device which includes a dedicated reflectance mode and a dedicated transmittance mode is proposed. Dual mode operation where fast switching between two modes is facilitated. An innovative merged mode is introduced in which both reflectance and transmittance information of a specimen are combined to form a higher dimensional dataset with more features. Spatial and temporal variations of measurements are analyzed to ensure the quality of measurements. The concept is validated using a standard color palette and specific case studies are done for standard food samples such as turmeric powder and coconut oil proving the validity of proposed contributions. The classification accuracy of standard color palette testing was over 90% and the accuracy of coconut oil adulteration was over 95%. while the merged mode was able to provide the best accuracy of 99% for the turmeric adulteration. A linear functional mapping was done for coconut oil adulteration with an R2 value of 0.9558.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2405.00239",
+    "created": "2025-06-24",
+    "updated": "2025-09-18",
+    "title": "IgCONDA-PET: Weakly-Supervised PET Anomaly Detection using Implicitly-Guided Attention-Conditional Counterfactual Diffusion Modeling -- a Multi-Center, Multi-Cancer, and Multi-Tracer Study",
+    "abstract": "Minimizing the need for pixel-level annotated data to train PET lesion detection and segmentation networks is highly desired and can be transformative, given time and cost constraints associated with expert annotations. Current unsupervised or weakly-supervised anomaly detection methods rely on autoencoder or generative adversarial networks (GANs) trained only on healthy data. While these approaches reduce annotation dependency, GAN-based methods are notably more challenging to train than non-GAN alternatives (such as autoencoders) due to issues such as the simultaneous optimization of two competing networks, mode collapse, and training instability. In this paper, we present the weakly-supervised $\\textbf{I}$mplicitly-$\\textbf{g}$uided $\\textbf{CO}$u$\\textbf{N}$terfactual diffusion model for $\\textbf{D}$etecting $\\textbf{A}$nomalies in $\\textbf{PET}$ images (IgCONDA-PET). The solution is developed and validated using PET scans from six retrospective cohorts consisting of a total of 2652 cases (multi-cancer, multi-tracer) containing both local and public datasets (spanning multiple centers). The training is conditioned on image class labels (healthy vs. unhealthy) via attention modules, and we employ implicit diffusion guidance. We perform counterfactual generation which facilitates \"unhealthy-to-healthy\" domain translation by generating a synthetic, healthy version of an unhealthy input image, enabling the detection of anomalies through the calculated differences. The performance of our method was compared against several other deep learning based weakly-supervised or unsupervised methods as well as traditional methods like 41% SUV$_\\text{max}$ thresholding. We also highlight the importance of incorporating attention modules in our network for the detection of small anomalies. The code is publicly available at: https://github.com/ahxmeds/IgCONDA-PET.git.",
+    "categories": "eess.IV cs.CV cs.LG",
+    "set": "eess"
+  },
+  {
+    "id": "2406.11696",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Robust, positive and exact model reduction via monotone matrices",
+    "abstract": "This work focuses on the problem of exact model reduction of positive linear systems, by leveraging minimal realization theory. While determining the existence of a positive reachable realization remains in general an open problem, we are able to fully characterize the cases in which the new model is obtained with non-negative reduction matrices, and hence positivity of the reduced model is robust with respect to small perturbations of the original system. The characterization is obtained by specializing monotone matrix theory to positive matrices. In addition, we provide a systematic method to construct positive reductions also when minimal ones are not available, by exploiting algebraic techniques.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2408.11915",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Video-Foley: Two-Stage Video-To-Sound Generation via Temporal Event Condition For Foley Sound",
+    "abstract": "Foley sound synthesis is crucial for multimedia production, enhancing user experience by synchronizing audio and video both temporally and semantically. Recent studies on automating this labor-intensive process through video-to-sound generation face significant challenges. Systems lacking explicit temporal features suffer from poor alignment and controllability, while timestamp-based models require costly and subjective human annotation. We propose Video-Foley, a video-to-sound system using Root Mean Square (RMS) as an intuitive condition with semantic timbre prompts (audio or text). RMS, a frame-level intensity envelope closely related to audio semantics, acts as a temporal event feature to guide audio generation from video. The annotation-free self-supervised learning framework consists of two stages, Video2RMS and RMS2Sound, incorporating novel ideas including RMS discretization and RMS-ControlNet with a pretrained text-to-audio model. Our extensive evaluation shows that Video-Foley achieves state-of-the-art performance in audio-visual alignment and controllability for sound timing, intensity, timbre, and nuance. Source code, model weights and demos are available on our companion website. (https://jnwnlee.github.io/video-foley-demo)",
+    "categories": "cs.SD cs.CV cs.LG cs.MM eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2408.12813",
+    "created": "2024-08-23",
+    "updated": "2025-09-18",
+    "title": "Minimizing Movement Delay for Movable Antennas via Trajectory Optimization",
+    "abstract": "Movable antennas (MAs) have received increasing attention in wireless communications due to their capability of antenna position adjustment to reconfigure wireless channels. However, moving MAs results in non-negligible delay, which may decrease the effective data transmission time. To reduce the movement delay, we study in this paper a new MA trajectory optimization problem. In particular, given the desired destination positions of multiple MAs, we aim to jointly optimize their associations with the initial MA positions and the trajectories for moving them from their respective initial to destination positions within a given two-dimensional (2D) region, such that the delay of antenna movement is minimized, subject to the inter-MA minimum distance constraints in the movement. However, this problem is a continuous-time mixed-integer linear programming (MILP) problem that is challenging to solve. To tackle this challenge, we propose a two-stage optimization framework that sequentially optimizes the MAs' position associations and trajectories, respectively. First, we relax the inter-MA distance constraints and optimally solve the resulted delay minimization problem. Next, we check if the obtained MA association and trajectory solutions satisfy the inter-MA distance constraints. If not satisfied, we then employ a successive convex approximation (SCA) algorithm to adjust the MAs' trajectories until they satisfy the given constraints. Simulation results are provided to show the effectiveness of our proposed trajectory optimization method in reducing the movement delay as well as draw useful insights.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2408.16786",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Jammer Mitigation in Absorptive RIS-Assisted Uplink NOMA",
+    "abstract": "Non-orthogonal multiple access (NOMA) is a promising technology for next-generation wireless communication systems due to its enhanced spectral efficiency. In this paper, we consider an uplink NOMA system operating together with a high-dimensional absorptive reconfigurable intelligent surface (A-RIS). We aim to minimize the total power transmitted by the users in order to meet signal-to-interference-plus-noise constraints at the base station in the presence of a jammer. We propose an iterative algorithm to solve the high-dimensional non-convex optimization problem using linear programming to find the transmit powers and a fractional programming algorithm based on the Dinkelbach algorithm with a sequential convex relaxation procedure to optimize the reflection coefficients. We show that our algorithm converges on large optimization problems, with a jammer comprising as many as $64$ antennas, and an A-RIS with $128$ elements. Our numerical results show that, compared with a standard RIS that reflects all impinging energy, the A-RIS can dramatically reduce the users' required transmit power and successfully mitigate interference from the jammer. The absorption capability of the A-RIS is in particular useful in cases when the number of jammer antennas is of the same order as the number of A-RIS elements.",
+    "categories": "cs.IT eess.SP math.IT",
+    "set": "eess"
+  },
+  {
+    "id": "2408.17432",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Text-to-Speech for Unseen Speakers via Low-Complexity Discrete Unit-Based Frame Selection",
+    "abstract": "Synthesizing the voices of unseen speakers remains a persisting challenge in multi-speaker text-to-speech (TTS). Existing methods model speaker characteristics through speaker conditioning during training, leading to increased model complexity and limiting reproducibility and accessibility. A low-complexity alternative would broaden the reach of speech synthesis research, particularly in settings with limited computational and data resources. To this end, we propose SelectTTS, a simple and effective alternative. SelectTTS selects appropriate frames from the target speaker and decodes them using frame-level self-supervised learning (SSL) features. We demonstrate that this approach can effectively capture speaker characteristics for unseen speakers and achieves performance comparable to state-of-the-art multi-speaker TTS frameworks on both objective and subjective metrics. By directly selecting frames from the target speaker's speech, SelectTTS enables generalization to unseen speakers with significantly lower model complexity. Experimental results show that the proposed approach achieves performance comparable to state-of-the-art systems such as XTTS-v2 and VALL-E, while requiring over 8x fewer parameters and 270x less training data. Moreover, it demonstrates that frame selection with SSL features offers an efficient path to low-complexity, high-quality multi-speaker TTS.",
+    "categories": "eess.AS cs.LG",
+    "set": "eess"
+  },
+  {
+    "id": "2412.12678",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Bit Efficient Toeplitz Covariance Estimation",
+    "abstract": "This paper addresses the challenge of Toeplitz covariance matrix estimation from partial entries of random quantized samples. To balance trade-offs among the number of samples, the number of entries observed per sample, and the data resolution, we propose a ruler-based quantized Toeplitz covariance estimator. We derive non-asymptotic error bounds and analyze the convergence rates of the proposed estimator. Our results show that the estimator is near-optimal and imply that reducing data resolution within a certain range has a limited impact on the estimation accuracy. Numerical experiments are provided that validate our theoretical findings and show effectiveness of the proposed estimator.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2412.16105",
+    "created": "2025-06-28",
+    "updated": "2025-09-18",
+    "title": "Quantifying the benefit of load uncertainty reduction for the design of district energy systems under grid constraints using the Value of Information",
+    "abstract": "Load uncertainty must be accounted for during design to ensure building energy systems can meet energy demands during operation. Reducing building load uncertainty allows for improved designs with less compromise to be identified, reducing the cost of decarbonizing energy usage. However, the building monitoring required to reduce load uncertainty is costly.\n  This study uses Value of Information analysis (VoI) to quantify the economic benefit of practical building monitoring for supporting energy system design decisions, and determine if its benefits outweigh its cost. An extension of the VoI framework, termed 'On-Policy' VoI, is proposed, which admits complex decision making tasks where decision policies are required. This is applied to a case study district energy system design problem, where a Linear Program model is used to size solar-battery systems and grid connection capacity under uncertain building loads, modelled using historic electricity metering data.\n  Load uncertainty is found to significantly impact both system operating costs ($\\pm$30%) and the optimal system design ($\\pm$20%). However, using building monitoring data to improve the design of the district reduces overall costs by less than 1.5% on average. As this is less than the cost of measurement, using monitoring is not economically worthwhile in this case. This provides the first numerical evidence to support the sufficiency of using standard building load profiles for energy system design. Further, reducing only uncertainty in mean load is found to provide most of the available decision support benefit, meaning using hourly measurement data provides little benefit for energy retrofit design.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2412.16846",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "KALL-E:Autoregressive Speech Synthesis with Next-Distribution Prediction",
+    "abstract": "We introduce KALL-E, a novel autoregressive (AR) language model for text-to-speech (TTS) synthesis that operates by predicting the next distribution of continuous speech frames. Unlike existing methods, KALL-E directly models the continuous speech distribution conditioned on text, eliminating the need for any diffusion-based components. Specifically, we utilize a Flow-VAE to extract a continuous latent speech representation from waveforms, instead of relying on discrete speech tokens. A single AR Transformer is then trained to predict these continuous speech distributions from text, optimizing a Kullback-Leibler divergence loss as its objective. Experimental results demonstrate that KALL-E achieves superior speech synthesis quality and can even adapt to a target speaker from just a single sample. Importantly, KALL-E provides a more direct and effective approach for utilizing continuous speech representations in TTS.",
+    "categories": "eess.AS cs.CL cs.SD",
+    "set": "eess"
+  },
+  {
+    "id": "2412.17586",
+    "created": "2024-12-23",
+    "updated": "2025-09-18",
+    "title": "Enhancing Reconstruction-Based Out-of-Distribution Detection in Brain MRI with Model and Metric Ensembles",
+    "abstract": "Out-of-distribution (OOD) detection is crucial for safely deploying automated medical image analysis systems, as abnormal patterns in images could hamper their performance. However, OOD detection in medical imaging remains an open challenge, and we address three gaps: the underexplored potential of a simple OOD detection model, the lack of optimization of deep learning strategies specifically for OOD detection, and the selection of appropriate reconstruction metrics. In this study, we investigated the effectiveness of a reconstruction-based autoencoder for unsupervised detection of synthetic artifacts in brain MRI. We evaluated the general reconstruction capability of the model, analyzed the impact of the selected training epoch and reconstruction metrics, assessed the potential of model and/or metric ensembles, and tested the model on a dataset containing a diverse range of artifacts. Among the metrics assessed, the contrast component of SSIM and LPIPS consistently outperformed others in detecting homogeneous circular anomalies. By combining two well-converged models and using LPIPS and contrast as reconstruction metrics, we achieved a pixel-level area under the Precision-Recall curve of 0.66. Furthermore, with the more realistic OOD dataset, we observed that the detection performance varied between artifact types; local artifacts were more difficult to detect, while global artifacts showed better detection results. These findings underscore the importance of carefully selecting metrics and model configurations, and highlight the need for tailored approaches, as standard deep learning approaches do not always align with the unique needs of OOD detection.",
+    "categories": "eess.IV cs.CV cs.LG",
+    "set": "eess"
+  },
+  {
+    "id": "2501.07005",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Global Search for Optimal Low Thrust Spacecraft Trajectories using Diffusion Models and the Indirect Method",
+    "abstract": "Long time-duration low-thrust nonlinear optimal spacecraft trajectory global search is a computationally and time expensive problem characterized by clustering patterns in locally optimal solutions. During preliminary mission design, mission parameters are subject to frequent changes, necessitating that trajectory designers efficiently generate high-quality control solutions for these new scenarios. Generative machine learning models can be trained to learn how the solution structure varies with respect to a conditional parameter, thereby accelerating the global search for missions with updated parameters. In this work, state-of-the-art diffusion models are integrated with the indirect approach for trajectory optimization within a global search framework. This framework is tested on two low-thrust transfers of different complexity in the circular restricted three-body problem. By generating and analyzing a training data set, we develop mathematical relations and techniques to understand the complex structures in the costate domain of locally optimal solutions for these problems. A diffusion model is trained on this data and successfully accelerates the global search for both problems. The model predicts how the costate solution structure changes, based on the maximum spacecraft thrust magnitude. Warm-starting a numerical solver with diffusion model samples for the costates at the initial time increases the number of solutions generated per minute for problems with unseen thrust magnitudes by one to two orders of magnitude in comparison to samples from a uniform distribution and from an adjoint control transformation.",
+    "categories": "eess.SY cs.LG cs.SY math.OC",
+    "set": "eess"
+  },
+  {
+    "id": "2501.10865",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Generalized Spatial Modulation Aided Affine Frequency Division Multiplexing",
+    "abstract": "Generalized spatial modulation-aided affine frequency division multiplexing (GSM-AFDM) is conceived for reliable multiple-input multiple-output (MIMO) communications over doubly selective channels. \\textcolor{black}{We commence by proposing several low-complexity detectors for large-scale GSM-AFDM systems to meet the diverse requirements of heterogeneous receiver designs in terms of detection complexity and reliability.} Specifically, we introduce the linear minimum mean square error (LMMSE) equalizer-based maximum likelihood detector (LMMSE-MLD). By exploiting the GSM properties, we then derive the LMMSE-based transmit-antenna activation pattern (TAP) check-based log-likelihood ratio detector (LMMSE-TC-LLRD). In addition, we propose a pair of new detectors, namely the greedy residual check detector (GRCD) and the reduced space check detector (RSCD). We also derive a bit error rate (BER) upper-bound by considering the MLD. \\textcolor{black}{Our analytical results are also available for multiple-input multiple-output (MIMO)-AFDM, since MIMO-AFDM can be regarded as a special case of the proposed GSM-AFDM.} Our simulation results demonstrate that 1) the BER upper bound derived is tight for moderate to high signal-to-noise ratios (SNRs), \\textcolor{black}{2) the proposed GSM-AFDM achieves lower BER than its conventional orthogonal frequency division multiplexing (OFDM), orthogonal time frequency space (OTFS) and AFDM counterparts. Specifically, at a BER of $10^{-4}$ and a velocity of $540$ km/h, the proposed GSM-AFDM is capable of attaining about $6$ dB SNR gain compared to GSM-OFDM,} and 3) the conceived detectors strike a compelling trade-off between the BER and complexity.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2501.16639",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Finite Sample Analysis of Open-loop Subspace Identification Methods",
+    "abstract": "Subspace identification methods (SIMs) are known for their simple parameterization for MIMO systems and robust numerical properties. However, a comprehensive statistical analysis of SIMs remains an open problem. Following a three-step procedure generally used in SIMs, this work presents a finite sample analysis for open-loop SIMs. In Step 1 we begin with a parsimonious SIM. Leveraging a recent analysis of an individual ARX model, we obtain a union error bound for a Hankel-like matrix constructed from a bank of ARX models. Step 2 involves model reduction via weighted singular value decomposition (SVD), where we use robustness results for SVD to obtain error bounds on extended controllability and observability matrices, respectively. The final Step 3 focuses on deriving error bounds for system matrices, where two different realization algorithms, the MOESP type and the CVA type, are studied. Our results not only agree with classical asymptotic results, but also show how much data is needed to guarantee a desired error bound with high probability. The proposed method generalizes related finite sample analyses and applies broadly to many variants of SIMs.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2501.18350",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Joint Power and Spectrum Orchestration for D2D Semantic Communication Underlying Energy-Efficient Cellular Networks",
+    "abstract": "Semantic communication (SemCom) has been recently deemed a promising next-generation wireless technique to enable efficient spectrum savings and information exchanges, thus naturally introducing a novel and practical network paradigm where cellular and device-to-device (D2D) SemCom approaches coexist. Nevertheless, the involved wireless resource management becomes complicated and challenging due to the unique semantic performance measurements and energy-consuming semantic coding mechanism. To this end, this paper jointly investigates power control and spectrum reuse problems for energy-efficient D2D SemCom cellular networks. Concretely, we first model the user preference-aware semantic triplet transmission and leverage a novel metric of semantic value to identify the semantic information importance conveyed in SemCom. Then, we define the additional power consumption from semantic encoding in conjunction with basic power amplifier dissipation to derive the overall system energy efficiency (semantic-value/Joule). Next, we formulate an energy efficiency maximization problem for joint power and spectrum allocation subject to several SemCom-related and practical constraints. Afterward, we propose an optimal resource management solution by employing the fractional-to-subtractive problem transformation and decomposition while developing a three-stage method with theoretical analysis of its optimality guarantee and computational complexity. Numerical results demonstrate the adequate performance superiority of our proposed solution compared with different benchmarks.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2503.04668",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Data-Driven Distributed Optimization via Aggregative Tracking and Deep-Learning",
+    "abstract": "In this paper, we propose a novel distributed data-driven optimization scheme. In detail, we focus on the so-called aggregative framework, a scenario in which a set of agents aim to cooperatively minimize the sum of local costs, each depending on both local decision variables and an aggregation of all of them. We consider a data-driven setup where each objective function is unknown and can be sampled at a single point per iteration (thanks to, e.g., feedback from users or sensors). We address this scenario through a distributed algorithm combining three components: (i) a learning part leveraging neural networks to learn the local costs descent direction, (ii) an optimization routine steering the estimates according to the learned direction to minimize the global cost, and (iii) a tracking mechanism locally reconstructing the unavailable global quantities. Using tools from system theory, i.e., timescale separation and averaging theory, we formally prove that in strongly convex setups, the distributed scheme linearly converges to a neighborhood of the optimum, whose radius depends on the accuracy of the neural networks. Finally, numerical simulations validate the theoretical results.",
+    "categories": "math.OC cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2503.07385",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Stochastic Tube-based Model Predictive Control for Cyber-Physical Systems under False Data Injection Attacks with Bounded Probability",
+    "abstract": "This paper addresses the challenge of amplitude-unbounded false data injection (FDI) attacks targeting the sensor-to-controller (S-C) channel in cyber-physical systems (CPSs). We introduce a resilient tube-based model predictive control (MPC) scheme. This scheme incorporates a threshold-based attack detector and a control sequence buffer to enhance system security. We mathematically model the common FDI attacks and derive the maximum duration of such attacks based on the hypothesis testing principle. Following this, the minimum feasible sequence length of the control sequence buffer is obtained. The system is proven to remain input-to-state stable (ISS) under bounded external disturbances and amplitude-unbounded FDI attacks. Moreover, the feasible region under this scenario is provided in this paper. Finally, the proposed algorithm is validated by numerical simulations and shows superior control performance compared to the existing methods.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2503.11206",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Spike Encoding for Environmental Sound: A Comparative Benchmark",
+    "abstract": "Spiking Neural Networks (SNNs) offer energy efficient processing suitable for edge applications, but conventional sensor data must first be converted into spike trains for neuromorphic processing. Environmental sound, including urban soundscapes, poses challenges due to variable frequencies, background noise, and overlapping acoustic events, while most spike based audio encoding research has focused on speech. This paper analyzes three spike encoding methods, Threshold Adaptive Encoding (TAE), Step Forward (SF), and Moving Window (MW) across three datasets: ESC10, UrbanSound8K, and TAU Urban Acoustic Scenes. Our multiband analysis shows that TAE consistently outperforms SF and MW in reconstruction quality, both per frequency band and per class across datasets. Moreover, TAE yields the lowest spike firing rates, indicating superior energy efficiency. For downstream environmental sound classification with a standard SNN, TAE also achieves the best performance among the compared encoders. Overall, this work provides foundational insights and a comparative benchmark to guide the selection of spike encoders for neuromorphic environmental sound processing.",
+    "categories": "cs.SD cs.ET eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2503.14171",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Lightweight Gradient-Aware Upscaling of 3D Gaussian Splatting Images",
+    "abstract": "We introduce an image upscaling technique tailored for 3D Gaussian Splatting (3DGS) on lightweight GPUs. Compared to 3DGS, it achieves significantly higher rendering speeds and reduces artifacts commonly observed in 3DGS reconstructions. Our technique upscales low-resolution 3DGS renderings with a marginal increase in cost by directly leveraging the analytical image gradients of Gaussians for gradient-based bicubic spline interpolation. The technique is agnostic to the specific 3DGS implementation, achieving novel view synthesis at rates 3x-4x higher than the baseline implementation. Through extensive experiments on multiple datasets, we showcase the performance improvements and high reconstruction fidelity attainable with gradient-aware upscaling of 3DGS images. We further demonstrate the integration of gradient-aware upscaling into the gradient-based optimization of a 3DGS model and analyze its effects on reconstruction quality and performance.",
+    "categories": "cs.CV eess.IV",
+    "set": "eess"
+  },
+  {
+    "id": "2503.15416",
+    "created": "2025-06-22",
+    "updated": "2025-09-18",
+    "title": "The value of hedging against energy storage uncertainties when designing energy parks",
+    "abstract": "Energy storage is needed to match renewable generation to industrial loads in energy parks. However, the future performance of bulk storage technologies is currently highly uncertain. Due to the urgency of decarbonization targets, energy park projects must be designed and begun now. But, as uncertainty in storage performance reduces, a different technology than identified during initial design may turn out cheaper. Enabling flexibility so that design adaptations can be made as better information becomes available would lower the cost of decarbonizing industry. But having this flexibility is itself costly. This raises the question, \"Is it worth it?\"\n  This study quantifies the benefit of retaining flexibility to adapt energy park designs and optionality over storage technology choice as uncertainty reduces, to determine whether it is economically worthwhile. It applies the Value of Information analysis framework to the sizing of wind, solar, and storage in an illustrative energy park model based on a real-world proposal near Rotterdam, considering uncertainty in storage efficiency, lifetime, and capital cost.\n  Updating asset sizings after storage uncertainty reduced is found to reduce total costs by 18% on average. Having the option to switch storage technology choice as well reduces costs by a further 13%, which is substantially greater than the cost of providing storage optionality. Using two storage technologies in the energy park reduces costs by 14%, and in this case storage optionality is not worthwhile. These results are robust to the level of uncertainty reduction in storage performance, and the risk aversion of the system designer.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2503.20772",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Welfare and Cost Aggregation for Multi-Agent Control: When to Choose Which Social Cost Function, and Why?",
+    "abstract": "Many multi-agent socio-technical systems rely on aggregating heterogeneous agents' costs into a social cost function (SCF) to coordinate resource allocation in domains like energy grids, water allocation, or traffic management. The choice of SCF often entails implicit assumptions and may lead to undesirable outcomes if not rigorously justified. In this paper, we demonstrate that what determines which SCF ought to be used is the degree to which individual costs can be compared across agents and which axioms the aggregation shall fulfill. Drawing on the results from social choice theory, we provide guidance on how this process can be used in control applications. We demonstrate which assumptions about interpersonal utility comparability - ranging from ordinal level comparability to full cardinal comparability - together with a choice of desirable axioms, inform the selection of a correct SCF, be it the classical utilitarian sum, the Nash SCF, or maximin. We then demonstrate how the proposed framework can be applied for principled allocations of water and transportation resources.",
+    "categories": "math.OC cs.MA cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2504.03741",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Agile Temporal Discretization for Symbolic Optimal Control",
+    "abstract": "As control systems grow in complexity, abstraction-based methods have become essential for designing controllers with formal guarantees. However, a key limitation of these methods is their reliance on discrete-time models, typically obtained by discretizing continuous-time systems with a fixed timestep. This discretization leads to two major problems: when the timestep is small, the abstraction includes numerous stuttering and spurious trajectories, making controller synthesis suboptimal or even infeasible; conversely, a large time step may also render control design infeasible due to a lack of flexibility. In this work, drawing inspiration from Reinforcement Learning concepts, we introduce temporal abstractions, which allow for a flexible timestep. We provide a method for constructing such abstractions and formally establish their correctness in controller design. Furthermore we show how to apply these to optimal control under reachability specifications. Finally we showcase our methods on two numerical examples, highlighting that our approach leads to controllers that achieve a lower worst-case control cost.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2504.19639",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "A Unified Benchmark of Federated Learning with Kolmogorov-Arnold Networks for Medical Imaging",
+    "abstract": "Federated Learning (FL) enables model training across decentralized devices without sharing raw data, thereby preserving privacy in sensitive domains like healthcare. In this paper, we evaluate Kolmogorov-Arnold Networks (KAN) architectures against traditional MLP across six state-of-the-art FL algorithms on a blood cell classification dataset. Notably, our experiments demonstrate that KAN can effectively replace MLP in federated environments, achieving superior performance with simpler architectures. Furthermore, we analyze the impact of key hyperparameters-grid size and network architecture-on KAN performance under varying degrees of Non-IID data distribution. In addition, our ablation studies reveal that optimizing KAN width while maintaining minimal depth yields the best performance in federated settings. As a result, these findings establish KAN as a promising alternative for privacy-preserving medical imaging applications in distributed healthcare. To the best of our knowledge, this is the first comprehensive benchmark of KAN in FL settings for medical imaging task.",
+    "categories": "cs.LG eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2505.05798",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Improving Generalizability of Kolmogorov-Arnold Networks via Error-Correcting Output Codes",
+    "abstract": "Kolmogorov-Arnold Networks (KAN) offer universal function approximation using univariate spline compositions without nonlinear activations. In this work, we integrate Error-Correcting Output Codes (ECOC) into the KAN framework to transform multi-class classification into multiple binary tasks, improving robustness via Hamming distance decoding. Our proposed KAN with ECOC framework outperforms vanilla KAN on a challenging blood cell classification dataset, achieving higher accuracy across diverse hyperparameter settings. Ablation studies further confirm that ECOC consistently enhances performance across FastKAN and FasterKAN variants. These results demonstrate that ECOC integration significantly boosts KAN generalizability in critical healthcare AI applications. To the best of our knowledge, this is the first work of ECOC with KAN for enhancing multi-class medical image classification performance.",
+    "categories": "cs.LG cs.CV eess.IV eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2505.11051",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "CAMEO: Collection of Multilingual Emotional Speech Corpora",
+    "abstract": "This paper presents CAMEO -- a curated collection of multilingual emotional speech datasets designed to facilitate research in emotion recognition and other speech-related tasks. The main objectives were to ensure easy access to the data, to allow reproducibility of the results, and to provide a standardized benchmark for evaluating speech emotion recognition (SER) systems across different emotional states and languages. The paper describes the dataset selection criteria, the curation and normalization process, and provides performance results for several models. The collection, along with metadata, and a leaderboard, is publicly available via the Hugging Face platform.",
+    "categories": "cs.CL cs.SD eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2505.17602",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Attention-ResUNet and EfficientSASM-UNet: UNet based frameworks for Lung and Nodule segmentation",
+    "abstract": "Lung cancer has been one of the major threats across the world with the highest mortalities. Computer-aided detection (CAD) can help in early detection and thus can help increase the survival rate. Accurate lung parenchyma segmentation (to include the juxta-pleural nodules) and lung nodule segmentation, the primary symptom of lung cancer, play a crucial role in the overall accuracy of the Lung CAD pipeline. Lung nodule segmentation is quite challenging because of the diverse nodule types and other inhibit structures present within the lung lobes. Traditional machine/deep learning methods suffer from generalization and robustness. Recent Vision Language Models/Foundation Models perform well on the anatomical level, but they suffer on fine-grained segmentation tasks, and their semi-automatic nature limits their effectiveness in real-time clinical scenarios. In this paper, we propose a novel method for accurate 3D segmentation of lung parenchyma and lung nodules. The proposed architecture is an attention-based network with residual blocks at each encoder-decoder state. Max pooling is replaced by strided convolutions at the encoder, and trilinear interpolation is replaced by transposed convolutions at the decoder to maximize the number of learnable parameters. Dilated convolutions at each encoder-decoder stage allow the model to capture the larger context without increasing computational costs. The proposed method has been evaluated extensively on one of the largest publicly available datasets, namely LUNA16, and is compared with recent notable work in the domain using standard performance metrics like Dice score, IOU, etc. It can be seen from the results that the proposed method achieves better performance than state-of-the-art methods. The source code, datasets, and pre-processed data can be accessed using the link: https://github.com/EMeRALDsNRPU/Attention-Based-3D-ResUNet.",
+    "categories": "eess.IV",
+    "set": "eess"
+  },
+  {
+    "id": "2506.14914",
+    "created": "2025-06-17",
+    "updated": "2025-09-18",
+    "title": "Recursive Variational Autoencoders for 3D Blood Vessel Generative Modeling",
+    "abstract": "Anatomical trees play an important role in clinical diagnosis and treatment planning. Yet, accurately representing these structures poses significant challenges owing to their intricate and varied topology and geometry. Most existing methods to synthesize vasculature are rule based, and despite providing some degree of control and variation in the structures produced, they fail to capture the diversity and complexity of actual anatomical data. We developed a Recursive variational Neural Network (RvNN) that fully exploits the hierarchical organization of the vessel and learns a low-dimensional manifold encoding branch connectivity along with geometry features describing the target surface. After training, the RvNN latent space can be sampled to generate new vessel geometries. By leveraging the power of generative neural networks, we generate 3D models of blood vessels that are both accurate and diverse, which is crucial for medical and surgical training, hemodynamic simulations, and many other purposes. These results closely resemble real data, achieving high similarity in vessel radii, length, and tortuosity across various datasets, including those with aneurysms. To the best of our knowledge, this work is the first to utilize this technique for synthesizing blood vessels.",
+    "categories": "eess.IV cs.CV cs.LG",
+    "set": "eess"
+  },
+  {
+    "id": "2507.02668",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "MEGANet-W: A Wavelet-Driven Edge-Guided Attention Framework for Weak Boundary Polyp Detection",
+    "abstract": "Colorectal polyp segmentation is critical for early detection of colorectal cancer, yet weak and low contrast boundaries significantly limit automated accuracy. Existing deep models either blur fine edge details or rely on handcrafted filters that perform poorly under variable imaging conditions. We propose MEGANet-W, a Wavelet Driven Edge Guided Attention Network that injects directional, parameter free Haar wavelet edge maps into each decoder stage to recalibrate semantic features. The key novelties of MEGANet-W include a two-level Haar wavelet head for multi-orientation edge extraction; and Wavelet Edge Guided Attention (W-EGA) modules that fuse wavelet cues with boundary and input branches. On five public polyp datasets, MEGANet-W consistently outperforms existing methods, improving mIoU by up to 2.3% and mDice by 1.2%, while introducing no additional learnable parameters. This approach improves reliability in difficult cases and offers a robust solution for medical image segmentation tasks requiring precise boundary detection.",
+    "categories": "eess.IV cs.CV",
+    "set": "eess"
+  },
+  {
+    "id": "2507.21225",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Fluidically Innervated Lattices Make Versatile and Durable Tactile Sensors",
+    "abstract": "Tactile sensing plays a fundamental role in enabling robots to navigate dynamic and unstructured environments, particularly in applications such as delicate object manipulation, surface exploration, and human-robot interaction. In this paper, we introduce a passive soft robotic fingertip with integrated tactile sensing, fabricated using a 3D-printed elastomer lattice with embedded air channels. This sensorization approach, termed fluidic innervation, transforms the lattice into a tactile sensor by detecting pressure changes within sealed air channels, providing a simple yet robust solution to tactile sensing in robotics. Unlike conventional methods that rely on complex materials or designs, fluidic innervation offers a simple, scalable, single-material fabrication process. We characterize the sensors' response, develop a geometric model to estimate tip displacement, and train a neural network to accurately predict contact location and contact force. Additionally, we integrate the fingertip with an admittance controller to emulate spring-like behavior, demonstrate its capability for environment exploration through tactile feedback, and validate its durability under high impact and cyclic loading conditions. This tactile sensing technique offers advantages in terms of simplicity, adaptability, and durability and opens up new opportunities for versatile robotic manipulation.",
+    "categories": "cs.RO cs.LG cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2508.11573",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Nominal Evaluation Of Automatic Multi-Sections Control Potential In Comparison To A Simpler One- Or Two-Sections Alternative With Predictive Spray Switching",
+    "abstract": "Automatic Section Control (ASC) is a long-standing trend for spraying in agriculture. It promises to minimise spray overlap areas. The core idea is to (i) switch off spray nozzles on areas that have already been sprayed, and (ii) to dynamically adjust nozzle flow rates along the boom bar that holds the spray nozzles when velocities of boom sections vary during turn maneuvers. ASC is not possible without sensors for accurate positioning data. Spraying and the movement of modern wide boom bars are highly dynamic processes. In addition, many uncertainty factors have an effect such as cross wind drift, nozzle clogging in open-field conditions, etc. In view of this complexity, the natural question arises if a simpler alternative exist. Therefore, ASC is compared to a proposed simpler one- or two-sections alternative that uses predictive spray switching. The comparison is provided under nominal conditions. Agricultural spraying is intrinsically linked to area coverage path planning and spray switching logic. Combinations of two area coverage path planning and switching logics as well as 3 sections-setups are compared. The three sections-setups differ by controlling 48 sections, 2 sections or controlling all nozzles uniformly with the same control signal as one single section. Methods are evaluated on 10 diverse real-world field examples, including non-convex field contours, freeform mainfield lanes and multiple obstacle areas. An economic cost analysis is provided to compare the methods. A preferred method is suggested that (i) minimises area coverage pathlength, (ii) offers intermediate overlap, (iii) is suitable for manual driving by following a pre-planned predictive spray switching logic for an area coverage path plan, and (iv) and in contrast to ASC can be implemented sensor-free and at low cost. Surprisingly strong economic arguments are found to not recommend ASC for small farms.",
+    "categories": "cs.RO cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2508.17433",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Coordinated UAV Beamforming and Control for Directional Jamming and Nulling",
+    "abstract": "Efficient mobile jamming against eavesdroppers in wireless networks necessitates accurate coordination between mobility and antenna beamforming. We study the coordinated beamforming and control problem for a UAV that carries two omnidirectional antennas, and which uses them to jam an eavesdropper while leaving a friendly client unaffected. The UAV can shape its jamming beampattern by controlling its position, its antennas' orientation, and the relative phasing for each antenna. We derive a closed-form expression for the antennas' phases that guarantees zero jamming impact on the client. In addition, we determine the antennas' orientation and the UAV's position that maximizes jamming impact on the eavesdropper through an optimal control problem, optimizing the orientation pointwise and the position through the UAV's control input. Simulations show how this coordinated beamforming and control scheme enables directional GPS denial while guaranteeing zero interference towards a friendly direction.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2508.18655",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Empathy Omni: Enabling Empathetic Speech Response Generation through Large Language Models",
+    "abstract": "With the development of speech large language models (speech LLMs), users can now interact directly with assistants via speech. However, most existing models only convert response content into speech without fully capturing the rich emotional cues in user queries, where the same sentence may convey different meanings depending on the expression. Emotional understanding is thus essential for improving human-machine interaction. Most empathetic speech LLMs rely on massive datasets, demanding high computational cost. A key challenge is to build models that generate empathetic responses with limited data and without large-scale training. To this end, we propose Emotion Omni, a model that understands emotional content in user speech and generates empathetic responses. We further developed a data pipeline to construct a 200k emotional dialogue dataset supporting empathetic speech assistants. Experiments show that Emotion Omni achieves comparable instruction-following ability without large-scale pretraining, while surpassing existing models in speech quality (UTMOS:4.41) and empathy (Emotion GPT Score: 3.97). These results confirm its improvements in both speech fidelity and emotional expressiveness. Demos are available at https://w311411.github.io/omni_demo/.",
+    "categories": "cs.CL cs.SD eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.03495",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Learning AC Power Flow Solutions using a Data-Dependent Variational Quantum Circuit",
+    "abstract": "Interconnection studies require solving numerous instances of the AC load or power flow (AC PF) problem to simulate diverse scenarios as power systems navigate the ongoing energy transition. To expedite such studies, this work leverages recent advances in quantum computing to find or predict AC PF solutions using a variational quantum circuit (VQC). VQCs are trainable models that run on modern-day noisy intermediate-scale quantum (NISQ) hardware to accomplish elaborate optimization and machine learning (ML) tasks. Our first contribution is to pose a single instance of the AC PF as a nonlinear least-squares fit over the VQC trainable parameters (weights) and solve it using a hybrid classical/quantum computing approach. The second contribution is to feed PF specifications as features into a data-embedded VQC and train the resultant quantum ML (QML) model to predict general PF solutions. The third contribution is to develop a novel protocol to efficiently measure AC-PF quantum observables by exploiting the graph structure of a power network. Preliminary numerical tests indicate that the proposed VQC models attain enhanced prediction performance over a deep neural network despite using much fewer weights. The proposed quantum AC-PF framework sets the foundations for addressing more elaborate grid tasks via quantum computing.",
+    "categories": "quant-ph cs.LG cs.SY eess.SY math.OC",
+    "set": "eess"
+  },
+  {
+    "id": "2509.04865",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Rotatable Antenna Aided Mixed Near-Field and Far-Field Communications in the Upper Mid-Band: Interference Analysis and Joint Optimization",
+    "abstract": "In this paper, we propose to leverage rotatable antennas (RAs) for improving the communication performance in mixed near-field and far-field communication systems by exploiting a new spatial degree-of-freedom (DoF) offered by antenna rotation to mitigate complex near-field interference and mixed-field interference. Specifically, we investigate a modular RA-enabled mixed-field downlink communication system, where a base station (BS) consisting of multiple RA subarrays communicates with multiple near-field users in the presence of several legacy far-field users. We formulate an optimization problem to maximize the sum-rate of the near-field users by jointly optimizing the power allocation and rotation angles of all subarrays at the BS. To gain useful insights into the effect of RAs on mixed-field communications, we first analyze a special case where all subarrays share the same rotation angle and obtain closed-form expressions for the rotation-aware normalized near-field interference and the rotation-aware normalized mixed-field interference using the Fresnel integrals. We then analytically reveal that array rotation effectively suppresses both interference types, thereby significantly enhancing mixed-field communication performance. For the general case involving subarray-wise rotation, we propose an efficient double-layer algorithm to obtain a high-quality solution, where the inner layer optimizes power allocation using the successive convex approximation (SCA) technique, while the outer layer determines the rotation angles of all subarrays via particle swarm optimization (PSO). Finally, numerical results highlight the significant performance gains achieved by RAs over conventional fixed-antenna systems and demonstrate the effectiveness of our developed joint design compared to benchmark schemes.",
+    "categories": "eess.SP cs.IT math.IT",
+    "set": "eess"
+  },
+  {
+    "id": "2509.09206",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Occupancy-aware Trajectory Planning for Autonomous Valet Parking in Uncertain Dynamic Environments",
+    "abstract": "Autonomous Valet Parking (AVP) requires planning under partial observability, where parking spot availability evolves as dynamic agents enter and exit spots. Existing approaches either rely only on instantaneous spot availability or make static assumptions, thereby limiting foresight and adaptability. We propose an approach that estimates probability of future spot occupancy by distinguishing initially vacant and occupied spots while leveraging nearby dynamic agent motion. We propose a probabilistic estimator that integrates partial, noisy observations from a limited Field-of-View, with the evolving uncertainty of unobserved spots. Coupled with the estimator, we design a strategy planner that balances goal-directed parking maneuvers with exploratory navigation based on information gain, and incorporates wait-and-go behaviors at promising spots. Through randomized simulations emulating large parking lots, we demonstrate that our framework significantly improves parking efficiency and trajectory smoothness over existing approaches, while maintaining safety margins.",
+    "categories": "cs.RO cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.09225",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "On Sampling of Multiple Correlated Stochastic Signals",
+    "abstract": "Multiple stochastic signals possess inherent statistical correlations, yet conventional sampling methods that process each channel independently result in data redundancy. To leverage this correlation for efficient sampling, we model correlated channels as a linear combination of a smaller set of uncorrelated, wide-sense stationary latent sources. We establish a theoretical lower bound on the total sampling density for zero mean-square error reconstruction, proving it equals the ratio of the joint spectral bandwidth of latent sources to the number of correlated signal channels. We then develop a constructive multi-band sampling scheme that attains this bound. The proposed method operates via spectral partitioning of the latent sources, followed by spatio-temporal sampling and interpolation. Experiments on synthetic and real datasets confirm that our scheme achieves near-lossless reconstruction precisely at the theoretical sampling density, validating its efficiency.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.09422",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "A Comparative Analysis of Robust and Reliable Designs Using the Compromise Decision Support Problem: A Case Study in Hot Rod Rolling Processes",
+    "abstract": "Design under uncertainty is a challenging problem, as a systems performance can be highly sensitive to variations in input parameters and model uncertainty. A conventional approach to addressing such problems is robust optimization, which seeks to enhance design performance by reducing sensitivity to uncertainty. Alternatively, reliability-based design focuses on optimizing performance while ensuring that failure constraints are satisfied with a specified probability. While both methods are well established, their integration into multi-objective and multi-stakeholder decision-making frameworks remains a challenging problem. In this study, we extend the Compromise Decision Support Problem (cDSP) framework to incorporate reliability-based design considerations and evaluate its performance in comparison to the conventional robust-based cDSP formulation. The developed framework has been validated on a multidisciplinary hot rod rolling process including parametric and model uncertainties. The results compare the predicted performance under robust and reliable scenarios, validating the efficiency of the approach in managing uncertainties for complex, multidisciplinary systems. Specifically, we found that the two methods exhibit markedly different performance when the predicted performance follows a non-normal distribution, a situation that arises in non-linear systems with parametric uncertainty. Based on this insight, we offer guidance to designers on the conditions under which each method is most appropriate.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.11022",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced Energy Storage Dispatch",
+    "abstract": "This paper proposes a novel privacy-preserving uncertainty disclosure framework, enabling system operators to release marginal value function bounds to reduce the conservativeness of interval forecast and mitigate excessive withholding, thereby enhancing storage dispatch and social welfare. We develop a risk-averse storage arbitrage model based on stochastic dynamic programming, explicitly accounting for uncertainty intervals in value function training. Real-time marginal value function bounds are derived using a rolling-horizon chance-constrained economic dispatch formulation. We rigorously prove that the bounds reliably cap the true opportunity cost and dynamically converge to the hindsight value. We verify that both the marginal value function and its bounds monotonically decrease with the state of charge (SoC) and increase with uncertainty, providing a theoretical basis for risk-averse strategic behaviors and SoC-dependent designs. An adjusted storage dispatch algorithm is further designed using these bounds. We validate the effectiveness of the proposed framework via an agent-based simulation on the ISO-NE test system. Under 50% renewable capacity and 35% storage capacity, the proposed bounds enhance storage response by 38.91% and reduce the optimality gap to 3.91% through improved interval predictions. Additionally, by mitigating excessive withholding, the bounds yield an average system cost reduction of 0.23% and an average storage profit increase of 13.22%. These benefits further scale with higher prediction conservativeness, storage capacity, and system uncertainty.",
+    "categories": "eess.SY cs.SY math.OC",
+    "set": "eess"
+  },
+  {
+    "id": "2509.12510",
+    "created": "2025-09-15",
+    "updated": "2025-09-18",
+    "title": "Self-Supervised and Topological Signal-Quality Assessment for Any PPG Device",
+    "abstract": "Wearable photoplethysmography (PPG) is embedded in billions of devices, yet its optical waveform is easily corrupted by motion, perfusion loss, and ambient light, jeopardizing downstream cardiometric analytics. Existing signal-quality assessment (SQA) methods rely either on brittle heuristics or on data-hungry supervised models. We introduce the first fully unsupervised SQA pipeline for wrist PPG. Stage 1 trains a contrastive 1-D ResNet-18 on 276 h of raw, unlabeled data from heterogeneous sources (varying in device and sampling frequency), yielding optical-emitter- and motion-invariant embeddings (i.e., the learned representation is stable across differences in LED wavelength, drive intensity, and device optics, as well as wrist motion). Stage 2 converts each 512-D encoder embedding into a 4-D topological signature via persistent homology (PH) and clusters these signatures with HDBSCAN. To produce a binary signal-quality index (SQI), the acceptable PPG signals are represented by the densest cluster while the remaining clusters are assumed to mainly contain poor-quality PPG signals. Without re-tuning, the SQI attains Silhouette, Davies-Bouldin, and Calinski-Harabasz scores of 0.72, 0.34, and 6173, respectively, on a stratified sample of 10,000 windows. In this study, we propose a hybrid self-supervised-learning--topological-data-analysis (SSL--TDA) framework that offers a drop-in, scalable, cross-device quality gate for PPG signals.",
+    "categories": "eess.SP cs.LG",
+    "set": "eess"
+  },
+  {
+    "id": "2509.12770",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "EMC Limit Level Guidelines for In-System Interference with GPS Receivers",
+    "abstract": "Because GPS signals are weak, electronic systems and components that are placed near GPS receivers can easily cause disruptive electromagnetic interference through their unintended radiated emissions. In this paper, EMC limit level guidelines are presented for electronics that are intended to be placed near to GPS receivers, as often happens in automotive and other applications. One of the challenges of defining limit-levels for systems intended to be integrated with GPS receivers is that the impact of noise at the input of the receiver may vary substantially depending on the form of the noise due to the correlator function implemented by GPS receiver. The quality of the correlated signal is typically represented using the carrier-to-noise ratio ($C / N_0$). A theoretical model predicting the degredation of the carrier-to-noise ratio with radio frequency interference is presented in this paper and is validated with realistic noise sources. The model is then used to develop guidelines to assess the impact of unintended emissions from electronic devices on nearby GPS receivers based on the frequency, bandwidth, and magnitude of the noise. These guidelines provide a more nuanced method of evaluating emissions than simple limit lines that are used by many emissions standards.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13164",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "TeraSim-World: Worldwide Safety-Critical Data Synthesis for End-to-End Autonomous Driving",
+    "abstract": "Safe and scalable deployment of end-to-end (E2E) autonomous driving requires extensive and diverse data, particularly safety-critical events. Existing data are mostly generated from simulators with a significant sim-to-real gap or collected from on-road testing that is costly and unsafe. This paper presents TeraSim-World, an automated pipeline that synthesizes realistic and geographically diverse safety-critical data for E2E autonomous driving at anywhere in the world. Starting from an arbitrary location, TeraSim-World retrieves real-world maps and traffic demand from geospatial data sources. Then, it simulates agent behaviors from naturalistic driving datasets, and orchestrates diverse adversities to create corner cases. Informed by street views of the same location, it achieves photorealistic, geographically grounded sensor rendering via the frontier video generation model Cosmos-Drive. By bridging agent and sensor simulations, TeraSim-World provides a scalable and critical data synthesis framework for training and evaluation of E2E autonomous driving systems. Codes and videos are available at https://wjiawei.com/terasim-world-web/ .",
+    "categories": "cs.RO cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13178",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "CoVariance Filters and Neural Networks over Hilbert Spaces",
+    "abstract": "CoVariance Neural Networks (VNNs) perform graph convolutions on the empirical covariance matrix of signals defined over finite-dimensional Hilbert spaces, motivated by robustness and transferability properties. Yet, little is known about how these arguments extend to infinite-dimensional Hilbert spaces. In this work, we take a first step by introducing a novel convolutional learning framework for signals defined over infinite-dimensional Hilbert spaces, centered on the (empirical) covariance operator. We constructively define Hilbert coVariance Filters (HVFs) and design Hilbert coVariance Networks (HVNs) as stacks of HVF filterbanks with nonlinear activations. We propose a principled discretization procedure, and we prove that empirical HVFs can recover the Functional PCA (FPCA) of the filtered signals. We then describe the versatility of our framework with examples ranging from multivariate real-valued functions to reproducing kernel Hilbert spaces. Finally, we validate HVNs on both synthetic and real-world time-series classification tasks, showing robust performance compared to MLP and FPCA-based classifiers.",
+    "categories": "cs.LG eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13227",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Rich Vehicle Routing Problem in Disaster Management enabling Temporally-causal Transhipments across Multi-Modal Transportation Network",
+    "abstract": "A rich vehicle routing problem is considered, allowing multiple trips of heterogeneous vehicles stationed at geographically distributed vehicle depots having access to different modes of transportation. The problem arises from the real-world requirement of optimizing the disaster response time by minimizing the makespan of vehicular routes. Multiple diversely-functional vertices are considered, including Transhipment Ports as inter-modal resource transfer stations. Both simultaneous and split pickup and delivery are considered, for multiple cargo types, along with Vehicle-Cargo and Transhipment Port-Cargo compatibilities. The superiority of the proposed cascaded minimization approach is demonstrated over the existing makespan minimization approaches through our developed Mixed-Integer Linear Programming formulation. To solve the problem quickly for practical implementation in a Disaster Management-specific Decision Support System, an extensive Heuristic Algorithm is devised which utilizes Decision Tree based structuring of possible routes; the Decision Tree approach helps to inherently capture the compatibility issues, while also explore the solution space through stochastic weights. Preferential generation of small route elements is performed, which are integrated into route clusters; we consider multiple different logical integration approaches, as well as shuffling the logics to simultaneously produce multiple independent solutions. Finally, perturbations of the different solutions are done to find better neighbouring solutions. The computational performance of the PSR-GIP Heuristic, on our created novel datasets, indicates that it is able to give good solutions swiftly for practical problems involving large integer instances that the MILP is unable to solve.",
+    "categories": "math.OC cs.AI cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13328",
+    "created": "2025-08-30",
+    "updated": "2025-09-18",
+    "title": "Dual Actor DDPG for Airborne STAR-RIS Assisted Communications",
+    "abstract": "This study departs from the prevailing assumption of independent Transmission and Reflection Coefficients (TRC) in Airborne Simultaneous Transmit and Reflect Reconfigurable Intelligent Surface (STAR-RIS) research. Instead, we explore a novel multi-user downlink communication system that leverages a UAV-mounted STAR-RIS (Aerial-STAR) incorporating a coupled TRC phase shift model. Our key contributions include the joint optimization of UAV trajectory, active beamforming vectors at the base station, and passive RIS TRCs to enhance communication efficiency, while considering UAV energy constraints. We design the TRC as a combination of discrete and continuous actions, and propose a novel Dual Actor Deep Deterministic Policy Gradient (DA-DDPG) algorithm. The algorithm relies on two separate actor networks for high-dimensional hybrid action space. We also propose a novel harmonic mean index (HFI)-based reward function to ensure communication fairness amongst users. For comprehensive analysis, we study the impact of RIS size on UAV aerodynamics showing that it increases drag and energy demand. Simulation results demonstrate that the proposed DA-DDPG algorithm outperforms conventional DDPG and DQN-based solutions by 24% and 97%, respectively, in accumulated reward. Three-dimensional UAV trajectory optimization achieves 28% higher communication efficiency compared to two-dimensional and altitude optimization. The HFI based reward function provides 41% lower QoS denial rates as compared to other benchmarks. The mobile Aerial-STAR system shows superior performance over fixed deployed counterparts, with the coupled phase STAR-RIS outperforming dual Transmit/Reflect RIS and conventional RIS setups. These findings highlight the potential of Aerial-STAR systems and the effectiveness of our proposed DA-DDPG approach in optimizing their performance.",
+    "categories": "eess.SP cs.AI cs.IT cs.NI math.IT",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13330",
+    "created": "2025-09-08",
+    "updated": "2025-09-18",
+    "title": "A hybrid dynamic model and parameter estimation method for accurately simulating overhead cranes with friction",
+    "abstract": "This paper presents a new approach to accurately simulating 3D overhead cranes with friction. Nonlinear friction dynamics have a significant impact on these systems, however, accurately modeling this phenomenon in simulations is a significant challenge. Traditional methods often rely on imprecise approximations of friction or require excessive computational times for reliable results. To address this, we present a hybrid dynamical model that features a trade-off between high-fidelity friction modeling and computational efficiency. Furthermore, we present a step-by-step algorithm for the comprehensive estimation of all unknown system parameters, including friction. This methodology is based on Gaussian Process Regression (GPR) and Least Squares (LS) estimations. Finally, experimental validation with a laboratory crane confirms the effectiveness of the proposed modeling and estimation approach.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13331",
+    "created": "2025-09-09",
+    "updated": "2025-09-18",
+    "title": "Explainable AI-Enhanced Supervisory Control for High-Precision Spacecraft Formation",
+    "abstract": "We use artificial intelligence (AI) and supervisory adaptive control systems to plan and optimize the mission of precise spacecraft formation. Machine learning and robust control enhance the efficiency of spacecraft precision formation of the Virtual Telescope for X-ray Observation (VTXO) space mission. VTXO is a precise formation of two separate spacecraft making a virtual telescope with a one-kilometer focal length. One spacecraft carries the lens and the other spacecraft holds the camera to observe high-energy space objects in the X-ray domain with 55 milli-arcsecond angular resolution accuracy. Timed automata for supervisory control, Monte Carlo simulations for stability and robustness evaluation, and integration of deep neural networks for optimal estimation of mission parameters, satisfy the high precision mission criteria. We integrate deep neural networks with a constrained, non-convex dynamic optimization pipeline to predict optimal mission parameters, ensuring precision mission criteria are met. AI framework provides explainability by predicting the resulting energy consumption and mission error for a given set of mission parameters. It allows for transparent, justifiable, and real-time trade-offs, a capability not present in traditional adaptive controllers. The results show reductions in energy consumption and improved mission accuracy, demonstrating the capability of the system to address dynamic uncertainties and disturbances.",
+    "categories": "astro-ph.IM cs.AI cs.RO cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13358",
+    "created": "2025-09-15",
+    "updated": "2025-09-18",
+    "title": "3D Reconstruction of Coronary Vessel Trees from Biplanar X-Ray Images Using a Geometric Approach",
+    "abstract": "X-ray angiography is widely used in cardiac interventions to visualize coronary vessels, assess integrity, detect stenoses and guide treatment. We propose a framework for reconstructing 3D vessel trees from biplanar X-ray images which are extracted from two X-ray videos captured at different C-arm angles. The proposed framework consists of three main components: image segmentation, motion phase matching, and 3D reconstruction. An automatic video segmentation method for X-ray angiography to enable semantic segmentation for image segmentation and motion phase matching. The goal of the motion phase matching is to identify a pair of X-ray images that correspond to a similar respiratory and cardiac motion phase to reduce errors in 3D reconstruction. This is achieved by tracking a stationary object such as a catheter or lead within the X-ray video. The semantic segmentation approach assigns different labels to different object classes enabling accurate differentiation between blood vessels, balloons, and catheters. Once a suitable image pair is selected, key anatomical landmarks (vessel branching points and endpoints) are matched between the two views using a heuristic method that minimizes reconstruction errors. This is followed by a novel geometric reconstruction algorithm to generate the 3D vessel tree. The algorithm computes the 3D vessel centrelines by determining the intersection of two 3D surfaces. Compared to traditional methods based on epipolar constraints, the proposed approach simplifies there construction workflow and improves overall accuracy. We trained and validated our segmentation method on 62 X-ray angiography video sequences. On the test set, our method achieved a segmentation accuracy of 0.703. The 3D reconstruction framework was validated by measuring the reconstruction error of key anatomical landmarks, achieving a reprojection errors of 0.62mm +/- 0.38mm.",
+    "categories": "eess.IV cs.CV",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13360",
+    "created": "2025-09-15",
+    "updated": "2025-09-18",
+    "title": "PREDICT-GBM: Platform for Robust Evaluation and Development of Individualized Computational Tumor Models in Glioblastoma",
+    "abstract": "Glioblastoma is the most prevalent primary brain malignancy, distinguished by its highly invasive behavior and exceptionally high rates of recurrence. Conventional radiation therapy, which employs uniform treatment margins, fails to account for patient-specific anatomical and biological factors that critically influence tumor cell migration. To address this limitation, numerous computational models of glioblastoma growth have been developed, enabling generation of tumor cell distribution maps extending beyond radiographically visible regions and thus informing more precise treatment strategies. However, despite encouraging preliminary findings, the clinical adoption of these growth models remains limited. To bridge this translational gap and accelerate both model development and clinical validation, we introduce PREDICT-GBM, a comprehensive integrated pipeline and dataset for modeling and evaluation. This platform enables systematic benchmarking of state-of-the-art tumor growth models using an expert-curated clinical dataset comprising 255 subjects with complete tumor segmentations and tissue characterization maps. Our analysis demonstrates that personalized radiation treatment plans derived from tumor growth predictions achieved superior recurrence coverage compared to conventional uniform margin approaches for two of the evaluated models. This work establishes a robust platform for advancing and systematically evaluating cutting-edge tumor growth modeling approaches, with the ultimate goal of facilitating clinical translation and improving patient outcomes.",
+    "categories": "eess.IV cs.CV cs.LG q-bio.QM",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13369",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Right-to-Override for Critical Urban Control Systems: A Deliberative Audit Method for Buildings, Power, and Transport",
+    "abstract": "Automation now steers building HVAC, distribution grids, and traffic signals, yet residents rarely have authority to pause or redirect these systems when they harm inclusivity, safety, or accessibility. We formalize a Right-to-Override (R2O) - defining override authorities, evidentiary thresholds, and domain-validated safe fallback states - and introduce a Deliberative Audit Method (DAM) with playbooks for pre-deployment walkthroughs, shadow-mode trials, and post-incident review. We instantiate R2O/DAM in simulations of smart-grid load shedding, building HVAC under occupancy uncertainty, and multi-agent traffic signals. R2O reduces distributional harm with limited efficiency loss: load-shedding disparity in unserved energy drops from 5.61x to 0.69x with constant curtailment; an override eliminates two discomfort-hours for seniors at an energy cost of 77 kWh; and median pedestrian wait falls from 90.4 s to 55.9 s with a 6.0 s increase in mean vehicle delay. We also contribute a policy standard, audit worksheets, and a ModelOps integration pattern to make urban automation contestable and reviewable.",
+    "categories": "eess.SY cs.CY cs.HC cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13371",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "A novel approach of day-ahead cooling load prediction and optimal control for ice-based thermal energy storage (TES) system in commercial buildings",
+    "abstract": "Thermal energy storage (TES) is an effective method for load shifting and demand response in buildings. Optimal TES control and management are essential to improve the performance of the cooling system. Most existing TES systems operate on a fixed schedule, which cannot take full advantage of its load shifting capability, and requires extensive investigation and optimization. This study proposed a novel integrated load prediction and optimized control approach for ice-based TES in commercial buildings. A cooling load prediction model was developed and a mid-day modification mechanism was introduced into the prediction model to improve the accuracy. Based on the predictions, a rule-based control strategy was proposed according to the time-of-use tariff; the mid-day control adjustment mechanism was introduced in accordance with the mid-day prediction modifications. The proposed approach was applied in the ice-based TES system of a commercial complex in Beijing, and achieved a mean absolute error (MAE) of 389 kW and coefficient of variance of MAE of 12.5%. The integrated prediction-based control strategy achieved an energy cost saving rate of 9.9%. The proposed model was deployed in the realistic building automation system of the case building and significantly improved the efficiency and automation of the cooling system.",
+    "categories": "eess.SY cs.LG cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13372",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Generative AI Pipeline for Interactive Prompt-driven 2D-to-3D Vascular Reconstruction for Fontan Geometries from Contrast-Enhanced X-Ray Fluoroscopy Imaging",
+    "abstract": "Fontan palliation for univentricular congenital heart disease progresses to hemodynamic failure with complex flow patterns poorly characterized by conventional 2D imaging. Current assessment relies on fluoroscopic angiography, providing limited 3D geometric information essential for computational fluid dynamics (CFD) analysis and surgical planning.\n  A multi-step AI pipeline was developed utilizing Google's Gemini 2.5 Flash (2.5B parameters) for systematic, iterative processing of fluoroscopic angiograms through transformer-based neural architecture. The pipeline encompasses medical image preprocessing, vascular segmentation, contrast enhancement, artifact removal, and virtual hemodynamic flow visualization within 2D projections. Final views were processed through Tencent's Hunyuan3D-2mini (384M parameters) for stereolithography file generation.\n  The pipeline successfully generated geometrically optimized 2D projections from single-view angiograms after 16 processing steps using a custom web interface. Initial iterations contained hallucinated vascular features requiring iterative refinement to achieve anatomically faithful representations. Final projections demonstrated accurate preservation of complex Fontan geometry with enhanced contrast suitable for 3D conversion. AI-generated virtual flow visualization identified stagnation zones in central connections and flow patterns in branch arteries. Complete processing required under 15 minutes with second-level API response times.\n  This approach demonstrates clinical feasibility of generating CFD-suitable geometries from routine angiographic data, enabling 3D generation and rapid virtual flow visualization for cursory insights prior to full CFD simulation. While requiring refinement cycles for accuracy, this establishes foundation for democratizing advanced geometric and hemodynamic analysis using readily available imaging data.",
+    "categories": "eess.IV cs.AI cs.CV cs.ET q-bio.QM",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13383",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Location and allocation problem of high-speed train maintenance bases",
+    "abstract": "Maintenance bases are crucial for the safe and stable operation of high-speed trains, necessitating significant financial investment for their construction and operation. Planning the location and task allocation of these bases in the vast high-speed railway network is a complex combinatorial optimization problem. This paper explored the strategic planning of identifying optimal locations for maintenance bases, introducing a bi-level programming model. The upper-level objective was to minimize the annualized total cost, including investment for new or expanding bases and total maintenance costs, while the lower-level focused on dispatching high-speed trains to the most suitable base for maintenance tasks, thereby reducing maintenance operation dispatch costs under various investment scenarios. A case study of the Northwest China high-speed rail network demonstrated the application of this model, and included the sensitivity analysis reflecting maintenance policy reforms. The results showed that establishing a new base in Hami and expanding Xi'an base could minimize the total annualized cost during the planning period, amounting to a total of 2,278.15 million RMB. This paper offers an optimization method for selecting maintenance base locations that ensures reliability and efficiency in maintenance work as the number of trains increases in the future.",
+    "categories": "cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13390",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "A Domain Knowledge Informed Approach for Anomaly Detection of Electric Vehicle Interior Sounds",
+    "abstract": "The detection of anomalies in automotive cabin sounds is critical for ensuring vehicle quality and maintaining passenger comfort. In many real-world settings, this task is more appropriately framed as an unsupervised learning problem rather than the supervised case due to the scarcity or complete absence of labeled faulty data. In such an unsupervised setting, the model is trained exclusively on healthy samples and detects anomalies as deviations from normal behavior. However, in the absence of labeled faulty samples for validation and the limited reliability of commonly used metrics, such as validation reconstruction error, effective model selection remains a significant challenge. To overcome these limitations, a domain-knowledge-informed approach for model selection is proposed, in which proxy-anomalies engineered through structured perturbations of healthy spectrograms are used in the validation set to support model selection. The proposed methodology is evaluated on a high-fidelity electric vehicle dataset comprising healthy and faulty cabin sounds across five representative fault types viz., Imbalance, Modulation, Whine, Wind, and Pulse Width Modulation. This dataset, generated using advanced sound synthesis techniques, and validated via expert jury assessments, has been made publicly available to facilitate further research. Experimental evaluations on the five fault cases demonstrate the selection of optimal models using proxy-anomalies, significantly outperform conventional model selection strategies.",
+    "categories": "cs.SD cs.AI cs.CV cs.LG eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13392",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Modeling skiers flows via Wardrope equilibrium in closed capacitated networks",
+    "abstract": "We propose an equilibrium model of ski resorts where users are assigned to cycles in a closed network. As queues form on lifts with limited capacity, we derive an efficient way to find waiting times via convex optimization. The equilibrium problem is formulated as a variational inequality, and numerical experiments show that it can be solved using standard algorithms.",
+    "categories": "cs.SY cs.GT",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13395",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "TICL: Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models",
+    "abstract": "Speech foundation models have recently demonstrated the ability to perform Speech In-Context Learning (SICL). Selecting effective in-context examples is crucial for SICL performance, yet selection methodologies remain underexplored. In this work, we propose Text-Embedding KNN for SICL (TICL), a simple pipeline that uses semantic context to enhance off-the-shelf large multimodal models' speech recognition ability without fine-tuning. Across challenging automatic speech recognition tasks, including accented English, multilingual speech, and children's speech, our method enables models to surpass zero-shot performance with up to 84.7% relative WER reduction. We conduct ablation studies to show the robustness and efficiency of our method.",
+    "categories": "eess.AS cs.AI cs.CL cs.LG cs.MM",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13396",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Real-Time Detection and Tracking of Foreign Object Intrusions in Power Systems via Feature-Based Edge Intelligence",
+    "abstract": "This paper presents a novel three-stage framework for real-time foreign object intrusion (FOI) detection and tracking in power transmission systems. The framework integrates: (1) a YOLOv7 segmentation model for fast and robust object localization, (2) a ConvNeXt-based feature extractor trained with triplet loss to generate discriminative embeddings, and (3) a feature-assisted IoU tracker that ensures resilient multi-object tracking under occlusion and motion. To enable scalable field deployment, the pipeline is optimized for deployment on low-cost edge hardware using mixed-precision inference. The system supports incremental updates by adding embeddings from previously unseen objects into a reference database without requiring model retraining. Extensive experiments on real-world surveillance and drone video datasets demonstrate the framework's high accuracy and robustness across diverse FOI scenarios. In addition, hardware benchmarks on NVIDIA Jetson devices confirm the framework's practicality and scalability for real-world edge applications.",
+    "categories": "cs.CV cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13442",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Enhancing Speaker-Independent Dysarthric Speech Severity Classification with DSSCNet and Cross-Corpus Adaptation",
+    "abstract": "Dysarthric speech severity classification is crucial for objective clinical assessment and progress monitoring in individuals with motor speech disorders. Although prior methods have addressed this task, achieving robust generalization in speaker-independent (SID) scenarios remains challenging. This work introduces DSSCNet, a novel deep neural architecture that combines Convolutional, Squeeze-Excitation (SE), and Residual network, helping it extract discriminative representations of dysarthric speech from mel spectrograms. The addition of SE block selectively focuses on the important features of the dysarthric speech, thereby minimizing loss and enhancing overall model performance. We also propose a cross-corpus fine-tuning framework for severity classification, adapted from detection-based transfer learning approaches. DSSCNet is evaluated on two benchmark dysarthric speech corpora: TORGO and UA-Speech under speaker-independent evaluation protocols: One-Speaker-Per-Severity (OSPS) and Leave-One-Speaker-Out (LOSO) protocols. DSSCNet achieves accuracies of 56.84% and 62.62% under OSPS and 63.47% and 64.18% under LOSO setting on TORGO and UA-Speech respectively outperforming existing state-of-the-art methods. Upon fine-tuning, the performance improves substantially, with DSSCNet achieving up to 75.80% accuracy on TORGO and 68.25% on UA-Speech in OSPS, and up to 77.76% and 79.44%, respectively, in LOSO. These results demonstrate the effectiveness and generalizability of DSSCNet for fine-grained severity classification across diverse dysarthric speech datasets.",
+    "categories": "eess.AS cs.SD",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13446",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Complete Decentralization of Linear Quadratic Gaussian Control for the Discrete Wave Equation",
+    "abstract": "The linear quadratic Gaussian (LQG) control problem for the linear wave equation on the unit circle with fully distributed actuation and partial state measurements is considered. An analytical solution to a spatial discretization of the problem is obtained. The main result of this work illustrates that for specific parameter values, the optimal LQG policy is completely decentralized, meaning only a measurement at spatial location $i$ is needed to compute an optimal control signal to actuate at this location. The relationship between performance and decentralization as a function of parameters is explored. Conditions for complete decentralization are related to metrics of kinetic and potential energy quantities and control effort.",
+    "categories": "math.OC cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13505",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Identifying Network Structure of Nonlinear Dynamical Systems: Contraction and Kuramoto Oscillators",
+    "abstract": "In this work, we study the identifiability of network topologies for networked nonlinear systems when partial measurements of the nodes are taken. We explore scenarios where different candidate topologies can yield similar measurements, thus limiting identifiability. To do so, we apply the contraction theory framework to facilitate comparisons between candidate topologies. We show that semicontraction in the observable space is a sufficient condition for two systems to become indistinguishable from one another based on partial measurements. We apply this framework to study networks of Kuramoto oscillators, and discuss scenarios in which different topologies (both connected and disconnected) become indistinguishable.",
+    "categories": "eess.SY cs.SY math.OC",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13531",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "The impact of modeling approaches on controlling safety-critical, highly perturbed systems: the case for data-driven models",
+    "abstract": "This paper evaluates the impact of three system models on the reference trajectory tracking error of the LQR optimal controller, in the challenging problem of guidance and control of the state of a system under strong perturbations and reconfiguration. We compared a smooth Linear Time Variant system learned from data (DD-LTV) with state of the art Linear Time Variant (LTV) system identification methods, showing its superiority in the task of state propagation. Moreover, we have found that DD-LTV allows for better performance in terms of trajectory tracking error than the standard solutions of a Linear Time Invariant (LTI) system model, and comparable performance to a linearized Linear Time Variant (L-LTV) system model. We tested the three approaches on the perturbed and time varying spring-mass-damper systems.",
+    "categories": "eess.SY cs.SY math.OC",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13537",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Topological Entropy of Nonlinear Time-Varying Systems",
+    "abstract": "Two general upper bounds on the topological entropy of nonlinear time-varying systems are established: one using the matrix measure of the system Jacobian, the other using the largest real part of the eigenvalues of the Jacobian matrix with off-diagonal entries replaced by their absolute values. A general lower bound is constructed using the trace of the Jacobian matrix. For interconnected systems, an upper bound is first derived by adapting one of the general upper bounds, using the matrix measure of an interconnection matrix function. A new upper bound is then developed using the largest real part of the eigenvalues of this function. This new bound is closely related to the individual upper bounds for subsystems and implies each of the two general upper bounds when the system is viewed as one of two suitable interconnections. These entropy bounds all depend only on upper or lower limits of the Jacobian matrix along trajectories.",
+    "categories": "math.OC cs.SY eess.SY math.DS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13545",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "A Game-Theoretic Predictive Control Framework with Statistical Collision Avoidance Constraints for Autonomous Vehicle Overtaking",
+    "abstract": "This work develops a control framework for the autonomous overtaking of connected and automated vehicles (CAVs) in a mixed traffic environment, where the overtaken vehicle is an unconnected but interactive human-driven vehicle. The proposed method, termed the Game-Theoretic, PRedictive Overtaking (GT-PRO) strategy, successfully decouples the longitudinal and lateral vehicle dynamics of the CAV and comprehensively coordinates these decoupled dynamics via innovative longitudinal and lateral model predictive (MPC) based controllers, respectively. To address the real-time interactive behavior of the human-driven overtaken vehicle, a dynamic Stackelberg game-based bilevel optimization is solved by the lateral controller to directly control the CAV lateral motion and predict the overtaken vehicle longitudinal responses that are subsequently shared with a stochastic MPC that governs the CAV longitudinal motion. The proposed strategy exploits a comprehensive real-world dataset, which captures human driver responses when being overtaken, to tune the game-theoretic lateral controller according to the most common human responses, and to statistically characterize human uncertainties and hence implement a collision avoidance chance constraint for the stochastic longitudinal controller. The simulation results for both polite and aggressive human response case studies of the overtaken vehicle demonstrate that the proposed GT-PRO can achieve for this range of human driver responsiveness, safer, more efficient, and more comfortable autonomous overtaking, as compared to existing autonomous overtaking approaches in the literature. Furthermore, the results suggest that the GT-PRO method is capable of real-time implementation.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13558",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Modeling and Verification of Lumped-Parameter, Multibody Structural Dynamics for Offshore Wind Turbines",
+    "abstract": "This paper presents the modeling and verification of multibody structural dynamics for offshore wind turbines. The flexible tower and support structure of a monopile-based offshore wind turbine are modeled using an acausal, lumped-parameter, multibody approach that incorporates structural flexibility, soil-structure interaction, and hydrodynamic models. Simulation results are benchmarked against alternative modeling approaches, demonstrating the model's ability to accurately capture both static and dynamic behaviors under various wind and wave conditions while maintaining computational efficiency. This work provides a valuable tool for analyzing key structural characteristics of wind turbines, including eigenfrequencies, mode shapes, damping, and internal forces.",
+    "categories": "eess.SY cs.SY physics.ao-ph",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13559",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Environment Reconstruction in Multi-Bounce Channels with Array Partial Blockage",
+    "abstract": "Extremely-large antenna arrays (ELAA) are important in applications requiring high angular resolution. However, a prominent issue is the spatial non-stationary (SNS) channels due to partial blockage to the ELAA. In this paper, we address the scatterer localization and subsequent environment reconstruction considering partially blocked SNS channels. Specifically, the SNS effects are parametrically modeled through spatial-varying amplitudes with sparsity. Based on the established signal model, the graph-based dictionary-aided multi-bounce space-alternating generalized expectation-maximization (GM-SAGE) algorithm is applied to estimate the channel parameters and the channel sparsity is empirically detected along with amplitude estimation. To validate the proposed approach, we generate multi-bounce paths through ray tracing (RT) simulations, where the SNS channels caused by partial blockage could be configured flexibly. The simulation results demonstrate the robustness of the proposed approach in dealing with the SNS channels.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13564",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Multi-Attacker Single-Defender Target Defense in Conical Environments",
+    "abstract": "We consider a variant of the target defense problem in a planar conical environment where a single defender is tasked to capture a sequence of incoming attackers. The attackers' objective is to breach the target boundary without being captured by the defender. As soon as the current attacker breaches the target or gets captured by the defender, the next attacker appears at the boundary of the environment and moves radially toward the target with maximum speed. Therefore, the defender's final location at the end of the current game becomes its initial location for the next game. The attackers pick strategies that are advantageous for the current as well as for future engagements between the defender and the remaining attackers. The attackers have their own sensors with limited range, using which they can perfectly detect if the defender is within their sensing range. We derive equilibrium strategies for all the players to optimize the capture percentage using the notions of capture distribution. Finally, the theoretical results are verified through numerical examples using Monte Carlo type random trials of experiments.",
+    "categories": "eess.SY cs.RO cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13567",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Impact of Solar Integration on Grid Security: Unveiling Vulnerabilities in Load Redistribution Attacks",
+    "abstract": "Load redistribution (LR) attacks represent a practical and sophisticated form of false data injection (FDI) attacks, where the attacker manipulates grid data to influence economic operations of the grid through misleading security constrained economic dispatch (SCED) decisions. Traditionally, LR attack models operate under the assumption that generator measurements are secure and immune to tampering. However, the increasing integration of solar generation into power grids challenges this assumption, exposing new vulnerabilities. This paper proposes an enhanced load redistribution attack model, addressing new vulnerabilities introduced by the increasing integration of solar generation in power grids. The study demonstrates that manipulating solar generation data significantly disrupts grid economics, with peak impacts during periods of high solar generation.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13576",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction for Sparse-View CT",
+    "abstract": "Sparse-View CT (SVCT) reconstruction enhances temporal resolution and reduces radiation dose, yet its clinical use is hindered by artifacts due to view reduction and domain shifts from scanner, protocol, or anatomical variations, leading to performance degradation in out-of-distribution (OOD) scenarios. In this work, we propose a Cross-Distribution Diffusion Priors-Driven Iterative Reconstruction (CDPIR) framework to tackle the OOD problem in SVCT. CDPIR integrates cross-distribution diffusion priors, derived from a Scalable Interpolant Transformer (SiT), with model-based iterative reconstruction methods. Specifically, we train a SiT backbone, an extension of the Diffusion Transformer (DiT) architecture, to establish a unified stochastic interpolant framework, leveraging Classifier-Free Guidance (CFG) across multiple datasets. By randomly dropping the conditioning with a null embedding during training, the model learns both domain-specific and domain-invariant priors, enhancing generalizability. During sampling, the globally sensitive transformer-based diffusion model exploits the cross-distribution prior within the unified stochastic interpolant framework, enabling flexible and stable control over multi-distribution-to-noise interpolation paths and decoupled sampling strategies, thereby improving adaptation to OOD reconstruction. By alternating between data fidelity and sampling updates, our model achieves state-of-the-art performance with superior detail preservation in SVCT reconstructions. Extensive experiments demonstrate that CDPIR significantly outperforms existing approaches, particularly under OOD conditions, highlighting its robustness and potential clinical value in challenging imaging scenarios.",
+    "categories": "eess.IV cs.CV",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13585",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Zero-sum turn games using Q-learning: finite computation with security guarantees",
+    "abstract": "This paper addresses zero-sum ``turn'' games, in which only one player can make decisions at each state. We show that pure saddle-point state-feedback policies for turn games can be constructed from dynamic programming fixed-point equations for a single value function or Q-function. These fixed-points can be constructed using a suitable form of Q-learning. For discounted costs, convergence of this form of Q-learning can be established using classical techniques. For undiscounted costs, we provide a convergence result that applies to finite-time deterministic games, which we use to illustrate our results. For complex games, the Q-learning iteration must be terminated before exploring the full-state, which can lead to policies that cannot guarantee the security levels implied by the final Q-function. To mitigate this, we propose an ``opponent-informed'' exploration policy for selecting the Q-learning samples. This form of exploration can guarantee that the final Q-function provides security levels that hold, at least, against a given set of policies. A numerical demonstration for a multi-agent game, Atlatl, indicates the effectiveness of these methods.",
+    "categories": "eess.SY cs.GT cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13592",
+    "created": "2025-09-16",
+    "updated": "2025-09-18",
+    "title": "Fast Single-Snapshot Harmonic Recovery with 2D Sparse Arrays using BCCB Matrices",
+    "abstract": "We introduce an efficient implementation of sparse recovery methods for the problem of harmonic estimation with 2D sparse arrays using a single snapshot. By imposing a uniformity constraint on the harmonic grids of the subdictionaries used in the sparse recovery problem, in addition to a mild constraint on the array topology that consists in having the elements lie on a grid specified in half-wavelength units, we show that the Gram matrices that appear in these sparse recovery methods exhibit a block-circulant with circulant blocks (BCCB) structure. The BCCB structure is then exploited to reduce the computational complexity of the matrix-vector products that appear in these methods through the use of 2D fast Fourier transforms (FFT) from O((L1L2)^2) down to O(L1L2 log(L1L2)) operations per iterations, where L1, L2 are the lengths of the subdictionaries used for estimating the harmonics in the first and second dimension, respectively. We experimentally verify the proposed implementation using the iterative shrinkage thresholding algorithm (ISTA), the fast iterative shrinkage-thresholding algorithm (FISTA), and the alternating direction method of multipliers (ADMM) where we observe improvements",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13600",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "GNSS Jamming and Spoofing Monitoring Using Low-Cost COTS Receivers",
+    "abstract": "The Global Navigation Satellite System (GNSS) is increasingly vulnerable to radio frequency interference (RFI), including jamming and spoofing, which threaten the integrity of navigation and timing services. This paper presents a methodology for detecting and classifying RFI events using low-cost commercial off-the-shelf (COTS) GNSS receivers. By combining carrier-to-noise ratio (C/N0) measurements with a calibrated received power metric, a two-dimensional detection space is constructed to identify and distinguish nominal, jammed, spoofed, and blocked signal conditions. The method is validated through both controlled jamming tests in Norway and real-world deployments in Poland, and the Southeast Mediterranean which have experienced such conditions. Results demonstrate that COTS-based detection, when properly calibrated, offers a viable and effective approach for GNSS RFI monitoring.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13649",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Barometer-Aided Attitude Estimation",
+    "abstract": "Accurate and robust attitude estimation is a central challenge for autonomous vehicles operating in GNSS-denied or highly dynamic environments. In such cases, Inertial Measurement Units (IMUs) alone are insufficient for reliable tilt estimation due to the ambiguity between gravitational and inertial accelerations. While auxiliary velocity sensors, such as GNSS, Pitot tubes, Doppler radar, or visual odometry, are often used, they can be unavailable, intermittent, or costly. This work introduces a barometer-aided attitude estimation architecture that leverages barometric altitude measurements to infer vertical velocity and attitude within a nonlinear observer on SO(3). The design cascades a deterministic Riccati observer with a complementary filter, ensuring Almost Global Asymptotic Stability (AGAS) under a uniform observability condition while maintaining geometric consistency. The analysis highlights barometer-aided estimation as a lightweight and effective complementary modality.",
+    "categories": "cs.RO cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13658",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Assessing Data Replication in Symbolic Music via Adapted Structural Similarity Index Measure",
+    "abstract": "AI-generated music may inadvertently replicate samples from the training data, raising concerns of plagiarism. Similarity measures can quantify such replication, thereby offering supervision and guidance for music generation models. Existing similarity measure methods for symbolic music mainly target melody repetition, leaving a gap in assessing complex music with rich textures and expressive performance characteristics. To address this gap, we introduce SSIMuse, the first adaptation of the Structural Similarity Index Measure (SSIM) from images to symbolic music. Specifically, we represent symbolic music as image-like piano rolls in binary and velocity-based forms. Build upon these representations, we reinterprete and suitably modify the SSIM components in the musical context to develop two variants, i.e., SSIMuse-B and SSIMuse-V, for evaluating data replication in composition and dynamic performance, respectively. Controlled experiments on synthetic samples from multiple datasets show that SSIMuse can reliably detect exact replication at a granularity of at least one bar. SSIMuse enables open evaluation of replication in music generation and draws attention to its broader ethical, social, legal, and economic implications. The code is available at https://github.com/Tayjsl97/SSIMuse.",
+    "categories": "eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13660",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Integrated diffractive full-Stokes spectro-polarimetric imaging",
+    "abstract": "Spectro-polarimetric imaging provides multidimensional optical information acquisition capabilities, offering significant potential for diverse applications. Current spectro-polarimetric imaging systems typically suffer from large physical footprints, high design complexity, elevated costs, or the drawback of requiring replacement of standard components with polarization optics. To address these issues, we propose an integrated diffractive full-Stokes spectro-polarimetric imaging framework that synergistically combines end-to-end designed diffractive polarization spectral element (DPSE) with SPMSA-Net to demonstrate high-performance spectro-polarimetric imaging. The DPSE modulates scene and generates modulated images carrying phase-encoding and polarization information. The modulated images are the input of the SPMSA-NET for the reconstruction of the spectro-polarimetric data cube. The framework achieves an average improvement of 0.78 dB in PSNR and 0.012 in SSIM over existing state-of-the-art algorithms. Based on this framework, our prototype system can simultaneously capture spectral information (400-700 nm) with 10 nm spectral resolution and full-Stokes parameters (S0,S1,S2,S3). Meanwhile, the system provides high spatial resolution of 2252*2252 pixels. Experimental results demonstrate that our system achieves high-fidelity spectral imaging (over 98.9% fidelity) and precise polarization characterization, with a compact architecture (modulation component of merely 2-mm thickness).",
+    "categories": "eess.IV",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13661",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Uplink-Downlink Duality for Beamforming in Integrated Sensing and Communications",
+    "abstract": "This paper considers the beamforming and power optimization problem for a class of integrated sensing and communications (ISAC) problems that utilize the communication signals simultaneously for sensing. We formulate the problem of minimizing the Bayesian Cramér-Rao bound (BCRB) on the mean-squared error of estimating a vector of parameters, while satisfying downlink signal-to-interference-and-noise-ratio constraints for a set of communication users at the same time. The proposed optimization framework comprises two key new ingredients. First, we show that the BCRB minimization problem corresponds to maximizing beamforming power along certain sensing directions of interest. Second, the classical uplink-downlink duality for multiple-input multiple-output communications can be extended to the ISAC setting, but unlike the classical communication problem, the dual uplink problem for ISAC may entail negative noise power and needs to include an extra condition on the uplink beamformers. This new duality theory opens doors for an efficient iterative algorithm for optimizing power and beamformers for ISAC.",
+    "categories": "cs.IT eess.SP math.IT",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13667",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "A Distilled Low-Latency Neural Vocoder with Explicit Amplitude and Phase Prediction",
+    "abstract": "The majority of mainstream neural vocoders primarily focus on speech quality and generation speed, while overlooking latency, which is a critical factor in real-time applications. Excessive latency leads to noticeable delays in user interaction, severely degrading the user experience and rendering such systems impractical for real-time use. Therefore, this paper proposes DLL-APNet, a Distilled Low-Latency neural vocoder which first predicts the Amplitude and Phase spectra explicitly from input mel spectrogram and then reconstructs the speech waveform via inverse short-time Fourier transform (iSTFT). The DLL-APNet vocoder leverages causal convolutions to constrain the utilization of information to current and historical contexts, effectively minimizing latency. To mitigate speech quality degradation caused by causal constraints, a knowledge distillation strategy is proposed, where a pre-trained non-causal teacher vocoder guides intermediate feature generation of the causal student DLL-APNet vocoder. Experimental results demonstrate that the proposed DLL-APNet vocoder produces higher-quality speech than other causal vocoders, while requiring fewer computational resources. Furthermore, the proposed DLL-APNet vocoder achieves speech quality on par with mainstream non-causal neural vocoders, validating its ability to deliver both high perceptual quality and low latency.",
+    "categories": "eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13670",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "A High-Quality and Low-Complexity Streamable Neural Speech Codec with Knowledge Distillation",
+    "abstract": "While many current neural speech codecs achieve impressive reconstructed speech quality, they often neglect latency and complexity considerations, limiting their practical deployment in downstream tasks such as real-time speech communication and efficient speech compression. In our previous work, we proposed StreamCodec, which enables streamable speech coding by leveraging model causalization and a scalar-vector-combined quantization strategy, but its reconstructed quality and complexity still have room for improvement. Therefore, this paper proposes an improved iteration of StreamCodec, named StreamCodec2. The StreamCodec2 supports streamable and lightweight speech coding by adopting a fully causal architecture and reducing the convolutional channels. To compensate for the speech quality degradation caused by model causalization and pruning, we introduce a non-causal, high-complexity teacher codec to guide the training of StreamCodec2 through knowledge distillation. Experimental results demonstrate that our proposed StreamCodec2, trained with the knowledge distillation strategy, can achieve high-quality speech reconstruction while maintaining low latency (only 20 ms), low computational complexity (only 910 MFLOPs), and low model complexity (only 5.4 M parameters).",
+    "categories": "eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13674",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Scaling green hydrogen and CCUS via cement-methanol co-production in China",
+    "abstract": "High costs of green hydrogen and of carbon capture, utilization, and sequestration (CCUS) have hindered policy ambition and slowed real-world deployment, despite their importance for decarbonizing hard-to-abate sectors, including cement and methanol. Given the economic challenges of adopting CCUS in cement and green hydrogen in methanol production separately, we propose a renewable-powered co-production system that couples electrolytic hydrogen and CCUS through molecule exchange. We optimize system configurations using an hourly-resolved, process-based model incorporating operational flexibility, and explore integrated strategies for plant-level deployment and CO2 source-sink matching across China. We find that co-production could reduce CO2 abatement costs to USD 41-53 per tonne by 2035, significantly lower than approximately USD 75 for standalone cement CCUS and over USD 120 for standalone renewable-based methanol. Co-production is preferentially deployed at cement plants in renewable-rich regions, potentially reshaping national CO2 infrastructure planning. This hydrogen-CCUS coupling paradigm could accelerate industrial decarbonization and scaling for other applications.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13719",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Scale Up Analysis of Inductively Heated Metamaterial Reactors",
+    "abstract": "Inductively heated metamaterial reactors, which utilize an open cell lattice baffle structure as a heating susceptor for magnetic induction, are promising candidates for scaled electrified thermochemical reactor operation due to their ability to support volumetric heating profiles and enhanced heat transfer properties. In this work, we present a systematic scale up analysis of inductive metamaterial reactors where we utilize a combination of analytic modeling, numerical simulations, and experiments to project the capabilities and performance of scaled reactors. We use reverse water gas shift as a model reaction system and show that for reactor configurations featuring a uniform metamaterial susceptor, the total system efficiency increases with scale. However, the throughput of these scaled reactors is limited by radial temperature gradients. We further show this bottleneck can be overcome by tailoring the radial effective conductivity profile of the susceptor, which can enable scaled reactors with nearly ideal plug flow-like capabilities. These concepts provide a pathway towards scaled electrified thermochemical reactors with optimal chemical conversion capabilities.",
+    "categories": "eess.SY cond-mat.mtrl-sci cs.SY physics.app-ph",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13741",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Self-Guided Target Sound Extraction and Classification Through Universal Sound Separation Model and Multiple Clues",
+    "abstract": "This paper introduces a multi-stage self-directed framework designed to address the spatial semantic segmentation of sound scene (S5) task in the DCASE 2025 Task 4 challenge. This framework integrates models focused on three distinct tasks: Universal Sound Separation (USS), Single-label Classification (SC), and Target Sound Extraction (TSE). Initially, USS breaks down a complex audio mixture into separate source waveforms. Each of these separated waveforms is then processed by a SC block, generating two critical pieces of information: the waveform itself and its corresponding class label. These serve as inputs for the TSE stage, which isolates the source that matches this information. Since these inputs are produced within the system, the extraction target is identified autonomously, removing the necessity for external guidance. The extracted waveform can be looped back into the classification task, creating a cycle of iterative refinement that progressively enhances both separability and labeling accuracy. We thus call our framework a multi-stage self-guided system due to these self-contained characteristics. On the official evaluation dataset, the proposed system achieves an 11.00 dB increase in class-aware signal-to-distortion ratio improvement (CA-SDRi) and a 55.8\\% accuracy in label prediction, outperforming the ResUNetK baseline by 4.4 dB and 4.3\\%, respectively, and achieving first place among all submissions.",
+    "categories": "eess.AS",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13745",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Theoretical Validation of the Latent Optimally Partitioned-$\\ell_2/\\ell_1$ Penalty with Application to Angular Power Spectrum Estimation",
+    "abstract": "This paper demonstrates that, in both theory and practice, the latent optimally partitioned (LOP)-$\\ell_2/\\ell_1$ penalty is effective for exploiting block-sparsity without the knowledge of the concrete block structure. More precisely, we first present a novel theoretical result showing that the optimized block partition in the LOP-$\\ell_2/\\ell_1$ penalty satisfy a condition required for accurate recovery of block-sparse signals. Motivated by this result, we present a new application of the LOP-$\\ell_2/\\ell_1$ penalty to estimation of angular power spectrum, which is block-sparse with unknown block partition, in MIMO communication systems. Numerical simulations show that the proposed use of block-sparsity with the LOP-$\\ell_2/\\ell_1$ penalty significantly improves the estimation accuracy of the angular power spectrum.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13785",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Summary on The Multilingual Conversational Speech Language Model Challenge: Datasets, Tasks, Baselines, and Methods",
+    "abstract": "This paper summarizes the Interspeech2025 Multilingual Conversational Speech Language Model (MLC-SLM) challenge, which aims to advance the exploration of building effective multilingual conversational speech LLMs (SLLMs). We provide a detailed description of the task settings for the MLC-SLM challenge, the released real-world multilingual conversational speech dataset totaling approximately 1,604 hours, and the baseline systems for participants. The MLC-SLM challenge attracts 78 teams from 13 countries to participate, with 489 valid leaderboard results and 14 technical reports for the two tasks. We distill valuable insights on building multilingual conversational SLLMs based on submissions from participants, aiming to contribute to the advancement of the community.",
+    "categories": "eess.AS cs.SD",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13793",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Circuit realization and hardware linearization of monotone operator equilibrium networks",
+    "abstract": "It is shown that the port behavior of a resistor-diode network corresponds to the solution of a ReLU monotone operator equilibrium network (a neural network in the limit of infinite depth), giving a parsimonious construction of a neural network in analog hardware. We furthermore show that the gradient of such a circuit can be computed directly in hardware, using a procedure we call hardware linearization. This allows the network to be trained in hardware, which we demonstrate with a device-level circuit simulation. We extend the results to cascades of resistor-diode networks, which can be used to implement feedforward and other asymmetric networks. We finally show that different nonlinear elements give rise to different activation functions, and introduce the novel diode ReLU which is induced by a non-ideal diode model.",
+    "categories": "eess.SY cs.LG cs.NE cs.SY math.OC",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13807",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Domino: Dominant Path-based Compensation for Hardware Impairments in Modern WiFi Sensing",
+    "abstract": "WiFi sensing faces a critical reliability challenge due to hardware-induced RF distortions, especially with modern, market-dominant WiFi cards supporting 802.11ac/ax protocols. These cards employ sensitive automatic gain control and separate RF chains, introducing complex and dynamic distortions that render existing compensation methods ineffective. In this paper, we introduce Domino, a new framework that transforms channel state information (CSI) into channel impulse response (CIR) and leverages it for precise distortion compensation. Domino is built on the key insight that hardware-induced distortions impact all signal paths uniformly, allowing the dominant static path to serve as a reliable reference for effective compensation through delay-domain processing. Real-world respiration monitoring experiments show that Domino achieves at least 2x higher mean accuracy over existing methods, maintaining robust performance with a median error below 0.24 bpm, even using a single antenna in both direct line-of-sight and obstructed scenarios.",
+    "categories": "eess.SP cs.NI",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13822",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Flow Matching-Based Active Learning for Radio Map Construction with Low-Altitude UAVs",
+    "abstract": "The employment of unmanned aerial vehicles (UAVs) in the lowaltitude economy necessitates precise and real-time radio maps for reliable communication and safe navigation. However, constructing such maps is hindered by the infeasibility of exhaustive measurements due to UAVs' limited flight endurance. To address this, we propose a novel active learning framework for low-altitude radio map construction based on limited measurements. First, a Plug-and-Play (PnP)-refined flow matching algorithm is introduced, which leverages flow matching as a powerful generative prior within a PnP scheme to reconstruct high-fidelity radio maps. Second, the generative nature of flow matching is exploited to quantify uncertainty by generating an ensemble of radio maps and computing the location-wise variance. The resulting uncertainty map guides a multi-objective candidate selection and then a trajectory is planned via utility-aware path search (UAPS), directing the UAV to the most informative locations while taking travel costs into account. Simulation results demonstrate that our method significantly outperforms the baselines, achieving more than a 70% reduction in normalized mean squared error (NMSE).",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13840",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Characterizing Human Limb Movements Using An In-House Multi-Channel Non-Invasive Surface-EMG System",
+    "abstract": "Electromyography (EMG) signals are obtained from muscle cell activity. The recording and analysis of EMG signals has several applications. The EMG is of diagnostic importance for treating patients suffering from neurological and neuromuscular disorders. Conventional methods involve placement of invasive electrodes within the muscles to record EMG signals. The goal is to showcase the usage of surface based EMG signals to characterize all possible human limb movements. An in-house non-invasive EMG signal acquisition system that offers characterization of human limb actions is a suitable candidate for motor impairment studies and easily extendable to design bionics control specifically for neuromuscular disorder patients. An in-house 8-channel surface-EMG signal acquisition system was designed, fabricated, and employed for characterizing specific movements of upper and lower limb. The non-invasive acquisition system captures the compound electromuscular activity generated from the group of muscles. The EMG acquisition system was designed as a modular structure where the front end analog circuit designs were replicated for all 8 channels, and were designed to function independently. Support vector machine (SVM) as classifier models were developed offline to successfully characterize different human limb actions. The in house built 8 channel acquisition system with ML classifier models were utilized to successfully characterize movements at various joints of the upper and lower limb including fingers, wrist, elbow, shoulder, knee, and ankle individually.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13851",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "FFT-Free PAPR Reduction Methods for OFDM Signals",
+    "abstract": "In this paper, we propose two low-complexity peak to average power ratio(PAPR) reduction algorithms for orthogonal frequency division multiplexing(OFDM) signals. The main content is as follows: First, a non-convex optimization model is established by minimizing the signal distortion power. Then, a customized alternating direction method of multipliers(ADMM) algorithm is proposed to solve the problem, named time domain ADMM(T-ADMM) along with an improved version called T-ADMM with constrain update(TCU-ADMM). In the algorithms, all subproblems can be solved analytically, and each iteration has linear computational complexity. These algorithms circumvents the challenges posed by repeated fast Fourier transform(FFT) and inverse FFT(IFFT) operations in traditional PAPR reduction algorithms. Additionally, we prove that the T-ADMM algorithm is theoretically guaranteed convergent if proper parameter is chosen. Finally, simulation results demonstrate the effectiveness of the proposed methods.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13878",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Mixture of Low-Rank Adapter Experts in Generalizable Audio Deepfake Detection",
+    "abstract": "Foundation models such as Wav2Vec2 excel at representation learning in speech tasks, including audio deepfake detection. However, after being fine-tuned on a fixed set of bonafide and spoofed audio clips, they often fail to generalize to novel deepfake methods not represented in training. To address this, we propose a mixture-of-LoRA-experts approach that integrates multiple low-rank adapters (LoRA) into the model's attention layers. A routing mechanism selectively activates specialized experts, enhancing adaptability to evolving deepfake attacks. Experimental results show that our method outperforms standard fine-tuning in both in-domain and out-of-domain scenarios, reducing equal error rates relative to baseline models. Notably, our best MoE-LoRA model lowers the average out-of-domain EER from 8.55\\% to 6.08\\%, demonstrating its effectiveness in achieving generalizable audio deepfake detection.",
+    "categories": "eess.AS cs.LG cs.SD",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13890",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Validation of Dry Bulk Pile Volume Estimation Algorithm based on Angle of Repose using Experimental Images",
+    "abstract": "Estimation of volume of piles in shipping ports plays a pivotal role for logistics management, facilitates better ship rescheduling and rerouting for economic benefits and contributes to overall efficient shipping management. This paper presents validation results for a volume estimation algorithm for dry bulk cargo piles stored in open ports. Using remote sensing images obtained in a laboratory setting, the method first detects the contour of the pile and then reconstructs its 3D model based on the material's angle of repose, and estimates the volume accordingly. We validated the algorithm on full conical piles and single-ridge elongated piles, and further tested it on reclaimed conical and elongated piles. The results demonstrated the algorithm's strong potential for accurately estimating pile volume from experimental images and a reference satellite image, achieving high accuracy in our validation.",
+    "categories": "eess.IV",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13927",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "DSpAST: Disentangled Representations for Spatial Audio Reasoning with Large Language Models",
+    "abstract": "Reasoning about spatial audio with large language models requires a spatial audio encoder as an acoustic front-end to obtain audio embeddings for further processing. Such an encoder needs to capture all information required to detect the type of sound events, as well as the direction and distance of their corresponding sources. Accomplishing this with a single audio encoder is demanding as the information required for each of these tasks is mostly independent of each other. As a result, the performance obtained with a single encoder is often worse than when using task-specific audio encoders. In this work, we present DSpAST, a novel audio encoder based on SpatialAST that learns disentangled representations of spatial audio while having only 0.2% additional parameters. Experiments on SpatialSoundQA with the spatial audio reasoning system BAT demonstrate that DSpAST significantly outperforms SpatialAST.",
+    "categories": "eess.AS cs.AI cs.SD",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13940",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Reconfigurable Intelligent Surface-Assisted Multiuser Tracking and Signal Detection in ISAC",
+    "abstract": "This paper investigates the multiuser tracking and signal detection problem in integrated sensing and communication (ISAC) systems with the assistance of reconfigurable intelligent surfaces (RISs). Due to the diverse and high user mobility, the tracking and signal detection performance can be significantly deteriorated without choreographed user state (position and velocity) updating principle. To tackle this challenge, we manage to establish a comprehensive probabilistic signal model to characterize the interdependencies among user states, transmit signals, and received signals during the tracking procedure. Based on the Bayesian problem formulation, we further propose a novel hybrid variational message passing algorithm for the online estimation of user states, which can iteratively update the posterior probabilities of user states during each tracking frame with computational efficiency. Numerical results are provided to demonstrate that the proposed algorithm can significantly improve both of the tracking and signal detection performance over the representative Bayesian estimation counterparts.",
+    "categories": "eess.SP cs.IT math.IT",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13943",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Reinforcement Learning for Autonomous Point-to-Point UAV Navigation",
+    "abstract": "Unmanned Aerial Vehicles (UAVs) are increasingly used in automated inspection, delivery, and navigation tasks that require reliable autonomy. This project develops a reinforcement learning (RL) approach to enable a single UAV to autonomously navigate between predefined points without manual intervention. The drone learns navigation policies through trial-and-error interaction, using a custom reward function that encourages goal-reaching efficiency while penalizing collisions and unsafe behavior. The control system integrates ROS with a Gym-compatible training environment, enabling flexible deployment and testing. After training, the learned policy is deployed on a real UAV platform and evaluated under practical conditions. Results show that the UAV can successfully perform autonomous navigation with minimal human oversight, demonstrating the viability of RL-based control for point-to-point drone operations in real-world scenarios.",
+    "categories": "cs.RO cs.SY eess.SY",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13955",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Asymptotic Analysis of Nonlinear One-Bit Precoding in Massive MIMO Systems via Approximate Message Passing",
+    "abstract": "Massive multiple-input multiple-output (MIMO) systems employing one-bit digital-to-analog converters offer a hardware-efficient solution for wireless communications. However, the one-bit constraint poses significant challenges for precoding design, as it transforms the problem into a discrete and nonconvex optimization task. In this paper, we investigate a widely adopted ``convex-relaxation-then-quantization\" approach for nonlinear symbol-level one-bit precoding. Specifically, we first solve a convex relaxation of the discrete minimum mean square error precoding problem, and then quantize the solution to satisfy the one-bit constraint. To analyze the high-dimensional asymptotic performance of this scheme, we develop a novel analytical framework based on approximate message passing (AMP). This framework enables us to derive a closed-form expression for the symbol error probability (SEP) at the receiver side in the large-system limit, which provides a quantitative characterization of how model and system parameters affect the SEP performance. Our empirical results suggest that the $\\ell_\\infty^2$ regularizer, when paired with an optimally chosen regularization parameter, achieves optimal SEP performance within a broad class of convex regularization functions. As a first step towards a theoretical justification, we prove the optimality of the $\\ell_\\infty^2$ regularizer within the mixed $\\ell_\\infty^2$-$\\ell_2^2$ regularization functions.",
+    "categories": "cs.IT eess.SP math.IT",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13961",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Adaptive and robust smartphone-based step detection in multiple sclerosis",
+    "abstract": "Background: Many attempts to validate gait pipelines that process sensor data to detect gait events have focused on the detection of initial contacts only in supervised settings using a single sensor. Objective: To evaluate the performance of a gait pipeline in detecting initial/final contacts using a step detection algorithm adaptive to different test settings, smartphone wear locations, and gait impairment levels. Methods: In GaitLab (ISRCTN15993728), healthy controls (HC) and people with multiple sclerosis (PwMS; Expanded Disability Status Scale 0.0-6.5) performed supervised Two-Minute Walk Test [2MWT] (structured in-lab overground and treadmill 2MWT) during two on-site visits carrying six smartphones and unsupervised walking activities (structured and unstructured real-world walking) daily for 10-14 days using a single smartphone. Reference gait data were collected with a motion capture system or Gait Up sensors. The pipeline's performance in detecting initial/final contacts was evaluated through F1 scores and absolute temporal error with respect to reference measurement systems. Results: We studied 35 HC and 93 PwMS. Initial/final contacts were accurately detected across all smartphone wear locations. Median F1 scores for initial/final contacts on in-lab 2MWT were >=98.2%/96.5% in HC and >=98.5%/97.7% in PwMS. F1 scores remained high on structured (HC: 100% [0.3%]/100% [0.2%]; PwMS: 99.5% [1.9%]/99.4% [2.5%]) and unstructured real-world walking (HC: 97.8% [2.6%]/97.8% [2.8%]; PwMS: 94.4% [6.2%]/94.0% [6.5%]). Median temporal errors were <=0.08 s. Neither age, sex, disease severity, walking aid use, nor setting (outdoor/indoor) impacted pipeline performance (all p>0.05). Conclusion: This gait pipeline accurately and consistently detects initial and final contacts in PwMS across different smartphone locations and environments, highlighting its potential for real-world gait assessment.",
+    "categories": "eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13974",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Personalization on a Budget: Minimally-Labeled Continual Learning for Resource-Efficient Seizure Detection",
+    "abstract": "Objective: Epilepsy, a prevalent neurological disease, demands careful diagnosis and continuous care. Seizure detection remains challenging, as current clinical practice relies on expert analysis of electroencephalography, which is a time-consuming process and requires specialized knowledge. Addressing this challenge, this paper explores automated epileptic seizure detection using deep learning, focusing on personalized continual learning models that adapt to each patient's unique electroencephalography signal features, which evolve over time. Methods: In this context, our approach addresses the challenge of integrating new data into existing models without catastrophic forgetting, a common issue in static deep learning models. We propose EpiSMART, a continual learning framework for seizure detection that uses a size-constrained replay buffer and an informed sample selection strategy to incrementally adapt to patient-specific electroencephalography signals. By selectively retaining high-entropy and seizure-predicted samples, our method preserves critical past information while maintaining high performance with minimal memory and computational requirements. Results: Validation on the CHB-MIT dataset, shows that EpiSMART achieves a 21% improvement in the F1 score over a trained baseline without updates in all other patients. On average, EpiSMART requires only 6.46 minutes of labeled data and 6.28 updates per day, making it suitable for real-time deployment in wearable systems. Conclusion:EpiSMART enables robust and personalized seizure detection under realistic and resource-constrained conditions by effectively integrating new data into existing models without degrading past knowledge. Significance: This framework advances automated seizure detection by providing a continual learning approach that supports patient-specific adaptation and practical deployment in wearable healthcare systems.",
+    "categories": "cs.LG eess.SP",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13975",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Classification Filtering",
+    "abstract": "We consider a streaming signal in which each sample is linked to a latent class. We assume that multiple classifiers are available, each providing class probabilities with varying degrees of accuracy. These classifiers are employed following a straightforward and fixed policy. In this setting, we consider the problem of fusing the output of the classifiers while incorporating the temporal aspect to improve classification accuracy. We propose a state-space model and develop a filter tailored for realtime execution. We demonstrate the effectiveness of the proposed filter in an activity classification application based on inertial measurement unit (IMU) data from a wearable device.",
+    "categories": "eess.SP cs.LG",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13984",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Distributed Coherent Beamforming at 60 GHz Enabled by Optically-Established Coherence",
+    "abstract": "We implement and experimentally demonstrate a 60 GHz distributed system leveraging an optical time synchronization system that provides precise time and frequency alignment between independent elements of the distributed mesh. Utilizing such accurate coherence, we perform receive beamforming with interference rejection and transmit nulling. In these configurations, the system achieves a coherent gain over an incoherent network of N nodes, significantly improving the relevant signal power ratios. Our system demonstrates extended array phase coherence times, enabling advanced techniques. Results from over-the-air experiments demonstrate a 14.3 dB signal-to-interference-plus-noise improvement in interference-laden scenarios with a contributing 13.5 dB null towards interference in receive beamforming. In transmit nulling, a signal-to-noise ratio (SNR) gain of 7.9 dB is measured towards an intended receiver while maintaining an SNR reduction of 8.9 dB at another receiver. These findings represent the use of distributed coherence in the V band without the use of GPS timing.",
+    "categories": "eess.SP physics.optics",
+    "set": "eess"
+  },
+  {
+    "id": "2509.13985",
+    "created": "2025-09-17",
+    "updated": "2025-09-18",
+    "title": "Distributionally Robust Equilibria over the Wasserstein Distance for Generalized Nash Game",
+    "abstract": "Generalized Nash equilibrium problem (GNEP) is fundamental for practical applications where multiple self-interested agents work together to make optimal decisions. In this work, we study GNEP with shared distributionally robust chance constraints (DRCCs) for incorporating inevitable uncertainties. The DRCCs are defined over the Wasserstein ball, which can be explicitly characterized even with limited sample data. To determine the equilibrium of the GNEP, we propose an exact approach to transform the original computationally intractable problem into a deterministic formulation using the Nikaido-Isoda function. Specifically, we show that when all agents' objectives are quadratic in their respective variables, the equilibrium can be obtained by solving a typical mixed-integer nonlinear programming (MINLP) problem, where the integer and continuous variables are decoupled in both the objective function and the constraints. This structure significantly improves computational tractability, as demonstrated through a case study on the charging station pricing problem.",
+    "categories": "eess.SY cs.SY",
+    "set": "eess"
+  }
+]
