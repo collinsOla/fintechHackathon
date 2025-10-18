@@ -1,6 +1,89 @@
 from datetime import date
 from django.shortcuts import render
 from django.utils.text import slugify
+from pathlib import Path
+import json
+from datetime import date, datetime
+from django.conf import settings
+from django.utils.text import slugify
+from django.core.paginator import Paginator
+
+
+# ---- JSON loader + normalizers ----
+
+_PAPERS_CACHE = None
+_PAPERS_MTIME = None
+
+def _parse_date(s):
+    try:
+        # accepts "YYYY-MM-DD"
+        return datetime.fromisoformat(s).date()
+    except Exception:
+        return None
+
+def _categories_to_industries(cats_str):
+    """
+    Naive mapping from arXiv categories to display-friendly industry tags.
+    Tweak this mapping as you like; unknown tags fall back to the raw code.
+    """
+    mapdict = {
+        "cs.SE": "Software",
+        "quant-ph": "Quantum",
+        "physics.gen-ph": "Physics (General)",
+    }
+    inds = []
+    for t in (cats_str or "").split():
+        inds.append(mapdict.get(t, t))
+    return inds or ["General"]
+
+def _load_papers_from_json():
+    """
+    Read archivpapers.json and return a list of normalized paper dicts
+    that match the structure your templates already use.
+    """
+    path = Path(settings.BASE_DIR) / "archivpapers.json"
+    with path.open("r", encoding="utf-8") as f:
+        raw = json.load(f)
+
+    papers, seen = [], set()
+    for i, r in enumerate(raw):
+        title = (r.get("title") or "").strip() or f"Untitled {i+1}"
+        slug = slugify(title, allow_unicode=True) or f"paper-{i}"
+        if slug in seen:
+            slug = f"{slug}-{i}"
+        seen.add(slug)
+
+        papers.append({
+            "id": r.get("id"),
+            "title": title,
+            "slug": slug,
+            "published": _parse_date(r.get("created")) or date.today(),
+            "industries": _categories_to_industries(r.get("categories")),
+            "score": 0,                         # placeholder; keep your existing logic if any
+            "url": "",                          # optional external link (empty for now)
+            "summary_background": r.get("abstract", ""),
+            "summary_problems": "",             # fill later
+            "summary_market": "",               # fill later
+            "summary_ideas": "",                # fill later
+        })
+    return papers
+
+def get_papers():
+    """
+    Cached accessor that reloads the JSON file if it changed on disk
+    (useful during development with auto-reload).
+    """
+    global _PAPERS_CACHE, _PAPERS_MTIME
+    path = Path(settings.BASE_DIR) / "archivpapers.json"
+    try:
+        mtime = path.stat().st_mtime
+    except FileNotFoundError:
+        return []
+
+    if _PAPERS_CACHE is None or _PAPERS_MTIME != mtime:
+        _PAPERS_CACHE = _load_papers_from_json()
+        _PAPERS_MTIME = mtime
+    return _PAPERS_CACHE
 
 
 
@@ -116,9 +199,9 @@ def home(request):
     per_page = max(1, min(50, per_page))
     per_page_options = [10, 25, 50]
 
-    filtered = [p for p in SAMPLE_PAPERS if _matches_query(p, q)]
+    source = get_papers()
+    filtered = [p for p in source if _matches_query(p, q)]
     filtered.sort(key=lambda p: (p["published"], p["score"]), reverse=True)
-
     total = len(filtered)
     total_pages = max(1, (total + per_page - 1) // per_page)
 
@@ -131,18 +214,40 @@ def home(request):
     start = (page - 1) * per_page
     end = start + per_page
     page_items = filtered[start:end]
+    paginator = Paginator(filtered, per_page)
+
+    try:
+        page_number = int(request.GET.get("page", 1))
+    except (TypeError, ValueError):
+        page_number = 1
+
+    page_obj = paginator.get_page(page_number)  # safe clamp
+    papers = list(page_obj.object_list)
+
+    # “Showing X–Y of Z”
+    start_index = page_obj.start_index() if paginator.count else 0
+    end_index = page_obj.end_index() if paginator.count else 0
+
+    # Elided page range (compact page buttons)
+    page_range = paginator.get_elided_page_range(
+        number=page_obj.number,
+        on_each_side=1,
+        on_ends=1,
+    )
+
 
     context = {
-        "papers": page_items,
+        "papers": papers,
         "q": q,
         "per_page": per_page,
         "per_page_options": per_page_options,
-        "page": page,
-        "total_pages": total_pages,
+        "page": page_obj.number,
+        "total_pages": paginator.num_pages,
         "page_numbers": list(range(1, total_pages + 1)),
-        "total": total,
-        "start_index": start + 1 if total else 0,
-        "end_index": min(end, total),
+        "page_range": list(page_range),
+        "total": paginator.count,
+        "start_index": start_index,
+        "end_index": end_index,
         # Updated branding ↓
         "brand": "Imperial",
         "product_title": "SciScout",
@@ -162,10 +267,15 @@ for i, p in enumerate(SAMPLE_PAPERS):
     seen.add(s)
 
 def paper_detail(request, slug: str):
-    paper = next((p for p in SAMPLE_PAPERS if p["slug"] == slug), None)
+    paper = next((p for p in get_papers() if p["slug"] == slug), None)
     if not paper:
         from django.http import Http404
         raise Http404("Paper not found")
-    return render(request, "Scout/detail.html", {"paper": paper, "brand": "Imperial", "product_title": "SciScout", "is_demo": True})
+    return render(request, "Scout/detail.html", {
+        "paper": paper,
+        "brand": "Imperial",
+        "product_title": "SciScout",
+        "is_demo": True,
+    })
 
 print(slugify("Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis"))
