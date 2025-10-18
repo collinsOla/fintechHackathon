@@ -1,0 +1,50 @@
+{
+  "84a48e878762bb55e4df5f62": {
+    "scores": {
+      "problem_fit": 0,
+      "practicality_maturity": 0,
+      "novelty": 5,
+      "market_fit": 0,
+      "partner_interest": 0
+    },
+    "trl": 1,
+    "overall_commercialization": 1,
+    "rationale": "This research is highly theoretical, focusing on developing new mathematical methods and concepts within fundamental quantum information theory. It introduces abstract ideas like 'free conditional min-entropy' and 'entropic conditions for free convertibility' within quantum resource theories. While demonstrating strong scientific novelty and advancing foundational understanding, it does not address a commercial problem, offer a practical solution, or target any identifiable market. The work is purely academic and theoretical, without any mention of implementation, algorithms, or potential applications, placing it firmly at Technology Readiness Level 1."
+  },
+  "fb971722c47c115464dcb9f1": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 5,
+      "market_fit": 5,
+      "partner_interest": 4
+    },
+    "trl": 4,
+    "overall_commercialization": 8,
+    "rationale": ""
+  },
+  "972c747fde423de1d7c3d3a2": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 4
+    },
+    "trl": 4,
+    "overall_commercialization": 6,
+    "rationale": ""
+  },
+  "4ecfefd0b5b3a75f8bfc6056": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 5
+    },
+    "trl": 6,
+    "overall_commercialization": 8,
+    "rationale": ""
+  }
+}

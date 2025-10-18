@@ -7,6 +7,7 @@ from datetime import date, datetime
 from django.conf import settings
 from django.utils.text import slugify
 from django.core.paginator import Paginator
+from .ai_scoring import score_abstract_with_gemini
 
 
 # ---- JSON loader + normalizers ----
@@ -271,11 +272,25 @@ def paper_detail(request, paper_id):
     if not paper:
         from django.http import Http404
         raise Http404("Paper not found")
+    abstract = paper.get("summary_background") or paper.get("abstract") or ""
+    ai = score_abstract_with_gemini(abstract)
     return render(request, "Scout/detail.html", {
         "paper": paper,
+        "ai_score":ai,
         "brand": "Imperial",
         "product_title": "SciScout",
         "is_demo": True,
     })
 
-print(slugify("Gaussian Variation Field Diffusion for High-fidelity Video-to-4D Synthesis"))
+def getData(criteria, data):
+    from google import genai
+    import os
+    # The client gets the API key from the environment variable `GEMINI_API_KEY`.
+    client = genai.Client(api_key="AIzaSyAQXQ1ulMBsoAIOBv-7U1c7xUbFNx0_suY")
+
+    response = client.models.generate_content(
+        model="gemini-2.5-flash", contents="Based on criteria" + criteria + " anaylse this data into a standard human readable format: " + data
+    )
+    return response.text
+
+#print(getData("sustainabiliy", "title: On Generalizations of the Newton-Raphson-Simpson Method, abstract: We present generalizations of the Newton-Raphson-Simpson method. Specifically, for a positive integer $m$ and the sequence of coefficients of a Taylor series of a function $f(z)$, we define an algorithm we denote by NRS($m$) which is a way to evaluate, in our terminology, a sum of $m$ formal zeros of $f(z)$. We prove that NRS(1) yields the familiar iterations of the Newton-Raphson-Simpson method. We also prove that NRS($m$) is way to evaluate certain \\mathscr{A}-hypergeometric series defined by Sturmfels. In order to define these algorithms, we make use of combinatorial objects which we call trees with negative vertex degree."))
