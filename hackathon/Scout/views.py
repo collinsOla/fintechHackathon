@@ -2,6 +2,8 @@ from datetime import date
 from django.shortcuts import render
 from django.utils.text import slugify
 
+
+
 SAMPLE_PAPERS = [
     {"title": "Amplitude amplification and estimation require inverses",
      "published": date(2025, 7, 31),
@@ -37,6 +39,57 @@ SAMPLE_PAPERS = [
      "score": 4, "url": "#"},
 ]
 
+# ---- add near the top of views.py ----
+DEFAULT_CRITERIA = {
+    "weight_problems": 1.0,
+    "weight_ideas": 1.0,
+    "weight_industry": 1.0,
+    "weight_market": 1.0,
+    "weight_feasibility": 1.0,
+}
+
+def _to_float(val, default):
+    try:
+        return float(val)
+    except (TypeError, ValueError):
+        return default
+
+def _parse_criteria_from_request(request):
+    """
+    Reads user criteria from POST (form name 'criteria'), saves to session,
+    prints them to the server log, and returns (criteria_dict, did_post_bool).
+    """
+    if request.method == "POST" and request.POST.get("form") == "criteria":
+        c = {
+            "weight_problems": _to_float(request.POST.get("weight_problems"), DEFAULT_CRITERIA["weight_problems"]),
+            "weight_ideas": _to_float(request.POST.get("weight_ideas"), DEFAULT_CRITERIA["weight_ideas"]),
+            "weight_industry": _to_float(request.POST.get("weight_industry"), DEFAULT_CRITERIA["weight_industry"]),
+            "weight_market": _to_float(request.POST.get("weight_market"), DEFAULT_CRITERIA["weight_market"]),
+            "weight_feasibility": _to_float(request.POST.get("weight_feasibility"), DEFAULT_CRITERIA["weight_feasibility"]),
+        }
+        request.session["criteria"] = c
+        print(">>> User criteria saved:", c, flush=True)
+        return c, True
+    # GET or no form: load from session or defaults
+    return request.session.get("criteria", DEFAULT_CRITERIA.copy()), False
+
+# (optional) use later for custom scoring with the user’s weights
+def compute_demo_score(paper, c):
+    """
+    Example placeholder that combines an existing paper 'score' with user weights.
+    Swap with your real logic later.
+    """
+    base = paper.get("score", 0)
+    total_weight = (
+        c["weight_problems"]
+        + c["weight_ideas"]
+        + c["weight_industry"]
+        + c["weight_market"]
+        + c["weight_feasibility"]
+    )
+    return base * total_weight
+
+
 def _matches_query(paper, q: str) -> bool:
     if not q:
         return True
@@ -47,7 +100,13 @@ def _matches_query(paper, q: str) -> bool:
         or q in paper["published"].isoformat()
     )
 
+
 def home(request):
+    criteria, did_post = _parse_criteria_from_request(request)
+    if did_post:
+        from django.shortcuts import redirect
+        return redirect("home")
+
     q = (request.GET.get("q") or "").strip()
 
     try:
@@ -88,6 +147,8 @@ def home(request):
         "brand": "Imperial",
         "product_title": "SciScout",
         "is_demo": True,
+        "criteria":criteria
+
     }
     return render(request, "Scout/home.html", context)
 
