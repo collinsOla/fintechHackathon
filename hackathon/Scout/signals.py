@@ -17,7 +17,7 @@ from google import genai
 from google.genai import types
 
 # --- Config ---
-API_KEY = "AIzaSyAQXQ1ulMBsoAIOBv-7U1c7xUbFNx0_suY"  # ⚠️ rotate if this key ever leaks
+API_KEY = "AIzaSyCIE8EtAUuaRftWxJkxYCzD0tAi6hrqj6I"  # ⚠️ rotate if this key ever leaks
 MODEL_NAME = "gemini-2.5-flash"
 TIME_WINDOW_MONTHS = 24
 
