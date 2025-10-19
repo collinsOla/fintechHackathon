@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # ---------- Configure ----------
 MODEL_NAME = "gemini-2.5-flash"  # fast/cheap. swap to 1.5-pro for higher quality
-API_KEY = "AIzaSyAQXQ1ulMBsoAIOBv-7U1c7xUbFNx0_suY"
+API_KEY = "AIzaSyCIE8EtAUuaRftWxJkxYCzD0tAi6hrqj6I"
 if API_KEY:
     genai.configure(api_key=API_KEY)
 

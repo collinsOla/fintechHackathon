@@ -6,7 +6,7 @@ from string import Template
 
 # ---------- Configure (mirrors your ai_scoring.py) ----------
 MODEL_NAME = "gemini-2.5-flash"  # fast/cheap. swap if needed to 1.5-pro or 2.0-pro
-API_KEY = "AIzaSyAQXQ1ulMBsoAIOBv-7U1c7xUbFNx0_suY" or ""  # or set directly like your file
+API_KEY = "AIzaSyCIE8EtAUuaRftWxJkxYCzD0tAi6hrqj6I" or ""  # or set directly like your file
 if not API_KEY:
     # Optional: fall back to the same literal you had (not recommended to hardcode!)
     # API_KEY = "YOUR_API_KEY"

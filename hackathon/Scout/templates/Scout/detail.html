@@ -43,7 +43,7 @@
       <div class="title">{{ paper.title }}</div>
       <div class="meta">
         Published: {{ paper.published|date:"Y-m-d" }} ·
-        Score: <strong>{{ paper.score }}</strong>
+        Score: <strong>{{ ai_score.overall_commercialization}}</strong>
       </div>
       <div class="chips">
         {% for tag in paper.industries %}

@@ -136,5 +136,41 @@
     "While fundamentally theoretical, this work provides critical tools for advancing practical quantum technologies. By offering precise methods to quantify and characterize quantum resources and their convertibility, it lays the groundwork for optimizing the design and performance of quantum communication protocols, enhancing the security of quantum cryptography, and developing more robust and efficient fault-tolerant quantum computing architectures.",
     "This research is primarily relevant to academic and industrial researchers in quantum information science, theoretical physics, and quantum engineering. Key stakeholders include institutions and companies developing quantum computing hardware, quantum communication systems, and advanced quantum sensors (e.g., IBM Quantum, Google AI Quantum, IonQ, PsiQuantum), who require a deeper theoretical understanding to optimize resource utilization and ensure the robustness of emerging quantum technologies.",
     "Immediate patent ideas could include: A method for certifying quantum resource convertibility between states or channels utilizing the novel Free Conditional Min-Entropy (FCME); An operational framework for assessing the utility and robustness of dynamic quantum channels based on defined resource monotones derived from communication tasks; A system for quantifying the operational advantage of non-free quantum channels over free ones in specific communication scenarios, using robustness-based measures; Algorithms for optimizing quantum communication protocols by leveraging FCME-derived resource global robustness measures to enhance channel efficiency and reliability."
-  ]
+  ],
+  "arpv1_146ff34e43ee449f23e8649c": [
+    "Automatic segmentation of anatomical structures in MRI is crucial for quantitative analysis. While patch-based label fusion offers high accuracy, it can be computationally intensive. This paper introduces OPAL, an Optimized PatchMatch Label fusion strategy, that drastically reduces computation time, facilitating multi-scale and multi-feature analysis on large datasets.",
+    "OPAL provides state-of-the-art, expert-level accuracy for MRI segmentation (e.g., hippocampus), enabling faster and more reliable quantitative analysis. Its efficiency allows processing large medical imaging databases, and its high correlation with manual segmentation volumes facilitates more accurate differentiation of pathological populations, aiding in diagnostics and disease monitoring.",
+    "The primary market includes medical imaging facilities, research institutions, and pharmaceutical companies requiring efficient and highly accurate MRI segmentation. OPAL's reduced computation time and superior accuracy, comparable to human experts, offer significant value for processing large patient cohorts, improving diagnostic workflows, and accelerating clinical research involving quantitative analysis of anatomical structures.",
+    "1. A patent for the Optimized PatchMatch Label fusion (OPAL) algorithm itself, specifically its novel search optimization for medical image segmentation. 2. A system or method for multi-scale and multi-feature MRI segmentation utilizing OPAL, particularly for volumetric analysis in neurodegenerative disease diagnostics. 3. A method for enhanced clinical decision support, leveraging OPAL's highly correlated volumetric outputs to accurately separate pathological from healthy populations in large medical datasets."
+  ],
+  "arpv1_27342ca90cf88bad82cc2bcd": [
+    "Superpixel decomposition is a widely used technique in computer vision and image processing to reduce computational burden and improve accuracy by grouping homogeneous pixels. Current methods often involve trade-offs between color homogeneity, adherence to image contours, and shape regularity, which can limit their effectiveness in complex applications.",
+    "The SCALP method addresses the challenge of creating highly accurate and robust superpixels by jointly optimizing color homogeneity, contour adherence, and shape regularity. This improvement enhances the performance of foundational computer vision applications such as image segmentation, object recognition, and scene analysis. Its extension to supervoxel decomposition on MRI images directly facilitates robust 3D segmentation in medical imaging for improved diagnostics and treatment planning.",
+    "The improved superpixel decomposition offered by SCALP targets markets reliant on robust image and video analysis. This includes sectors such as medical imaging (e.g., automated lesion detection, surgical planning from MRI), autonomous systems (e.g., enhanced object perception, environmental understanding), industrial automation (e.g., precise quality inspection, robotic vision), and advanced consumer imaging (e.g., sophisticated photo/video editing tools). Its superior accuracy and robustness, coupled with maintained computational complexity, make it an attractive upgrade for developers of computer vision pipelines seeking next-generation segmentation capabilities.",
+    "1. A patent for the \"SCALP Framework for Jointly Optimized Superpixel/Supervoxel Decomposition,\" covering the novel algorithm that integrates linear path color features, a contour prior, and neighborhood information for enhanced accuracy and robustness. 2. A patent for \"Medical Image Analysis System Utilizing Contour-Adherent Supervoxel Segmentation,\" specifically detailing the application of SCALP to robustly segment anatomical structures or anomalies in 3D medical datasets like MRI scans. 3. A patent for \"Adaptive Pre-processing Module for Real-time Computer Vision,\" leveraging SCALP to dynamically generate highly accurate superpixels for improved performance in applications such as autonomous navigation or surveillance, focusing on its computational efficiency and robust contour adherence."
+  ],
+  "7556efc8ac9f7e37d0e12352": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 4,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 5
+    },
+    "trl": 5,
+    "overall_commercialization": 5,
+    "rationale": ""
+  },
+  "9a521980f8d0a2cb247af073": {
+    "scores": {
+      "problem_fit": 5,
+      "practicality_maturity": 3,
+      "novelty": 4,
+      "market_fit": 5,
+      "partner_interest": 4
+    },
+    "trl": 3,
+    "overall_commercialization": 5,
+    "rationale": ""
+  }
 }
